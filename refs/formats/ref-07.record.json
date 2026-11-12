@@ -1,0 +1,470 @@
+{
+  "label": "ref-07",
+  "archetype": "educational explainer",
+  "one_line": "This video explains the visual and cultural differences between the Millennial 'duck face' and the Gen Z 'platypus pout' selfie trends.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 48.343,
+  "measured": {
+    "pacing": {
+      "cuts": 4,
+      "cuts_per_min": 5.0,
+      "median_shot_s": 4.03,
+      "shortest_shot_s": 0.7,
+      "longest_shot_s": 31.1,
+      "frozen_pct": 52.2
+    },
+    "transitions": {
+      "count": 16,
+      "median_s": 0.5,
+      "spans_s": [
+        0.233,
+        4.267,
+        1.033,
+        0.467,
+        0.367,
+        1.2,
+        0.8,
+        0.6,
+        0.733,
+        0.5,
+        0.2,
+        0.2,
+        0.5,
+        0.767,
+        0.133,
+        0.333
+      ]
+    },
+    "element_events": {
+      "count": 113,
+      "per_min": 140.4,
+      "median_gap_s": 0.1,
+      "frames": [
+        1,
+        41,
+        44,
+        47,
+        50,
+        53,
+        56,
+        59,
+        62,
+        65,
+        68,
+        87,
+        90,
+        93,
+        96,
+        99,
+        102,
+        105,
+        108,
+        111,
+        114,
+        117,
+        120,
+        123,
+        126,
+        129,
+        132,
+        135,
+        138,
+        141,
+        144,
+        178,
+        181,
+        184,
+        187,
+        190,
+        193,
+        196,
+        199,
+        202
+      ]
+    },
+    "continuous_motion": {
+      "spans": 17,
+      "total_s": 13.07,
+      "pct_of_runtime": 27.1,
+      "median_span_s": 0.6,
+      "longest_span_s": 2.87,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        159,
+        182,
+        187
+      ],
+      "dominant_hex": "#9FB6BB",
+      "corner_flatness": 25.16,
+      "background_drift": 27.75,
+      "flat_background": false,
+      "headline_band_frames_pct": 42.7,
+      "caption_band_frames_pct": 90.2
+    },
+    "audio": {
+      "speech_segments": 15,
+      "speech_pct": 92.7,
+      "median_phrase_s": 2.97,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 6,
+    "hard_cuts": 4,
+    "cuts_per_described_change": 0.8,
+    "pct_scene_changes_that_are_cuts": 80.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 1,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 5.8,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen portrait with UI overlays",
+      "description": "Introduction comparing the two selfie poses with scrolling social media feeds and face-tracking UI.",
+      "devices": [
+        "face tracking box",
+        "social media feed mockup"
+      ]
+    },
+    {
+      "start_s": 5.8,
+      "start_frame": 174,
+      "end_s": 19.0,
+      "snapped_to_measured_cut": false,
+      "layout": "centered portrait with anatomical callouts",
+      "description": "Analysis of the Millennial duck face, highlighting facial features and associated cosmetic procedures.",
+      "devices": [
+        "anatomical pointer lines",
+        "mannequin head mockup"
+      ]
+    },
+    {
+      "start_s": 19.0,
+      "start_frame": 570,
+      "end_s": 30.5,
+      "snapped_to_measured_cut": false,
+      "layout": "centered portrait with interactive checklist UI",
+      "description": "Analysis of the Gen Z platypus pout, detailing lip positioning and the 'Gen Z stare'.",
+      "devices": [
+        "feature checklist overlay",
+        "directional arrows"
+      ]
+    },
+    {
+      "start_s": 31.1,
+      "start_frame": 933,
+      "end_s": 41.0,
+      "snapped_to_measured_cut": true,
+      "layout": "side-by-side comparison with timeline slider",
+      "description": "Comparison of makeup trends from 2010-2020 vs 2020-2026, focusing on lip overlining.",
+      "devices": [
+        "timeline slider",
+        "before/after comparison frames"
+      ]
+    },
+    {
+      "start_s": 41.0,
+      "start_frame": 1230,
+      "end_s": 44.5,
+      "snapped_to_measured_cut": false,
+      "layout": "full-bleed portrait with camera viewfinder overlay",
+      "description": "Rapid succession of celebrity examples asking the viewer which pose they use.",
+      "devices": [
+        "camera recording UI"
+      ]
+    },
+    {
+      "start_s": 44.3,
+      "start_frame": 1329,
+      "end_s": 48.343,
+      "snapped_to_measured_cut": true,
+      "layout": "minimalist text and search bar mockup",
+      "description": "Call to action promoting Qoves facial analysis tool.",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "face tracking box",
+      "what_it_is": "A digital bounding box around the lips with scanning lines.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "social media feed mockup",
+      "what_it_is": "A vertical scrolling column of Instagram-style posts.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "mannequin head mockup",
+      "what_it_is": "A 3D grey mannequin head with cosmetic procedure labels.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "feature checklist overlay",
+      "what_it_is": "A semi-transparent UI box with checkable trait boxes.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "camera recording UI",
+      "what_it_is": "A viewfinder overlay with a red 'REC' indicator.",
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "anatomical pointer lines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "directional arrows",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "timeline slider",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "before/after comparison frames",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "search bar mockup",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A split-screen comparison of a Millennial duck face and a Gen Z platypus pout with high-tech face-tracking graphics.",
+    "why_it_works": "It taps into generational identity and popular social media trends using polished, analytical visuals."
+  },
+  "narrative_arc": [
+    "Introduce the comparison between Millennial and Gen Z selfie poses.",
+    "Deconstruct the Millennial 'duck face' features and associated beauty standards.",
+    "Deconstruct the Gen Z 'platypus pout' features and its aloof attitude.",
+    "Explain how makeup trends evolved to support the Gen Z look.",
+    "Prompt the viewer to identify their own selfie style.",
+    "Direct viewers to the Qoves website for personalized facial analysis."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "Millennial Duck Face vs. Gen Z Platypus Pout"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "label",
+      "text": "MILLENNIAL DUCK FACE"
+    },
+    {
+      "approx_t": 1,
+      "track": "label",
+      "text": "ARIANA GREENBLATT\nAMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 6.5,
+      "track": "chip",
+      "text": "Energetic | Carefree | Posed"
+    },
+    {
+      "approx_t": 9.5,
+      "track": "label",
+      "text": "Puckered lips"
+    },
+    {
+      "approx_t": 10.5,
+      "track": "label",
+      "text": "Sucked-in cheeks"
+    },
+    {
+      "approx_t": 11.5,
+      "track": "label",
+      "text": "Confident \"smize\""
+    },
+    {
+      "approx_t": 16.5,
+      "track": "label",
+      "text": "King Kylie era"
+    },
+    {
+      "approx_t": 17,
+      "track": "label",
+      "text": "BROW LIFT"
+    },
+    {
+      "approx_t": 17.5,
+      "track": "label",
+      "text": "BUCCAL FAT REMOVAL"
+    },
+    {
+      "approx_t": 18,
+      "track": "label",
+      "text": "LIP FILLER"
+    },
+    {
+      "approx_t": 20,
+      "track": "chip",
+      "text": "Subdued | Unimpressed | Nonchalant"
+    },
+    {
+      "approx_t": 26.5,
+      "track": "label",
+      "text": "Pout + Heavy Eyes = Gen Z Look"
+    },
+    {
+      "approx_t": 27.5,
+      "track": "chip",
+      "text": "Aloof | Nonchalant | Indifferent"
+    },
+    {
+      "approx_t": 32,
+      "track": "chart",
+      "text": "2010-20 MILLENNIAL"
+    },
+    {
+      "approx_t": 33,
+      "track": "chart",
+      "text": "2020-26 GEN Z"
+    },
+    {
+      "approx_t": 41.5,
+      "track": "headline",
+      "text": "Which pose do you do?"
+    },
+    {
+      "approx_t": 45.5,
+      "track": "headline",
+      "text": "You're Curious? Get your Facial Analysis"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "What is the difference between the millennial duck face"
+    },
+    {
+      "approx_t": 2,
+      "text": "and its modern successor, the so-called Gen Z platypus pout."
+    },
+    {
+      "approx_t": 5.8,
+      "text": "The millennial duck face is energetic and carefree."
+    },
+    {
+      "approx_t": 8.5,
+      "text": "It's combining puckered lips, sucked-in cheeks, and a confident 'smize'"
+    },
+    {
+      "approx_t": 12.5,
+      "text": "to create a glamorous, attention-grabbing look."
+    },
+    {
+      "approx_t": 14.5,
+      "text": "This aesthetic was also reflected in many of the cosmetic treatments that were popular at the time."
+    },
+    {
+      "approx_t": 19,
+      "text": "On the flip side, the Gen Z pout is far more subdued."
+    },
+    {
+      "approx_t": 21.5,
+      "text": "The top lip is pushed upwards and outwards, while the corners of the mouth remain relaxed."
+    },
+    {
+      "approx_t": 25.5,
+      "text": "Combined with the heavy-lidded 'Gen Z stare', it projects an aloof, nonchalant indifference."
+    },
+    {
+      "approx_t": 30.5,
+      "text": "Interestingly, makeup styles have evolved alongside this trend."
+    },
+    {
+      "approx_t": 33.5,
+      "text": "While both eras favor fuller lips, Gen Z's often overline the top lip, softening the Cupid's bow,"
+    },
+    {
+      "approx_t": 38.5,
+      "text": "a feature that the modern pout directly highlights."
+    },
+    {
+      "approx_t": 41,
+      "text": "So which pose do you automatically do when the camera turns on?"
+    },
+    {
+      "approx_t": 44.5,
+      "text": "And if you want to analyze your face, click link in bio at qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 44.5,
+    "what": "Click link in bio at qoves.com for a facial analysis."
+  },
+  "subjects": [
+    "Ariana Greenblatt (American Actress)",
+    "Dua Lipa (English Singer)",
+    "Miley Cyrus (American Singer)",
+    "Bella Hadid (American Model)",
+    "Billie Eilish (American Singer)",
+    "Lily-Rose Depp (French-American Actress)",
+    "Huda Kattan (American Entrepreneur)",
+    "Rachel Sennott (American Actress)",
+    "Mei Monte (Content Creator)"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Uses highly polished, pseudo-scientific UI graphics to analyze pop culture trends.",
+    "Leverages recognizable celebrity examples to validate the comparison.",
+    "Directly engages the viewer with a relatable question before delivering the CTA."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "3/6"
+  }
+}

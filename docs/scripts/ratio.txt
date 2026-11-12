@@ -1,0 +1,71 @@
+# "Same Nose" — educational explainer, RefinaRatioReel.
+#
+# THIS FILE IS THE SOURCE OF TRUTH. Edit a line, re-run gen-voiceover.py, and
+# the audio, every cue, every word frame and every beat bound move together.
+# Nothing downstream types a frame number.
+#
+# THE ARGUMENT: the eye does not read a face as a list of features, it reads
+# each feature against the ones around it. So the pair in the hook is one whose
+# changed pixels are provably nowhere near the feature the viewer will point at.
+# `gen/score.py`'s concentration measurement is not just a screen here — it is
+# the reel's evidence, and the proof beat puts it on screen.
+#
+# WHAT IT NEVER DOES: claim an outcome, cite a study, or name a number about a
+# face. Every assertion is either a photographic fact about the pair on screen
+# or something the viewer can reproduce with their own jaw in the next ten
+# seconds. The faces are AI renders and are labelled as AI renders on screen.
+#
+# TWO FACES, AND THE SECOND ONE IS ANNOUNCED. Beat 5 says "another face" out
+# loud. The first cut of RefinaChanged silently changed who the subject was and
+# that was its worst defect; a second subject is fine, a silent one is not.
+#
+# Beat grouping lives in src/refina/ratio/beats.ts, by LINE COUNT — a line added
+# here must be added there. The comment headers below are the beats.
+
+# -- 1. hook ---------------------------------------------------------------
+This is the same face twice.                                  | 0.20
+One thing on it was changed.                                  | 0.20
+Almost everyone points at the nose.                           | 0.36
+
+# -- 2. claim --------------------------------------------------------------
+The nose isn't what changed.                                  | 0.20
+The chin is.                                                  | 0.20
+Your eye reads a feature against everything around it.        | 0.36
+
+# -- 3. proof --------------------------------------------------------------
+This is every pixel that changed.                             | 0.20
+Almost none of them are on the nose.                          | 0.20
+It didn't shrink. The face caught up.                         | 0.36
+
+# -- 4. one: nose and chin -------------------------------------------------
+One. The nose and the chin are read as one line.              | 0.20
+A chin that sits back leaves the nose out in front.           | 0.20
+Bring the chin forward and the nose settles back.             | 0.20
+Same nose. Every time.                                        | 0.36
+
+# -- 5. two: lid and eye  --------------------------------------------------
+Two. Another face. The lid and the eye.                       | 0.20
+Skin resting on the lashes closes the eye beneath it.         | 0.20
+Lift the hood and the eye reads open.                         | 0.20
+The eye didn't grow. The cover moved.                         | 0.36
+
+# -- 6. three: the thirds --------------------------------------------------
+Three. A face is read in thirds.                              | 0.20
+Hairline to brow. Brow to nose. Nose to chin.                 | 0.20
+Move one boundary and all three change.                       | 0.36
+
+# -- 7. nuance -------------------------------------------------------------
+None of this tells you what to do.                            | 0.20
+It tells you why one feature can't answer it.                 | 0.20
+Faces are read whole. Not feature by feature.                 | 0.36
+
+# -- 8. self-test ----------------------------------------------------------
+Push your lower jaw forward a few millimetres.                | 0.20
+Watch your nose get smaller.                                  | 0.20
+You didn't touch your nose.                                   | 0.36
+
+# -- 9. the standard, then the CTA -----------------------------------------
+So the question was never one feature.                        | 0.20
+It's what the whole face does when it moves.                  | 0.20
+A preview, not a promise.                                     | 0.36
+See it on your own face first.                                | 0.70

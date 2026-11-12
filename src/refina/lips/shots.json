@@ -1,0 +1,161 @@
+{
+  "_note": "The shot plan for RefinaLips, \"Load-Bearing\". Hand-authored; gen/shots.py validates it, emits shots.ts, and verifies a render against it. `lines` is how many script phrases the beat covers and is the single declaration of beat structure \u2014 beats.ts derives its bounds from here, so docs/scripts/lips.txt, words-vo.ts and this file cannot disagree without failing at module load.",
+  "reel": "lips",
+  "script": "docs/scripts/lips.txt",
+  "cues": "src/refina/lips/words-vo.ts",
+  "_argument": "The lips are not a part you can change in isolation: the philtrum above them and the chin below them are both READ against them, so moving the lips alone changes how long the gap under the nose looks and how strong the chin looks, with neither the nose nor the chin moving. Measured on this pair: lips 51.7, eyes 16.3, nose 9.7, jaw 8.3, concentration 3.88, drift 3.3 \u2014 the cleanest localisation in the repo, and the inverse of what \"Same Nose\" needed (there the point was that the change landed nowhere near the feature the viewer named).",
+  "_evidence": "Every figure on screen comes from gen/emit-lips.py via measured.ts and describes two IMAGE FILES, never a face (rule E). The proof beat's map is gen/diffmap.py, now masked to the same facial-skin pixels region_score measures over \u2014 rule Z, which RefinaFlip learned by shipping a map that lit the hairline while its chips reported skin.",
+  "_landmarks": "The philtrum and chin spans are drawn from MEASURED landmarks, not from the fixed REGIONS boxes. anchor()'s boxes are fixed anatomical fractions, so they are the SAME BOX on a before and its after \u2014 a philtrum span drawn from them would be identical either side of the edit, on a beat whose entire claim is that the gap shortens. Measured: noseBase 0.620/0.617 (the nose did not move), lipTop 0.697 -> 0.668, philtrum 0.077 -> 0.052.",
+  "_motion": "A beat is `moving` only if its picture changes over time on its own. `gap` and `chin` are declared STATIC deliberately, after the render said so: their seam has to come to rest at centre for the two halves to be comparable at all, so once it arrives they are honestly a still split face with two brackets on it. Declaring them moving and then adding a creep to satisfy the check is rule P exactly. The measurement also produced a finding worth keeping: a WIPE between two near-identical pictures registers motion only where they DIFFER. The hook's seam travelled across 52% of its frames and measured 18%, because this pair is identical everywhere except the mouth and a seam out on the cheek changes nothing. That is why the hook now crosses the mouth repeatedly before settling on the after, and why the proof beat's wipe -- between a photograph and a false-colour map, which differ everywhere -- passes on length alone.",
+  "_fit": "lips1's face is 1039px in a 1920px master, so at cover scale it lands at 0.541 of frame height against a corpus close band that tops out at 0.453 \u2014 and 0.453 is the largest face height measured anywhere in 1268 corpus frames, not a preference. Every portrait beat therefore composites the picture as a sized element on the stage (`fit`), exactly as RefinaFlip had to. `fit` sizes the PICTURE, never the type: scaling whole beats would take 26px captions under the legibility floor to fix framing.",
+  "_subjects": "lips1 carries the spine. lips2 is the SECOND SUBJECT and beat 5 announces her out loud, in the voiceover AND on a tag \u2014 RefinaChanged's first cut silently swapped who its subject was three times and that was its worst defect. lips2 is deliberately a different age and ethnicity: the line is \"another face, same edit\", and two fair blonde women in their twenties would not carry it.",
+  "min_moving_share": 0.35,
+  "beats": [
+    {
+      "name": "hook",
+      "lines": 3,
+      "composition": "pair-sweep",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "lips1-before",
+        "over": "lips1-lipaug",
+        "zoom": 1.02,
+        "focus": "50% 38%",
+        "fit": 0.72,
+        "sweeps": 2,
+        "compliance": true
+      }
+    },
+    {
+      "name": "claim",
+      "lines": 2,
+      "composition": "lower-third-rules",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "lips1-before",
+        "subject": "lips1-before",
+        "zoom": 1.0,
+        "focus": "50% 40%",
+        "fit": 0.72,
+        "rules": [
+          "noseBase",
+          "lipTop",
+          "chin"
+        ]
+      }
+    },
+    {
+      "name": "proof",
+      "lines": 3,
+      "composition": "difference-map",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "lips1-before",
+        "over": "lips1-map",
+        "zoom": 1.0,
+        "focus": "50% 38%",
+        "fit": 0.72,
+        "measure": "lips1",
+        "compliance": true
+      }
+    },
+    {
+      "name": "gap",
+      "lines": 3,
+      "composition": "span-compare",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "left": "lips1-before",
+        "right": "lips1-lipaug",
+        "band": "philtrum",
+        "labels": [
+          "THIN",
+          "FULL"
+        ],
+        "caption": "NOSE BASE TO LIP EDGE, MEASURED",
+        "fit": 0.82
+      }
+    },
+    {
+      "name": "another",
+      "lines": 2,
+      "composition": "pair-toggle",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "lips2-before",
+        "over": "lips2-lipaug",
+        "zoom": 1.0,
+        "focus": "50% 40%",
+        "fit": 0.72,
+        "period": 34,
+        "tag": "SECOND SUBJECT"
+      }
+    },
+    {
+      "name": "chin",
+      "lines": 3,
+      "composition": "span-compare",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "left": "lips1-before",
+        "right": "lips1-lipaug",
+        "band": "chin",
+        "labels": [
+          "SAME",
+          "SAME"
+        ],
+        "caption": "LIP EDGE TO CHIN, MEASURED",
+        "held": true,
+        "fit": 0.82
+      }
+    },
+    {
+      "name": "nuance",
+      "lines": 2,
+      "composition": "pair-split",
+      "motion": "moving",
+      "shot": "wide",
+      "props": {
+        "under": "lips1-before",
+        "over": "lips1-lipaug",
+        "fit": 0.38,
+        "note": "ONE FILE, ONE REGION EDITED"
+      }
+    },
+    {
+      "name": "test",
+      "lines": 3,
+      "composition": "instruction-cards",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "Roll your lips inward",
+          "Hold it",
+          "Watch your chin"
+        ],
+        "tag": "DO THIS NOW"
+      }
+    },
+    {
+      "name": "cta",
+      "lines": 4,
+      "composition": "disclaimer-search",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "type": "Refina AI",
+        "locked": [
+          "A preview,",
+          "not a promise."
+        ]
+      }
+    }
+  ]
+}

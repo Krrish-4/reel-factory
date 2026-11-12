@@ -1,0 +1,125 @@
+{
+  "label": "ref-07",
+  "source": "refs/corpus/ref-07.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 48.343,
+  "pacing": {
+    "cuts": 4,
+    "cuts_per_min": 5.0,
+    "median_shot_s": 4.03,
+    "shortest_shot_s": 0.7,
+    "longest_shot_s": 31.1,
+    "frozen_pct": 52.2
+  },
+  "element_events": {
+    "count": 113,
+    "per_min": 140.4,
+    "median_gap_s": 0.1,
+    "frames": [
+      1,
+      41,
+      44,
+      47,
+      50,
+      53,
+      56,
+      59,
+      62,
+      65,
+      68,
+      87,
+      90,
+      93,
+      96,
+      99,
+      102,
+      105,
+      108,
+      111,
+      114,
+      117,
+      120,
+      123,
+      126,
+      129,
+      132,
+      135,
+      138,
+      141,
+      144,
+      178,
+      181,
+      184,
+      187,
+      190,
+      193,
+      196,
+      199,
+      202
+    ]
+  },
+  "continuous_motion": {
+    "spans": 17,
+    "total_s": 13.07,
+    "pct_of_runtime": 27.1,
+    "median_span_s": 0.6,
+    "longest_span_s": 2.87,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 16,
+    "median_s": 0.5,
+    "spans_s": [
+      0.233,
+      4.267,
+      1.033,
+      0.467,
+      0.367,
+      1.2,
+      0.8,
+      0.6,
+      0.733,
+      0.5,
+      0.2,
+      0.2,
+      0.5,
+      0.767,
+      0.133,
+      0.333
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      159,
+      182,
+      187
+    ],
+    "dominant_hex": "#9FB6BB",
+    "corner_flatness": 25.16,
+    "background_drift": 27.75,
+    "flat_background": false,
+    "headline_band_frames_pct": 42.7,
+    "caption_band_frames_pct": 90.2
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 67.8,
+    "approx_any_face_frames_pct": 93.0,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 15,
+    "speech_pct": 92.7,
+    "median_phrase_s": 2.97,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    933,
+    1287,
+    1308,
+    1329
+  ]
+}

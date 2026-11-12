@@ -1,0 +1,81 @@
+# "One Inch Higher" — celebrity feature analysis, subject Jennifer Lawrence.
+# Filled from docs/scripts/_celeb-template.txt. Read README-celeb-format.md.
+#
+# SLOTS: SUBJECT=Jennifer Lawrence · FEATURE=the eyelid (what the viewer names)
+# · NEIGHBOUR_A=the brow · NEIGHBOUR_B=the forehead · RANGE=brow height ·
+# MECHANISM=a lid is read against the brow above it, so raising the brow shows
+# more lid without touching the lid.
+#
+# ENGINE: MISATTRIBUTION, same direction as nose.txt. The viewer names the
+# eyelid; the mechanism lives one feature up, in the brow.
+#
+# WHAT IS ACTUALLY KNOWN ABOUT HER, AND NOTHING MORE IS CLAIMED:
+#   - Oct 2026, The Cut interview: she said she has had "baby Botox" (and a
+#     breast augmentation, which this reel does not mention).
+#   - 2023: she denied eye surgery and put it down to makeup.
+#   - Eyelid/facelift claims are UNCONFIRMED. The script never says she had
+#     anything beyond Botox, and never says WHERE her Botox went. Beats 3-7
+#     teach a mechanism in general; beat 8 says out loud that none of it proves
+#     what she has had done. Do not edit that line out for time.
+#
+# LIKENESS GATE (README gate 1): NOT DECIDED. Rahul to pick (a) / (b) / (c)
+# before render. Beats 1, 2 and 8 need licensed photographs of her; the demo
+# line says "a brow", never "her brow", so it reads under any option.
+#
+# EVIDENCE: Huang et al. 2000 — abstract read, full text NOT read. Abstract:
+# 11 women, toxin into the brow depressors, authors conclude a temporary
+# browlift. The script says "small study" and nothing about effect size.
+#
+# ASSETS: turn-table (beat 7) still has no component and no asset — see gate 3.
+#
+# 27 lines, same beat line-counts as the template, so the shared shots.json fits.
+
+# -- 1. hook ---------------------------------------------------------------
+# SOURCE: IBTimes UK (Oct 2026), on her interview with The Cut. https://www.ibtimes.co.uk/jennifer-lawrence-cut-photos-cosmetic-surgery-speculation-1828648
+Jennifer Lawrence says she's had Botox.                         | 0.22
+The internet says it's her eyelids.                             | 0.22
+Look one inch higher.                                           | 0.40
+
+# -- 2. claim --------------------------------------------------------------
+A lid is never read alone.                                     | 0.22
+It's read against the brow.                                     | 0.40
+
+# -- 3. evidence -----------------------------------------------------------
+# SOURCE: Huang, Rogachefsky & Foster (2000), Dermatologic Surgery 26(1):55-60. https://doi.org/10.1046/j.1524-4725.2000.99147.x
+Relax the muscles pulling the brow down,                       | 0.20
+and the brow sits higher.                                       | 0.22
+A small study in 2000 measured the lift.                        | 0.40
+
+# -- 4. one: the brow ------------------------------------------------------
+One. More eyelid shows.                                         | 0.22
+Nothing was done to the lid.                                    | 0.22
+The brow above it moved.                                        | 0.40
+
+# -- 5. two: the forehead --------------------------------------------------
+Two. The forehead goes still.                                   | 0.22
+Less movement reads as a new face.                              | 0.40
+
+# -- 6. demo ---------------------------------------------------------------
+Here's a brow, raised slightly.                                 | 0.20
+Watch the lid, not the brow.                                    | 0.40
+
+# -- 7. the turn -----------------------------------------------------------
+Now turn it.                                                    | 0.20
+A front photo hides which one moved.                            | 0.40
+
+# -- 8. nuance -------------------------------------------------------------
+None of this proves what she's had done.                        | 0.22
+# SOURCE: Paris Match (Nov 2023), her denial of eye surgery. https://www.parismatch.be/actualites/people/2023/11/28/face-aux-rumeurs-insistantes-de-chirurgie-esthetique-jennifer-lawrence-reagit-cest-incroyable-2BPTCGAICFB7ZGXLVR2IHC3UVM/
+In 2023, she said it was makeup.                                | 0.22
+Shadow in the crease moves a lid too.                           | 0.40
+
+# -- 9. self-test ----------------------------------------------------------
+Do it now.                                                      | 0.20
+Lift one brow with a finger.                                    | 0.22
+Watch your eyelid, not your brow.                               | 0.40
+
+# -- 10. the standard, then the CTA ----------------------------------------
+You won't get her face.                                         | 0.20
+See it on your own face first.                                  | 0.30
+A preview, not a promise.                                       | 0.40
+Search Refina AI.                                               | 0.70

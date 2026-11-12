@@ -1,0 +1,158 @@
+{
+  "ref-02": {
+    "url": "https://www.instagram.com/p/DbN5CT2qNzI/",
+    "status": "done",
+    "seconds": 150.6,
+    "archetype": "evidence explainer",
+    "animations": 8,
+    "need_building": 1,
+    "devices": 32
+  },
+  "ref-03": {
+    "url": "https://www.instagram.com/p/Da8IEknqsOs/",
+    "status": "done",
+    "seconds": 180.0,
+    "archetype": "evidence explainer",
+    "animations": 7,
+    "need_building": 3,
+    "devices": 20
+  },
+  "ref-04": {
+    "url": "https://www.instagram.com/p/Da5lLC2qHXB/",
+    "status": "done",
+    "seconds": 206.5,
+    "archetype": "evidence explainer",
+    "animations": 9,
+    "need_building": 3,
+    "devices": 31
+  },
+  "ref-05": {
+    "url": "https://www.instagram.com/p/Dap6DJ0qXzx/",
+    "status": "done",
+    "seconds": 179.5,
+    "archetype": "facial analysis explainer",
+    "animations": 10,
+    "need_building": 2,
+    "devices": 14
+  },
+  "ref-06": {
+    "url": "https://www.instagram.com/p/Daf4XO8qU3d/",
+    "status": "done",
+    "seconds": 146.0,
+    "archetype": "interactive listicle",
+    "animations": 2,
+    "need_building": 2,
+    "devices": 9
+  },
+  "ref-07": {
+    "url": "https://www.instagram.com/p/DaanDU1KMlR/",
+    "status": "done",
+    "seconds": 230.1,
+    "archetype": "evidence explainer",
+    "animations": 10,
+    "need_building": 3,
+    "devices": 17
+  },
+  "ref-08": {
+    "url": "https://www.instagram.com/p/DaVp5N1qbx9/",
+    "status": "done",
+    "seconds": 277.4,
+    "archetype": "evidence explainer",
+    "animations": 9,
+    "need_building": 3,
+    "devices": 19
+  },
+  "ref-09": {
+    "url": "https://www.instagram.com/p/DZuWYEtsaHJ/",
+    "status": "done",
+    "seconds": 267.0,
+    "archetype": "aesthetic explainer",
+    "animations": 10,
+    "need_building": 4,
+    "devices": 15
+  },
+  "ref-10": {
+    "url": "https://www.instagram.com/p/DZahN75KUhp/",
+    "status": "done",
+    "seconds": 255.5,
+    "archetype": "interactive classification quiz",
+    "animations": 4,
+    "need_building": 2,
+    "devices": 6
+  },
+  "ref-11": {
+    "url": "https://www.instagram.com/p/DY75JFlKPU-/",
+    "status": "done",
+    "seconds": 260.9,
+    "archetype": "interactive test / evidence explainer",
+    "animations": 5,
+    "need_building": 1,
+    "devices": 3
+  },
+  "ref-12": {
+    "url": "https://www.instagram.com/p/DYS4GK4KfO-/",
+    "status": "done",
+    "seconds": 415.4,
+    "archetype": "educational explainer",
+    "animations": 8,
+    "need_building": 3,
+    "devices": 15
+  },
+  "ref-13": {
+    "url": "https://www.instagram.com/p/DYmz7e3Kbio/",
+    "status": "done",
+    "seconds": 107.7,
+    "archetype": "evidence explainer",
+    "animations": 8,
+    "need_building": 0,
+    "devices": 8
+  },
+  "ref-14": {
+    "url": "https://www.instagram.com/p/DYXXtaRqCGy/",
+    "status": "failed",
+    "seconds": 20.5,
+    "error": "  [gemini] cont pass failed: timeout\n"
+  },
+  "ref-15": {
+    "url": "https://www.instagram.com/p/DXMszcbDHKQ/",
+    "status": "failed",
+    "seconds": 16.2,
+    "error": "  [gemini] anim pass failed: timeout\n"
+  },
+  "ref-16": {
+    "url": "https://www.instagram.com/p/DW_lKAPDAF6/",
+    "status": "failed",
+    "seconds": 21.7,
+    "error": "  [gemini] anim pass failed: timeout\n"
+  },
+  "ref-17": {
+    "url": "https://www.instagram.com/p/DU_IIrICG2e/",
+    "status": "failed",
+    "seconds": 26.1,
+    "error": "  [gemini] anim pass failed: timeout\n"
+  },
+  "ref-18": {
+    "url": "https://www.instagram.com/p/Db0X8vOztOe/",
+    "status": "failed",
+    "seconds": 26.1,
+    "error": "  [gemini] anim pass failed: timeout\n"
+  },
+  "ref-19": {
+    "url": "https://www.instagram.com/p/Db5s9UrT8hE/",
+    "status": "failed",
+    "seconds": 17.3,
+    "error": "  [gemini] anim pass failed: timeout\n"
+  },
+  "ref-20": {
+    "url": "https://www.instagram.com/p/DcD0b0NzN2K/",
+    "status": "failed",
+    "seconds": 19.2,
+    "error": "  [gemini] anim pass failed: timeout\n"
+  },
+  "ref-21": {
+    "url": "https://www.instagram.com/p/DcTZFy5Mlcz/",
+    "status": "failed",
+    "seconds": 18.5,
+    "error": "  [gemini] anim pass failed: timeout\n"
+  }
+}

@@ -1,0 +1,865 @@
+{
+  "label": "ref-13",
+  "archetype": "evidence explainer",
+  "one_line": "This video explains how to naturally improve lip aesthetics through posture correction and subtle color enhancement, backed by scientific literature.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 66.417,
+  "measured": {
+    "pacing": {
+      "cuts": 6,
+      "cuts_per_min": 5.4,
+      "median_shot_s": 2.21,
+      "shortest_shot_s": 0.25,
+      "longest_shot_s": 44.79,
+      "frozen_pct": 37.5
+    },
+    "transitions": {
+      "count": 18,
+      "median_s": 0.79,
+      "spans_s": [
+        1.0,
+        0.375,
+        0.917,
+        0.792,
+        0.667,
+        0.208,
+        0.542,
+        0.75,
+        0.708,
+        0.75,
+        0.833,
+        0.875,
+        1.333,
+        0.333,
+        1.167,
+        0.792,
+        1.125,
+        1.167
+      ]
+    },
+    "element_events": {
+      "count": 117,
+      "per_min": 105.8,
+      "median_gap_s": 0.12,
+      "frames": [
+        11,
+        14,
+        17,
+        20,
+        23,
+        27,
+        30,
+        41,
+        44,
+        56,
+        59,
+        62,
+        71,
+        74,
+        77,
+        80,
+        83,
+        86,
+        89,
+        92,
+        98,
+        101,
+        104,
+        107,
+        110,
+        113,
+        255,
+        258,
+        261,
+        264,
+        267,
+        461,
+        464,
+        467,
+        470,
+        473,
+        617,
+        682,
+        696,
+        784
+      ]
+    },
+    "continuous_motion": {
+      "spans": 30,
+      "total_s": 26.36,
+      "pct_of_runtime": 39.7,
+      "median_span_s": 0.77,
+      "longest_span_s": 2.38,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        158,
+        182,
+        190
+      ],
+      "dominant_hex": "#9EB6BE",
+      "corner_flatness": 0.67,
+      "background_drift": 19.87,
+      "flat_background": false,
+      "headline_band_frames_pct": 94.2,
+      "caption_band_frames_pct": 78.0
+    },
+    "audio": {
+      "speech_segments": 11,
+      "speech_pct": 95.8,
+      "median_phrase_s": 5.62,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 12,
+    "hard_cuts": 6,
+    "cuts_per_described_change": 0.55,
+    "pct_scene_changes_that_are_cuts": 54.5,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 5,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 4.5,
+      "snapped_to_measured_cut": true,
+      "layout": "portrait collage with UI callouts",
+      "description": "Intro showing Drake, Sydney Sweeney, Central Cee, and Jenna Ortega with lip callouts.",
+      "devices": [
+        "callout_labels",
+        "ui_overlay_analysis"
+      ]
+    },
+    {
+      "start_s": 4.417,
+      "start_frame": 106,
+      "end_s": 10.2,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen comparison with UI panels",
+      "description": "Angelina Jolie posture comparison (Poor vs Excellent) with lip analysis UI.",
+      "devices": [
+        "split_screen_comparison",
+        "ui_overlay_analysis"
+      ]
+    },
+    {
+      "start_s": 10.2,
+      "start_frame": 245,
+      "end_s": 19.5,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with technical overlay",
+      "description": "Cristiano Ronaldo profile and front face mesh analysis showing lip measurements.",
+      "devices": [
+        "face_mesh_overlay",
+        "ui_overlay_analysis"
+      ]
+    },
+    {
+      "start_s": 19.5,
+      "start_frame": 468,
+      "end_s": 25.0,
+      "snapped_to_measured_cut": false,
+      "layout": "diagram overlay on scrolling text",
+      "description": "Academic citations scrolling behind lip diagrams showing aesthetic traits.",
+      "devices": [
+        "academic_citation_scroll"
+      ]
+    },
+    {
+      "start_s": 25.0,
+      "start_frame": 600,
+      "end_s": 33.0,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with interactive slider UI",
+      "description": "Angelina Jolie demonstrating a gentle pout/smile with a perception slider UI.",
+      "devices": [
+        "interactive_sliders",
+        "ui_overlay_analysis"
+      ]
+    },
+    {
+      "start_s": 33.0,
+      "start_frame": 792,
+      "end_s": 40.5,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with interactive slider UI",
+      "description": "Emma Watson with a lip vibrancy slider demonstrating color adjustment.",
+      "devices": [
+        "interactive_sliders",
+        "ui_overlay_analysis"
+      ]
+    },
+    {
+      "start_s": 40.5,
+      "start_frame": 972,
+      "end_s": 46.0,
+      "snapped_to_measured_cut": false,
+      "layout": "multi-panel creator grid",
+      "description": "Grid of UGC creators applying tinted lip balm.",
+      "devices": [
+        "creator_grid"
+      ]
+    },
+    {
+      "start_s": 46.0,
+      "start_frame": 1104,
+      "end_s": 49.0,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with text bubble",
+      "description": "Male creator applying lip balm with a text bubble.",
+      "devices": [
+        "creator_grid"
+      ]
+    },
+    {
+      "start_s": 49.208,
+      "start_frame": 1181,
+      "end_s": 55.5,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen comparison with citation background",
+      "description": "Kim Tae Hyung (V) red pigment comparison with academic paper background.",
+      "devices": [
+        "split_screen_comparison",
+        "academic_citation_scroll"
+      ]
+    },
+    {
+      "start_s": 55.5,
+      "start_frame": 1332,
+      "end_s": 59.5,
+      "snapped_to_measured_cut": false,
+      "layout": "phone mockup overlay",
+      "description": "Male creator demonstrating a subtle tinted lip balm on a phone mockup.",
+      "devices": [
+        "ui_overlay_analysis"
+      ]
+    },
+    {
+      "start_s": 59.5,
+      "start_frame": 1428,
+      "end_s": 63.5,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with comprehensive UI overlay",
+      "description": "Full face analysis UI showing eyebrows, eyes, and lips metrics.",
+      "devices": [
+        "ui_overlay_analysis"
+      ]
+    },
+    {
+      "start_s": 63.875,
+      "start_frame": 1533,
+      "end_s": 66.4,
+      "snapped_to_measured_cut": true,
+      "layout": "minimalist search bar UI",
+      "description": "Qoves.com search bar animation.",
+      "devices": [
+        "search_bar_mockup"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "ui_overlay_analysis",
+      "what_it_is": "Simulated software interface showing technical metrics and analysis.",
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "split_screen_comparison",
+      "what_it_is": "Side-by-side visual comparison of the same subject with different traits.",
+      "how_it_animates": null,
+      "shots": [
+        1,
+        8
+      ]
+    },
+    {
+      "name": "academic_citation_scroll",
+      "what_it_is": "Scrolling background of scientific papers and journal articles.",
+      "how_it_animates": null,
+      "shots": [
+        3,
+        8
+      ]
+    },
+    {
+      "name": "interactive_sliders",
+      "what_it_is": "UI sliders adjusting metrics like age, approachability, and vibrancy.",
+      "how_it_animates": null,
+      "shots": [
+        4,
+        5
+      ]
+    },
+    {
+      "name": "creator_grid",
+      "what_it_is": "Collage of user-generated content clips.",
+      "how_it_animates": null,
+      "shots": [
+        6,
+        7
+      ]
+    },
+    {
+      "name": "callout_labels",
+      "what_it_is": "Brackets pointing to specific facial features with text labels.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "face_mesh_overlay",
+      "what_it_is": "3D wireframe mesh tracking facial features.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "search_bar_mockup",
+      "what_it_is": "A clean, animated search bar showing the brand's URL.",
+      "how_it_animates": null,
+      "shots": [
+        11
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Celebrity faces are shown with callouts highlighting their lips, accompanied by the hook text 'The lips can make or break a face'.",
+    "why_it_works": "It leverages celebrity familiarity and a bold claim about facial attractiveness to immediately capture attention."
+  },
+  "narrative_arc": [
+    "Hook: Lips make or break a face.",
+    "Step 1: Fix lip posture (avoid tucking and curling down).",
+    "Scientific backing: Posture affects perceived youthfulness and friendliness.",
+    "Solution 1: Practice a gentle pout and soft smile.",
+    "Step 2: Focus on hydration and red pigment, not just size.",
+    "Solution 2: Use tinted lip balm (applicable to both men and women).",
+    "CTA: Visit Qoves.com for full facial analysis."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "The lips can make or break a face"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "DRAKE CANADIAN RAPPER"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "SYDNEY SWEENEY AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "CENTRAL CEE BRITISH RAPPER"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "JENNA ORTEGA AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "LIPS"
+    },
+    {
+      "approx_t": 0.2,
+      "track": "headline",
+      "text": "Two steps"
+    },
+    {
+      "approx_t": 0.2,
+      "track": "chip",
+      "text": "1"
+    },
+    {
+      "approx_t": 0.2,
+      "track": "chip",
+      "text": "2"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "headline",
+      "text": "Different Posture = Different Lips"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "label",
+      "text": "POOR POSTURE"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "label",
+      "text": "EXCELLENT POSTURE"
+    },
+    {
+      "approx_t": 0.8,
+      "track": "ui",
+      "text": "Lip Analysis"
+    },
+    {
+      "approx_t": 0.8,
+      "track": "ui",
+      "text": "LIP SHAPE"
+    },
+    {
+      "approx_t": 0.8,
+      "track": "ui",
+      "text": "LIP TEXTURE"
+    },
+    {
+      "approx_t": 1.1,
+      "track": "label",
+      "text": "CRISTIANO RONALDO PORTUGUESE ATHLETE"
+    },
+    {
+      "approx_t": 1.1,
+      "track": "label",
+      "text": "5MM"
+    },
+    {
+      "approx_t": 1.1,
+      "track": "label",
+      "text": "1.4MM"
+    },
+    {
+      "approx_t": 1.1,
+      "track": "label",
+      "text": "2.0MM"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "citation",
+      "text": "Zeng, R., Glaue, E., Moellhoff, N., Yi, K. H., Anker, A., Unbehaun, P., ... & Frank, K. (2025). Revealing the perfect smile: how philtrum length shapes lip beauty. Aesthetic Plastic Surgery, 49(13), 3561-3571."
+    },
+    {
+      "approx_t": 2.0,
+      "track": "citation",
+      "text": "Heidekrueger, P. I., Szpalski, C., Weichman, K., Juran, S., Ng, R., Claussen, C., ... & Broer, P. N. (2017). Lip attractiveness: a cross-cultural analysis. Aesthetic Surgery Journal, 37(7), 828-836."
+    },
+    {
+      "approx_t": 2.0,
+      "track": "citation",
+      "text": "Ho, T. V. T., Bacos, J. T., & Dayan, S. H. (2019). Corner of the mouth—reversing the earliest sign of aging. Facial Plastic Surgery, 35(02), 172-175."
+    },
+    {
+      "approx_t": 2.1,
+      "track": "label",
+      "text": "YOUNGER"
+    },
+    {
+      "approx_t": 2.1,
+      "track": "label",
+      "text": "FRIENDLIER"
+    },
+    {
+      "approx_t": 2.1,
+      "track": "label",
+      "text": "PRETTIER"
+    },
+    {
+      "approx_t": 2.5,
+      "track": "label",
+      "text": "Gentle pout + soft smile"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "headline",
+      "text": "Your new posture"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "label",
+      "text": "ANGELINA JOLIE, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "ui",
+      "text": "Qoves perceptions"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "ui",
+      "text": "AGE"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "ui",
+      "text": "Younger"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "ui",
+      "text": "APPROACHABILITY"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "ui",
+      "text": "Kinder"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "ui",
+      "text": "Beautiful"
+    },
+    {
+      "approx_t": 3.3,
+      "track": "headline",
+      "text": "Don't focus on size"
+    },
+    {
+      "approx_t": 3.6,
+      "track": "headline",
+      "text": "Thin lips can still be very attractive"
+    },
+    {
+      "approx_t": 3.6,
+      "track": "label",
+      "text": "EMMA WATSON, ENGLISH ACTRESS"
+    },
+    {
+      "approx_t": 3.8,
+      "track": "ui",
+      "text": "Hydrated"
+    },
+    {
+      "approx_t": 3.8,
+      "track": "ui",
+      "text": "LIP VIBRANCY"
+    },
+    {
+      "approx_t": 3.8,
+      "track": "ui",
+      "text": "MUTED"
+    },
+    {
+      "approx_t": 3.8,
+      "track": "ui",
+      "text": "NEUTRAL"
+    },
+    {
+      "approx_t": 3.8,
+      "track": "ui",
+      "text": "VIBRANT"
+    },
+    {
+      "approx_t": 4.1,
+      "track": "label",
+      "text": "WORLDMEETSELINA"
+    },
+    {
+      "approx_t": 4.1,
+      "track": "label",
+      "text": "DES_MAYORMITA"
+    },
+    {
+      "approx_t": 4.1,
+      "track": "label",
+      "text": "REBECCAVXO"
+    },
+    {
+      "approx_t": 4.7,
+      "track": "label",
+      "text": "I'd skip the color..."
+    },
+    {
+      "approx_t": 4.7,
+      "track": "label",
+      "text": "JOAOCOZMAN"
+    },
+    {
+      "approx_t": 4.9,
+      "track": "label",
+      "text": "KIM TAE HYUNG, SOUTH KOREAN SINGER"
+    },
+    {
+      "approx_t": 4.9,
+      "track": "citation",
+      "text": "Stephen, I. D., & McKeegan, A. M. (2010). Lip colour affects perceived sex typicality and attractiveness of human faces. Perception, 39(8), 1104-1110."
+    },
+    {
+      "approx_t": 5.6,
+      "track": "label",
+      "text": "Undetectable tinted lip balms for men"
+    },
+    {
+      "approx_t": 5.6,
+      "track": "label",
+      "text": "Burt's Bees $4.99"
+    },
+    {
+      "approx_t": 5.6,
+      "track": "label",
+      "text": "CROWNED_PRINCE"
+    },
+    {
+      "approx_t": 5.7,
+      "track": "headline",
+      "text": "Nobody will notice"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Eyebrows"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "HAIR SHADE"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Deep Charcoal"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "ARCH DENSITY"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "84"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Clear Arch"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "LOW DENSITY"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "MEDIUM DENSITY"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "HIGH DENSITY"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Eyes"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "COLOR"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Green Amber"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "UPPER EYELID SULCUS"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Hooded"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "INNER CANTHAL TILT"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Neutral Canthal Tilt"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "Lips"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "SMOOTHNESS"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "102"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "ROUGH"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "ui",
+      "text": "SMOOTH"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "label",
+      "text": "MIDFACE"
+    },
+    {
+      "approx_t": 5.9,
+      "track": "label",
+      "text": "LOWER FACE"
+    },
+    {
+      "approx_t": 64.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "The lips can make or break a face."
+    },
+    {
+      "approx_t": 0.02,
+      "text": "Here are two simple steps with the highest return to naturally improve them."
+    },
+    {
+      "approx_t": 0.05,
+      "text": "Step one is fixing lip posture, which radically transforms the perceived dimensions of your lips."
+    },
+    {
+      "approx_t": 0.1,
+      "text": "Half of you are tucking your top lip in without even realizing it, which in turn makes it appear thinner,"
+    },
+    {
+      "approx_t": 0.15,
+      "text": "and many of you are curling the outer corners of your lips downwards without realizing."
+    },
+    {
+      "approx_t": 0.19,
+      "text": "The literature indicates that these changes make the face appear less youthful, less friendly, and less attractive."
+    },
+    {
+      "approx_t": 0.25,
+      "text": "What you should practice instead is the habit of a gentle pout and the soft smile as a new resting phase"
+    },
+    {
+      "approx_t": 0.29,
+      "text": "for a younger, kinder, and more esthetic mouth."
+    },
+    {
+      "approx_t": 0.33,
+      "text": "The second step is to not just focus on lip size."
+    },
+    {
+      "approx_t": 0.35,
+      "text": "Thin lips can still be very attractive if they are hydrated and have sufficient red pigment."
+    },
+    {
+      "approx_t": 0.4,
+      "text": "So one of the oldest tricks is to simply make red- or pink-tinted lip balm a staple of your daily routine."
+    },
+    {
+      "approx_t": 0.46,
+      "text": "As a man you might think, 'Oh, let me skip the color,'"
+    },
+    {
+      "approx_t": 0.48,
+      "text": "but Stephen and McKeegan found red pigment also makes men's lips more attractive too,"
+    },
+    {
+      "approx_t": 0.52,
+      "text": "and tinted lip balm is not like lipstick."
+    },
+    {
+      "approx_t": 0.55,
+      "text": "Realistically, if you pick a mild one, you'll look better and nobody will notice why."
+    },
+    {
+      "approx_t": 0.59,
+      "text": "There are dozens of small signals like these that shape how your face is perceived,"
+    },
+    {
+      "approx_t": 1.02,
+      "text": "and we break down all of them over at Qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 1.04,
+    "what": "Visit Qoves.com to get a comprehensive breakdown of facial aesthetics."
+  },
+  "subjects": [
+    {
+      "name": "Drake",
+      "role": "Celebrity example of lip aesthetics"
+    },
+    {
+      "name": "Sydney Sweeney",
+      "role": "Celebrity example of lip aesthetics"
+    },
+    {
+      "name": "Central Cee",
+      "role": "Celebrity example of lip aesthetics"
+    },
+    {
+      "name": "Jenna Ortega",
+      "role": "Celebrity example of lip aesthetics"
+    },
+    {
+      "name": "Angelina Jolie",
+      "role": "Celebrity example demonstrating lip posture"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "role": "Celebrity example demonstrating lip metrics"
+    },
+    {
+      "name": "Emma Watson",
+      "role": "Celebrity example demonstrating thin but attractive lips"
+    },
+    {
+      "name": "Kim Tae Hyung (V)",
+      "role": "Celebrity example demonstrating male lip color enhancement"
+    }
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "High-density visual overlays (face meshes, sliders, and metrics) make the content feel highly scientific and objective.",
+    "Using recognizable celebrities keeps the viewer engaged and provides clear, relatable examples.",
+    "Actionable, low-effort advice (posture adjustment and lip balm) makes the viewer feel they can easily apply the tips."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "4/12"
+  }
+}

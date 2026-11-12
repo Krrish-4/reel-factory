@@ -1,0 +1,233 @@
+{
+  "label": "ref-11",
+  "archetype": "interactive test / evidence explainer",
+  "one_line": "An interactive test measuring lip fullness using a research-backed scale with Sydney Sweeney as the visual model.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 12.625,
+  "measured": {
+    "pacing": {
+      "cuts": 0,
+      "cuts_per_min": 0.0,
+      "median_shot_s": 12.62,
+      "shortest_shot_s": 12.62,
+      "longest_shot_s": 12.62,
+      "frozen_pct": 55.6
+    },
+    "transitions": {
+      "count": 2,
+      "median_s": 1.06,
+      "spans_s": [
+        0.875,
+        1.25
+      ]
+    },
+    "element_events": {
+      "count": 15,
+      "per_min": 71.5,
+      "median_gap_s": 0.12,
+      "frames": [
+        61,
+        64,
+        67,
+        70,
+        73,
+        76,
+        109,
+        112,
+        115,
+        118,
+        121,
+        124,
+        127,
+        130,
+        133
+      ]
+    },
+    "continuous_motion": {
+      "spans": 7,
+      "total_s": 4.38,
+      "pct_of_runtime": 34.8,
+      "median_span_s": 0.58,
+      "longest_span_s": 0.88,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        91,
+        99,
+        107
+      ],
+      "dominant_hex": "#5B636B",
+      "corner_flatness": 79.18,
+      "background_drift": 6.29,
+      "flat_background": false,
+      "headline_band_frames_pct": 92.4,
+      "caption_band_frames_pct": 100.0
+    },
+    "audio": {
+      "speech_segments": 2,
+      "speech_pct": 86.5,
+      "median_phrase_s": 5.46,
+      "has_music_bed": true
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 1,
+    "hard_cuts": 0,
+    "cuts_per_described_change": 0.0,
+    "pct_scene_changes_that_are_cuts": 0.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 12.625,
+      "snapped_to_measured_cut": true,
+      "layout": "Full-bleed portrait with floating UI cards",
+      "description": "Continuous portrait shot of Sydney Sweeney with dynamic text, image overlays, and a scientific paper screenshot.",
+      "devices": [
+        "Lip scale cards",
+        "Research paper overlay",
+        "Interactive selector box"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "Lip scale cards",
+      "what_it_is": "Cropped lip images labeled 1 to 5 representing fullness levels.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "Research paper overlay",
+      "what_it_is": "A screenshot of an academic paper on lip fullness grading.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "Interactive selector box",
+      "what_it_is": "A white square frame highlighting the subject's lips.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Displays Sydney Sweeney with an overlay asking viewers to measure their lip fullness.",
+    "why_it_works": "Leverages instant self-assessment curiosity and celebrity familiarity."
+  },
+  "narrative_arc": [
+    "Introduce the lip fullness measurement concept",
+    "Present scientific backing via academic study",
+    "Prompt viewer self-assessment and engagement"
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "RESEARCH-BASED"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Let's measure your Lip Fullness!"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "1 - VERY THIN"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "2 - THIN"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "3 - MODERATE"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "headline",
+      "text": "Based on this study"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "citation",
+      "text": "Carruthers A, Bogle M, Donofrio L, et al. Lip fullness assessment..."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "4 - FULL"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "label",
+      "text": "5 - VERY FULL"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "headline",
+      "text": "How full are yours?"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "caption",
+      "text": "Based on this, moderate!"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "SYDNEY SWEENEY, AMERICAN ACTRESS"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Let's measure your lip fullness."
+    },
+    {
+      "approx_t": 2.0,
+      "text": "Based on this study, how full are yours?"
+    },
+    {
+      "approx_t": 8.0,
+      "text": "Based on this, moderate!"
+    }
+  ],
+  "cta": {
+    "approx_t": 5.0,
+    "what": "Prompting the viewer to determine their own lip fullness level."
+  },
+  "subjects": [
+    "Sydney Sweeney (American Actress, visual model)"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Scientific framing builds immediate trust.",
+    "Interactive self-assessment format drives high viewer engagement.",
+    "Celebrity visual reference increases retention and appeal."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/1"
+  }
+}

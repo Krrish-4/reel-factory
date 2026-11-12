@@ -1,0 +1,716 @@
+{
+  "format_archetype": "style analysis explainer",
+  "one_line": "This video analyzes Raghav Juyal's style transformation, explaining how hair and beard choices balance a long rectangular face.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Shows Raghav's dramatic 'before' and 'after' photos side-by-side.",
+    "why_it_works": "Leverages celebrity transformation curiosity and instant visual contrast."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 2.3,
+      "description": "Before and after portrait comparison of Raghav Juyal.",
+      "layout": "full-bleed portrait with transition slider",
+      "devices": [
+        "transition slider",
+        "text overlay"
+      ]
+    },
+    {
+      "approx_start": 2.3,
+      "approx_end": 8.0,
+      "description": "Montage of Raghav's stylish photos with UI overlays.",
+      "layout": "full-bleed portrait with interactive UI elements",
+      "devices": [
+        "interactive buttons",
+        "wireframe overlay"
+      ]
+    },
+    {
+      "approx_start": 8.0,
+      "approx_end": 20.0,
+      "description": "Analysis of Raghav's 2016 look with face and hair callouts.",
+      "layout": "full-bleed portrait with text chips and wireframe highlights",
+      "devices": [
+        "text chips",
+        "wireframe overlay",
+        "measurement lines"
+      ]
+    },
+    {
+      "approx_start": 20.0,
+      "approx_end": 23.0,
+      "description": "B-roll clips of Raghav smiling and posing.",
+      "layout": "full-bleed portrait video",
+      "devices": []
+    },
+    {
+      "approx_start": 23.0,
+      "approx_end": 35.0,
+      "description": "Analysis of current hair and beard style benefits.",
+      "layout": "full-bleed portrait with dynamic wireframes and status indicators",
+      "devices": [
+        "wireframe overlay",
+        "status indicators",
+        "text chips"
+      ]
+    },
+    {
+      "approx_start": 35.0,
+      "approx_end": 41.0,
+      "description": "Explanation of the rectangular face rule.",
+      "layout": "full-bleed portrait with geometric guidelines",
+      "devices": [
+        "geometric guidelines",
+        "status indicators"
+      ]
+    },
+    {
+      "approx_start": 41.0,
+      "approx_end": 46.0,
+      "description": "Carousel showcasing recommended beard styles.",
+      "layout": "carousel UI with swipe indicators",
+      "devices": [
+        "carousel UI",
+        "status indicators",
+        "text chips"
+      ]
+    },
+    {
+      "approx_start": 46.0,
+      "approx_end": 57.0,
+      "description": "Carousel showcasing recommended and discouraged hair styles.",
+      "layout": "carousel UI with swipe indicators",
+      "devices": [
+        "carousel UI",
+        "status indicators",
+        "text chips",
+        "geometric guidelines"
+      ]
+    },
+    {
+      "approx_start": 57.0,
+      "approx_end": 59.4,
+      "description": "Outro clip of Raghav posing at an event.",
+      "layout": "full-bleed portrait video",
+      "devices": []
+    }
+  ],
+  "devices": [
+    {
+      "name": "wireframe overlay",
+      "what_it_is": "3D-like mesh highlighting hair, beard, and face shapes.",
+      "used_for": "Visually isolating specific grooming areas being discussed."
+    },
+    {
+      "name": "text chips",
+      "what_it_is": "Rounded rectangular labels containing style terms.",
+      "used_for": "Labeling specific features like 'LONG FACE' or 'OUTWARD CURLS'."
+    },
+    {
+      "name": "status indicators",
+      "what_it_is": "Green checkmarks and red cross icons.",
+      "used_for": "Signaling recommended vs. discouraged style choices."
+    },
+    {
+      "name": "carousel UI",
+      "what_it_is": "Left and right navigation arrows on the sides of the frame.",
+      "used_for": "Simulating an interactive swipeable gallery of styles."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Raghav Juyal's Glowup"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "Raghav"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "HAIR"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "BEARD"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "headline",
+      "text": "2016"
+    },
+    {
+      "approx_t": 9.0,
+      "track": "chip",
+      "text": "LONG FACE"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "NARROW CHIN"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "LONG NECK"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "chip",
+      "text": "SHORTER SIDES"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "chip",
+      "text": "VOLUME ON TOP"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chip",
+      "text": "SHORT BEARD"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "OUTWARD CURLS"
+    },
+    {
+      "approx_t": 26.0,
+      "track": "chip",
+      "text": "ADDS WIDTH"
+    },
+    {
+      "approx_t": 29.0,
+      "track": "chip",
+      "text": "DOWNWARD"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "VOLUME"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "BROADER"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "headline",
+      "text": "Rectangular face rule"
+    },
+    {
+      "approx_t": 39.0,
+      "track": "chip",
+      "text": "LENGTH"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "chip",
+      "text": "WIDTH"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "headline",
+      "text": "Beard"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "chip",
+      "text": "FULL SHORT BEARD"
+    },
+    {
+      "approx_t": 43.0,
+      "track": "chip",
+      "text": "BOXED BEARD"
+    },
+    {
+      "approx_t": 44.0,
+      "track": "chip",
+      "text": "HEAVY STUBBLE"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "chip",
+      "text": "GARIBALDI-STYLE BEARD"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "headline",
+      "text": "Hair"
+    },
+    {
+      "approx_t": 48.0,
+      "track": "chip",
+      "text": "GROWN-OUT CURLS"
+    },
+    {
+      "approx_t": 49.0,
+      "track": "chip",
+      "text": "TEXTURED MEDIUM-LENGTH"
+    },
+    {
+      "approx_t": 51.0,
+      "track": "chip",
+      "text": "LAYERED SHAG"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "chip",
+      "text": "TIGHT FADES"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chip",
+      "text": "HIGH POMPADOURS"
+    },
+    {
+      "approx_t": 56.0,
+      "track": "chip",
+      "text": "LONGER"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Raghav Juyal went from looking like this to this."
+    },
+    {
+      "approx_t": 3.0,
+      "text": "And you might think it's just because of his fashion, but it's actually his hair and beard game."
+    },
+    {
+      "approx_t": 8.0,
+      "text": "Raghav has a long face, narrow chin, and a long neck."
+    },
+    {
+      "approx_t": 12.0,
+      "text": "Earlier his hair was shorter on the sides with volume on top and a short beard."
+    },
+    {
+      "approx_t": 16.0,
+      "text": "This made his face look even longer and his head felt smaller against his frame."
+    },
+    {
+      "approx_t": 21.0,
+      "text": "Now, he does almost the opposite."
+    },
+    {
+      "approx_t": 23.0,
+      "text": "His curls grow outward around the temple and ears, which visually adds width to his face."
+    },
+    {
+      "approx_t": 28.0,
+      "text": "And instead of growing his beard downwards, he keeps volume around the cheeks and jaw, which makes the lower half of his face look broader."
+    },
+    {
+      "approx_t": 35.0,
+      "text": "So if you have a long rectangular face, remember the rule is don't add more length, add width."
+    },
+    {
+      "approx_t": 41.0,
+      "text": "Go for a full short beard, a boxed beard, a heavy stubble, or a Garibaldi-style beard."
+    },
+    {
+      "approx_t": 46.0,
+      "text": "And for hair, go for grown-out curls, a textured medium-length, or a layered shag."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "But avoid tight fades and high pompadours because they'll make your face look even longer."
+    },
+    {
+      "approx_t": 57.0,
+      "text": "For more grooming tips..."
+    }
+  ],
+  "narrative_arc": [
+    "Introduce celebrity transformation hook.",
+    "Identify the core style elements: hair and beard.",
+    "Analyze past style mistakes based on face shape.",
+    "Explain current style corrections that balance proportions.",
+    "State the general rule for rectangular faces.",
+    "Provide actionable style recommendations and warnings."
+  ],
+  "cta": {
+    "approx_t": 57.0,
+    "what": "Follow for more grooming tips."
+  },
+  "subjects": [
+    {
+      "name": "Raghav Juyal",
+      "role": "Subject of style analysis"
+    }
+  ],
+  "what_makes_it_work": [
+    "Uses precise, easy-to-understand visual overlays to explain abstract grooming concepts.",
+    "Leverages a recognizable celebrity to build immediate interest and authority."
+  ],
+  "animations": [
+    {
+      "name": "Before/After Slider",
+      "approx_t": 0.1,
+      "what_moves": "A vertical divider line sweeps horizontally across the screen, revealing the 'after' portrait over the 'before' portrait.",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "To visually demonstrate the dramatic transformation of the subject's appearance.",
+      "reusable_as": "Comparing any before-and-after states, such as photo editing, cleaning, or styling.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Feature Selection Pop-In",
+      "approx_t": 6.0,
+      "what_moves": "Two square option cards pop up on the subject's chest, followed by wireframe icons ('HAIR' and 'BEARD') appearing inside them.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "A wireframe mesh overlay fading onto the subject's hair.",
+      "purpose": "To introduce the two main categories of the grooming analysis.",
+      "reusable_as": "Presenting interactive choices or category buttons in a tutorial.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Anatomical Wireframe Overlay",
+      "approx_t": 9.0,
+      "what_moves": "A digital wireframe grid conforms to the subject's forehead and neck, accompanied by text labels in pill boxes.",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "mechanical",
+      "staggered": true,
+      "layered_with": "Text labels popping in.",
+      "purpose": "To simulate a high-tech, precise analysis of the subject's facial structure.",
+      "reusable_as": "Highlighting specific product features or anatomical areas in skincare/fitness videos.",
+      "we_already_have": "ContourDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Dimension Callout Line",
+      "approx_t": 19.0,
+      "what_moves": "A vertical dimension line with end ticks draws down alongside the subject's body to indicate height/proportion.",
+      "motion": "draw-on",
+      "direction": "down",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "A bounding box appearing around the subject's head.",
+      "purpose": "To illustrate the visual proportion of the head relative to the body frame.",
+      "reusable_as": "Showing measurements, heights, or scale of objects in product demos.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Style Carousel Swipe",
+      "approx_t": 42.0,
+      "what_moves": "A series of portrait cards with different beard and hair styles slide horizontally, mimicking a mobile app swipe gesture.",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "Pill badges with checkmarks or crosses popping in below the card.",
+      "purpose": "To cycle through recommended and non-recommended styles rapidly.",
+      "reusable_as": "Showcasing a catalog of options, products, or user reviews.",
+      "we_already_have": "Montage",
+      "would_need_building": "A swipe-based carousel transition with synchronized badge updates."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Horizontal slider reveals for instant comparison",
+      "Tech-style wireframe overlays mapping facial features",
+      "Snappy card-swipe transitions for style options"
+    ],
+    "how_things_enter": "Elements scale up with a springy bounce (PopIn) or slide in from the sides.",
+    "how_things_leave": "Elements typically fade out quickly or are replaced by the next sliding panel.",
+    "how_scenes_change": "Hard cuts are used between major segments, while internal transitions use sliding panels.",
+    "what_stays_still": "The central portrait of the subject remains anchored to maintain focus on facial changes.",
+    "rhythm": "Bursty and informative, with rapid-fire visual callouts synchronized with the voiceover's key points."
+  },
+  "what_we_should_steal": [
+    "The interactive-style swipe carousel for showcasing multiple product variations.",
+    "The wireframe contour mapping effect to elevate educational or analytical content."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Title text and name fade in",
+      "element": "Raghav Juyal's Glowup, Raghav",
+      "motion": "fade",
+      "content": "Raghav Juyal's Glowup, Raghav"
+    },
+    {
+      "approx_t": 0.1,
+      "event": "Slider transition reveals transformation",
+      "element": "Before/after portrait slider",
+      "motion": "wipe",
+      "content": "Raghav's portrait"
+    },
+    {
+      "approx_t": 0.3,
+      "event": "Cut to Raghav on sofa",
+      "element": "Raghav sitting on sofa",
+      "motion": "cut",
+      "content": "Raghav"
+    },
+    {
+      "approx_t": 0.4,
+      "event": "Cut to Raghav leaning on chair",
+      "element": "Raghav leaning on chair",
+      "motion": "cut",
+      "content": "Raghav"
+    },
+    {
+      "approx_t": 0.5,
+      "event": "Cut to Raghav with arms crossed",
+      "element": "Raghav with arms crossed",
+      "motion": "cut",
+      "content": "Raghav"
+    },
+    {
+      "approx_t": 0.6,
+      "event": "Two black placeholder boxes fade in",
+      "element": "Black boxes on chest",
+      "motion": "fade",
+      "content": "Placeholder boxes"
+    },
+    {
+      "approx_t": 6.0,
+      "event": "Hair and beard icons fade in",
+      "element": "HAIR, BEARD",
+      "motion": "fade",
+      "content": "HAIR, BEARD"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Cut to Raghav in 2016 with year text",
+      "element": "2016",
+      "motion": "cut",
+      "content": "2016"
+    },
+    {
+      "approx_t": 9.0,
+      "event": "Long face text and grid overlay fade in",
+      "element": "LONG FACE",
+      "motion": "fade",
+      "content": "LONG FACE"
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Narrow chin text and grid overlay fade in",
+      "element": "NARROW CHIN",
+      "motion": "fade",
+      "content": "NARROW CHIN"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Long neck text and grid overlay fade in",
+      "element": "LONG NECK",
+      "motion": "fade",
+      "content": "LONG NECK"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Shorter sides text and grid overlay fade in",
+      "element": "SHORTER SIDES",
+      "motion": "fade",
+      "content": "SHORTER SIDES"
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Volume on top text and grid overlay fade in",
+      "element": "VOLUME ON TOP",
+      "motion": "fade",
+      "content": "VOLUME ON TOP"
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Short beard text and grid overlay fade in",
+      "element": "SHORT BEARD",
+      "motion": "fade",
+      "content": "SHORT BEARD"
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Zoom out transition to full body shot",
+      "element": "Raghav full body",
+      "motion": "scale",
+      "content": "Raghav"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Cut to Raghav smiling",
+      "element": "Raghav smiling",
+      "motion": "cut",
+      "content": "Raghav"
+    },
+    {
+      "approx_t": 22.0,
+      "event": "Cut to Raghav at an event",
+      "element": "Raghav at event",
+      "motion": "cut",
+      "content": "Raghav"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Cut back to Raghav's portrait",
+      "element": "Raghav portrait",
+      "motion": "cut",
+      "content": "Raghav"
+    },
+    {
+      "approx_t": 24.0,
+      "event": "Outward curls text and grid overlay fade in",
+      "element": "OUTWARD CURLS",
+      "motion": "fade",
+      "content": "OUTWARD CURLS"
+    },
+    {
+      "approx_t": 26.0,
+      "event": "Adds width text and grid overlay fade in",
+      "element": "ADDS WIDTH",
+      "motion": "fade",
+      "content": "ADDS WIDTH"
+    },
+    {
+      "approx_t": 29.0,
+      "event": "Downward text with red X and beard overlay fade in",
+      "element": "DOWNWARD",
+      "motion": "fade",
+      "content": "DOWNWARD"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Volume text with green check and beard overlay fade in",
+      "element": "VOLUME",
+      "motion": "fade",
+      "content": "VOLUME"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Broader text and overlay fade in",
+      "element": "BROADER",
+      "motion": "fade",
+      "content": "BROADER"
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Rectangular face rule text and box overlay fade in",
+      "element": "Rectangular face rule",
+      "motion": "fade",
+      "content": "Rectangular face rule"
+    },
+    {
+      "approx_t": 39.0,
+      "event": "Length text with red X and vertical lines fade in",
+      "element": "LENGTH",
+      "motion": "fade",
+      "content": "LENGTH"
+    },
+    {
+      "approx_t": 41.0,
+      "event": "Width text with green check and horizontal lines fade in",
+      "element": "WIDTH",
+      "motion": "fade",
+      "content": "WIDTH"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Beard title and full short beard option fade in",
+      "element": "Beard, FULL SHORT BEARD",
+      "motion": "fade",
+      "content": "Beard, FULL SHORT BEARD"
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Slide transition to boxed beard option",
+      "element": "BOXED BEARD",
+      "motion": "translate",
+      "content": "BOXED BEARD"
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Slide transition to heavy stubble option",
+      "element": "HEAVY STUBBLE",
+      "motion": "translate",
+      "content": "HEAVY STUBBLE"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Slide transition to Garibaldi-style beard option",
+      "element": "GARIBALDI-STYLE BEARD",
+      "motion": "translate",
+      "content": "GARIBALDI-STYLE BEARD"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Hair title and grown-out curls option fade in",
+      "element": "Hair, GROWN-OUT CURLS",
+      "motion": "fade",
+      "content": "Hair, GROWN-OUT CURLS"
+    },
+    {
+      "approx_t": 48.0,
+      "event": "Slide transition to textured medium-length option",
+      "element": "TEXTURED MEDIUM-LENGTH",
+      "motion": "translate",
+      "content": "TEXTURED MEDIUM-LENGTH"
+    },
+    {
+      "approx_t": 51.0,
+      "event": "Slide transition to layered shag option",
+      "element": "LAYERED SHAG",
+      "motion": "translate",
+      "content": "LAYERED SHAG"
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Slide transition to tight fades option with red X",
+      "element": "TIGHT FADES",
+      "motion": "translate",
+      "content": "TIGHT FADES"
+    },
+    {
+      "approx_t": 54.0,
+      "event": "Slide transition to high pompadours option with red X",
+      "element": "HIGH POMPADOURS",
+      "motion": "translate",
+      "content": "HIGH POMPADOURS"
+    },
+    {
+      "approx_t": 56.0,
+      "event": "Longer text with red X and vertical lines fade in",
+      "element": "LONGER",
+      "motion": "fade",
+      "content": "LONGER"
+    },
+    {
+      "approx_t": 58.0,
+      "event": "Cut to Raghav at an event",
+      "element": "Raghav at event",
+      "motion": "cut",
+      "content": "Raghav"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-18.mp4",
+    "tokens": {
+      "animation": 8338,
+      "content": 9851
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

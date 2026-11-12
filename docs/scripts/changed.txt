@@ -1,0 +1,62 @@
+# "What Else Changed" — educational explainer, RefinaChanged.
+#
+# THIS FILE IS THE SOURCE OF TRUTH for the reel. Edit a line, re-run
+# gen-voiceover.py, and the audio, every cue and every word frame move together.
+# Nothing downstream types a frame number.
+#
+# Phrases are short on purpose. The previous cut ran one 30-word sentence per
+# beat, which meant most frames showed a partial line and the caption track was
+# wall-to-wall text. Short punches also give the read somewhere to breathe, and
+# the corpus explainers run at ~96% speech precisely because they hand you one
+# fact at a time rather than one paragraph at a time.
+#
+# Beat grouping lives in src/refina/changed/beats.ts, by LINE COUNT — so a line
+# added here must be added there. The comment headers below are the beats.
+
+# -- 1. hook ---------------------------------------------------------------
+One of these is before surgery.                                        | 0.30
+One is after.                                                          | 0.35
+Watch what else changed.                                               | 0.55
+
+# -- 2. claim --------------------------------------------------------------
+In most before-and-afters, the surgery isn't the only thing that moved. | 0.40
+Four other things did.                                                 | 0.55
+
+# -- 3. light --------------------------------------------------------------
+One. The light.                                                        | 0.35
+Flat light from the front erases most of the shadow on a face.         | 0.40
+Move it overhead, and the folds and hollows come straight back.        | 0.40
+Same face. Nothing touched.                                            | 0.55
+
+# -- 4. distance -----------------------------------------------------------
+Two. The distance.                                                     | 0.35
+A phone at arm's length pushes the nose forward and pulls the jaw in.   | 0.40
+Two steps back, and the whole face rebalances.                         | 0.35
+With nothing done to it.                                               | 0.55
+
+# -- 5. tilt ---------------------------------------------------------------
+Three. The tilt.                                                       | 0.35
+Chin down hides a jawline.                                             | 0.35
+Chin level gives you one.                                              | 0.35
+That's a few degrees.                                                  | 0.55
+
+# -- 6. expression ---------------------------------------------------------
+Four. The face you're making.                                          | 0.35
+A relaxed mouth and a slight lift                                      | 0.25
+move the midface before anyone has touched it.                         | 0.55
+
+# -- 7. nuance -------------------------------------------------------------
+None of this means the surgery did nothing.                            | 0.40
+It means you can't separate the surgery from the photograph.           | 0.40
+Both are true at once.                                                 | 0.65
+
+# -- 8. self-test ----------------------------------------------------------
+So test it yourself.                                                   | 0.35
+Two photos, same room, a minute apart.                                 | 0.40
+Light in front, then light above.                                      | 0.40
+You'll meet two different people.                                      | 0.55
+
+# -- 9. the standard, then the CTA -----------------------------------------
+The only comparison worth anything is the same face, same light, same lens, same angle. | 0.45
+Ask any gallery for that.                                              | 0.40
+Or see it on your own face first.                                      | 0.80

@@ -1,0 +1,896 @@
+{
+  "format_archetype": "evidence explainer listicle",
+  "one_line": "Educational skincare guide explaining how men should select sunscreen based on SPF, PA rating, and skin type.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A split-screen comparison shows a man's face aging rapidly due to sun exposure.",
+    "why_it_works": "Visually demonstrates the dramatic impact of sun damage to trigger immediate curiosity."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 4.0,
+      "description": "Talking head split screen comparing normal face vs aged face with SunAgeing text title.",
+      "layout": "full-bleed portrait split screen",
+      "devices": [
+        "split-screen slider",
+        "title text"
+      ]
+    },
+    {
+      "approx_start": 4.0,
+      "approx_end": 10.0,
+      "description": "Fitzpatrick scale graphic showing skin types I to VI and UV sensitivity indicator.",
+      "layout": "diagram panel",
+      "devices": [
+        "vertical scale diagram",
+        "highlight box"
+      ]
+    },
+    {
+      "approx_start": 10.0,
+      "approx_end": 18.0,
+      "description": "Man's face with burn-to-pigment slider bar and zooming callout overlays for age and pigment spots.",
+      "layout": "full-bleed portrait with overlays",
+      "devices": [
+        "slider scale",
+        "callout zooms"
+      ]
+    },
+    {
+      "approx_start": 18.0,
+      "approx_end": 20.0,
+      "description": "Three numbered selection cards showing SPF, PA Rating, and Skin Type.",
+      "layout": "card selector view",
+      "devices": [
+        "numbered cards"
+      ]
+    },
+    {
+      "approx_start": 20.0,
+      "approx_end": 35.0,
+      "description": "Product showcase montage, skin cross-section graphic for UVB/sunburn, and SPF range slider.",
+      "layout": "mixed frame montage and diagram",
+      "devices": [
+        "3D skin cross-section",
+        "product cards",
+        "range slider"
+      ]
+    },
+    {
+      "approx_start": 35.0,
+      "approx_end": 51.0,
+      "description": "Deep dive on PA Rating showing UVA skin penetration diagram, plus rating indicator visual.",
+      "layout": "diagram and product overlay",
+      "devices": [
+        "animated ray diagram",
+        "text highlight box",
+        "multi-level bar chart"
+      ]
+    },
+    {
+      "approx_start": 51.0,
+      "approx_end": 64.0,
+      "description": "Skin texture comparison (Oily, Dry, Sweaty) followed by targeted product recommendations.",
+      "layout": "3-column skin texture comparison with product overlays",
+      "devices": [
+        "texture panels",
+        "product floating cards"
+      ]
+    },
+    {
+      "approx_start": 64.0,
+      "approx_end": 66.2,
+      "description": "Male grooming routine montage ending on call to action.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "caption overlay"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "split-screen slider",
+      "what_it_is": "A vertical dividing line comparing two states of a face.",
+      "used_for": "Demonstrating before-and-after sun aging impact."
+    },
+    {
+      "name": "Fitzpatrick scale diagram",
+      "what_it_is": "A visual classification chart of skin types I to VI.",
+      "used_for": "Categorizing Indian skin types and UV sensitivity."
+    },
+    {
+      "name": "callout zooms",
+      "what_it_is": "Square magnified cutouts showing skin details.",
+      "used_for": "Highlighting pigmentation and aging signs."
+    },
+    {
+      "name": "3D skin cross-section",
+      "what_it_is": "Anatomy diagram of skin layers under light rays.",
+      "used_for": "Explaining depth of UVA and UVB ray damage."
+    },
+    {
+      "name": "numbered cards",
+      "what_it_is": "3D styled menu cards labeled 01, 02, 03.",
+      "used_for": "Structuring the video into clear educational steps."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "SunAgeing"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "caption",
+      "text": "Men, 80% of your visible facial aging can actually come from the sun."
+    },
+    {
+      "approx_t": 4.0,
+      "track": "chart",
+      "text": "Fitzpatrick scale"
+    },
+    {
+      "approx_t": 4.2,
+      "track": "label",
+      "text": "SKIN TYPE"
+    },
+    {
+      "approx_t": 4.5,
+      "track": "chip",
+      "text": "TYPE I"
+    },
+    {
+      "approx_t": 4.8,
+      "track": "chip",
+      "text": "TYPE II"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "chip",
+      "text": "TYPE III"
+    },
+    {
+      "approx_t": 5.2,
+      "track": "chip",
+      "text": "TYPE IV"
+    },
+    {
+      "approx_t": 5.5,
+      "track": "chip",
+      "text": "TYPE V"
+    },
+    {
+      "approx_t": 5.8,
+      "track": "chip",
+      "text": "TYPE VI"
+    },
+    {
+      "approx_t": 6.5,
+      "track": "label",
+      "text": "UV SENSITIVE :"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chart",
+      "text": "BURN"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chart",
+      "text": "PIGMENT"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "label",
+      "text": "AGE"
+    },
+    {
+      "approx_t": 13.5,
+      "track": "label",
+      "text": "PIGMENT"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "ui",
+      "text": "01 SPF"
+    },
+    {
+      "approx_t": 18.5,
+      "track": "ui",
+      "text": "02 PA RATING"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "ui",
+      "text": "03 SKIN TYPE"
+    },
+    {
+      "approx_t": 27.0,
+      "track": "label",
+      "text": "UVB"
+    },
+    {
+      "approx_t": 28.0,
+      "track": "label",
+      "text": "SUNBURN"
+    },
+    {
+      "approx_t": 36.5,
+      "track": "ui",
+      "text": "02 PA RATING"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "chip",
+      "text": "PA++++"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "UVA"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "label",
+      "text": "PENETRATES DEEPER"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "label",
+      "text": "PREMATURE AGEING"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "chart",
+      "text": "PA+"
+    },
+    {
+      "approx_t": 47.5,
+      "track": "chart",
+      "text": "PA++"
+    },
+    {
+      "approx_t": 48.0,
+      "track": "chart",
+      "text": "PA+++"
+    },
+    {
+      "approx_t": 48.5,
+      "track": "chart",
+      "text": "PA++++"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "ui",
+      "text": "03 SKIN TYPE"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "headline",
+      "text": "Skin Types"
+    },
+    {
+      "approx_t": 54.2,
+      "track": "label",
+      "text": "OILY"
+    },
+    {
+      "approx_t": 54.5,
+      "track": "label",
+      "text": "DRY"
+    },
+    {
+      "approx_t": 54.8,
+      "track": "label",
+      "text": "SWEATY"
+    },
+    {
+      "approx_t": 64.0,
+      "track": "caption",
+      "text": "Follow for more rituals for men"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Men, 80% of your visible facial aging can actually come from the sun."
+    },
+    {
+      "approx_t": 4.0,
+      "text": "This is the Fitzpatrick scale. It shows how easily a skin type burns and tans, and most Indians are type 4 and 5."
+    },
+    {
+      "approx_t": 11.0,
+      "text": "So you tend to burn less, but age and pigment more easily, which means a sunscreen can be the most effective anti-ageing product you can own."
+    },
+    {
+      "approx_t": 18.0,
+      "text": "And here's how you should pick one. First, SPF."
+    },
+    {
+      "approx_t": 21.0,
+      "text": "Most of us buy sunscreen by looking at SPF, but it's not really the most important thing. It protects you from UVB, which is responsible for sunburn. But Indians don't really sunburn easily, so a range of 30 to 50 SPF is honestly enough."
+    },
+    {
+      "approx_t": 35.5,
+      "text": "Second, PA rating."
+    },
+    {
+      "approx_t": 37.0,
+      "text": "PA on the other hand is actually more important. It protects you from UVA rays, which penetrates deeper into the skin and is responsible for premature ageing. The more plus signs next to PA, the stronger the protection. So look for PA++++."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "And finally, your skin type."
+    },
+    {
+      "approx_t": 54.0,
+      "text": "If you have oily skin, go for a lightweight gel, fluid or matte sunscreen. If you have dry skin, go for a moisturising option. And if you sweat heavily, look for water resistance."
+    },
+    {
+      "approx_t": 64.0,
+      "text": "Follow for more rituals for men."
+    }
+  ],
+  "narrative_arc": [
+    "Problem highlight: Sun causes 80% of male skin aging.",
+    "Scientific context: Fitzpatrick scale explains Indian skin characteristics.",
+    "Criterion 1 (SPF): Why 30-50 SPF is sufficient for non-burning skin.",
+    "Criterion 2 (PA Rating): Why PA++++ is critical against deep UVA aging.",
+    "Criterion 3 (Skin Type): Product recommendations for oily, dry, and sweaty skin.",
+    "Call to Action: Follow for more male grooming advice."
+  ],
+  "cta": {
+    "approx_t": 64.0,
+    "what": "Follow for more rituals for men"
+  },
+  "subjects": [
+    "Male model with curly hair demonstrating aging effects and skin care routines"
+  ],
+  "what_makes_it_work": [
+    "Combines visual scientific diagrams with simple actionable advice.",
+    "Addresses specific skin needs of the target demographic using recognized medical scales.",
+    "Clear 3-step structured breakdown keeps information easy to follow."
+  ],
+  "animations": [
+    {
+      "name": "Split Aging Face Slider",
+      "approx_t": 0.5,
+      "what_moves": "A vertical divider line sweeps across the face, revealing aged skin texture on the right side.",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Subtle zoom on the face portrait",
+      "purpose": "Demonstrates sun damage impact visually on the same face.",
+      "reusable_as": "Before-and-after skin treatment or cosmetic comparisons.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Fitzpatrick Scale List Stagger",
+      "approx_t": 4.5,
+      "what_moves": "Horizontal skin type bars (Type I to Type VI) slide in and stack vertically.",
+      "motion": "stagger",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Text label overlay fade-in",
+      "purpose": "Introduces standard dermatological skin type classifications sequentially.",
+      "reusable_as": "Displaying categorized options, color swatches, or scale levels.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "UV Sensitivity Gauge Pointer",
+      "approx_t": 7.0,
+      "what_moves": "A indicator arrow slides along a vertical gradient bar showing UV sensitivity.",
+      "motion": "translate",
+      "direction": "down",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Highlight box around Type IV/V",
+      "purpose": "Connects skin scale classifications to UV vulnerability level.",
+      "reusable_as": "Rating indicators, gauge meters, or parameter sliders.",
+      "we_already_have": null,
+      "would_need_building": "Animated slider pointer moving along a color scale bar."
+    },
+    {
+      "name": "Callout Badge Pop",
+      "approx_t": 12.5,
+      "what_moves": "Zoomed skin texture thumbnail cards pop in with dashed connector lines.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "Line draw effect",
+      "purpose": "Highlights specific skin concerns (pigmentation and aging) on face area.",
+      "reusable_as": "Product feature callouts or anatomical detail overlays.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Step Selection Stack Deck",
+      "approx_t": 18.0,
+      "what_moves": "Three numbered criteria cards dynamic shuffle into focal position.",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Card scale and depth elevation shift",
+      "purpose": "Establishes a 3-step decision framework for product selection.",
+      "reusable_as": "Step-by-step tutorial cards or feature comparison carousels.",
+      "we_already_have": null,
+      "would_need_building": "3D overlapping stack carousel transition component."
+    },
+    {
+      "name": "UV Ray Penetration Diagram",
+      "approx_t": 26.5,
+      "what_moves": "Red directional ray lines extend downward into skin layers, spawning a glowing heat zone.",
+      "motion": "draw-on",
+      "direction": "down",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": "Text tag pop-in 'SUNBURN'",
+      "purpose": "Explains anatomical mechanism of UVB light damage on epidermis.",
+      "reusable_as": "Illustrating depth absorption or particle impact vectors.",
+      "we_already_have": null,
+      "would_need_building": "Ray vector drawing with animated hit-point flare effect."
+    },
+    {
+      "name": "SPF Range Target Bar",
+      "approx_t": 32.5,
+      "what_moves": "A target range segment highlights along a horizontal numerical scale bar.",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Text label update",
+      "purpose": "Recommends exact SPF range for target demographic.",
+      "reusable_as": "Dosage recommendations or target numerical range indicators.",
+      "we_already_have": null,
+      "would_need_building": "Horizontal range highlight bar animator."
+    },
+    {
+      "name": "PA Protection Depth Beams",
+      "approx_t": 47.0,
+      "what_moves": "Four vertical color rating beams drop down into skin cross-section at varying depths.",
+      "motion": "translate",
+      "direction": "down",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Top label pop-ins (PA+ to PA++++)",
+      "purpose": "Visually maps PA rating strength to depth of radiation blockage.",
+      "reusable_as": "Layer penetration depth charts or shield effectiveness meters.",
+      "we_already_have": null,
+      "would_need_building": "Multi-column penetration depth chart with staggered fill animations."
+    },
+    {
+      "name": "Skin Texture Split Panel",
+      "approx_t": 54.0,
+      "what_moves": "Three vertical texture swatch panels expand into place side-by-side.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Text label reveals above panels",
+      "purpose": "Categorizes skin types (Oily, Dry, Sweaty) by surface visual characteristics.",
+      "reusable_as": "Material texture comparisons or side-by-side condition displays.",
+      "we_already_have": null,
+      "would_need_building": "3-column comparative texture grid expander."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Split-screen comparison wipe",
+      "Interactive diagram vector draw-ons",
+      "Layered parameter range sliders",
+      "Stacked selection card flips"
+    ],
+    "how_things_enter": "Elements scale up springily or slide into frame along vertical/horizontal axes.",
+    "how_things_leave": "Quick fade out or sliding off-screen to clear frame.",
+    "how_scenes_change": "Direct hard cuts coupled with visual overlay card pops.",
+    "what_stays_still": "Central portrait subjects and main background canvas.",
+    "rhythm": "Fast-paced, highly informative pulse with visuals changing every 1-2 seconds."
+  },
+  "what_we_should_steal": [
+    "Anatomical skin cross-section light penetration diagram with ray draw-ons",
+    "Interactive age comparison slider wipe on human facial portraits",
+    "Multi-tier PA depth protection bar chart overlay",
+    "3D stacked card deck transition for multi-step selection logic"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Title and subject appear",
+      "element": "SunAgeing text and male model face",
+      "motion": "fade",
+      "content": "SunAgeing"
+    },
+    {
+      "approx_t": 0.5,
+      "event": "Split slider wipes across face showing age progression",
+      "element": "Interactive comparison slider",
+      "motion": "translate",
+      "content": "Aged skin comparison slider"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Transition to Fitzpatrick scale title",
+      "element": "Header text",
+      "motion": "fade",
+      "content": "Fitzpatrick scale"
+    },
+    {
+      "approx_t": 4.2,
+      "event": "Skin type subheader appears",
+      "element": "Subheader text",
+      "motion": "fade",
+      "content": "SKIN TYPE"
+    },
+    {
+      "approx_t": 4.5,
+      "event": "Type I card appears",
+      "element": "Skin type option card",
+      "motion": "translate",
+      "content": "TYPE I"
+    },
+    {
+      "approx_t": 4.8,
+      "event": "Type II card appears",
+      "element": "Skin type option card",
+      "motion": "translate",
+      "content": "TYPE II"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Type III card appears",
+      "element": "Skin type option card",
+      "motion": "translate",
+      "content": "TYPE III"
+    },
+    {
+      "approx_t": 5.2,
+      "event": "Type IV card appears",
+      "element": "Skin type option card",
+      "motion": "translate",
+      "content": "TYPE IV"
+    },
+    {
+      "approx_t": 5.5,
+      "event": "Type V card appears",
+      "element": "Skin type option card",
+      "motion": "translate",
+      "content": "TYPE V"
+    },
+    {
+      "approx_t": 5.8,
+      "event": "Type VI card appears",
+      "element": "Skin type option card",
+      "motion": "translate",
+      "content": "TYPE VI"
+    },
+    {
+      "approx_t": 6.5,
+      "event": "UV Sensitivity scale bar slides in",
+      "element": "Vertical scale indicator",
+      "motion": "translate",
+      "content": "UV SENSITIVE :"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Slider highlights Type IV and V",
+      "element": "Scale pointer arrow",
+      "motion": "translate",
+      "content": "Types IV & V highlight"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Cut to face with Burn-Pigment scale bar",
+      "element": "Horizontal spectrum bar",
+      "motion": "fade",
+      "content": "BURN / PIGMENT"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Age callout card pops up",
+      "element": "Forehead overlay box",
+      "motion": "scale",
+      "content": "AGE"
+    },
+    {
+      "approx_t": 13.5,
+      "event": "Pigment callout card pops up",
+      "element": "Cheek overlay box",
+      "motion": "scale",
+      "content": "PIGMENT"
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Sunscreen product tube drops in",
+      "element": "3D bottle graphic",
+      "motion": "translate",
+      "content": "Sunscreen bottle"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Card 01 SPF slides into center",
+      "element": "Selection card 01",
+      "motion": "translate",
+      "content": "01 SPF"
+    },
+    {
+      "approx_t": 18.5,
+      "event": "Card 02 PA Rating slides in",
+      "element": "Selection card 02",
+      "motion": "translate",
+      "content": "02 PA RATING"
+    },
+    {
+      "approx_t": 19.0,
+      "event": "Card 03 Skin Type slides in",
+      "element": "Selection card 03",
+      "motion": "translate",
+      "content": "03 SKIN TYPE"
+    },
+    {
+      "approx_t": 20.0,
+      "event": "01 SPF card enlarges to full focus",
+      "element": "Selection card 01",
+      "motion": "scale",
+      "content": "01 SPF"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Show Deconstruct sunscreen product reel",
+      "element": "Product video",
+      "motion": "cut",
+      "content": "Deconstruct Gel Sunscreen"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Show Garnier sunscreen product",
+      "element": "Product shot",
+      "motion": "cut",
+      "content": "Garnier Super UV"
+    },
+    {
+      "approx_t": 24.0,
+      "event": "Show application of sunscreen on skin",
+      "element": "User video clip",
+      "motion": "cut",
+      "content": "Sunscreen demo"
+    },
+    {
+      "approx_t": 26.0,
+      "event": "Skin layer diagram appears with UVB tag",
+      "element": "Anatomical cross section diagram",
+      "motion": "fade",
+      "content": "UVB badge"
+    },
+    {
+      "approx_t": 27.0,
+      "event": "UVB rays strike skin surface",
+      "element": "Ray graphic animation",
+      "motion": "translate",
+      "content": "UVB Ray animation"
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Sunburn text badge appears on skin surface",
+      "element": "Callout badge",
+      "motion": "fade",
+      "content": "SUNBURN"
+    },
+    {
+      "approx_t": 30.0,
+      "event": "Cut to beach volleyball video clip",
+      "element": "Live action clip",
+      "motion": "cut",
+      "content": "Beach volleyball players"
+    },
+    {
+      "approx_t": 32.0,
+      "event": "La Roche-Posay bottle with SPF slider range",
+      "element": "Product photo with slider overlay",
+      "motion": "fade",
+      "content": "30-50 SPF range"
+    },
+    {
+      "approx_t": 35.5,
+      "event": "Return to card selection, highlighting 02 PA Rating",
+      "element": "Selection card 02",
+      "motion": "scale",
+      "content": "02 PA RATING"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Re'equil sunscreen tube image appears",
+      "element": "Product photo",
+      "motion": "cut",
+      "content": "Re'equil Sunscreen"
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Zoom in on PA++++ label on product",
+      "element": "Highlighted text overlay",
+      "motion": "scale",
+      "content": "PA++++"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Skin diagram appears with UVA badge",
+      "element": "Anatomical cross section diagram",
+      "motion": "fade",
+      "content": "UVA badge"
+    },
+    {
+      "approx_t": 41.0,
+      "event": "UVA rays penetrate deep into dermis layer",
+      "element": "Ray graphic animation",
+      "motion": "translate",
+      "content": "UVA Ray penetration"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Penetrates Deeper label appears",
+      "element": "Callout text",
+      "motion": "fade",
+      "content": "PENETRATES DEEPER"
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Cut to male model face",
+      "element": "Model portrait",
+      "motion": "fade",
+      "content": "Premature ageing demo"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Premature Ageing label appears below face",
+      "element": "Overlay text",
+      "motion": "fade",
+      "content": "PREMATURE AGEING"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "PA+ protection column appears on skin diagram",
+      "element": "Red depth bar",
+      "motion": "mask-reveal",
+      "content": "PA+"
+    },
+    {
+      "approx_t": 47.5,
+      "event": "PA++ protection column appears",
+      "element": "Orange depth bar",
+      "motion": "mask-reveal",
+      "content": "PA++"
+    },
+    {
+      "approx_t": 48.0,
+      "event": "PA+++ protection column appears",
+      "element": "Yellow depth bar",
+      "motion": "mask-reveal",
+      "content": "PA+++"
+    },
+    {
+      "approx_t": 48.5,
+      "event": "PA++++ protection column appears",
+      "element": "Green depth bar",
+      "motion": "mask-reveal",
+      "content": "PA++++"
+    },
+    {
+      "approx_t": 50.0,
+      "event": "Product tube with magnified PA++++ graphic",
+      "element": "Product visual with badge",
+      "motion": "scale",
+      "content": "PA++++ highlight"
+    },
+    {
+      "approx_t": 52.0,
+      "event": "Return to card menu, focus on 03 Skin Type",
+      "element": "Selection card 03",
+      "motion": "scale",
+      "content": "03 SKIN TYPE"
+    },
+    {
+      "approx_t": 54.0,
+      "event": "Skin Types main title appears",
+      "element": "Header text",
+      "motion": "fade",
+      "content": "Skin Types"
+    },
+    {
+      "approx_t": 54.2,
+      "event": "Oily texture panel appears",
+      "element": "Skin texture column",
+      "motion": "fade",
+      "content": "OILY"
+    },
+    {
+      "approx_t": 54.5,
+      "event": "Dry texture panel appears",
+      "element": "Skin texture column",
+      "motion": "fade",
+      "content": "DRY"
+    },
+    {
+      "approx_t": 54.8,
+      "event": "Sweaty texture panel appears",
+      "element": "Skin texture column",
+      "motion": "fade",
+      "content": "SWEATY"
+    },
+    {
+      "approx_t": 55.0,
+      "event": "Show Deconstruct Gel product for oily skin",
+      "element": "Product bottle",
+      "motion": "translate",
+      "content": "Deconstruct Lightweight Gel Sunscreen"
+    },
+    {
+      "approx_t": 56.0,
+      "event": "Show Natio Sun fluid product",
+      "element": "Product bottle",
+      "motion": "translate",
+      "content": "Natio Sun Invisible Fluid"
+    },
+    {
+      "approx_t": 57.0,
+      "event": "Show Derma Co Ultra Matte product",
+      "element": "Product tube",
+      "motion": "translate",
+      "content": "Derma Co Ultra Matte"
+    },
+    {
+      "approx_t": 59.0,
+      "event": "Highlight dry skin texture panel",
+      "element": "Texture column highlight",
+      "motion": "scale",
+      "content": "DRY"
+    },
+    {
+      "approx_t": 60.0,
+      "event": "Show Juicy Chemistry moisturising sunscreen",
+      "element": "Product tube",
+      "motion": "translate",
+      "content": "Juicy Chemistry Moisturising Sunscreen"
+    },
+    {
+      "approx_t": 62.0,
+      "event": "Highlight sweaty skin texture panel",
+      "element": "Texture column highlight",
+      "motion": "scale",
+      "content": "SWEATY"
+    },
+    {
+      "approx_t": 63.0,
+      "event": "Show Cl Clinic 89 water resistant sunscreen",
+      "element": "Product tube",
+      "motion": "translate",
+      "content": "Cl Clinic 89 Water Resistant"
+    },
+    {
+      "approx_t": 64.0,
+      "event": "Outro shot of male grooming with call to action text",
+      "element": "Video clip & text overlay",
+      "motion": "fade",
+      "content": "Follow for more rituals for men"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.6-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": true,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-21.mp4",
+    "tokens": {
+      "animation": 9660,
+      "content": 11297
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

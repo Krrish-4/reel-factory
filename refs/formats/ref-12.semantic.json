@@ -1,0 +1,763 @@
+{
+  "format_archetype": "educational explainer",
+  "one_line": "This video explains how to enhance the eye area's attractiveness using eye drops for clarity and strategic eyebrow shaping to adjust perceived tilt, spacing, and symmetry.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Rapidly cycles through celebrity faces with an 'EYE AREA' bounding box overlay, stating that the eye area makes or breaks a face.",
+    "why_it_works": "Leverages familiar celebrity faces and a scientific-looking overlay to immediately capture attention and establish authority."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 6.0,
+      "description": "Rapid montage of celebrity faces with a bounding box highlighting their eye area.",
+      "layout": "full-bleed portrait with graphic overlays",
+      "devices": [
+        "bounding box overlay",
+        "text labels"
+      ]
+    },
+    {
+      "approx_start": 6.0,
+      "approx_end": 25.0,
+      "description": "Explains Step 1 (clarity and contrast) using a contrast slider overlay, stacked eye images, and clips of people using eye drops.",
+      "layout": "split screen and stacked image slices",
+      "devices": [
+        "interactive slider UI",
+        "text chips",
+        "stacked image slices"
+      ]
+    },
+    {
+      "approx_start": 25.0,
+      "approx_end": 52.0,
+      "description": "Explains Step 2 (brow shaping) showing how brows affect canthal tilt, spacing, and asymmetry with dotted lines and arrows.",
+      "layout": "full-bleed portrait with vector overlays",
+      "devices": [
+        "dotted alignment lines",
+        "directional arrows",
+        "text labels"
+      ]
+    },
+    {
+      "approx_start": 52.0,
+      "approx_end": 57.0,
+      "description": "Shows a face with complex HUD-style analytical overlays representing facial metrics.",
+      "layout": "analytical HUD overlay",
+      "devices": [
+        "graphs",
+        "data readouts",
+        "bounding boxes"
+      ]
+    },
+    {
+      "approx_start": 57.0,
+      "approx_end": 60.7,
+      "description": "Minimalist outro with a search bar pointing to the brand's website.",
+      "layout": "centered UI mockup",
+      "devices": [
+        "search bar graphic"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "EYE AREA Bounding Box",
+      "what_it_is": "A minimalist white corner-bracket frame.",
+      "used_for": "Directing viewer focus to the specific facial region being discussed."
+    },
+    {
+      "name": "Contrast Slider",
+      "what_it_is": "An interactive-looking UI slider bar showing contrast values.",
+      "used_for": "Visually demonstrating the concept of sclera contrast and eye brightness."
+    },
+    {
+      "name": "Alignment Overlays",
+      "what_it_is": "Dotted lines, curves, and arrows overlaid on eyebrows and eyes.",
+      "used_for": "Illustrating geometric concepts like canthal tilt, spacing, and asymmetry."
+    },
+    {
+      "name": "HUD Analytics",
+      "what_it_is": "A complex overlay of charts, graphs, and digital readouts.",
+      "used_for": "Conveying a highly scientific, data-driven approach to facial aesthetics."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "The eye area can make or break a face"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "EYE AREA"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "ANNE HATHAWAY, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "JUSTIN BIEBER, CANADIAN SINGER"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "ZENDAYA, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "DAVID CORENSWET, AMERICAN ACTOR"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "label",
+      "text": "KENDALL JENNER, AMERICAN MODEL"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "label",
+      "text": "JACOB ELORDI, AUSTRALIAN ACTOR"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "2 STEPS"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "STEP 1"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "ui",
+      "text": "CONTRAST"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "CLARITY"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "CONTRAST"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "caption",
+      "text": "The eyes will look tired and less healthy"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "caption",
+      "text": "Simply using preservative free eye drops"
+    },
+    {
+      "approx_t": 26.0,
+      "track": "caption",
+      "text": "Framing your eyes correctly"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "label",
+      "text": "NEGATIVE CANTHAL TILT"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "label",
+      "text": "TILTED UPWARDS"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "caption",
+      "text": "Brows can also help fix spacing"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "label",
+      "text": "CLOSE-SET EYES"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "label",
+      "text": "WIDE-SET EYES"
+    },
+    {
+      "approx_t": 46.0,
+      "track": "caption",
+      "text": "You can use your brows to even out asymmetries"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "label",
+      "text": "ASYMMETRICAL EYES"
+    },
+    {
+      "approx_t": 51.0,
+      "track": "label",
+      "text": "VISUALLY LEVELS THEM"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chart",
+      "text": "CANTHAL TILT"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chart",
+      "text": "BROW AREA THICKNESS"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chart",
+      "text": "LOWER ORBITAL HEIGHT TO EYE WIDTH RATIO"
+    },
+    {
+      "approx_t": 58.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "The eye area can make or break a face."
+    },
+    {
+      "approx_t": 2.5,
+      "text": "Here are two simple steps with the highest return to naturally improve it."
+    },
+    {
+      "approx_t": 6.0,
+      "text": "Step one is that most people only focus on the eye color,"
+    },
+    {
+      "approx_t": 8.5,
+      "text": "but there's something equally important that makes eyes look attractive: clarity and contrast."
+    },
+    {
+      "approx_t": 13.5,
+      "text": "It doesn't matter if your eyes are blue, green, or brown."
+    },
+    {
+      "approx_t": 16.0,
+      "text": "If your sclera looks yellow or red, the eyes will look tired and less healthy."
+    },
+    {
+      "approx_t": 20.0,
+      "text": "That's why one of the oldest tricks is simply using preservative-free eye drops to keep your eyes hydrated and clear."
+    },
+    {
+      "approx_t": 25.5,
+      "text": "The second step is to frame your eyes correctly."
+    },
+    {
+      "approx_t": 27.5,
+      "text": "Brow shape can heavily influence the perceived tilt of the eyes."
+    },
+    {
+      "approx_t": 30.5,
+      "text": "If your canthal tilt is neutral or negative, lifting the outer third of your brow visually extends the tilt upwards."
+    },
+    {
+      "approx_t": 36.0,
+      "text": "Brows can also help fix spacing."
+    },
+    {
+      "approx_t": 38.5,
+      "text": "If your eyes sit too close, trimming the inner ends widens the gap."
+    },
+    {
+      "approx_t": 41.0,
+      "text": "If they sit too far apart, growing the inner ends inwards tightens it."
+    },
+    {
+      "approx_t": 45.0,
+      "text": "And finally, you can use your brows to even out asymmetries."
+    },
+    {
+      "approx_t": 47.5,
+      "text": "For example, if one eye sits lower than the other, shaping that brow slightly higher visually levels them."
+    },
+    {
+      "approx_t": 52.5,
+      "text": "There are dozens of small signals like these that are shaping how your face is perceived."
+    },
+    {
+      "approx_t": 56.5,
+      "text": "We break down all of them over at Qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Hook: Establish the critical importance of the eye area using celebrity examples.",
+    "Step 1: Introduce eye clarity and contrast, offering a simple solution (eye drops).",
+    "Step 2: Explain brow shaping techniques to correct tilt, spacing, and asymmetry.",
+    "Outro: Tease deeper scientific analysis and drive traffic to the website."
+  ],
+  "cta": {
+    "approx_t": 57.0,
+    "what": "Visit Qoves.com to learn more about facial aesthetics."
+  },
+  "subjects": [
+    {
+      "name": "Anne Hathaway",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Justin Bieber",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Zendaya",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "David Corenswet",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Kendall Jenner",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Jacob Elordi",
+      "role": "Celebrity example"
+    }
+  ],
+  "what_makes_it_work": [
+    "High-quality, clean graphic design with a consistent muted blue-grey color palette.",
+    "Actionable, easy-to-understand tips backed by visual demonstrations rather than just theory.",
+    "Use of precise, scientific-looking UI overlays that elevate the brand's authority."
+  ],
+  "animations": [
+    {
+      "name": "Face Montage Transition",
+      "approx_t": 0.0,
+      "what_moves": "Full-screen celebrity portraits",
+      "motion": "translate",
+      "direction": "right-to-left",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Text fade-ins",
+      "purpose": "Establishes the hook by showing diverse examples of the eye area.",
+      "reusable_as": "Transitioning between different case studies or product examples.",
+      "we_already_have": "PushWipe",
+      "would_need_building": null
+    },
+    {
+      "name": "Eye Area Brackets",
+      "approx_t": 0.0,
+      "what_moves": "Corner bracket graphics framing the eyes",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Face montage",
+      "purpose": "Directs viewer attention specifically to the eye region.",
+      "reusable_as": "Highlighting specific features on a product or face.",
+      "we_already_have": "TrimPath",
+      "would_need_building": null
+    },
+    {
+      "name": "Step Indicator",
+      "approx_t": 6.0,
+      "what_moves": "Numbered step bubble",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": false,
+      "layered_with": "Portrait slide-in",
+      "purpose": "Signals transition to the first actionable tip.",
+      "reusable_as": "Any multi-step tutorial or listicle sequence.",
+      "we_already_have": "StepPill",
+      "would_need_building": null
+    },
+    {
+      "name": "UI Slider Control",
+      "approx_t": 8.0,
+      "what_moves": "Contrast slider handle and value indicator",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": "Image contrast adjustment",
+      "purpose": "Simulates real-time adjustment of image contrast and clarity.",
+      "reusable_as": "Demonstrating software settings, photo editing, or tuning parameters.",
+      "we_already_have": null,
+      "would_need_building": "Interactive UI slider component that binds its value to an image filter effect."
+    },
+    {
+      "name": "Stacked Eye Crops",
+      "approx_t": 14.0,
+      "what_moves": "Cropped rectangular eye images",
+      "motion": "translate",
+      "direction": "downward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Background portrait swap",
+      "purpose": "Compares eye clarity across different individuals rapidly.",
+      "reusable_as": "Comparing specific details of multiple items in a stack.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Dotted Brow Guides",
+      "approx_t": 28.0,
+      "what_moves": "Dotted lines tracing eyebrow shapes",
+      "motion": "draw-on",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Text labels",
+      "purpose": "Illustrates the tilt and shape of the eyebrows relative to the eyes.",
+      "reusable_as": "Tracing paths, alignments, or measurements on an image.",
+      "we_already_have": "DottedDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Asymmetry Adjustment",
+      "approx_t": 49.0,
+      "what_moves": "One eyebrow graphic and guide line",
+      "motion": "translate",
+      "direction": "upward",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Static portrait",
+      "purpose": "Demonstrates how raising one brow visually balances facial asymmetry.",
+      "reusable_as": "Showing before/after alignment corrections.",
+      "we_already_have": null,
+      "would_need_building": "A split-layer translation tool to shift specific regions of an image independently."
+    },
+    {
+      "name": "HUD Analysis Overlay",
+      "approx_t": 53.0,
+      "what_moves": "Data charts, scanning lines, and facial grid overlays",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "floaty",
+      "staggered": true,
+      "layered_with": "Fast face montage",
+      "purpose": "Conveys a scientific, analytical approach to facial aesthetics.",
+      "reusable_as": "Tech-themed product demos, diagnostics, or scanning sequences.",
+      "we_already_have": null,
+      "would_need_building": "A complex sci-fi HUD overlay package with animated line graphs and grid sweeps."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Horizontal face-swipe transitions",
+      "Dotted guide-line draw-ons",
+      "Stacked image comparisons"
+    ],
+    "how_things_enter": "Elements slide in from the edges or scale up with a slight spring bounce.",
+    "how_things_leave": "Elements are typically replaced by the next sliding panel or fade out quickly.",
+    "how_scenes_change": "Clean horizontal push wipes or direct cuts between high-contrast portraits.",
+    "what_stays_still": "The muted blue-grey background color and central portrait alignment.",
+    "rhythm": "Highly structured and educational, alternating between steady explanations and rapid visual proof stacks."
+  },
+  "what_we_should_steal": [
+    "UI Slider Control: Great for showing real-time adjustments or before/after comparisons.",
+    "Dotted Brow Guides: Highly effective for technical callouts and anatomical alignments.",
+    "Stacked Eye Crops: A clean way to show multiple variations of a single feature simultaneously."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Initial scene display",
+      "element": "Anne Hathaway's face and text",
+      "motion": "none",
+      "content": "The eye area can make or break a face, EYE AREA, ANNE HATHAWAY, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Slide transition to Justin Bieber",
+      "element": "Justin Bieber's face and text",
+      "motion": "translate",
+      "content": "JUSTIN BIEBER, CANADIAN SINGER"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Slide transition to Zendaya",
+      "element": "Zendaya's face and text",
+      "motion": "translate",
+      "content": "ZENDAYA, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Slide transition to David Corenswet",
+      "element": "David Corenswet's face and text",
+      "motion": "translate",
+      "content": "DAVID CORENSWET, AMERICAN ACTOR"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Slide transition to Kendall Jenner",
+      "element": "Kendall Jenner's face and text",
+      "motion": "translate",
+      "content": "KENDALL JENNER, AMERICAN MODEL"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Slide transition to Jacob Elordi",
+      "element": "Jacob Elordi's face and text",
+      "motion": "translate",
+      "content": "JACOB ELORDI, AUSTRALIAN ACTOR"
+    },
+    {
+      "approx_t": 6.0,
+      "event": "Slide transition to Step 1",
+      "element": "Female face and step indicators",
+      "motion": "translate",
+      "content": "2 STEPS, STEP 1"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Contrast slider appearance",
+      "element": "Contrast slider UI",
+      "motion": "fade",
+      "content": "CONTRAST"
+    },
+    {
+      "approx_t": 9.0,
+      "event": "Contrast slider value change",
+      "element": "Slider handle and eye contrast",
+      "motion": "translate",
+      "content": "Contrast value increases from 36 to 90"
+    },
+    {
+      "approx_t": 12.0,
+      "event": "Clarity and Contrast buttons appearance",
+      "element": "Buttons",
+      "motion": "fade",
+      "content": "CLARITY, CONTRAST"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Cropped eye comparison images slide in",
+      "element": "Cropped eye images",
+      "motion": "translate",
+      "content": "Eye comparison"
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Slide transition to male face",
+      "element": "Male face",
+      "motion": "translate",
+      "content": "Male face with blue eyes"
+    },
+    {
+      "approx_t": 15.0,
+      "event": "First cropped eye overlay slides down",
+      "element": "Cropped eye image",
+      "motion": "translate",
+      "content": "Eye overlay"
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Second cropped eye overlay slides down",
+      "element": "Cropped eye image",
+      "motion": "translate",
+      "content": "Eye overlay"
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Third cropped eye overlay slides down",
+      "element": "Cropped eye image",
+      "motion": "translate",
+      "content": "Eye overlay"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Text appearance",
+      "element": "Text block",
+      "motion": "fade",
+      "content": "The eyes will look tired and less healthy"
+    },
+    {
+      "approx_t": 19.0,
+      "event": "Contrast slider appearance on cropped eyes",
+      "element": "Contrast slider UI",
+      "motion": "fade",
+      "content": "CONTRAST"
+    },
+    {
+      "approx_t": 20.0,
+      "event": "Contrast slider value change",
+      "element": "Slider handle and eye contrast",
+      "motion": "translate",
+      "content": "Contrast value changes"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Text appearance",
+      "element": "Text block",
+      "motion": "fade",
+      "content": "Simply using preservative free eye drops"
+    },
+    {
+      "approx_t": 21.5,
+      "event": "Eye drop application images slide in",
+      "element": "Images of eye drop usage",
+      "motion": "translate",
+      "content": "Eye drop usage"
+    },
+    {
+      "approx_t": 22.0,
+      "event": "Eye drop bottle icon animation",
+      "element": "Eye drop bottle icon and droplet",
+      "motion": "translate",
+      "content": "Droplet falling"
+    },
+    {
+      "approx_t": 24.0,
+      "event": "Contrast slider value increases",
+      "element": "Slider handle and eye contrast",
+      "motion": "translate",
+      "content": "Contrast value increases to 93"
+    },
+    {
+      "approx_t": 25.0,
+      "event": "Slide transition to Step 2",
+      "element": "Male face and text",
+      "motion": "translate",
+      "content": "Framing your eyes correctly"
+    },
+    {
+      "approx_t": 28.0,
+      "event": "First cropped eyebrow overlay slides down",
+      "element": "Cropped eyebrow image",
+      "motion": "translate",
+      "content": "Eyebrow overlay"
+    },
+    {
+      "approx_t": 29.0,
+      "event": "Second cropped eyebrow overlay slides down",
+      "element": "Cropped eyebrow image",
+      "motion": "translate",
+      "content": "Eyebrow overlay"
+    },
+    {
+      "approx_t": 30.0,
+      "event": "Third cropped eyebrow overlay slides down",
+      "element": "Cropped eyebrow image",
+      "motion": "translate",
+      "content": "Eyebrow overlay"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Slide transition to negative canthal tilt analysis",
+      "element": "Male face, text, and dotted lines",
+      "motion": "translate",
+      "content": "NEGATIVE CANTHAL TILT"
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Eyebrows tilt upwards animation",
+      "element": "Eyebrows and text",
+      "motion": "morph",
+      "content": "TILTED UPWARDS"
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Slide transition to close-set eyes analysis",
+      "element": "Blonde female face",
+      "motion": "translate",
+      "content": "Blonde female face"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Text and dotted lines appearance",
+      "element": "Text and lines",
+      "motion": "fade",
+      "content": "Brows can also help fix spacing, CLOSE-SET EYES"
+    },
+    {
+      "approx_t": 39.0,
+      "event": "Eyebrow trimming animation",
+      "element": "Inner ends of eyebrows",
+      "motion": "mask-reveal",
+      "content": "Eyebrows shortened"
+    },
+    {
+      "approx_t": 41.0,
+      "event": "Slide transition to wide-set eyes analysis",
+      "element": "Female face with freckles",
+      "motion": "translate",
+      "content": "Female face with freckles"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Text and dotted lines appearance",
+      "element": "Text and lines",
+      "motion": "fade",
+      "content": "WIDE-SET EYES"
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Eyebrow growth animation",
+      "element": "Inner ends of eyebrows",
+      "motion": "draw-on",
+      "content": "Eyebrows extended inwards"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Slide transition to asymmetry analysis",
+      "element": "Male face",
+      "motion": "translate",
+      "content": "Male face"
+    },
+    {
+      "approx_t": 46.0,
+      "event": "Text appearance",
+      "element": "Text block",
+      "motion": "fade",
+      "content": "You can use your brows to even out asymmetries"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Text and dotted lines appearance",
+      "element": "Text and lines",
+      "motion": "fade",
+      "content": "ASYMMETRICAL EYES"
+    },
+    {
+      "approx_t": 51.0,
+      "event": "Eyebrow leveling animation",
+      "element": "One eyebrow and text",
+      "motion": "translate",
+      "content": "VISUALLY LEVELS THEM"
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Slide transition to HUD analysis screen",
+      "element": "Male face with multiple HUD elements",
+      "motion": "translate",
+      "content": "CANTHAL TILT, BROW AREA THICKNESS, LOWER ORBITAL HEIGHT TO EYE WIDTH RATIO"
+    },
+    {
+      "approx_t": 58.0,
+      "event": "Slide transition to final search bar screen",
+      "element": "Search bar and website text",
+      "motion": "translate",
+      "content": "Qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.6-flash",
+    "degraded": true,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-12.mp4",
+    "tokens": {
+      "animation": 9444,
+      "content": 10050
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

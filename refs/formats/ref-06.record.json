@@ -1,0 +1,269 @@
+{
+  "label": "ref-06",
+  "archetype": "listicle",
+  "one_line": "An interactive guide classifying male eye shapes using Cristiano Ronaldo as a reference, ending with a shareable summary grid.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 14.5,
+  "measured": {
+    "pacing": {
+      "cuts": 0,
+      "cuts_per_min": 0.0,
+      "median_shot_s": 14.5,
+      "shortest_shot_s": 14.5,
+      "longest_shot_s": 14.5,
+      "frozen_pct": 36.6
+    },
+    "transitions": {
+      "count": 1,
+      "median_s": 1.54,
+      "spans_s": [
+        1.542
+      ]
+    },
+    "element_events": {
+      "count": 11,
+      "per_min": 45.6,
+      "median_gap_s": 0.12,
+      "frames": [
+        267,
+        270,
+        273,
+        276,
+        279,
+        282,
+        285,
+        288,
+        291,
+        294,
+        297
+      ]
+    },
+    "continuous_motion": {
+      "spans": 10,
+      "total_s": 7.65,
+      "pct_of_runtime": 52.9,
+      "median_span_s": 0.81,
+      "longest_span_s": 1.0,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        82,
+        95,
+        104
+      ],
+      "dominant_hex": "#525F68",
+      "corner_flatness": 83.28,
+      "background_drift": 16.31,
+      "flat_background": false,
+      "headline_band_frames_pct": 88.5,
+      "caption_band_frames_pct": 98.9
+    },
+    "audio": {
+      "speech_segments": 1,
+      "speech_pct": 100.0,
+      "median_phrase_s": 14.5,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 2,
+    "hard_cuts": 0,
+    "cuts_per_described_change": 0.0,
+    "pct_scene_changes_that_are_cuts": 0.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 1,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 11.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen portrait",
+      "description": "Split screen showing Cristiano Ronaldo on the left and a vertical scrolling list of 3D eye models on the right.",
+      "devices": [
+        "scrolling selector",
+        "text labels",
+        "academic citation overlay"
+      ]
+    },
+    {
+      "start_s": 11.0,
+      "start_frame": 264,
+      "end_s": 14.5,
+      "snapped_to_measured_cut": false,
+      "layout": "grid",
+      "description": "A 3x4 grid displaying all 10 eye types with their respective labels for the viewer to screenshot.",
+      "devices": [
+        "grid layout",
+        "screenshot call-to-action"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "scrolling selector",
+      "what_it_is": "A vertical carousel of 3D eye models.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "academic citation overlay",
+      "what_it_is": "A text block citing a scientific study on facial aesthetics.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "screenshot call-to-action",
+      "what_it_is": "Onscreen text prompting the user to 'SCREENSHOT & SAVE'.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "text labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "grid layout",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Cristiano Ronaldo's face is shown next to a scrolling selector of eye types under the question 'Which type are you?'.",
+    "why_it_works": "Uses a globally recognized celebrity and personal relevance to immediately hook the viewer's curiosity."
+  },
+  "narrative_arc": [
+    "Introduce the core question using a famous face.",
+    "Scroll through various eye classifications with descriptive traits.",
+    "Introduce scientific backing to validate the classifications.",
+    "Present a final summary grid encouraging user saving and sharing."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Which type are you?"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "CRISTIANO RONALDO\nPORTUGUESE FOOTBALLER"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "chip",
+      "text": "TYPE 1\nHis eyes\n\"The balanced classic\""
+    },
+    {
+      "approx_t": 0.0,
+      "track": "chip",
+      "text": "TYPE 8\nWide-set\n\"Reads soft & open\""
+    },
+    {
+      "approx_t": 1.0,
+      "track": "chip",
+      "text": "TYPE 2\nProtruding\n\"Prominent & expressive\""
+    },
+    {
+      "approx_t": 2.0,
+      "track": "chip",
+      "text": "TYPE 3\nRound\n\"Open & youthful\""
+    },
+    {
+      "approx_t": 3.0,
+      "track": "chart",
+      "text": "Attractive male faces\nAVERAGE ~6.5° VS. ~-4° BASELINE"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "citation",
+      "text": "Liu, A. S., Salles, C. A., & Sharaf, B. A. (2023). Using artificial intelligence to quantify sexual dimorphism in aesthetic faces: analysis of 100 facial points in 42 Caucasian celebrities. In Aesthetic Surgery Journal Open Forum (Vol. 5, p. ojad046). US: Oxford University Press."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "chip",
+      "text": "TYPE 4\nUpturned\n\"Positive tilt reads as more attractive\""
+    },
+    {
+      "approx_t": 5.0,
+      "track": "chip",
+      "text": "TYPE 5\nDownturned\n\"Gentle & disarming\""
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "TYPE 6\nEpicanthic folds"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "TYPE 7\nHunter\n\"Masculine & intense\""
+    },
+    {
+      "approx_t": 9.0,
+      "track": "chip",
+      "text": "TYPE 9\nClose-set\n\"Reads focused & intense\""
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "TYPE 10\nSleepy\n\"Non-chalant\""
+    },
+    {
+      "approx_t": 11.0,
+      "track": "headline",
+      "text": "SCREENSHOT & SAVE\nWhich type are you?"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "label",
+      "text": "TYPE 1 Almond | TYPE 2 Protruding | TYPE 3 Round | TYPE 4 Upturned | TYPE 5 Downturned | TYPE 6 Epicanthic folds | TYPE 7 Hunter | TYPE 8 Wide-set | TYPE 9 Close-set | TYPE 10 Sleepy"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "[Ambient piano music plays throughout]"
+    }
+  ],
+  "cta": {
+    "approx_t": 11.0,
+    "what": "Screenshot and save the eye type grid to find your type."
+  },
+  "subjects": [
+    "Cristiano Ronaldo (Portuguese Footballer, model reference)"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Leverages celebrity association to capture immediate attention.",
+    "Interactive 'self-diagnosis' format drives high viewer retention.",
+    "Scientific citation adds credibility to the aesthetic claims."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/2"
+  }
+}

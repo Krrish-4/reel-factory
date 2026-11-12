@@ -1,0 +1,56 @@
+# Asset-generation spec for Refina procedure previews.
+#
+# Every (procedure x strategy) pair is generated `count` times, then screened by
+# gen/score.py. Images are FREE on Flow (only Veo video spends credits), so the
+# cost of testing a new strategy is wall-clock, not money. Add strategies freely.
+
+source = "public/portraits/alt-before.png"   # the "before" every render edits
+model  = "nano-pro"                          # nano2 | nano-pro | image4
+aspect = "3:4"
+upscale = "2k"    # "none" | "2k" | "4k" (4k needs Flow Ultra)
+count  = 2                                   # variants per pair (1-4)
+out    = "gen/out"
+
+# --- what each procedure must change ---------------------------------------
+# `target` is the anatomical box gen/score.py requires the render to move more
+# than any other. "any" means a whole-face change (the advisor render).
+
+[[procedures]]
+id     = "rhinoplasty"
+target = "nose"
+change = "a subtle rhinoplasty: the nasal bridge is straighter and the tip is slightly refined and lifted"
+
+[[procedures]]
+id     = "facelift"
+target = "jaw"
+change = "a subtle lower facelift: the jawline is cleaner and more defined, the jowl softness along the mandible is reduced"
+
+[[procedures]]
+id     = "blepharoplasty"
+target = "eyes"
+change = "a subtle upper blepharoplasty: the upper eyelid hooding is reduced so more of the lid shows"
+
+# --- how we ask for it ------------------------------------------------------
+# {change} is substituted from the procedure above. `refs` lists what gets sent
+# as reference images: "source" is the before portrait, "region" is a tight crop
+# of that procedure's target box (models have up to 10 ref slots).
+
+[[strategies]]
+id       = "plain"
+refs     = ["source"]
+template = "{change}. Keep everything else identical."
+# Baseline. This is what produced the rejected 2026-08-10 batch — kept so any
+# new strategy has to beat a known number, not a vibe.
+
+[[strategies]]
+id       = "constrained"
+refs     = ["source"]
+template = """Edit this photograph in one region only. Apply {change}.
+Do not alter the eyes, eyebrows, mouth, hairline, skin tone, skin texture, \
+freckles, moles, lighting, camera angle, or background. Every pixel outside the \
+edited region must be identical to the input. Do not re-render the face."""
+
+[[strategies]]
+id       = "region"
+refs     = ["source", "region"]
+template = """The first image is the full portrait; the second is a close crop of the one region you may edit. In the full portrait, edit only that region: {change}. Return the full portrait. Everything outside that crop is unchanged, including skin texture, lighting and camera angle."""

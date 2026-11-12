@@ -1,0 +1,140 @@
+{
+  "_note": "The shot plan for RefinaBangs, \"Why Anne Hathaway Looks So Different With Bangs\" - Rahul's brief of 2026-10-29, dialogue verbatim. `lines` is how many script phrases the beat covers; beats.ts derives its bounds from here plus words-vo.ts. VOICEOVER: Rahul's supplied ElevenLabs read (2026-10-29), adopted by docs/preview-review/adopt-vo-bangs.py; the synthesised vesta read is retired.",
+  "reel": "bangs",
+  "script": "docs/scripts/bangs.txt",
+  "cues": "src/refina/bangs/words-vo.ts",
+  "_argument": "One face, one variable. anne-before / anne-fringe are the client's photographs restaged to the house portrait (registered photo:edited): eyes, nose and mouth sit on the same rows in both, so a wipe between them changes the hair and nothing the script says is unchanged. bangs2 / bangs3 are generated and cast as OPPOSITE upper thirds (240px vs 160px hairline-to-brow, read off a grid), so one fringe visibly lands two ways.",
+  "_claims": "No number about a face is printed. Brackets and guides are drawn between rows READ off each file (landmarks.ts), never anchor()'s fixed boxes, and say WHERE, never HOW MUCH. Anne's beats carry the record's EDITED PHOTOGRAPH label and NO AI-preview chip (it is not a preview); generated faces and the Dossier carry the chip. The Dossier is real screen recordings of Rachel's report (refina-videos/dossier2, ugc-dossier).",
+  "_sound": "No music bed (Rahul, 2026-10-29). Spot sfx from public/sfx/trio only.",
+  "min_moving_share": 0.35,
+  "beats": [
+    {
+      "name": "hook",
+      "lines": 2,
+      "composition": "ab-cuts",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "left": "anne-fringe",
+        "right": "anne-before",
+        "labels": [
+          "A",
+          "B"
+        ]
+      },
+      "prosody_exempt": "opens on a question; a rising terminal is the format's hook, not a seam between takes."
+    },
+    {
+      "name": "insight",
+      "lines": 2,
+      "composition": "forehead-span",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "under": "anne-before",
+        "tag": "UPPER FACIAL THIRD"
+      },
+      "_motion": "the push lands in the first 2s and the guides are drawn over a HELD portrait; v1 measured 7% moving. Declared what it is."
+    },
+    {
+      "name": "geometry",
+      "lines": 3,
+      "composition": "thirds-fall",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "anne-before",
+        "over": "anne-fringe",
+        "tags": [
+          "SAME STRUCTURE",
+          "STRUCTURE VS. PERCEPTION"
+        ]
+      }
+    },
+    {
+      "name": "eyes",
+      "lines": 2,
+      "composition": "eye-frame",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "left": "anne-before",
+        "right": "anne-fringe",
+        "labels": [
+          "WITHOUT",
+          "WITH FRINGE"
+        ]
+      },
+      "prosody_exempt": "SUPPLIED single continuous take (ElevenLabs, Rahul), so no seam can exist inside it. 'And there's something else.' drops -2.4 semitones as a delivered aside setting up the turn; that is performance, not a change of narrator."
+    },
+    {
+      "name": "lesson",
+      "lines": 3,
+      "composition": "two-faces",
+      "motion": "moving",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "bangs2-fringe",
+          "bangs3-fringe"
+        ],
+        "tags": [
+          "bangs2-before",
+          "bangs3-before"
+        ],
+        "compliance": true
+      }
+    },
+    {
+      "name": "back",
+      "lines": 2,
+      "composition": "vote-ab",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "steps": [
+          "anne-fringe",
+          "anne-before"
+        ],
+        "labels": [
+          "A",
+          "B"
+        ]
+      },
+      "prosody_exempt": "ends on a question to the viewer."
+    },
+    {
+      "name": "reveal",
+      "lines": 3,
+      "composition": "dossier-phone",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "mesh",
+          "features",
+          "hair",
+          "hair_color"
+        ],
+        "tag": "THE FACIAL DOSSIER",
+        "compliance": true
+      },
+      "_motion": "real Dossier screens, mostly held pages; v1 measured 20% moving. Declared what it is, not dressed up."
+    },
+    {
+      "name": "end",
+      "lines": 1,
+      "composition": "search-end",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "Your face,",
+          "understood."
+        ],
+        "caption": "Refina AI"
+      },
+      "prosody_exempt": "SUPPLIED single continuous take. The closing line is read 27% slower than the median as a sign-off; a CTA landing slower than the body is the delivery, not a seam."
+    }
+  ]
+}

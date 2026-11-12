@@ -1,0 +1,903 @@
+{
+  "format_archetype": "product demo",
+  "one_line": "This ad demonstrates the Refina AI app, showing how users can preview cosmetic procedures on their own faces to make informed decisions at home.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A woman performs the 'mirror test' by pulling her facial skin back.",
+    "why_it_works": "It targets a highly relatable, universal behavior for anyone considering cosmetic procedures."
+  },
+  "shots": [
+    {
+      "approx_start": 0,
+      "approx_end": 10.5,
+      "description": "A woman demonstrates the manual 'mirror test' in her bathroom.",
+      "layout": "framed portrait",
+      "devices": [
+        "text labels",
+        "on-screen captions"
+      ]
+    },
+    {
+      "approx_start": 10.5,
+      "approx_end": 17.5,
+      "description": "An AI face mesh overlay appears on her face with option chips.",
+      "layout": "framed portrait",
+      "devices": [
+        "AI face mesh",
+        "interactive chips"
+      ]
+    },
+    {
+      "approx_start": 17.5,
+      "approx_end": 30,
+      "description": "A mobile app mockup shows photo upload and procedure selection.",
+      "layout": "phone mockup",
+      "devices": [
+        "mobile UI",
+        "rendering animation"
+      ]
+    },
+    {
+      "approx_start": 30,
+      "approx_end": 46.5,
+      "description": "A side-by-side comparison of the original and rendered face with a slider.",
+      "layout": "split screen",
+      "devices": [
+        "interactive slider",
+        "before/after comparison"
+      ]
+    },
+    {
+      "approx_start": 46.5,
+      "approx_end": 55.5,
+      "description": "Cards representing different procedures are swiped and ruled out.",
+      "layout": "card grid",
+      "devices": [
+        "swipeable cards",
+        "status chips"
+      ]
+    },
+    {
+      "approx_start": 55.5,
+      "approx_end": 68,
+      "description": "Multiple user portraits are shown to emphasize private, at-home decision making.",
+      "layout": "scattered photo grid",
+      "devices": [
+        "photo cards",
+        "pricing list graphic"
+      ]
+    },
+    {
+      "approx_start": 68,
+      "approx_end": 82.5,
+      "description": "Final comparison with a disclaimer and a call to action to download the app.",
+      "layout": "framed portrait",
+      "devices": [
+        "disclaimer banner",
+        "timeline slider",
+        "search bar CTA"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "AI face mesh",
+      "what_it_is": "A digital grid overlaying the subject's face.",
+      "used_for": "Visualizing facial analysis and AI processing."
+    },
+    {
+      "name": "phone mockup",
+      "what_it_is": "A clean UI representation of the Refina mobile app.",
+      "used_for": "Demonstrating the user journey and ease of use."
+    },
+    {
+      "name": "interactive slider",
+      "what_it_is": "A horizontal slider labeled 'Dread' to 'Hope'.",
+      "used_for": "Showing the emotional shift from uncertainty to clarity."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "You've"
+    },
+    {
+      "approx_t": 1,
+      "track": "headline",
+      "text": "The mirror test"
+    },
+    {
+      "approx_t": 1,
+      "track": "caption",
+      "text": "You've done it in the"
+    },
+    {
+      "approx_t": 3,
+      "track": "label",
+      "text": "TEMPLE"
+    },
+    {
+      "approx_t": 3,
+      "track": "caption",
+      "text": "Pulled the skin back at your temples."
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "CHEEK"
+    },
+    {
+      "approx_t": 5,
+      "track": "caption",
+      "text": "Lifted your cheek with two fingers."
+    },
+    {
+      "approx_t": 8,
+      "track": "label",
+      "text": "HELD - 4 SECONDS"
+    },
+    {
+      "approx_t": 8,
+      "track": "caption",
+      "text": "Held it there. Let go."
+    },
+    {
+      "approx_t": 11,
+      "track": "headline",
+      "text": "A guess, not a picture"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "a little"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "not too much"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "natural"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "still me"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "but better"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "?"
+    },
+    {
+      "approx_t": 13,
+      "track": "caption",
+      "text": "A guess you make with your hands"
+    },
+    {
+      "approx_t": 16,
+      "track": "caption",
+      "text": "and finish in your head."
+    },
+    {
+      "approx_t": 18,
+      "track": "headline",
+      "text": "Three taps"
+    },
+    {
+      "approx_t": 18,
+      "track": "caption",
+      "text": "So we built Refina."
+    },
+    {
+      "approx_t": 20,
+      "track": "caption",
+      "text": "Upload one photo."
+    },
+    {
+      "approx_t": 21,
+      "track": "caption",
+      "text": "Choose the procedure you're considering."
+    },
+    {
+      "approx_t": 23,
+      "track": "caption",
+      "text": "And see it rendered on your own face."
+    },
+    {
+      "approx_t": 26,
+      "track": "label",
+      "text": "RENDERING"
+    },
+    {
+      "approx_t": 27,
+      "track": "caption",
+      "text": "Not a diagram. Not a gallery. Your face."
+    },
+    {
+      "approx_t": 30,
+      "track": "chip",
+      "text": "stop guessing"
+    },
+    {
+      "approx_t": 31,
+      "track": "chip",
+      "text": "rule things out"
+    },
+    {
+      "approx_t": 31,
+      "track": "chip",
+      "text": "decide alone"
+    },
+    {
+      "approx_t": 32,
+      "track": "caption",
+      "text": "Three things change once you can see it."
+    },
+    {
+      "approx_t": 33,
+      "track": "headline",
+      "text": "1. Stop guessing"
+    },
+    {
+      "approx_t": 34,
+      "track": "caption",
+      "text": "First, you stop guessing."
+    },
+    {
+      "approx_t": 35,
+      "track": "label",
+      "text": "GUESSED"
+    },
+    {
+      "approx_t": 36,
+      "track": "caption",
+      "text": "The picture in your head was never accurate."
+    },
+    {
+      "approx_t": 38,
+      "track": "label",
+      "text": "DREAD"
+    },
+    {
+      "approx_t": 38,
+      "track": "label",
+      "text": "HOPE"
+    },
+    {
+      "approx_t": 39,
+      "track": "caption",
+      "text": "It was hope on a good day"
+    },
+    {
+      "approx_t": 42,
+      "track": "caption",
+      "text": "and dread on a bad one."
+    },
+    {
+      "approx_t": 44,
+      "track": "label",
+      "text": "MEASURED"
+    },
+    {
+      "approx_t": 44,
+      "track": "caption",
+      "text": "Now it is just a photograph."
+    },
+    {
+      "approx_t": 47,
+      "track": "headline",
+      "text": "2. Rule it out"
+    },
+    {
+      "approx_t": 47,
+      "track": "caption",
+      "text": "Second, you find out what you don't want."
+    },
+    {
+      "approx_t": 50,
+      "track": "chip",
+      "text": "Rhinoplasty"
+    },
+    {
+      "approx_t": 50,
+      "track": "chip",
+      "text": "Lip-filler"
+    },
+    {
+      "approx_t": 51,
+      "track": "chip",
+      "text": "Brow-lift"
+    },
+    {
+      "approx_t": 51,
+      "track": "chip",
+      "text": "Facelift"
+    },
+    {
+      "approx_t": 50,
+      "track": "caption",
+      "text": "Ruling a procedure out is an answer too,"
+    },
+    {
+      "approx_t": 53,
+      "track": "caption",
+      "text": "and it costs you nothing."
+    },
+    {
+      "approx_t": 56,
+      "track": "headline",
+      "text": "3. Decide before the desk"
+    },
+    {
+      "approx_t": 56,
+      "track": "caption",
+      "text": "And third, you decide before anyone is selling to you."
+    },
+    {
+      "approx_t": 60.0,
+      "track": "caption",
+      "text": "At home. On your own time."
+    },
+    {
+      "approx_t": 63.0,
+      "track": "caption",
+      "text": "Not across a desk from someone"
+    },
+    {
+      "approx_t": 65.0,
+      "track": "chart",
+      "text": "CONSULTATION\nRhinoplasty ......... 6,500\nFacelift ............ 11,000\nDeposit today ....... 500"
+    },
+    {
+      "approx_t": 105,
+      "track": "caption",
+      "text": "with a price list and a waiting room."
+    },
+    {
+      "approx_t": 109,
+      "track": "headline",
+      "text": "What it is, and what it isn't"
+    },
+    {
+      "approx_t": 109,
+      "track": "caption",
+      "text": "Refina is a preview, not a promise."
+    },
+    {
+      "approx_t": 110,
+      "track": "label",
+      "text": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 112,
+      "track": "chip",
+      "text": "Not a diagnosis"
+    },
+    {
+      "approx_t": 112,
+      "track": "chip",
+      "text": "Not a quote"
+    },
+    {
+      "approx_t": 113,
+      "track": "chip",
+      "text": "Not a surgical plan"
+    },
+    {
+      "approx_t": 112,
+      "track": "caption",
+      "text": "Your surgeon determines your result."
+    },
+    {
+      "approx_t": 114,
+      "track": "label",
+      "text": "PREVIEW"
+    },
+    {
+      "approx_t": 114,
+      "track": "caption",
+      "text": "But you should get to see it"
+    },
+    {
+      "approx_t": 117,
+      "track": "label",
+      "text": "STILL IMAGINING"
+    },
+    {
+      "approx_t": 117,
+      "track": "label",
+      "text": "TODAY"
+    },
+    {
+      "approx_t": 117,
+      "track": "label",
+      "text": "NEXT YEAR"
+    },
+    {
+      "approx_t": 117,
+      "track": "caption",
+      "text": "before you spend another year imagining it."
+    },
+    {
+      "approx_t": 120,
+      "track": "caption",
+      "text": "Search Refina AI on the App Store."
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "You've done it in the mirror. Pulled the skin back at your temples. Lifted your cheek with two fingers. Held it there. Let go. A guess you make with your hands and finish in your head."
+    },
+    {
+      "approx_t": 17,
+      "text": "So we built Refina. Upload one photo. Choose the procedure you're considering. And see it rendered on your own face."
+    },
+    {
+      "approx_t": 30,
+      "text": "Three things change once you can see it. First, you stop guessing."
+    },
+    {
+      "approx_t": 47,
+      "text": "Second, you find out what you don't want. Ruling a procedure out is an answer too, and it costs you nothing."
+    },
+    {
+      "approx_t": 56,
+      "text": "And third, you decide before anyone is selling to you. At home. On your own time. Not across a desk from someone with a price list and a waiting room."
+    },
+    {
+      "approx_t": 68.0,
+      "text": "Refina is a preview, not a promise. Your surgeon determines your result. But you should get to see it before you spend another year imagining it."
+    }
+  ],
+  "narrative_arc": [
+    "Identify the relatable habit of manually pulling back skin to imagine cosmetic results.",
+    "Introduce Refina AI as the solution to visualize these changes accurately.",
+    "Explain the benefits: eliminating guesswork, ruling out unwanted procedures risk-free, and making pressure-free decisions at home.",
+    "Provide a realistic disclaimer while encouraging the user to take action and download the app."
+  ],
+  "cta": {
+    "approx_t": 120,
+    "what": "Search Refina AI on the App Store."
+  },
+  "subjects": [
+    {
+      "name": "Unnamed Woman",
+      "role": "User demonstrating the mirror test and showing the AI transformation results."
+    }
+  ],
+  "what_makes_it_work": [
+    "Highly relatable opening hook that captures immediate attention.",
+    "Clear, step-by-step app demonstration showing realistic results.",
+    "Strong emotional framing contrasting 'dread' and 'hope' with objective visualization.",
+    "Empowers the user by emphasizing control, privacy, and cost-free decision making."
+  ],
+  "animations": [
+    {
+      "name": "Drawn Callouts",
+      "approx_t": 3.0,
+      "what_moves": "Labels and leader lines pointing to the temple and cheek",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Highlights specific facial areas being manipulated in the mirror test.",
+      "reusable_as": "Labeling key features on any product or anatomical diagram.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Grid Overlay Reveal",
+      "approx_t": 11.0,
+      "what_moves": "A geometric mesh grid over the face",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Simulates AI facial analysis and scanning technology.",
+      "reusable_as": "Showing technical analysis or scanning of any object.",
+      "we_already_have": "ContourDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Tag Stack Pop",
+      "approx_t": 13.0,
+      "what_moves": "Multiple choice option chips at the bottom",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Presents user options in a playful, interactive format.",
+      "reusable_as": "Displaying tags, categories, or multiple-choice answers.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "App Screen Transition",
+      "approx_t": 21.0,
+      "what_moves": "Mobile app screens and selection menus",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Demonstrates the user flow within the mobile application.",
+      "reusable_as": "Showing UI navigation in any app demo.",
+      "we_already_have": "SlideOver",
+      "would_need_building": null
+    },
+    {
+      "name": "Before/After Slider Sweep",
+      "approx_t": 24.0,
+      "what_moves": "A vertical divider line sweeping across the face",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Compares the original face with the simulated treatment result.",
+      "reusable_as": "Any before-and-after comparison of images.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Horizontal Card Carousel",
+      "approx_t": 47.0,
+      "what_moves": "A row of procedure cards sliding horizontally",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Showcases different cosmetic procedures available.",
+      "reusable_as": "Browsing a gallery of products or features.",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    },
+    {
+      "name": "Scattered Card Pile",
+      "approx_t": 60.0,
+      "what_moves": "Multiple portrait photos dropping and stacking",
+      "motion": "translate",
+      "direction": "down",
+      "feel": "floaty",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Visualizes a collection of different user profiles or results.",
+      "reusable_as": "Displaying a stack of user testimonials or photos.",
+      "we_already_have": null,
+      "would_need_building": "A physics-based or staggered card stacking component with slight rotations."
+    },
+    {
+      "name": "Timeline Slider Progress",
+      "approx_t": 77.0,
+      "what_moves": "A slider handle moving along a timeline track",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Represents the passage of time spent imagining results.",
+      "reusable_as": "Showing progress, adjustment, or timeline navigation.",
+      "we_already_have": null,
+      "would_need_building": "An animated slider component with a moving thumb and active track fill."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Interactive slider sweeps for before/after comparisons",
+      "Staggered tag pops for user choices",
+      "Drawn callouts for precise anatomical labeling"
+    ],
+    "how_things_enter": "Elements scale up with a springy bounce or slide in from the bottom.",
+    "how_things_leave": "Elements fade out or slide down out of frame.",
+    "how_scenes_change": "Hard cuts combined with sliding UI panels.",
+    "what_stays_still": "The central portrait of the woman remains the focal point.",
+    "rhythm": "Bursty, with moments of static demonstration followed by rapid UI interactions."
+  },
+  "what_we_should_steal": [
+    "The interactive before/after slider sweep for instant visual comparison.",
+    "Staggered card pile animation to show a variety of user examples dynamically.",
+    "Drawn callouts to highlight specific product details or features."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Text fades in at the bottom of the screen",
+      "element": "text",
+      "motion": "fade",
+      "content": "You've"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Text fades in at the top and bottom of the screen",
+      "element": "text",
+      "motion": "fade",
+      "content": "The mirror test / You've done it in the"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Text and a face marker fade in",
+      "element": "text and marker",
+      "motion": "fade",
+      "content": "TEMPLE / Pulled the skin back at your temples."
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Text and another face marker fade in",
+      "element": "text and marker",
+      "motion": "fade",
+      "content": "CHEEK / Lifted your cheek with two fingers."
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "HELD - 4 SECONDS / Held it there. Let go."
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Transition to a new screen with a woman's face and grid overlay",
+      "element": "scene",
+      "motion": "cut",
+      "content": "A guess, not a picture"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Six buttons and text fade in",
+      "element": "buttons and text",
+      "motion": "fade",
+      "content": "a little / not too much / natural / still me / but better / ? / A guess you make with your hands"
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "and finish in your head."
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Transition to a mobile app screen",
+      "element": "scene",
+      "motion": "cut",
+      "content": "Three taps / So we built Refina."
+    },
+    {
+      "approx_t": 20.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "Upload one photo."
+    },
+    {
+      "approx_t": 21.0,
+      "event": "The mobile screen scrolls down to show procedures",
+      "element": "screen content",
+      "motion": "translate",
+      "content": "Choose the procedure you're considering."
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Transition to side-by-side comparison of the woman's face",
+      "element": "scene",
+      "motion": "cut",
+      "content": "And see it rendered on your own face."
+    },
+    {
+      "approx_t": 24.0,
+      "event": "A scanning line moves down the face",
+      "element": "scanning line",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 26.0,
+      "event": "Text 'RENDERING' fades in",
+      "element": "text",
+      "motion": "fade",
+      "content": "RENDERING"
+    },
+    {
+      "approx_t": 27.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "Not a diagram. Not a gallery. Your face."
+    },
+    {
+      "approx_t": 30.0,
+      "event": "Transition to a blank screen with a button",
+      "element": "scene",
+      "motion": "cut",
+      "content": "stop guessing"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Two more buttons and text fade in",
+      "element": "buttons and text",
+      "motion": "fade",
+      "content": "rule things out / decide alone / Three things change once you can see it."
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Transition to '1. Stop guessing' screen",
+      "element": "scene",
+      "motion": "cut",
+      "content": "1. Stop guessing / First, you stop guessing."
+    },
+    {
+      "approx_t": 35.0,
+      "event": "Grid overlay and text fade in",
+      "element": "grid and text",
+      "motion": "fade",
+      "content": "GUESSED"
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "The picture in your head was never accurate."
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Slider with 'DREAD' and 'HOPE' fades in",
+      "element": "slider",
+      "motion": "fade",
+      "content": "DREAD / HOPE"
+    },
+    {
+      "approx_t": 39.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "It was hope on a good day"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "and dread on a bad one."
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Slider moves to 'MEASURED' and text fades in",
+      "element": "slider and text",
+      "motion": "translate",
+      "content": "MEASURED / Now it is just a photograph."
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Transition to '2. Rule it out' screen with sliding cards",
+      "element": "scene",
+      "motion": "cut",
+      "content": "2. Rule it out / Second, you find out what you don't want."
+    },
+    {
+      "approx_t": 50.0,
+      "event": "Four buttons and text fade in",
+      "element": "buttons and text",
+      "motion": "fade",
+      "content": "Rhinoplasty / Lip-filler / Brow-lift / Facelift / Ruling a procedure out is an answer too,"
+    },
+    {
+      "approx_t": 52.0,
+      "event": "Cards slide out of the frame",
+      "element": "cards",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "and it costs you nothing."
+    },
+    {
+      "approx_t": 56.0,
+      "event": "Transition to '3. Decide before the desk' screen",
+      "element": "scene",
+      "motion": "cut",
+      "content": "3. Decide before the desk / And third, you decide before anyone is selling to you."
+    },
+    {
+      "approx_t": 60.0,
+      "event": "Multiple photo cards slide onto the screen",
+      "element": "photo cards",
+      "motion": "translate",
+      "content": "At home. On your own time."
+    },
+    {
+      "approx_t": 63.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "Not across a desk from someone"
+    },
+    {
+      "approx_t": 65.0,
+      "event": "Transition to a dark grey box with consultation details",
+      "element": "scene",
+      "motion": "cut",
+      "content": "CONSULTATION / with a price list and a waiting room."
+    },
+    {
+      "approx_t": 68.0,
+      "event": "Transition to side-by-side comparison of the woman's face",
+      "element": "scene",
+      "motion": "cut",
+      "content": ""
+    },
+    {
+      "approx_t": 69.0,
+      "event": "Text fades in at the top and bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "What it is, and what it isn't / Refina is a preview, not a promise."
+    },
+    {
+      "approx_t": 70.0,
+      "event": "Text 'AI PREVIEW - NOT MEDICAL ADVICE' fades in",
+      "element": "text",
+      "motion": "fade",
+      "content": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 72.0,
+      "event": "Three buttons and text fade in",
+      "element": "buttons and text",
+      "motion": "fade",
+      "content": "Not a diagnosis / Not a quote / Not a surgical plan / Your surgeon determines your result."
+    },
+    {
+      "approx_t": 74.0,
+      "event": "Text fades in at the bottom",
+      "element": "text",
+      "motion": "fade",
+      "content": "But you should get to see it"
+    },
+    {
+      "approx_t": 77.0,
+      "event": "Slider with 'STILL IMAGINING' fades in",
+      "element": "slider",
+      "motion": "fade",
+      "content": "STILL IMAGINING / TODAY / NEXT YEAR / before you spend another year imagining it."
+    },
+    {
+      "approx_t": 80.0,
+      "event": "Transition to search bar screen",
+      "element": "scene",
+      "motion": "cut",
+      "content": "Search Refina AI on the App Store."
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "out/refina-mirror2-v4.mp4",
+    "tokens": {
+      "animation": 10984,
+      "content": 13965
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

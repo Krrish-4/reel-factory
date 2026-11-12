@@ -1,0 +1,67 @@
+# Second pass at the two conditions that do not read at phone scale.
+#
+# Both beats are honest and both are invisible. Judged at 390px — the width a
+# viewer actually gets — `tilt` is indistinguishable from the hook frame, and
+# `express` is cropped so tight you cannot see the mouth corners move. Neither
+# is a framing problem: the assets barely differ, so no crop can rescue them.
+#
+# The history matters, because both have failed in both directions already:
+#
+#   chindown  draft 1  "about fifteen degrees"        -> no movement at all
+#             draft 2  named the failure, unbounded   -> glare up through the brows
+#             draft 3  "a subtle nod, not a stare"    -> honest, and invisible
+#
+#   lift      draft 1  "corners barely raised"        -> honest, and invisible
+#
+# Draft 3 of the tilt over-corrected for draft 2. The target is the middle: a
+# clearly visible change of head angle with the eyes still on the lens and the
+# expression unchanged. For the lift, "barely" was the wrong instruction — the
+# reel says a SLIGHT lift moves the midface, and slight-but-legible is the whole
+# demonstration.
+
+model    = "nano-pro"
+aspect   = "3:4"
+upscale  = "2k"
+variants = 2
+out      = "gen/out"
+
+[base]
+portrait = """Photorealistic studio portrait photograph of a {describe} woman {need}. \
+Head and shoulders, facing the camera straight on, chin level, neutral relaxed expression, \
+mouth closed, eyes open looking directly at the lens. Hair tied back off the face. Plain black \
+turtleneck. Completely flat even frontal softbox lighting with no shadows anywhere on her face \
+and no shadow on the background. Plain seamless pale blue-grey studio backdrop, completely \
+uniform, no texture, no vignette, no gradient. Sharp focus, natural unretouched skin with real \
+pores and fine lines. Shot on an 85mm lens from two metres away. No text, no jewellery, no makeup."""
+
+[after]
+template = """Re-photograph this exact woman. The only change: {done}. Same person, same face, \
+same age, same bone structure, same hair, same black turtleneck, same plain seamless backdrop, \
+same distance from camera. Do not slim, smooth, retouch or beautify her, and do not change her \
+identity. The change must be clearly visible when the photograph is viewed small on a phone \
+screen. It is very important that this looks like the same person photographed a second time \
+thirty seconds later, not a different woman and not a FaceTuned version of her."""
+
+
+[[subjects]]
+id       = "demo1"
+describe = "late 40s White"
+need     = """with visible natural ageing - soft nasolabial folds, slight under-eye hollows \
+and a slightly soft jawline, none of it extreme"""
+
+  [[subjects.afters]]
+  id     = "chindown"
+  target = "any"
+  done   = """she tilts her whole head forward and downward so her chin drops clearly toward \
+her chest and noticeably more of the top of her head faces the camera, while the camera stays \
+exactly where it was at her original eye level. Her jawline is foreshortened and much less \
+visible and her forehead reads larger. Her eyes stay wide open, relaxed, and still look straight \
+into the lens, and her eyebrows stay exactly where they are - she is not frowning, not glaring \
+and not looking up from under her brows"""
+
+  [[subjects.afters]]
+  id     = "lift"
+  target = "any"
+  done   = """she makes a genuine closed-mouth smile - lips together, corners of the mouth \
+clearly raised, cheeks visibly lifted and rounded, and the nasolabial folds shortened and \
+softened by the lift. Warm and natural, not a grin and not showing teeth"""

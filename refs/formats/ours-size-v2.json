@@ -1,0 +1,73 @@
+{
+  "label": "ours-size-v2",
+  "source": "out/refina-size-v2.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 68.437,
+  "pacing": {
+    "cuts": 6,
+    "cuts_per_min": 5.3,
+    "median_shot_s": 6.83,
+    "shortest_shot_s": 3.57,
+    "longest_shot_s": 21.0,
+    "frozen_pct": 94.3
+  },
+  "element_events": {
+    "count": 3,
+    "per_min": 2.6,
+    "median_gap_s": 24.13,
+    "frames": [
+      316,
+      1626,
+      1764
+    ]
+  },
+  "continuous_motion": {
+    "spans": 7,
+    "total_s": 4.7,
+    "pct_of_runtime": 6.9,
+    "median_span_s": 0.8,
+    "longest_span_s": 0.8,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 0,
+    "median_s": null,
+    "spans_s": []
+  },
+  "treatment": {
+    "dominant_rgb": [
+      161,
+      180,
+      185
+    ],
+    "dominant_hex": "#A1B4B9",
+    "corner_flatness": 0.0,
+    "background_drift": 10.48,
+    "flat_background": true,
+    "headline_band_frames_pct": 76.7,
+    "caption_band_frames_pct": 94.6
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 74.8,
+    "approx_any_face_frames_pct": 79.2,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 57,
+    "speech_pct": 67.0,
+    "median_phrase_s": 0.66,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    161,
+    683,
+    974,
+    1110,
+    1315,
+    1422
+  ]
+}

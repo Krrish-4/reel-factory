@@ -1,0 +1,125 @@
+{
+  "label": "ref-12",
+  "source": "refs/corpus/ref-12.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 60.708,
+  "pacing": {
+    "cuts": 1,
+    "cuts_per_min": 1.0,
+    "median_shot_s": 30.35,
+    "shortest_shot_s": 1.46,
+    "longest_shot_s": 59.25,
+    "frozen_pct": 51.9
+  },
+  "element_events": {
+    "count": 152,
+    "per_min": 150.3,
+    "median_gap_s": 0.12,
+    "frames": [
+      55,
+      75,
+      95,
+      115,
+      133,
+      136,
+      139,
+      142,
+      145,
+      148,
+      191,
+      194,
+      197,
+      200,
+      216,
+      219,
+      222,
+      225,
+      228,
+      231,
+      234,
+      278,
+      281,
+      284,
+      287,
+      290,
+      293,
+      296,
+      299,
+      302,
+      333,
+      336,
+      339,
+      342,
+      345,
+      348,
+      351,
+      354,
+      362,
+      365
+    ]
+  },
+  "continuous_motion": {
+    "spans": 24,
+    "total_s": 14.36,
+    "pct_of_runtime": 23.7,
+    "median_span_s": 0.58,
+    "longest_span_s": 1.17,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 19,
+    "median_s": 1.12,
+    "spans_s": [
+      0.875,
+      0.625,
+      1.042,
+      1.292,
+      2.417,
+      1.333,
+      1.167,
+      1.042,
+      0.875,
+      0.417,
+      1.292,
+      0.75,
+      1.25,
+      1.25,
+      1.583,
+      1.125,
+      0.625,
+      1.333,
+      0.875
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      95,
+      105,
+      113
+    ],
+    "dominant_hex": "#5F6971",
+    "corner_flatness": 73.03,
+    "background_drift": 27.3,
+    "flat_background": false,
+    "headline_band_frames_pct": 51.1,
+    "caption_band_frames_pct": 80.8
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 81.5,
+    "approx_any_face_frames_pct": 92.6,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 8,
+    "speech_pct": 95.6,
+    "median_phrase_s": 3.86,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    35
+  ]
+}

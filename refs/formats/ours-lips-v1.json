@@ -1,0 +1,74 @@
+{
+  "label": "ours-lips-v1",
+  "source": "out/refina-lips-v1.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 61.696,
+  "pacing": {
+    "cuts": 7,
+    "cuts_per_min": 6.8,
+    "median_shot_s": 7.37,
+    "shortest_shot_s": 4.3,
+    "longest_shot_s": 15.07,
+    "frozen_pct": 94.5
+  },
+  "element_events": {
+    "count": 1,
+    "per_min": 1.0,
+    "median_gap_s": null,
+    "frames": [
+      395
+    ]
+  },
+  "continuous_motion": {
+    "spans": 2,
+    "total_s": 2.5,
+    "pct_of_runtime": 4.1,
+    "median_span_s": 1.25,
+    "longest_span_s": 1.77,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 1,
+    "median_s": 0.27,
+    "spans_s": [
+      0.267
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      161,
+      180,
+      185
+    ],
+    "dominant_hex": "#A1B4B9",
+    "corner_flatness": 0.0,
+    "background_drift": 5.02,
+    "flat_background": true,
+    "headline_band_frames_pct": 58.1,
+    "caption_band_frames_pct": 93.0
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 62.1,
+    "approx_any_face_frames_pct": 65.0,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 12,
+    "speech_pct": 92.8,
+    "median_phrase_s": 1.19,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    226,
+    374,
+    590,
+    866,
+    997,
+    1268,
+    1397
+  ]
+}

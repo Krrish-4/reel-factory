@@ -1,0 +1,548 @@
+{
+  "label": "ours-nose-v3",
+  "archetype": "evidence explainer",
+  "one_line": "Demonstrates how chin augmentation alters the perception of nose size using visual comparisons and pixel-change data.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 50.645,
+  "measured": {
+    "pacing": {
+      "cuts": 3,
+      "cuts_per_min": 3.6,
+      "median_shot_s": 8.8,
+      "shortest_shot_s": 4.57,
+      "longest_shot_s": 28.43,
+      "frozen_pct": 92.5
+    },
+    "transitions": {
+      "count": 0,
+      "median_s": null,
+      "spans_s": []
+    },
+    "element_events": {
+      "count": 4,
+      "per_min": 4.7,
+      "median_gap_s": 7.1,
+      "frames": [
+        199,
+        891,
+        1076,
+        1289
+      ]
+    },
+    "continuous_motion": {
+      "spans": 2,
+      "total_s": 2.4,
+      "pct_of_runtime": 4.7,
+      "median_span_s": 1.2,
+      "longest_span_s": 1.37,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        161,
+        180,
+        185
+      ],
+      "dominant_hex": "#A1B4B9",
+      "corner_flatness": 0.0,
+      "background_drift": 0.37,
+      "flat_background": true,
+      "headline_band_frames_pct": 49.1,
+      "caption_band_frames_pct": 92.2
+    },
+    "audio": {
+      "speech_segments": 38,
+      "speech_pct": 68.5,
+      "median_phrase_s": 0.79,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 4,
+    "hard_cuts": 3,
+    "cuts_per_described_change": 1.0,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 11.0,
+      "snapped_to_measured_cut": true,
+      "layout": "portrait split-screen",
+      "description": "Split-screen before/after comparison of a woman's face with a sliding divider.",
+      "devices": [
+        "sliding divider",
+        "before/after labels"
+      ]
+    },
+    {
+      "start_s": 10.967,
+      "start_frame": 329,
+      "end_s": 29.0,
+      "snapped_to_measured_cut": true,
+      "layout": "data overlay on portrait",
+      "description": "Heatmap overlay showing pixel changes, accompanied by a bar chart of regional changes.",
+      "devices": [
+        "pixel heatmap",
+        "bar chart"
+      ]
+    },
+    {
+      "start_s": 29.0,
+      "start_frame": 870,
+      "end_s": 35.0,
+      "snapped_to_measured_cut": false,
+      "layout": "text list on solid background",
+      "description": "Interactive text prompt instructing the viewer to push their lower jaw forward.",
+      "devices": [
+        "numbered list"
+      ]
+    },
+    {
+      "start_s": 35.0,
+      "start_frame": 1050,
+      "end_s": 50.6,
+      "snapped_to_measured_cut": false,
+      "layout": "side-by-side portrait to search UI",
+      "description": "Side-by-side comparison of the original and edited faces, transitioning to a search bar CTA.",
+      "devices": [
+        "side-by-side panels",
+        "search bar mockup"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "sliding divider",
+      "what_it_is": "A vertical line that slides across the face to reveal the edited version.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "pixel heatmap",
+      "what_it_is": "A glowing overlay highlighting areas of the image that were modified.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "bar chart",
+      "what_it_is": "A simple bar graph showing percentage of pixel changes by facial region.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "search bar mockup",
+      "what_it_is": "An on-screen search input field typing out the brand name.",
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "before/after labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "numbered list",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "side-by-side panels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A split-screen comparison of a woman's face asks if her nose is too big, then reveals it is the same nose.",
+    "why_it_works": "Triggers self-consciousness about facial features and immediately subverts expectations with a visual puzzle."
+  },
+  "narrative_arc": [
+    "Identify common insecurity (nose size).",
+    "Deconstruct the illusion using a chin-adjustment comparison.",
+    "Provide data-driven proof of the optical illusion.",
+    "Engage the viewer with a physical, real-time experiment.",
+    "Introduce the AI tool as a personalized solution to preview these changes."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Same face."
+    },
+    {
+      "approx_t": 0.0,
+      "track": "chip",
+      "text": "BEFORE"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "citation",
+      "text": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "caption",
+      "text": "Think your nose"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "chip",
+      "text": "AFTER"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "headline",
+      "text": "Same nose."
+    },
+    {
+      "approx_t": 2.0,
+      "track": "caption",
+      "text": "Same woman, twice."
+    },
+    {
+      "approx_t": 4.0,
+      "track": "caption",
+      "text": "Same nose, both photographs."
+    },
+    {
+      "approx_t": 7.0,
+      "track": "headline",
+      "text": "One thing moved"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "label",
+      "text": "CHIN AND JAW"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "caption",
+      "text": "But it looks smaller in the second."
+    },
+    {
+      "approx_t": 8.0,
+      "track": "label",
+      "text": "CHIN AUGMENTATION"
+    },
+    {
+      "approx_t": 9.0,
+      "track": "caption",
+      "text": "Her chin is what moved."
+    },
+    {
+      "approx_t": 11.0,
+      "track": "headline",
+      "text": "Where it moved"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "label",
+      "text": "PER-REGION PIXEL CHANGE, THIS PAIR"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "caption",
+      "text": "Here is every pixel that"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "chart",
+      "text": "43.9 JAW"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "chart",
+      "text": "9.6 EYES"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "chart",
+      "text": "44.0 JAW"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "chart",
+      "text": "18.7 EYES"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "chart",
+      "text": "17.3 LIPS"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "chart",
+      "text": "9.7 NOSE"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "caption",
+      "text": "Almost none of it is on her nose."
+    },
+    {
+      "approx_t": 16.0,
+      "track": "headline",
+      "text": "Read against each other"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "label",
+      "text": "STANDS OUT"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "label",
+      "text": "SITS BACK"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "caption",
+      "text": "Your eye doesn't measure features."
+    },
+    {
+      "approx_t": 18.0,
+      "track": "caption",
+      "text": "It compares them"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "caption",
+      "text": "When the chin sits back, the nose stands out"
+    },
+    {
+      "approx_t": 22.0,
+      "track": "caption",
+      "text": "Your brain calls it a big nose."
+    },
+    {
+      "approx_t": 23.0,
+      "track": "headline",
+      "text": "It didn't shrink"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "label",
+      "text": "SAME NOSE"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "caption",
+      "text": "Bring it forward and the nose has something to sit against."
+    },
+    {
+      "approx_t": 25.0,
+      "track": "label",
+      "text": "CHIN AUGMENTATION"
+    },
+    {
+      "approx_t": 27.0,
+      "track": "caption",
+      "text": "It didn't shrink. The face caught up."
+    },
+    {
+      "approx_t": 30.0,
+      "track": "headline",
+      "text": "Try it now"
+    },
+    {
+      "approx_t": 30.0,
+      "track": "chip",
+      "text": "DO THIS NOW"
+    },
+    {
+      "approx_t": 30.0,
+      "track": "ui",
+      "text": "1 Push your lower jaw forward"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "ui",
+      "text": "2 Hold it there"
+    },
+    {
+      "approx_t": 32.0,
+      "track": "ui",
+      "text": "3 Watch your nose"
+    },
+    {
+      "approx_t": 32.0,
+      "track": "caption",
+      "text": "Push your lower jaw forward."
+    },
+    {
+      "approx_t": 33.0,
+      "track": "caption",
+      "text": "Your nose just got smaller. You didn't touch it."
+    },
+    {
+      "approx_t": 36.0,
+      "track": "headline",
+      "text": "Not one feature. The whole face."
+    },
+    {
+      "approx_t": 36.0,
+      "track": "chip",
+      "text": "ONE FILE, ONE REGION EDITED"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "caption",
+      "text": "The question was never which feature to fix."
+    },
+    {
+      "approx_t": 39.0,
+      "track": "caption",
+      "text": "It's what the whole face does when one thing moves."
+    },
+    {
+      "approx_t": 43.0,
+      "track": "headline",
+      "text": "Your face. Not hers."
+    },
+    {
+      "approx_t": 44.0,
+      "track": "headline",
+      "text": "A preview, not a promise."
+    },
+    {
+      "approx_t": 44.0,
+      "track": "caption",
+      "text": "See it on your own face first"
+    },
+    {
+      "approx_t": 46.0,
+      "track": "ui",
+      "text": "Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Think your nose is too big?"
+    },
+    {
+      "approx_t": 1.0,
+      "text": "Same woman, twice."
+    },
+    {
+      "approx_t": 3.0,
+      "text": "Same nose, both photographs."
+    },
+    {
+      "approx_t": 7.0,
+      "text": "But it looks smaller in the second."
+    },
+    {
+      "approx_t": 8.0,
+      "text": "Her chin is what moved."
+    },
+    {
+      "approx_t": 11.0,
+      "text": "Here is every pixel that changed."
+    },
+    {
+      "approx_t": 13.0,
+      "text": "Almost none of it is on her nose."
+    },
+    {
+      "approx_t": 15.0,
+      "text": "Your eye doesn't measure features."
+    },
+    {
+      "approx_t": 17.0,
+      "text": "It compares them."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "When the chin sits back, the nose stands out."
+    },
+    {
+      "approx_t": 22.0,
+      "text": "Your brain calls it a big nose."
+    },
+    {
+      "approx_t": 24.0,
+      "text": "Bring it forward and the nose has something to sit against."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "It didn't shrink. The face caught up."
+    },
+    {
+      "approx_t": 29.0,
+      "text": "Try it right now."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "Push your lower jaw forward."
+    },
+    {
+      "approx_t": 33.0,
+      "text": "Your nose just got smaller. You didn't touch it."
+    },
+    {
+      "approx_t": 36.0,
+      "text": "The question was never which feature to fix."
+    },
+    {
+      "approx_t": 38.0,
+      "text": "It's what the whole face does when one thing moves."
+    },
+    {
+      "approx_t": 43.0,
+      "text": "See it on your own face first."
+    },
+    {
+      "approx_t": 45.0,
+      "text": "A preview, not a promise."
+    },
+    {
+      "approx_t": 48.0,
+      "text": "Search Refina AI."
+    }
+  ],
+  "cta": {
+    "approx_t": 46.0,
+    "what": "Search Refina AI to preview facial adjustments on your own face."
+  },
+  "subjects": [
+    "Unnamed woman acting as the visual model for the facial structure demonstration."
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Uses an interactive physical test ('push your jaw forward') to make the optical illusion immediately real to the viewer.",
+    "Leverages data visualization (pixel heatmap and bar chart) to build scientific authority."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "2/4"
+  }
+}

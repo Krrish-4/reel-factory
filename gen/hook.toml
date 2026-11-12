@@ -1,0 +1,60 @@
+# The hook pair for "What Else Changed", on the SAME woman as the four
+# photographic conditions.
+#
+# WHY THIS FILE EXISTS. The first cut opened on an existing gallery pair (a
+# dark-haired woman) and then taught the four variables on the generated blonde
+# — two unrelated faces, cut between three times, with nothing explaining the
+# switch. Gemini listed them as two separate subjects. The reel's whole argument
+# is "same face, one thing moved", so it cannot change who the face is.
+#
+# This uses the PROCEDURE template from subjects.toml, not the photographic one
+# from conditions.toml: the hook is the one pair in the reel where the face is
+# supposed to change. demo1 was cast with a soft jawline and nasolabial folds,
+# so she needs the procedure the way the casting fix requires — the after is
+# asked for "strong", and the anti-filter sentence names the measured failure.
+#
+# Nothing in the reel claims this is a real patient. It carries the
+# AI PREVIEW - NOT MEDICAL ADVICE chip, the same as every other product beat.
+
+model    = "nano-pro"
+aspect   = "3:4"
+upscale  = "2k"
+variants = 3
+out      = "gen/out"
+
+[base]
+portrait = """Photorealistic studio portrait photograph of a {describe} woman {need}. \
+Head and shoulders, facing the camera straight on, chin level, neutral relaxed expression, \
+mouth closed, eyes open looking directly at the lens. Hair tied back off the face. Plain black \
+turtleneck. Completely flat even frontal softbox lighting with no shadows anywhere on her face \
+and no shadow on the background. Plain seamless pale blue-grey studio backdrop, completely \
+uniform, no texture, no vignette, no gradient. Sharp focus, natural unretouched skin with real \
+pores and fine lines. Shot on an 85mm lens from two metres away. No text, no jewellery, no makeup."""
+
+[after]
+template = """Give her a realistic and strong {done}. Leave everything else exactly the same \
+and unchanged. It is very important that it actually looks like the actual cosmetic procedure \
+and not a filter or FaceTune. Same woman, same camera angle, same framing, same lighting, \
+same plain backdrop."""
+
+
+[[subjects]]
+id       = "demo1"
+describe = "late 40s White"
+need     = """with visible natural ageing - soft nasolabial folds, slight under-eye hollows \
+and a slightly soft jawline, none of it extreme"""
+
+  [[subjects.afters]]
+  id     = "facelift"
+  target = "jaw"
+  # Draft 1 scored strength 15 against a threshold of 25 — "too weak to read",
+  # the same verdict the 2026-08-10 batch got. The cause is casting, not wording:
+  # demo1 was deliberately cast "none of it extreme" so the LIGHT beat would have
+  # something subtle to find, and a face that barely needs a facelift has barely
+  # anything to show after one. She cannot be recast without breaking continuity
+  # with the other four beats, so the after has to carry the whole difference —
+  # asked for at full strength, with every region it must move named.
+  done   = """dramatic deep-plane facelift and neck lift, clearly ten to fifteen years younger \
+in the lower face - the jowls are completely gone, the jawline is sharp and tight with a clean \
+mandibular border, there is no laxity under the chin, the midface is lifted and full again and \
+the nasolabial folds are almost gone"""

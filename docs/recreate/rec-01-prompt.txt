@@ -1,0 +1,23 @@
+You are breaking down this 19.06s vertical reel so it can be RECREATED shot for shot with a text-to-video model (Google Flow / Veo), which generates at most 10 seconds per clip. Be concrete and visual; describe what a camera would need to capture.
+
+Measured facts (frame-accurate, trust these over your own sense of timing):
+- Hard cuts at 3.50s, 7.57s, 11.37s, 15.17s. So 5 shots: A 0-3.50, B 3.50-7.57, C 7.57-11.37, D 11.37-15.17, E 15.17-19.06.
+- C, D and E share identical framing; only the woman's face changes between them (three AI "after" previews of her, one per procedure option).
+- Audio is continuous for the full runtime, no silence.
+
+For EACH shot give:
+1. Subject(s): apparent age, face shape, hair (colour, length, cut, parting), skin, makeup, clothing (garment, colour, neckline, buttons), jewellery.
+2. Any second person: what is visible of them, clothing, what their hands do, what they hold.
+3. Setting: room type, every visible prop (chair, shelves, products, trays), colours, depth.
+4. Camera: shot size, angle, height relative to eyes, lens feel, locked vs handheld, any movement or drift, where the head sits in frame.
+5. Lighting: key direction, softness, colour temperature, any coloured light on the face.
+6. Performance, second by second: head turns (direction and amount), eyeline, blinks, expressions, smiles, mouth movement (is she speaking?).
+7. On-screen text: VERBATIM including typos, how many boxes, position, box style (colour, corner radius), font style, and any header/logo text.
+8. For C, D, E specifically: how the face differs from shots A/B and from each other (skin texture, wrinkles, jowls, eyelids, cheek volume, neck). Say whether each looks like a real video or an AI-animated still.
+
+Then:
+- AUDIO: is it speech, music or both? If speech, transcribe it verbatim and say who speaks. If music, describe genre, tempo, mood, vocals.
+- CONTINUITY: what must stay identical across all shots for them to cut together (wardrobe, hair, room, grade).
+- SIGNS OF GENERATION: any AI artefacts, watermarks, warping.
+- What you could NOT determine.
+Do not invent timings finer than the measured cuts.

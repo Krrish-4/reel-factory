@@ -1,0 +1,80 @@
+# "You've Never Seen Your Own Face" — educational explainer, RefinaFlip.
+#
+# THIS FILE IS THE SOURCE OF TRUTH. Edit a line, re-run gen-voiceover.py, and
+# the audio, every cue, every word frame and every beat bound move together.
+# Nothing downstream types a frame number.
+#
+# THE ARGUMENT: a mirror reverses you and a photograph does not, so the face you
+# have rehearsed in front of your whole life is the reverse of the one everyone
+# else has been looking at. Every step of that is either a physical fact or an
+# operation performed on screen.
+#
+# WHY THIS REEL CAN SHOW ITS OWN EVIDENCE. Every second picture in it is a pure
+# geometric operation on ONE registered master — a horizontal flip, one half
+# doubled onto its own mirror, or an absolute difference (gen/asym.py). Nothing
+# is generated, retouched or re-rendered, so unlike the procedure previews there
+# is no question of whether the model did what it was asked. The pair is exact
+# by construction. That is what buys the right to put a measurement on screen.
+#
+# WHAT IT NEVER DOES: claim an outcome, cite a study, or print a number about a
+# face. The only figure in the reel describes two image files and is labelled as
+# such — "PER-PIXEL DIFFERENCE, THIS PHOTO vs ITS MIRROR" — the same standing
+# the proof beat has in "Same Nose". Rule E.
+#
+# TWO FACES, AND THE SECOND ONE IS ANNOUNCED. Beat 5 says "another face" out
+# loud AND carries a SECOND SUBJECT tag. RefinaChanged's first cut silently
+# changed who its subject was and that was its worst defect; a second subject is
+# fine, a silent one is not.
+#
+# Beat grouping lives in src/refina/flip/shots.json, by LINE COUNT — a line
+# added here must be added there, and beats.ts throws at module load if the two
+# disagree.
+
+# -- 1. hook ---------------------------------------------------------------
+One of these is her photograph.                                | 0.30
+The other is the same file, flipped.                           | 0.35
+You have never seen your own face.                             | 0.55
+
+# -- 2. claim --------------------------------------------------------------
+A mirror reverses you.                                         | 0.30
+A photograph does not.                                         | 0.30
+So the face you know best is the one nobody else sees.         | 0.55
+
+# -- 3. proof --------------------------------------------------------------
+Lay the photograph over its own mirror.                        | 0.30
+This is every pixel where the two disagree.                    | 0.35
+Two pictures of one face.                                      | 0.55
+
+# -- 4. one: the halves ----------------------------------------------------
+One. Her halves are two different faces.                       | 0.30
+Left side, doubled. Right side, doubled.                       | 0.30
+Nothing added. Nothing drawn.                                  | 0.30
+Neither one is her.                                            | 0.55
+
+# -- 5. two: another face --------------------------------------------------
+Two. Another face. The same operation.                         | 0.30
+Two people again.                                              | 0.30
+It isn't her. It's everyone.                                   | 0.55
+
+# -- 6. three: the one you rehearse ----------------------------------------
+Three. You have been practising in a mirror.                   | 0.30
+Every expression you have ever checked,                        | 0.25
+you checked reversed.                                          | 0.30
+The photograph is the version you have seen least.             | 0.55
+
+# -- 7. nuance -------------------------------------------------------------
+None of this means your face is wrong.                         | 0.30
+The asymmetry is the part that is actually yours.              | 0.35
+You just watched two faces lose it.                            | 0.55
+
+# -- 8. self-test ----------------------------------------------------------
+So test it.                                                    | 0.30
+Open your camera roll.                                         | 0.30
+Find a photo of yourself and flip it.                          | 0.35
+That is who everyone has been looking at.                      | 0.55
+
+# -- 9. the standard, then the CTA -----------------------------------------
+If you are about to change something on that face,             | 0.30
+see it on yours first. Not on a stranger's.                    | 0.35
+A preview, not a promise.                                      | 0.45
+Search Refina AI.                                              | 0.80

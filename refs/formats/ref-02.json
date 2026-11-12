@@ -1,0 +1,131 @@
+{
+  "label": "ref-02",
+  "source": "refs/corpus/ref-02.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 90.958,
+  "pacing": {
+    "cuts": 6,
+    "cuts_per_min": 4.0,
+    "median_shot_s": 7.42,
+    "shortest_shot_s": 1.08,
+    "longest_shot_s": 49.04,
+    "frozen_pct": 42.0
+  },
+  "element_events": {
+    "count": 137,
+    "per_min": 90.4,
+    "median_gap_s": 0.12,
+    "frames": [
+      63,
+      66,
+      69,
+      72,
+      127,
+      130,
+      133,
+      136,
+      139,
+      142,
+      145,
+      148,
+      151,
+      162,
+      195,
+      198,
+      201,
+      204,
+      257,
+      260,
+      264,
+      331,
+      334,
+      337,
+      340,
+      343,
+      346,
+      422,
+      425,
+      428,
+      431,
+      434,
+      437,
+      499,
+      502,
+      505,
+      508,
+      511,
+      514,
+      517
+    ]
+  },
+  "continuous_motion": {
+    "spans": 39,
+    "total_s": 34.23,
+    "pct_of_runtime": 37.6,
+    "median_span_s": 0.58,
+    "longest_span_s": 4.38,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 24,
+    "median_s": 0.54,
+    "spans_s": [
+      0.708,
+      1.125,
+      0.667,
+      0.375,
+      1.0,
+      1.292,
+      1.125,
+      0.167,
+      0.292,
+      2.167,
+      0.208,
+      0.333,
+      0.167,
+      0.167,
+      0.375,
+      0.417,
+      0.25,
+      1.417,
+      1.167,
+      0.25
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      160,
+      182,
+      192
+    ],
+    "dominant_hex": "#A0B6C0",
+    "corner_flatness": 0.0,
+    "background_drift": 18.27,
+    "flat_background": false,
+    "headline_band_frames_pct": 40.9,
+    "caption_band_frames_pct": 88.5
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 25.3,
+    "approx_any_face_frames_pct": 65.9,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 3,
+    "speech_pct": 99.6,
+    "median_phrase_s": 32.21,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    341,
+    519,
+    871,
+    951,
+    2128,
+    2154
+  ]
+}

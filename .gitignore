@@ -1,0 +1,28 @@
+node_modules
+dist
+build
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+refs/.upload-cache.json
+refs/corpus/
+
+# gflow-cli generated assets — staging only; curated renders move into public/
+gen/out
+
+# Deepgram TTS working dirs — synthesised phrase cache and concat staging.
+refs/.tts-cache/
+refs/.tts-build/
+
+# contact sheets are derived from renders in out/, which is ignored too
+*-phone.png
+# Local secrets written by `elevenlabs onboard`
+/.env.local
+
+# Python
+__pycache__/
+*.pyc
+.gflow/
+.claude/settings.local.json

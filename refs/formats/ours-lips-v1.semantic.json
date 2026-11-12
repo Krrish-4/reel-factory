@@ -1,0 +1,773 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "This ad demonstrates how lip augmentation alters overall facial proportions using precise visual measurements and a physical interactive test.",
+  "hook": {
+    "approx_seconds": "0-5",
+    "what_happens": "A split-screen slider shows a woman's face before and after a subtle lip augmentation.",
+    "why_it_works": "Creates instant visual curiosity by showing how a single change alters the entire face."
+  },
+  "shots": [
+    {
+      "approx_start": 0,
+      "approx_end": 12,
+      "description": "Portrait of a blonde woman with a split-screen slider showing lip augmentation and facial measurement lines.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "split-screen slider",
+        "measurement lines"
+      ]
+    },
+    {
+      "approx_start": 12,
+      "approx_end": 19,
+      "description": "A per-pixel difference heatmap highlighting the changed areas of the face in yellow.",
+      "layout": "darkened portrait with heatmap overlay",
+      "devices": [
+        "pixel difference heatmap",
+        "data chips"
+      ]
+    },
+    {
+      "approx_start": 19,
+      "approx_end": 28,
+      "description": "Split-screen comparison focusing on the nose-to-lip gap distance.",
+      "layout": "split portrait",
+      "devices": [
+        "measurement lines"
+      ]
+    },
+    {
+      "approx_start": 28,
+      "approx_end": 33,
+      "description": "A second subject (Asian woman) demonstrating the same lip augmentation effect.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "measurement lines"
+      ]
+    },
+    {
+      "approx_start": 33,
+      "approx_end": 42,
+      "description": "Split-screen comparison focusing on the lip-to-chin distance.",
+      "layout": "split portrait",
+      "devices": [
+        "measurement lines"
+      ]
+    },
+    {
+      "approx_start": 42,
+      "approx_end": 46,
+      "description": "Side-by-side comparison of the original and edited face.",
+      "layout": "side-by-side split portrait",
+      "devices": []
+    },
+    {
+      "approx_start": 46,
+      "approx_end": 51,
+      "description": "Text instructions prompting the viewer to try a physical test.",
+      "layout": "minimalist text on solid background",
+      "devices": []
+    },
+    {
+      "approx_start": 51,
+      "approx_end": 61.7,
+      "description": "Call to action with a search bar mockup for Refina AI.",
+      "layout": "minimalist text with search input UI",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "split-screen slider",
+      "what_it_is": "A vertical sliding line dividing before and after states.",
+      "used_for": "Showing direct visual comparison of lip augmentation."
+    },
+    {
+      "name": "pixel difference heatmap",
+      "what_it_is": "A dark overlay highlighting changed pixels in bright yellow.",
+      "used_for": "Proving that only the mouth area was edited."
+    },
+    {
+      "name": "measurement lines",
+      "what_it_is": "Horizontal lines indicating facial landmarks.",
+      "used_for": "Illustrating changes in facial proportions."
+    },
+    {
+      "name": "data chips",
+      "what_it_is": "Small UI boxes displaying percentage metrics.",
+      "used_for": "Showing pixel change distribution across facial features."
+    },
+    {
+      "name": "search bar mockup",
+      "what_it_is": "A clean, minimalist search input field.",
+      "used_for": "Prompting the user to search for the app."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "One region changed"
+    },
+    {
+      "approx_t": 0,
+      "track": "citation",
+      "text": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "One photo."
+    },
+    {
+      "approx_t": 0.2,
+      "track": "caption",
+      "text": "One region edited."
+    },
+    {
+      "approx_t": 0.4,
+      "track": "label",
+      "text": "LIP AUGMENTATION"
+    },
+    {
+      "approx_t": 0.4,
+      "track": "caption",
+      "text": "Only her mouth was edited."
+    },
+    {
+      "approx_t": 0.5,
+      "track": "caption",
+      "text": "Look how much of her changed."
+    },
+    {
+      "approx_t": 0.8,
+      "track": "headline",
+      "text": "The lower third is read from here"
+    },
+    {
+      "approx_t": 0.8,
+      "track": "label",
+      "text": "NOSE BASE"
+    },
+    {
+      "approx_t": 0.8,
+      "track": "label",
+      "text": "LIP EDGE"
+    },
+    {
+      "approx_t": 0.8,
+      "track": "label",
+      "text": "CHIN"
+    },
+    {
+      "approx_t": 0.8,
+      "track": "caption",
+      "text": "Lips are not just a feature."
+    },
+    {
+      "approx_t": 10.0,
+      "track": "caption",
+      "text": "They are what the lower third is measured from"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "citation",
+      "text": "THIS PAIR, PER-PIXEL DIFFERENCE"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "headline",
+      "text": "Where the pixels moved"
+    },
+    {
+      "approx_t": 0.13,
+      "track": "chart",
+      "text": "LIPS 51.7"
+    },
+    {
+      "approx_t": 0.13,
+      "track": "chart",
+      "text": "EYES 13.3"
+    },
+    {
+      "approx_t": 0.13,
+      "track": "chart",
+      "text": "NOSE 9.0"
+    },
+    {
+      "approx_t": 0.13,
+      "track": "chart",
+      "text": "JAW 7.0"
+    },
+    {
+      "approx_t": 0.13,
+      "track": "caption",
+      "text": "Here is every pixel that moved."
+    },
+    {
+      "approx_t": 15.0,
+      "track": "caption",
+      "text": "Almost all of it is the mouth."
+    },
+    {
+      "approx_t": 17.0,
+      "track": "caption",
+      "text": "Almost none of it is anywhere else."
+    },
+    {
+      "approx_t": 20.0,
+      "track": "headline",
+      "text": "1. The gap shortens"
+    },
+    {
+      "approx_t": 0.2,
+      "track": "citation",
+      "text": "NOSE BASE TO LIP EDGE, MEASURED"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "label",
+      "text": "THIN"
+    },
+    {
+      "approx_t": 0.21,
+      "track": "label",
+      "text": "FULL"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "caption",
+      "text": "Thin lips make it long. Full lips, short."
+    },
+    {
+      "approx_t": 27.0,
+      "track": "caption",
+      "text": "Same nose."
+    },
+    {
+      "approx_t": 29.0,
+      "track": "headline",
+      "text": "2. Her too"
+    },
+    {
+      "approx_t": 0.29,
+      "track": "label",
+      "text": "SECOND SUBJECT"
+    },
+    {
+      "approx_t": 0.29,
+      "track": "label",
+      "text": "LIP AUGMENTATION"
+    },
+    {
+      "approx_t": 0.29,
+      "track": "caption",
+      "text": "Two. Another face, same edit."
+    },
+    {
+      "approx_t": 31.0,
+      "track": "caption",
+      "text": "Same result."
+    },
+    {
+      "approx_t": 33.0,
+      "track": "citation",
+      "text": "LIP EDGE TO CHIN, MEASURED"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "headline",
+      "text": "3. The same chin"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "label",
+      "text": "SAME"
+    },
+    {
+      "approx_t": 0.35,
+      "track": "caption",
+      "text": "Her chin looks stronger."
+    },
+    {
+      "approx_t": 37.0,
+      "track": "caption",
+      "text": "It is the same chin."
+    },
+    {
+      "approx_t": 38.0,
+      "track": "caption",
+      "text": "You are reading it against a new mouth."
+    },
+    {
+      "approx_t": 42.0,
+      "track": "citation",
+      "text": "ONE FILE, ONE REGION EDITED"
+    },
+    {
+      "approx_t": 43.0,
+      "track": "headline",
+      "text": "Not better. Load-bearing."
+    },
+    {
+      "approx_t": 45.0,
+      "track": "caption",
+      "text": "It means lips are load-bearing."
+    },
+    {
+      "approx_t": 47.0,
+      "track": "headline",
+      "text": "Try it now"
+    },
+    {
+      "approx_t": 0.47,
+      "track": "chip",
+      "text": "DO THIS NOW"
+    },
+    {
+      "approx_t": 48.0,
+      "track": "other",
+      "text": "1 Roll your lips inward"
+    },
+    {
+      "approx_t": 49.0,
+      "track": "other",
+      "text": "2 Hold it"
+    },
+    {
+      "approx_t": 50.0,
+      "track": "other",
+      "text": "3 Watch your chin"
+    },
+    {
+      "approx_t": 0.48,
+      "track": "caption",
+      "text": "Roll your lips inward and hold."
+    },
+    {
+      "approx_t": 0.5,
+      "track": "caption",
+      "text": "Watch your chin arrive."
+    },
+    {
+      "approx_t": 52.0,
+      "track": "headline",
+      "text": "Your face. Not hers."
+    },
+    {
+      "approx_t": 0.52,
+      "track": "headline",
+      "text": "A preview, not a promise."
+    },
+    {
+      "approx_t": 53.0,
+      "track": "ui",
+      "text": "Search"
+    },
+    {
+      "approx_t": 0.53,
+      "track": "caption",
+      "text": "If you are about to change something there, see it on your own face first."
+    },
+    {
+      "approx_t": 57.0,
+      "track": "ui",
+      "text": "Refina AI"
+    },
+    {
+      "approx_t": 59.0,
+      "track": "caption",
+      "text": "Search Refina AI."
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "One photo, one region edited. Only her mouth was edited. Look how much of her changed. Lips are not just a feature. They are what the lower third is measured from."
+    },
+    {
+      "approx_t": 12,
+      "text": "Here is every pixel that moved. Almost all of it is the mouth. Almost none of it is anywhere else."
+    },
+    {
+      "approx_t": 19,
+      "text": "One. The gap under her nose. Thin lips make it long. Full lips, short. Same nose."
+    },
+    {
+      "approx_t": 28,
+      "text": "Two. Another face, same edit. Same result."
+    },
+    {
+      "approx_t": 33,
+      "text": "Three. Her chin looks stronger. It is the same chin. You are reading it against a new mouth."
+    },
+    {
+      "approx_t": 42,
+      "text": "None of this means fuller is better. It means lips are load-bearing."
+    },
+    {
+      "approx_t": 46,
+      "text": "Test it yourself. Roll your lips inward and hold. Watch your chin arrive."
+    },
+    {
+      "approx_t": 52,
+      "text": "If you are about to change something there, see it on your own face first. A preview, not a promise. Search Refina AI."
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the concept of 'load-bearing' facial features.",
+    "Provide per-pixel proof that only the lips were modified.",
+    "Explain the geometric relationship between lips, nose, and chin.",
+    "Validate the findings with a second subject.",
+    "Engage the viewer with a physical self-test.",
+    "Introduce the app as the solution to preview these changes safely."
+  ],
+  "cta": {
+    "approx_t": 52,
+    "what": "Search 'Refina AI' to preview facial changes on your own face."
+  },
+  "subjects": [
+    "Blonde woman (Subject 1, demonstrating lip augmentation effects)",
+    "Asian woman (Subject 2, demonstrating the same effects)"
+  ],
+  "what_makes_it_work": [
+    "Clinical, objective tone that avoids typical beauty ad hype.",
+    "Interactive physical prompt that makes the viewer feel the anatomical connection instantly.",
+    "Clear, data-driven visual evidence that builds high credibility."
+  ],
+  "animations": [
+    {
+      "name": "Before/After Slider Sweep",
+      "approx_t": 1.0,
+      "what_moves": "Vertical divider line and image mask",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Compares unedited and edited face regions directly.",
+      "reusable_as": "Before/after visual comparisons for any product.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Proportion Measurement Lines",
+      "approx_t": 8.0,
+      "what_moves": "Horizontal measurement lines and text labels",
+      "motion": "draw-on",
+      "direction": "left-to-right",
+      "feel": "mechanical",
+      "staggered": true,
+      "layered_with": "Text fade-in",
+      "purpose": "Demonstrates how facial proportions are calculated.",
+      "reusable_as": "Technical diagrams or blueprint callouts.",
+      "we_already_have": "TrimPath",
+      "would_need_building": null
+    },
+    {
+      "name": "Pixel Difference Heatmap & Stats",
+      "approx_t": 13.0,
+      "what_moves": "Heatmap overlay and stat chips",
+      "motion": "fade",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Heatmap fade-in",
+      "purpose": "Quantifies visual changes per facial region.",
+      "reusable_as": "Data visualization overlays on images.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "Split Face Divergence",
+      "approx_t": 44.0,
+      "what_moves": "Two halves of a face sliding apart",
+      "motion": "translate",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Contrasts unedited and edited versions side-by-side.",
+      "reusable_as": "Comparing two variations of a portrait.",
+      "we_already_have": null,
+      "would_need_building": "DivergePanels"
+    },
+    {
+      "name": "Search Bar Typing",
+      "approx_t": 56.0,
+      "what_moves": "Text characters inside search input",
+      "motion": "draw-on",
+      "direction": "left-to-right",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Directs users to search for the brand name.",
+      "reusable_as": "Search bar inputs or typing indicators.",
+      "we_already_have": null,
+      "would_need_building": "TypingInput"
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "SliderReveal comparison sweeps",
+      "Diverging split-screen panels"
+    ],
+    "how_things_enter": "Elements fade in or draw on horizontally.",
+    "how_things_leave": "Elements fade out or slide away.",
+    "how_scenes_change": "Hard cuts between different subjects and diagrams.",
+    "what_stays_still": "The central portrait alignment remains fixed.",
+    "rhythm": "Bursty, alternating between static analysis and sliding transitions."
+  },
+  "what_we_should_steal": [
+    "Split Face Divergence for side-by-side portrait comparisons",
+    "Proportion Measurement Lines for technical overlay effects"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Video starts with a static photo of a woman",
+      "element": "Woman's face and introductory text",
+      "motion": "none",
+      "content": "One region changed, AI PREVIEW - NOT MEDICAL ADVICE, One photo."
+    },
+    {
+      "approx_t": 2.0,
+      "event": "A vertical line sweeps across the screen, revealing the edited face",
+      "element": "Vertical slider line and edited face",
+      "motion": "wipe",
+      "content": "One region edited."
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Text about lip augmentation appears",
+      "element": "Top and bottom text",
+      "motion": "fade",
+      "content": "LIP AUGMENTATION, Only her mouth was edited."
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Additional text fades in at the bottom",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "Look how much of her changed."
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Hard cut to the original face with horizontal measurement lines",
+      "element": "Face with horizontal lines and text",
+      "motion": "cut",
+      "content": "The lower third is read from here, NOSE BASE, LIP EDGE, CHIN, Lips are not just a feature."
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Text explaining the measurement fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "They are what the lower third is measured from"
+    },
+    {
+      "approx_t": 12.0,
+      "event": "Hard cut to a per-pixel difference visualization",
+      "element": "Dark face with highlighted lips and text",
+      "motion": "cut",
+      "content": "THIS PAIR, PER-PIXEL DIFFERENCE"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Measurement boxes and text fade in",
+      "element": "Top boxes and bottom text",
+      "motion": "fade",
+      "content": "Where the pixels moved, LIPS 51.7, EYES 13.3, NOSE 9.0, JAW 7.0, Here is every pixel that moved."
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Text about the mouth movement fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "Almost all of it is the mouth."
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Text about other areas fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "Almost none of it is anywhere else."
+    },
+    {
+      "approx_t": 20.0,
+      "event": "Hard cut to a split-screen comparison of lip gap",
+      "element": "Split-screen face and text",
+      "motion": "cut",
+      "content": "1. The gap shortens, NOSE BASE TO LIP EDGE, MEASURED"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Measurement brackets and labels fade in",
+      "element": "Brackets and labels",
+      "motion": "fade",
+      "content": "THIN, FULL"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Text explaining the gap fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "Thin lips make it long. Full lips, short."
+    },
+    {
+      "approx_t": 27.0,
+      "event": "Text about the nose fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "Same nose."
+    },
+    {
+      "approx_t": 29.0,
+      "event": "Hard cut to a second subject",
+      "element": "Asian woman's face and text",
+      "motion": "cut",
+      "content": "2. Her too, SECOND SUBJECT, LIP AUGMENTATION, Two. Another face, same edit."
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Text about the result fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "Same result."
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Hard cut back to the first subject with chin measurement",
+      "element": "Split-screen face and text",
+      "motion": "cut",
+      "content": "LIP EDGE TO CHIN, MEASURED"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Text about the chin fades in",
+      "element": "Top text",
+      "motion": "fade",
+      "content": "3. The same chin"
+    },
+    {
+      "approx_t": 35.0,
+      "event": "Measurement brackets and text fade in",
+      "element": "Brackets and bottom text",
+      "motion": "fade",
+      "content": "SAME, SAME, Her chin looks stronger."
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Text about the chin being the same fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "It is the same chin."
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Text about reading it against a new mouth fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "You are reading it against a new mouth."
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Hard cut to the edited face",
+      "element": "Woman's face and text",
+      "motion": "cut",
+      "content": "ONE FILE, ONE REGION EDITED"
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Text about load-bearing lips fades in",
+      "element": "Top text",
+      "motion": "fade",
+      "content": "Not better. Load-bearing."
+    },
+    {
+      "approx_t": 44.0,
+      "event": "The screen splits to show a side-by-side comparison",
+      "element": "Original face sliding in on the left",
+      "motion": "wipe",
+      "content": "Original vs edited face comparison"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Text about lips being load-bearing fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "It means lips are load-bearing."
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Hard cut to a grey screen with instructions",
+      "element": "Grey background and text",
+      "motion": "cut",
+      "content": "Try it now, DO THIS NOW"
+    },
+    {
+      "approx_t": 48.0,
+      "event": "First instruction and bottom text fade in",
+      "element": "Instruction text",
+      "motion": "fade",
+      "content": "1 Roll your lips inward, Roll your lips inward and hold."
+    },
+    {
+      "approx_t": 49.0,
+      "event": "Second instruction fades in",
+      "element": "Instruction text",
+      "motion": "fade",
+      "content": "2 Hold it"
+    },
+    {
+      "approx_t": 50.0,
+      "event": "Third instruction and bottom text fade in",
+      "element": "Instruction text",
+      "motion": "fade",
+      "content": "3 Watch your chin, Watch your chin arrive."
+    },
+    {
+      "approx_t": 52.0,
+      "event": "Hard cut to a grey screen with a search bar",
+      "element": "Search bar and text",
+      "motion": "cut",
+      "content": "Your face. Not hers., A preview, not a promise., If you are about to change something there, see it on your own face first."
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Placeholder text fades in inside the search bar",
+      "element": "Search bar placeholder",
+      "motion": "fade",
+      "content": "Search"
+    },
+    {
+      "approx_t": 57.0,
+      "event": "Text is typed into the search bar",
+      "element": "Search bar input",
+      "motion": "draw-on",
+      "content": "Refina AI"
+    },
+    {
+      "approx_t": 59.0,
+      "event": "Final call to action text fades in",
+      "element": "Bottom text",
+      "motion": "fade",
+      "content": "Search Refina AI."
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "out/refina-lips-v1.mp4",
+    "tokens": {
+      "animation": 9127,
+      "content": 12275
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

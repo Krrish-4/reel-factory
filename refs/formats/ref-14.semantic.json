@@ -1,0 +1,399 @@
+{
+  "format_archetype": "educational explainer",
+  "one_line": "A quick visual guide to determining if a chin is masculine or feminine based on facial width ratios.",
+  "hook": {
+    "approx_seconds": "0-2",
+    "what_happens": "A portrait of a man with text asking if they have a masculine or feminine chin.",
+    "why_it_works": "Appeals to self-curiosity and facial aesthetics."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 2.0,
+      "description": "Frontal portrait of a young man on a solid light blue background.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "text overlay"
+      ]
+    },
+    {
+      "approx_start": 2.0,
+      "approx_end": 4.0,
+      "description": "Solid light blue screen with transition text.",
+      "layout": "minimalist text screen",
+      "devices": [
+        "text overlay"
+      ]
+    },
+    {
+      "approx_start": 4.0,
+      "approx_end": 18.0,
+      "description": "Close-up of the man's face with animated measurement lines and dots.",
+      "layout": "cropped portrait with graphic overlays",
+      "devices": [
+        "dotted lines",
+        "glowing nodes",
+        "text labels"
+      ]
+    },
+    {
+      "approx_start": 18.0,
+      "approx_end": 21.8,
+      "description": "Solid light blue screen with final CTA.",
+      "layout": "minimalist text screen",
+      "devices": [
+        "text overlay",
+        "button graphic"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "glowing nodes",
+      "what_it_is": "Bright white circular markers",
+      "used_for": "Highlighting facial reference points (nose and mouth corners)"
+    },
+    {
+      "name": "dotted lines",
+      "what_it_is": "Vertical dashed alignment lines",
+      "used_for": "Projecting widths down to the chin area"
+    },
+    {
+      "name": "bracket labels",
+      "what_it_is": "Text with horizontal bracket lines",
+      "used_for": "Indicating width comparisons"
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Do you have Masculine chin?"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "headline",
+      "text": "Do you have Feminine chin?"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "headline",
+      "text": "Here's how to tell"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "label",
+      "text": "CLOSER TO Mouth width?"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "label",
+      "text": "Masculine Chin"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "label",
+      "text": "CLOSER TO Nose width?"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "label",
+      "text": "Feminine Chin"
+    },
+    {
+      "approx_t": 18.5,
+      "track": "headline",
+      "text": "Analyze your face at"
+    },
+    {
+      "approx_t": 19.5,
+      "track": "ui",
+      "text": "qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Do you have a masculine or feminine chin?"
+    },
+    {
+      "approx_t": 2.0,
+      "text": "Here's a quick rough test for you to tell."
+    },
+    {
+      "approx_t": 4.0,
+      "text": "Imagine two sets of parallel lines coming straight down from the corners of your nose and the corners of your mouth."
+    },
+    {
+      "approx_t": 10.0,
+      "text": "If your chin is about the same width as your mouth, you probably have a masculine chin."
+    },
+    {
+      "approx_t": 14.0,
+      "text": "If it's about the same width as your nose, you probably have a feminine chin."
+    },
+    {
+      "approx_t": 18.0,
+      "text": "If you want us to analyze your face, click the link in bio at qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Pose the core question about chin shape.",
+    "Introduce a simple self-test method.",
+    "Demonstrate the measurement technique visually.",
+    "Define the criteria for masculine vs. feminine chins.",
+    "Direct viewers to the website for a personalized analysis."
+  ],
+  "cta": {
+    "approx_t": 18.5,
+    "what": "Visit qoves.com to get a professional facial analysis."
+  },
+  "subjects": [
+    "Unidentified young male model with freckles, serving as the visual reference."
+  ],
+  "what_makes_it_work": [
+    "Clear, minimalist visual aids that simplify complex facial geometry.",
+    "High-quality, clean portrait photography that looks professional.",
+    "Direct, engaging voiceover that guides the viewer through the self-test."
+  ],
+  "animations": [
+    {
+      "name": "Text Swap Header",
+      "approx_t": 0.0,
+      "what_moves": "Header text 'Masculine' swaps to 'Feminine'",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Establishes the dual premise of the video immediately.",
+      "reusable_as": "Swapping contrasting terms in any educational hook.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Intro Text Fade",
+      "approx_t": 2.0,
+      "what_moves": "Instructional text 'Here's how to tell'",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Transitions from the hook to the instructional guide.",
+      "reusable_as": "Introducing steps or methods in tutorial videos.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Nose Alignment Lines",
+      "approx_t": 5.0,
+      "what_moves": "Two dots on nose corners and vertical dotted lines",
+      "motion": "draw-on",
+      "direction": "downward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Visualizes the anatomical reference points on the nose.",
+      "reusable_as": "Drawing alignment guides or measurements on a subject.",
+      "we_already_have": "DottedDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Mouth Alignment Lines",
+      "approx_t": 8.0,
+      "what_moves": "Two dots on mouth corners and vertical dotted lines",
+      "motion": "draw-on",
+      "direction": "downward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Visualizes the second set of anatomical reference points.",
+      "reusable_as": "Adding secondary measurement lines in tutorials.",
+      "we_already_have": "DottedDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Masculine Chin Label Reveal",
+      "approx_t": 11.0,
+      "what_moves": "Text labels indicating mouth width and masculine chin",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Displays the conclusion for wide-chin alignment.",
+      "reusable_as": "Revealing results or classifications based on visual tests.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Feminine Chin Label Reveal",
+      "approx_t": 15.0,
+      "what_moves": "Text labels indicating nose width and feminine chin",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Displays the conclusion for narrow-chin alignment.",
+      "reusable_as": "Revealing alternative results in diagnostic videos.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Outro Call to Action",
+      "approx_t": 18.0,
+      "what_moves": "Website URL and call-to-action text",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Directs viewers to the website for full analysis.",
+      "reusable_as": "Standard end-screen call to action for any brand.",
+      "we_already_have": "OutroCard",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Dotted alignment lines drawing downward from facial features",
+      "Clean, minimalist text fades over a solid background"
+    ],
+    "how_things_enter": "Elements fade in place or draw along a path (dotted lines).",
+    "how_things_leave": "Elements fade out abruptly during scene transitions.",
+    "how_scenes_change": "Hard cuts between text cards and the central face graphic.",
+    "what_stays_still": "The subject's face remains perfectly centered and still.",
+    "rhythm": "Deliberate and educational, matching the voiceover explanation."
+  },
+  "what_we_should_steal": [
+    "DottedDraw alignment lines for precise anatomical or product callouts"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Text appears on screen",
+      "element": "Do you have Masculine chin?",
+      "motion": "fade",
+      "content": "Do you have Masculine chin?"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Text changes",
+      "element": "Feminine chin?",
+      "motion": "fade",
+      "content": "Do you have Feminine chin?"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Transition to solid background with text",
+      "element": "Here's how to tell",
+      "motion": "fade",
+      "content": "Here's how to tell"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Transition to close-up of face",
+      "element": "Face close-up",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Two white dots appear on nose corners",
+      "element": "Nose dots",
+      "motion": "scale",
+      "content": ""
+    },
+    {
+      "approx_t": 5.5,
+      "event": "Dashed lines extend downwards from nose dots",
+      "element": "Nose lines",
+      "motion": "mask-reveal",
+      "content": ""
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Two white dots appear on mouth corners",
+      "element": "Mouth dots",
+      "motion": "scale",
+      "content": ""
+    },
+    {
+      "approx_t": 8.5,
+      "event": "Dashed lines extend downwards from mouth dots",
+      "element": "Mouth lines",
+      "motion": "mask-reveal",
+      "content": ""
+    },
+    {
+      "approx_t": 10.5,
+      "event": "Nose dots and lines fade out",
+      "element": "Nose dots and lines",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Text appears on screen",
+      "element": "CLOSER TO Mouth width? Masculine Chin",
+      "motion": "fade",
+      "content": "CLOSER TO Mouth width? Masculine Chin"
+    },
+    {
+      "approx_t": 14.5,
+      "event": "Transition to close-up of face",
+      "element": "Face close-up",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Two white dots appear on nose corners",
+      "element": "Nose dots",
+      "motion": "scale",
+      "content": ""
+    },
+    {
+      "approx_t": 15.5,
+      "event": "Dashed lines extend downwards from nose dots",
+      "element": "Nose lines",
+      "motion": "mask-reveal",
+      "content": ""
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Text appears on screen",
+      "element": "CLOSER TO Nose width? Feminine Chin",
+      "motion": "fade",
+      "content": "CLOSER TO Nose width? Feminine Chin"
+    },
+    {
+      "approx_t": 18.5,
+      "event": "Transition to solid background with text",
+      "element": "Analyze your face at",
+      "motion": "fade",
+      "content": "Analyze your face at"
+    },
+    {
+      "approx_t": 19.5,
+      "event": "Text and outline appear",
+      "element": "qoves.com button",
+      "motion": "draw-on",
+      "content": "qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-14.mp4",
+    "tokens": {
+      "animation": 5076,
+      "content": 5983
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "format_archetype": "grooming explainer",
+  "one_line": "This video provides a three-step guide using facial anatomy and features to determine if a moustache suits a man's face.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Transitions of famous Indian actors with and without moustaches under the title 'Moustache Look?'.",
+    "why_it_works": "Leverages celebrity appeal and a common style dilemma to immediately engage the audience."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 2.5,
+      "description": "Title screen with rapid face transitions of clean-shaven actors.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "text overlay",
+        "face transition"
+      ]
+    },
+    {
+      "approx_start": 2.5,
+      "approx_end": 6.0,
+      "description": "Montage of celebrities sporting thick moustaches at events.",
+      "layout": "stacked image cards",
+      "devices": [
+        "image cards",
+        "source citation"
+      ]
+    },
+    {
+      "approx_start": 6.0,
+      "approx_end": 8.0,
+      "description": "Menu card listing the three criteria: Philtrum, Facial Features, Density.",
+      "layout": "3-item vertical list",
+      "devices": [
+        "numbered list cards",
+        "image thumbnails"
+      ]
+    },
+    {
+      "approx_start": 8.0,
+      "approx_end": 25.0,
+      "description": "Analysis of the philtrum using Vicky Kaushal's face with 3D overlays.",
+      "layout": "full-bleed portrait with graphic overlays",
+      "devices": [
+        "3D anatomical overlay",
+        "status chips",
+        "before/after toggle"
+      ]
+    },
+    {
+      "approx_start": 25.0,
+      "approx_end": 27.0,
+      "description": "Menu card highlighting the second point: Facial Features.",
+      "layout": "3-item vertical list",
+      "devices": [
+        "numbered list cards"
+      ]
+    },
+    {
+      "approx_start": 27.0,
+      "approx_end": 41.0,
+      "description": "Analysis of facial features (jaw, brows) using Ranveer Singh's face.",
+      "layout": "full-bleed portrait with graphic overlays",
+      "devices": [
+        "facial mesh overlay",
+        "feature icons",
+        "status chips"
+      ]
+    },
+    {
+      "approx_start": 41.0,
+      "approx_end": 42.0,
+      "description": "Menu card highlighting the third point: Density.",
+      "layout": "3-item vertical list",
+      "devices": [
+        "numbered list cards"
+      ]
+    },
+    {
+      "approx_start": 42.0,
+      "approx_end": 52.0,
+      "description": "Analysis of moustache density using Varun Dhawan's face.",
+      "layout": "full-bleed portrait with graphic overlays",
+      "devices": [
+        "status chips",
+        "before/after toggle"
+      ]
+    },
+    {
+      "approx_start": 52.0,
+      "approx_end": 54.2,
+      "description": "Outro shot of Vijay Deverakonda with a call to action.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "text overlay"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Anatomical Overlays",
+      "what_it_is": "Semi-transparent 3D lines and meshes highlighting facial structures.",
+      "used_for": "Visualizing the philtrum, jawline, and eyebrows scientifically."
+    },
+    {
+      "name": "Status Chips",
+      "what_it_is": "Rounded rectangular labels with green checkmarks.",
+      "used_for": "Indicating positive facial attributes or recommended styles."
+    },
+    {
+      "name": "Numbered List Cards",
+      "what_it_is": "A vertical stack of three dark cards with images and text.",
+      "used_for": "Structuring the video's main points as a menu."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Moustache Look?"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "RAVI KISHAN, MEMBER OF THE LOK SABHA"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "VIJAY DEVERAKONDA, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "VICKY KAUSHAL, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "citation",
+      "text": "SOURCE: GLAMSHAM"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "label",
+      "text": "1 PHILTRUM"
+    },
+    {
+      "approx_t": 6.5,
+      "track": "label",
+      "text": "2 FACIAL FEATURES"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "label",
+      "text": "3 DENSITY"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "label",
+      "text": "PHILTRUM"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "headline",
+      "text": "Long Philtrum"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "THICK MOUSTACHE"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "BALANCED"
+    },
+    {
+      "approx_t": 29.0,
+      "track": "chip",
+      "text": "JAW"
+    },
+    {
+      "approx_t": 30.0,
+      "track": "chip",
+      "text": "EYEBROW"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "HEIGHT"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "STRONG BROWS"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "chip",
+      "text": "DEFINED JAW"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "chip",
+      "text": "PLAIN FACE"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "chip",
+      "text": "FOCAL POINT"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "chip",
+      "text": "SPARSE GROWTH"
+    },
+    {
+      "approx_t": 50.0,
+      "track": "chip",
+      "text": "THICK"
+    },
+    {
+      "approx_t": 51.0,
+      "track": "chip",
+      "text": "HORIZONTAL BLOCK"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "How do you know if a moustache looks good on you?"
+    },
+    {
+      "approx_t": 3.0,
+      "text": "This clean and thick moustache look is everywhere right now."
+    },
+    {
+      "approx_t": 6.0,
+      "text": "So here are three ways to check if it'll look great on you."
+    },
+    {
+      "approx_t": 8.5,
+      "text": "One way to find out is to look at the space between your nose and the upper lip."
+    },
+    {
+      "approx_t": 13.0,
+      "text": "This is your philtrum."
+    },
+    {
+      "approx_t": 15.0,
+      "text": "A long or a short philtrum heavily impacts how your face looks."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "So if you have a visibly long philtrum, a thick moustache can break up that empty space and make your face look more balanced."
+    },
+    {
+      "approx_t": 25.5,
+      "text": "Second, check your facial features."
+    },
+    {
+      "approx_t": 28.0,
+      "text": "Research shows that your jaw, eyebrow thickness, and facial height contributes to perceived masculinity."
+    },
+    {
+      "approx_t": 34.0,
+      "text": "So if you already have strong brows and a defined jaw, but a relatively plain face, a moustache can become a strong focal point."
+    },
+    {
+      "approx_t": 41.0,
+      "text": "And third, moustache density."
+    },
+    {
+      "approx_t": 43.0,
+      "text": "This whole look falls flat if your moustache is very sparse."
+    },
+    {
+      "approx_t": 46.5,
+      "text": "The moustache only produces the right perception if it can grow thick and create a clear horizontal block."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "Follow for more grooming tips."
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the trend and pose the core question.",
+    "Present a 3-step checklist framework.",
+    "Explain the role of philtrum length with visual proof.",
+    "Explain the role of facial features and masculinity perception.",
+    "Explain the necessity of hair density for the look to work.",
+    "Conclude with a call to action."
+  ],
+  "cta": {
+    "approx_t": 52.0,
+    "what": "Follow for more grooming tips."
+  },
+  "subjects": [
+    {
+      "name": "Ravi Kishan",
+      "role": "Indian politician and actor shown in hook"
+    },
+    {
+      "name": "Vijay Deverakonda",
+      "role": "Indian actor shown in hook and outro"
+    },
+    {
+      "name": "Vicky Kaushal",
+      "role": "Indian actor used for philtrum analysis"
+    },
+    {
+      "name": "Ranbir Kapoor",
+      "role": "Indian actor shown in trend montage"
+    },
+    {
+      "name": "Ranveer Singh",
+      "role": "Indian actor used for facial feature analysis"
+    },
+    {
+      "name": "Varun Dhawan",
+      "role": "Indian actor used for density analysis"
+    }
+  ],
+  "what_makes_it_work": [
+    "Uses highly recognizable Indian celebrities to illustrate style concepts.",
+    "Employs clean, high-tech anatomical overlays that make the advice feel scientific and trustworthy.",
+    "Maintains a fast-paced, structured 3-part list format that keeps viewers hooked."
+  ],
+  "animations": [
+    {
+      "name": "Horizontal Portrait Slide",
+      "approx_t": 0.0,
+      "what_moves": "Portrait cutouts of different men",
+      "motion": "translate",
+      "direction": "right-to-left",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Introduce different actors to show the universality of the moustache look.",
+      "reusable_as": "Showcasing a lineup of products or team members in sequence.",
+      "we_already_have": null,
+      "would_need_building": "A horizontal carousel transition that slides layered portrait cutouts across the screen."
+    },
+    {
+      "name": "Photo Card Push Wipe",
+      "approx_t": 3.0,
+      "what_moves": "Rectangular photo cards of celebrities",
+      "motion": "wipe",
+      "direction": "right-to-left",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Display real-world examples of the trend in a gallery format.",
+      "reusable_as": "Displaying portfolio items or user-generated content reviews.",
+      "we_already_have": "PushWipe",
+      "would_need_building": null
+    },
+    {
+      "name": "Menu Card Pop-In",
+      "approx_t": 7.0,
+      "what_moves": "Three numbered feature cards",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Introduce the three-step criteria framework for the video.",
+      "reusable_as": "Presenting a list of features, steps, or key takeaways.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "Facial Wireframe Draw",
+      "approx_t": 10.0,
+      "what_moves": "Glowing anatomical lines on the face",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Highlight the philtrum area scientifically.",
+      "reusable_as": "Tracing product schematics or highlighting specific UI elements.",
+      "we_already_have": "ContourDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Icon Card Slide-Up",
+      "approx_t": 13.0,
+      "what_moves": "Small label card at the bottom of the face",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Label the highlighted facial feature clearly.",
+      "reusable_as": "Displaying tooltips, tags, or small feature labels.",
+      "we_already_have": "SlideIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Moustache Pop-On",
+      "approx_t": 21.0,
+      "what_moves": "Moustache graphic overlay",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Simulate the look of a moustache instantly on a clean-shaven face.",
+      "reusable_as": "Overlaying accessories, glasses, or digital assets onto a subject.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Checkmark Badge Pop-In",
+      "approx_t": 21.0,
+      "what_moves": "Green pill-shaped text badges",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Confirm positive attributes of the simulated look.",
+      "reusable_as": "Displaying pros, benefits, or feature tags on a product.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Horizontal Portrait Slide",
+      "Facial Wireframe Draw",
+      "Checkmark Badge Pop-In"
+    ],
+    "how_things_enter": "Elements pop in with elastic scaling or slide in from the right/bottom.",
+    "how_things_leave": "Elements are pushed off-screen by incoming elements or fade out quickly.",
+    "how_scenes_change": "Hard cuts separate the main educational segments, while push-wipes transition gallery photos.",
+    "what_stays_still": "The central portrait subject remains static while overlays and badges animate around them.",
+    "rhythm": "Bursty and fast-paced, with rapid badge pops synchronized to the voiceover's key points."
+  },
+  "what_we_should_steal": [
+    "Facial Wireframe Draw for high-tech anatomical or product highlighting.",
+    "Horizontal Portrait Slide for dynamic, engaging character or product introductions.",
+    "Checkmark Badge Pop-In for clean, snappy feature validation."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Video opens with title overlay and actor portrait",
+      "element": "Text overlays 'Moustache Look?' and actor label",
+      "motion": "none",
+      "content": "RAVI KISHAN, MEMBER OF THE LOK SABHA"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Actor card slides in from left",
+      "element": "Vijay Deverakonda portrait and label",
+      "motion": "translate",
+      "content": "VIJAY DEVERAKONDA, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Actor card slides in from left",
+      "element": "Vicky Kaushal portrait and label",
+      "motion": "translate",
+      "content": "VICKY KAUSHAL, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Cut to photo gallery sequence of celebrities",
+      "element": "Photo sequence panel",
+      "motion": "cut",
+      "content": "SOURCE: GLAMSHAM"
+    },
+    {
+      "approx_t": 6.0,
+      "event": "Display three numbered checklist cards",
+      "element": "Card 1 'PHILTRUM'",
+      "motion": "translate",
+      "content": "1 PHILTRUM"
+    },
+    {
+      "approx_t": 6.5,
+      "event": "Card 2 slides into place",
+      "element": "Card 2 'FACIAL FEATURES'",
+      "motion": "translate",
+      "content": "2 FACIAL FEATURES"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Card 3 slides into place",
+      "element": "Card 3 'DENSITY'",
+      "motion": "translate",
+      "content": "3 DENSITY"
+    },
+    {
+      "approx_t": 8.8,
+      "event": "Cut to Vicky Kaushal portrait for philtrum explanation",
+      "element": "Vicky Kaushal portrait",
+      "motion": "cut",
+      "content": "clean-shaven face"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Square focus box highlights lip and nose area",
+      "element": "Bounding box animation",
+      "motion": "scale",
+      "content": "nose and lip zoom focus"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Philtrum diagram icon appears",
+      "element": "Philtrum icon badge",
+      "motion": "fade",
+      "content": "PHILTRUM"
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Measurement bracket appears between upper lip and nose",
+      "element": "Graphic bracket line",
+      "motion": "draw-on",
+      "content": "philtrum height measurement"
+    },
+    {
+      "approx_t": 19.0,
+      "event": "Header text 'Long Philtrum' appears at top",
+      "element": "Title overlay",
+      "motion": "fade",
+      "content": "Long Philtrum"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Moustache is added onto the face graphic",
+      "element": "Digital moustache layer and label",
+      "motion": "fade",
+      "content": "THICK MOUSTACHE"
+    },
+    {
+      "approx_t": 24.0,
+      "event": "Status pill transitions to green approval badge",
+      "element": "Status badge",
+      "motion": "scale",
+      "content": "BALANCED"
+    },
+    {
+      "approx_t": 26.0,
+      "event": "Cut back to three checklist cards focusing on item 2",
+      "element": "Checklist sequence",
+      "motion": "cut",
+      "content": "FACIAL FEATURES card highlight"
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Cut to portrait of Ranveer Singh",
+      "element": "Ranveer Singh face",
+      "motion": "cut",
+      "content": "clean-shaven portrait"
+    },
+    {
+      "approx_t": 29.0,
+      "event": "Jawline feature icon pops up",
+      "element": "Jaw icon badge",
+      "motion": "scale",
+      "content": "JAW"
+    },
+    {
+      "approx_t": 30.0,
+      "event": "Eyebrow feature icon pops up",
+      "element": "Eyebrow icon badge",
+      "motion": "scale",
+      "content": "EYEBROW"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Facial height feature icon pops up",
+      "element": "Height icon badge",
+      "motion": "scale",
+      "content": "HEIGHT"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Cut to photo of Ranveer highlighting eyebrow structure",
+      "element": "Photo and badge",
+      "motion": "cut",
+      "content": "STRONG BROWS"
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Cut to photo highlighting jawline definition",
+      "element": "Photo and badge",
+      "motion": "cut",
+      "content": "DEFINED JAW"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Cut to photo demonstrating plain facial base",
+      "element": "Photo and badge",
+      "motion": "cut",
+      "content": "PLAIN FACE"
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Cut back to studio portrait of Ranveer Singh",
+      "element": "Clean-shaven portrait",
+      "motion": "cut",
+      "content": "Ranveer Singh"
+    },
+    {
+      "approx_t": 39.0,
+      "event": "Digital moustache appears on Ranveer Singh",
+      "element": "Moustache overlay",
+      "motion": "fade",
+      "content": "moustache added"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Focal point status pill appears",
+      "element": "Status badge",
+      "motion": "scale",
+      "content": "FOCAL POINT"
+    },
+    {
+      "approx_t": 41.0,
+      "event": "Cut back to checklist sequence highlighting item 3",
+      "element": "Checklist sequence",
+      "motion": "cut",
+      "content": "DENSITY card highlight"
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Cut to portrait of Varun Dhawan",
+      "element": "Varun Dhawan face",
+      "motion": "cut",
+      "content": "clean-shaven portrait"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Sparse moustache overlay and badge appear",
+      "element": "Moustache overlay and text pill",
+      "motion": "fade",
+      "content": "SPARSE GROWTH"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Cut to photo of Varun Dhawan with full moustache in suit",
+      "element": "Suit photo",
+      "motion": "cut",
+      "content": "Varun Dhawan photo"
+    },
+    {
+      "approx_t": 48.0,
+      "event": "Cut to closeup of moustache texture",
+      "element": "Closeup photo",
+      "motion": "cut",
+      "content": "moustache detail"
+    },
+    {
+      "approx_t": 49.0,
+      "event": "Cut back to Varun Dhawan portrait",
+      "element": "Varun Dhawan portrait",
+      "motion": "cut",
+      "content": "clean-shaven portrait"
+    },
+    {
+      "approx_t": 50.0,
+      "event": "Full thick moustache appears with approval badge",
+      "element": "Moustache overlay and green pill",
+      "motion": "fade",
+      "content": "THICK"
+    },
+    {
+      "approx_t": 51.0,
+      "event": "Status pill transitions to Horizontal Block badge",
+      "element": "Status badge",
+      "motion": "scale",
+      "content": "HORIZONTAL BLOCK"
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Cut to final shot of Vijay Deverakonda with moustache",
+      "element": "Vijay Deverakonda portrait",
+      "motion": "cut",
+      "content": "outro scene"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-20.mp4",
+    "tokens": {
+      "animation": 8925,
+      "content": 9626
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "label": "ref-18",
+  "archetype": "style analysis explainer",
+  "one_line": "This video analyzes Raghav Juyal's style transformation, explaining how hair and beard choices balance a long rectangular face.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 59.4,
+  "measured": {
+    "pacing": {
+      "cuts": 13,
+      "cuts_per_min": 13.1,
+      "median_shot_s": 0.93,
+      "shortest_shot_s": 0.1,
+      "longest_shot_s": 34.93,
+      "frozen_pct": 76.6
+    },
+    "transitions": {
+      "count": 9,
+      "median_s": 0.3,
+      "spans_s": [
+        0.3,
+        0.433,
+        1.667,
+        0.2,
+        0.267,
+        0.133,
+        0.3,
+        0.4,
+        0.133
+      ]
+    },
+    "element_events": {
+      "count": 46,
+      "per_min": 46.5,
+      "median_gap_s": 0.1,
+      "frames": [
+        70,
+        73,
+        254,
+        257,
+        266,
+        269,
+        272,
+        275,
+        374,
+        377,
+        380,
+        507,
+        510,
+        513,
+        516,
+        519,
+        522,
+        525,
+        528,
+        531,
+        534,
+        537,
+        540,
+        543,
+        546,
+        705,
+        708,
+        771,
+        774,
+        777,
+        1077,
+        1252,
+        1255,
+        1258,
+        1487,
+        1535,
+        1577,
+        1620,
+        1657,
+        1660
+      ]
+    },
+    "continuous_motion": {
+      "spans": 9,
+      "total_s": 3.89,
+      "pct_of_runtime": 6.6,
+      "median_span_s": 0.43,
+      "longest_span_s": 0.73,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        136,
+        135,
+        142
+      ],
+      "dominant_hex": "#88878E",
+      "corner_flatness": 89.0,
+      "background_drift": 40.64,
+      "flat_background": false,
+      "headline_band_frames_pct": 99.5,
+      "caption_band_frames_pct": 75.3
+    },
+    "audio": {
+      "speech_segments": 1,
+      "speech_pct": 100.0,
+      "median_phrase_s": 59.4,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 9,
+    "hard_cuts": 13,
+    "cuts_per_described_change": 1.62,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": true,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 2.3,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with transition slider",
+      "description": "Before and after portrait comparison of Raghav Juyal.",
+      "devices": [
+        "transition slider",
+        "text overlay"
+      ]
+    },
+    {
+      "start_s": 3.6,
+      "start_frame": 108,
+      "end_s": 8.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with interactive UI elements",
+      "description": "Montage of Raghav's stylish photos with UI overlays.",
+      "devices": [
+        "interactive buttons",
+        "wireframe overlay"
+      ]
+    },
+    {
+      "start_s": 8.6,
+      "start_frame": 258,
+      "end_s": 20.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with text chips and wireframe highlights",
+      "description": "Analysis of Raghav's 2016 look with face and hair callouts.",
+      "devices": [
+        "text chips",
+        "wireframe overlay",
+        "measurement lines"
+      ]
+    },
+    {
+      "start_s": 21.033,
+      "start_frame": 631,
+      "end_s": 23.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait video",
+      "description": "B-roll clips of Raghav smiling and posing.",
+      "devices": []
+    },
+    {
+      "start_s": 22.867,
+      "start_frame": 686,
+      "end_s": 35.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with dynamic wireframes and status indicators",
+      "description": "Analysis of current hair and beard style benefits.",
+      "devices": [
+        "wireframe overlay",
+        "status indicators",
+        "text chips"
+      ]
+    },
+    {
+      "start_s": 35.0,
+      "start_frame": 1050,
+      "end_s": 41.0,
+      "snapped_to_measured_cut": false,
+      "layout": "full-bleed portrait with geometric guidelines",
+      "description": "Explanation of the rectangular face rule.",
+      "devices": [
+        "geometric guidelines",
+        "status indicators"
+      ]
+    },
+    {
+      "start_s": 41.0,
+      "start_frame": 1230,
+      "end_s": 46.0,
+      "snapped_to_measured_cut": false,
+      "layout": "carousel UI with swipe indicators",
+      "description": "Carousel showcasing recommended beard styles.",
+      "devices": [
+        "carousel UI",
+        "status indicators",
+        "text chips"
+      ]
+    },
+    {
+      "start_s": 46.0,
+      "start_frame": 1380,
+      "end_s": 57.0,
+      "snapped_to_measured_cut": false,
+      "layout": "carousel UI with swipe indicators",
+      "description": "Carousel showcasing recommended and discouraged hair styles.",
+      "devices": [
+        "carousel UI",
+        "status indicators",
+        "text chips",
+        "geometric guidelines"
+      ]
+    },
+    {
+      "start_s": 57.8,
+      "start_frame": 1734,
+      "end_s": 59.4,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait video",
+      "description": "Outro clip of Raghav posing at an event.",
+      "devices": []
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "text chips",
+      "what_it_is": "Rounded rectangular labels containing style terms.",
+      "how_it_animates": null,
+      "shots": [
+        2,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "status indicators",
+      "what_it_is": "Green checkmarks and red cross icons.",
+      "how_it_animates": null,
+      "shots": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "wireframe overlay",
+      "what_it_is": "3D-like mesh highlighting hair, beard, and face shapes.",
+      "how_it_animates": null,
+      "shots": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "carousel UI",
+      "what_it_is": "Left and right navigation arrows on the sides of the frame.",
+      "how_it_animates": null,
+      "shots": [
+        6,
+        7
+      ]
+    },
+    {
+      "name": "geometric guidelines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5,
+        7
+      ]
+    },
+    {
+      "name": "transition slider",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "text overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "interactive buttons",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "measurement lines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Shows Raghav's dramatic 'before' and 'after' photos side-by-side.",
+    "why_it_works": "Leverages celebrity transformation curiosity and instant visual contrast."
+  },
+  "narrative_arc": [
+    "Introduce celebrity transformation hook.",
+    "Identify the core style elements: hair and beard.",
+    "Analyze past style mistakes based on face shape.",
+    "Explain current style corrections that balance proportions.",
+    "State the general rule for rectangular faces.",
+    "Provide actionable style recommendations and warnings."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Raghav Juyal's Glowup"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "Raghav"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "HAIR"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "BEARD"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "headline",
+      "text": "2016"
+    },
+    {
+      "approx_t": 9.0,
+      "track": "chip",
+      "text": "LONG FACE"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "NARROW CHIN"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "LONG NECK"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "chip",
+      "text": "SHORTER SIDES"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "chip",
+      "text": "VOLUME ON TOP"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chip",
+      "text": "SHORT BEARD"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "OUTWARD CURLS"
+    },
+    {
+      "approx_t": 26.0,
+      "track": "chip",
+      "text": "ADDS WIDTH"
+    },
+    {
+      "approx_t": 29.0,
+      "track": "chip",
+      "text": "DOWNWARD"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "VOLUME"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "BROADER"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "headline",
+      "text": "Rectangular face rule"
+    },
+    {
+      "approx_t": 39.0,
+      "track": "chip",
+      "text": "LENGTH"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "chip",
+      "text": "WIDTH"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "headline",
+      "text": "Beard"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "chip",
+      "text": "FULL SHORT BEARD"
+    },
+    {
+      "approx_t": 43.0,
+      "track": "chip",
+      "text": "BOXED BEARD"
+    },
+    {
+      "approx_t": 44.0,
+      "track": "chip",
+      "text": "HEAVY STUBBLE"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "chip",
+      "text": "GARIBALDI-STYLE BEARD"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "headline",
+      "text": "Hair"
+    },
+    {
+      "approx_t": 48.0,
+      "track": "chip",
+      "text": "GROWN-OUT CURLS"
+    },
+    {
+      "approx_t": 49.0,
+      "track": "chip",
+      "text": "TEXTURED MEDIUM-LENGTH"
+    },
+    {
+      "approx_t": 51.0,
+      "track": "chip",
+      "text": "LAYERED SHAG"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "chip",
+      "text": "TIGHT FADES"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chip",
+      "text": "HIGH POMPADOURS"
+    },
+    {
+      "approx_t": 56.0,
+      "track": "chip",
+      "text": "LONGER"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Raghav Juyal went from looking like this to this."
+    },
+    {
+      "approx_t": 3.0,
+      "text": "And you might think it's just because of his fashion, but it's actually his hair and beard game."
+    },
+    {
+      "approx_t": 8.0,
+      "text": "Raghav has a long face, narrow chin, and a long neck."
+    },
+    {
+      "approx_t": 12.0,
+      "text": "Earlier his hair was shorter on the sides with volume on top and a short beard."
+    },
+    {
+      "approx_t": 16.0,
+      "text": "This made his face look even longer and his head felt smaller against his frame."
+    },
+    {
+      "approx_t": 21.0,
+      "text": "Now, he does almost the opposite."
+    },
+    {
+      "approx_t": 23.0,
+      "text": "His curls grow outward around the temple and ears, which visually adds width to his face."
+    },
+    {
+      "approx_t": 28.0,
+      "text": "And instead of growing his beard downwards, he keeps volume around the cheeks and jaw, which makes the lower half of his face look broader."
+    },
+    {
+      "approx_t": 35.0,
+      "text": "So if you have a long rectangular face, remember the rule is don't add more length, add width."
+    },
+    {
+      "approx_t": 41.0,
+      "text": "Go for a full short beard, a boxed beard, a heavy stubble, or a Garibaldi-style beard."
+    },
+    {
+      "approx_t": 46.0,
+      "text": "And for hair, go for grown-out curls, a textured medium-length, or a layered shag."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "But avoid tight fades and high pompadours because they'll make your face look even longer."
+    },
+    {
+      "approx_t": 57.0,
+      "text": "For more grooming tips..."
+    }
+  ],
+  "cta": {
+    "approx_t": 57.0,
+    "what": "Follow for more grooming tips."
+  },
+  "subjects": [
+    {
+      "name": "Raghav Juyal",
+      "role": "Subject of style analysis"
+    }
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Uses precise, easy-to-understand visual overlays to explain abstract grooming concepts.",
+    "Leverages a recognizable celebrity to build immediate interest and authority."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "6/9"
+  }
+}

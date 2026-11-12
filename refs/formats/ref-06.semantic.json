@@ -1,0 +1,313 @@
+{
+  "format_archetype": "listicle",
+  "one_line": "An interactive guide classifying male eye shapes using Cristiano Ronaldo as a reference, ending with a shareable summary grid.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Cristiano Ronaldo's face is shown next to a scrolling selector of eye types under the question 'Which type are you?'.",
+    "why_it_works": "Uses a globally recognized celebrity and personal relevance to immediately hook the viewer's curiosity."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 11.0,
+      "description": "Split screen showing Cristiano Ronaldo on the left and a vertical scrolling list of 3D eye models on the right.",
+      "layout": "split-screen portrait",
+      "devices": [
+        "scrolling selector",
+        "text labels",
+        "academic citation overlay"
+      ]
+    },
+    {
+      "approx_start": 11.0,
+      "approx_end": 14.5,
+      "description": "A 3x4 grid displaying all 10 eye types with their respective labels for the viewer to screenshot.",
+      "layout": "grid",
+      "devices": [
+        "grid layout",
+        "screenshot call-to-action"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "scrolling selector",
+      "what_it_is": "A vertical carousel of 3D eye models.",
+      "used_for": "Demonstrating different eye shapes dynamically."
+    },
+    {
+      "name": "academic citation overlay",
+      "what_it_is": "A text block citing a scientific study on facial aesthetics.",
+      "used_for": "Adding authority and scientific credibility to the claims."
+    },
+    {
+      "name": "screenshot call-to-action",
+      "what_it_is": "Onscreen text prompting the user to 'SCREENSHOT & SAVE'.",
+      "used_for": "Encouraging user engagement and sharing."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Which type are you?"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "CRISTIANO RONALDO\nPORTUGUESE FOOTBALLER"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "chip",
+      "text": "TYPE 1\nHis eyes\n\"The balanced classic\""
+    },
+    {
+      "approx_t": 0.0,
+      "track": "chip",
+      "text": "TYPE 8\nWide-set\n\"Reads soft & open\""
+    },
+    {
+      "approx_t": 1.0,
+      "track": "chip",
+      "text": "TYPE 2\nProtruding\n\"Prominent & expressive\""
+    },
+    {
+      "approx_t": 2.0,
+      "track": "chip",
+      "text": "TYPE 3\nRound\n\"Open & youthful\""
+    },
+    {
+      "approx_t": 3.0,
+      "track": "chart",
+      "text": "Attractive male faces\nAVERAGE ~6.5° VS. ~-4° BASELINE"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "citation",
+      "text": "Liu, A. S., Salles, C. A., & Sharaf, B. A. (2023). Using artificial intelligence to quantify sexual dimorphism in aesthetic faces: analysis of 100 facial points in 42 Caucasian celebrities. In Aesthetic Surgery Journal Open Forum (Vol. 5, p. ojad046). US: Oxford University Press."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "chip",
+      "text": "TYPE 4\nUpturned\n\"Positive tilt reads as more attractive\""
+    },
+    {
+      "approx_t": 5.0,
+      "track": "chip",
+      "text": "TYPE 5\nDownturned\n\"Gentle & disarming\""
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "TYPE 6\nEpicanthic folds"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "TYPE 7\nHunter\n\"Masculine & intense\""
+    },
+    {
+      "approx_t": 9.0,
+      "track": "chip",
+      "text": "TYPE 9\nClose-set\n\"Reads focused & intense\""
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "TYPE 10\nSleepy\n\"Non-chalant\""
+    },
+    {
+      "approx_t": 11.0,
+      "track": "headline",
+      "text": "SCREENSHOT & SAVE\nWhich type are you?"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "label",
+      "text": "TYPE 1 Almond | TYPE 2 Protruding | TYPE 3 Round | TYPE 4 Upturned | TYPE 5 Downturned | TYPE 6 Epicanthic folds | TYPE 7 Hunter | TYPE 8 Wide-set | TYPE 9 Close-set | TYPE 10 Sleepy"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "[Ambient piano music plays throughout]"
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the core question using a famous face.",
+    "Scroll through various eye classifications with descriptive traits.",
+    "Introduce scientific backing to validate the classifications.",
+    "Present a final summary grid encouraging user saving and sharing."
+  ],
+  "cta": {
+    "approx_t": 11.0,
+    "what": "Screenshot and save the eye type grid to find your type."
+  },
+  "subjects": [
+    "Cristiano Ronaldo (Portuguese Footballer, model reference)"
+  ],
+  "what_makes_it_work": [
+    "Leverages celebrity association to capture immediate attention.",
+    "Interactive 'self-diagnosis' format drives high viewer retention.",
+    "Scientific citation adds credibility to the aesthetic claims."
+  ],
+  "animations": [
+    {
+      "name": "Stepped Vertical Scroll",
+      "approx_t": 0.0,
+      "what_moves": "A vertical stack of eye-type cards on the right side of the frame.",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "The static portrait of Cristiano Ronaldo on the left.",
+      "purpose": "Sequentially showcases different eye shapes to engage the viewer in self-identification.",
+      "reusable_as": "Displaying a list of product features, options, or steps in a process.",
+      "we_already_have": null,
+      "would_need_building": "A vertical stepped carousel component that transitions cards upward with a pause on each."
+    },
+    {
+      "name": "Scientific Text Reveal",
+      "approx_t": 3.0,
+      "what_moves": "The 'Attractive male faces' header and academic citation text block.",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "The ongoing vertical scroll of eye types.",
+      "purpose": "Introduces scientific credibility and context to the facial analysis.",
+      "reusable_as": "Revealing footnotes, technical specifications, or source citations.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Staggered Grid Pop-In",
+      "approx_t": 11.0,
+      "what_moves": "A 3x4 grid of eye-type cards on the final summary screen.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "The 'Screenshot & Save' call to action.",
+      "purpose": "Presents all options simultaneously for a final summary and shareable moment.",
+      "reusable_as": "Displaying a catalog of products, features, or plan options at the end of an ad.",
+      "we_already_have": null,
+      "would_need_building": "A grid layout component that staggers the entry of its child elements using a scale-up animation."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Stepped vertical card scrolling",
+      "Staggered grid pop-ins for summary screens"
+    ],
+    "how_things_enter": "Cards scroll vertically into view; text and grid elements fade or scale up in place.",
+    "how_things_leave": "Elements are replaced by a full-screen transition to the final grid layout.",
+    "how_scenes_change": "A clean cut from the split-screen comparison to the full-screen grid summary.",
+    "what_stays_still": "The main portrait of Cristiano Ronaldo remains static on the left during the comparison phase.",
+    "rhythm": "Constant and steady during the comparison phase, transitioning to a rapid, energetic burst of grid entries at the end."
+  },
+  "what_we_should_steal": [
+    "The stepped vertical card scroll for engaging, interactive-feeling option selection.",
+    "The staggered grid pop-in for clean, satisfying summary screens."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "The video starts with a portrait of Cristiano Ronaldo and a vertical list of eye types on the right.",
+      "element": "Main layout with portrait, header text, and eye type list",
+      "motion": "none",
+      "content": "Which type are you? CRISTIANO RONALDO PORTUGUESE FOOTBALLER"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "The vertical list of eye types scrolls upwards to reveal the next type.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 2 Protruding 'Prominent & expressive'"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "The vertical list of eye types scrolls upwards again.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 3 Round 'Open & youthful'"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "A text box containing scientific citation and analysis fades in at the top.",
+      "element": "Scientific citation text box",
+      "motion": "fade",
+      "content": "Attractive male faces AVERAGE ~6.5° VS. ~-4° BASELINE"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "The vertical list of eye types scrolls upwards.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 4 Upturned 'Positive tilt reads as more attractive'"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "The vertical list of eye types scrolls upwards.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 5 Downturned 'Gentle & disarming'"
+    },
+    {
+      "approx_t": 6.0,
+      "event": "The vertical list of eye types scrolls upwards.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 6 Epicanthic folds"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "The vertical list of eye types scrolls upwards.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 7 Hunter 'Masculine & intense'"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "The vertical list of eye types scrolls upwards.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 8 Wide-set 'Reads soft & open'"
+    },
+    {
+      "approx_t": 9.0,
+      "event": "The vertical list of eye types scrolls upwards.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 9 Close-set 'Reads focused & intense'"
+    },
+    {
+      "approx_t": 10.0,
+      "event": "The vertical list of eye types scrolls upwards.",
+      "element": "Eye type list",
+      "motion": "translate",
+      "content": "TYPE 10 Sleepy 'Non-chalant'"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "The screen transitions to a grid layout displaying all 10 eye types.",
+      "element": "Grid layout screen",
+      "motion": "fade",
+      "content": "SCREENSHOT & SAVE Which type are you? TYPE 1 Almond to TYPE 10 Sleepy"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "refs/corpus/ref-06.mp4",
+    "tokens": {
+      "animation": 4295,
+      "content": 4627
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

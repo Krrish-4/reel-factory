@@ -1,0 +1,551 @@
+{
+  "format_archetype": "listicle",
+  "one_line": "A grooming guide matching beard styles to round, square, and oval face shapes using Indian celebrities as visual examples.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Kapil Sharma's face is shown with a 'Round face' label and a dotted outline, explaining how to make it look longer.",
+    "why_it_works": "Uses a highly recognizable celebrity and immediate visual categorization to hook the viewer."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 13.0,
+      "description": "Kapil Sharma demonstrates round face beard styles with dynamic overlays showing recommended and avoided cuts.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "face shape outline",
+        "beard shading overlay",
+        "status chips"
+      ]
+    },
+    {
+      "approx_start": 13.0,
+      "approx_end": 27.0,
+      "description": "Yash demonstrates square face beard styles, showing how to soften a wide jawline.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "face shape outline",
+        "beard shading overlay",
+        "status chips"
+      ]
+    },
+    {
+      "approx_start": 27.0,
+      "approx_end": 39.0,
+      "description": "Ranbir Kapoor demonstrates oval face beard styles, highlighting versatility and balance.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "face shape outline",
+        "beard shading overlay",
+        "status chips"
+      ]
+    },
+    {
+      "approx_start": 39.0,
+      "approx_end": 41.742,
+      "description": "B-roll of Yash with a full beard and sunglasses, transitioning to the final call to action.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "caption overlay"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Face Shape Outline",
+      "what_it_is": "Dotted white lines tracing the jaw and forehead.",
+      "used_for": "Defining the geometric face shape of the subject."
+    },
+    {
+      "name": "Beard Shading Overlay",
+      "what_it_is": "Semi-transparent textured overlay on the jawline.",
+      "used_for": "Visualizing different beard shapes on the same face."
+    },
+    {
+      "name": "Status Chips",
+      "what_it_is": "Pill-shaped labels with green checkmarks or red cross marks.",
+      "used_for": "Indicating recommended vs. discouraged styles."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Round face"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "KAPIL SHARMA, INDIAN COMEDIAN"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "chip",
+      "text": "LONGER"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "chip",
+      "text": "SHORTER SIDES"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "chip",
+      "text": "TAPERED BEARD"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "DUCKTAIL"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "chip",
+      "text": "THICK BOXED BEARD"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "FULL BEARD"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "HAIR AROUND CHEEKS"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "headline",
+      "text": "Square face"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "label",
+      "text": "YASH, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chip",
+      "text": "WIDE"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "chip",
+      "text": "SOFTEN"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "chip",
+      "text": "BEARDSTACHE"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "SHORT TAPERED BEARD"
+    },
+    {
+      "approx_t": 22.0,
+      "track": "chip",
+      "text": "BALBO"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "LONG BOXED BEARD"
+    },
+    {
+      "approx_t": 25.0,
+      "track": "chip",
+      "text": "THICK FULL BEARD"
+    },
+    {
+      "approx_t": 27.0,
+      "track": "headline",
+      "text": "Oval face"
+    },
+    {
+      "approx_t": 27.0,
+      "track": "label",
+      "text": "RANBIR KAPOOR, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "BALANCED"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "chip",
+      "text": "STUBBLE"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "BEARDSTACHE"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "chip",
+      "text": "FULL BEARD"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "chip",
+      "text": "VAN DYKE"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "chip",
+      "text": "EXTREME VERSIONS"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "caption",
+      "text": "for more grooming tips."
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "If you have a round shaped face, your beard should make your face look longer by being shorter on the sides."
+    },
+    {
+      "approx_t": 5.0,
+      "text": "So go for a tapered beard, a ducktail, or a thick boxed beard."
+    },
+    {
+      "approx_t": 9.0,
+      "text": "But skip a big full beard or a lot of hair around your cheeks."
+    },
+    {
+      "approx_t": 13.0,
+      "text": "If you have a square shaped face, your jaw is already wide, so your beard needs to soften your jaw."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "So go for a beardstache, a short tapered beard, a balbo, or a long boxed beard."
+    },
+    {
+      "approx_t": 25.0,
+      "text": "But avoid a very thick full beard."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "And if you have an oval shaped face, you have the most freedom because your face is already balanced."
+    },
+    {
+      "approx_t": 32.0,
+      "text": "So go for a stubble, beardstache, full beard, Van Dyke, but mainly skip extreme versions."
+    },
+    {
+      "approx_t": 40.0,
+      "text": "Follow for more grooming tips."
+    }
+  ],
+  "narrative_arc": [
+    "Identify round face shape and recommend styles to elongate it.",
+    "Identify square face shape and recommend styles to soften the jaw.",
+    "Identify oval face shape and highlight its versatility.",
+    "Call to action to follow for more tips."
+  ],
+  "cta": {
+    "approx_t": 40.0,
+    "what": "Follow for more grooming tips."
+  },
+  "subjects": [
+    {
+      "name": "Kapil Sharma",
+      "role": "Round face model"
+    },
+    {
+      "name": "Yash",
+      "role": "Square face model"
+    },
+    {
+      "name": "Ranbir Kapoor",
+      "role": "Oval face model"
+    }
+  ],
+  "what_makes_it_work": [
+    "Uses famous Indian celebrities to make the advice highly relatable.",
+    "Dynamic visual overlays show beard styles changing instantly on the same face.",
+    "Clear, binary categorization (do's and don'ts) simplifies decision-making."
+  ],
+  "animations": [
+    {
+      "name": "Contour Draw (Face Shape)",
+      "approx_t": 0.0,
+      "what_moves": "A dotted white line tracing the contour of the model's face.",
+      "motion": "draw-on",
+      "direction": "clockwise",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "To visually define and highlight the specific face shape (round, square, oval) being discussed.",
+      "reusable_as": "Highlighting any region of interest, silhouette, or boundary on a subject or product.",
+      "we_already_have": "ContourDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Beard Mesh Overlay",
+      "approx_t": 1.0,
+      "what_moves": "A shaded dotted grid overlaying the beard area.",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "To isolate and draw focus to the beard zone of the face before showing style variations.",
+      "reusable_as": "Highlighting specific zones or features on a product, face, or body part for analysis.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Dimension Lines & Arrows",
+      "approx_t": 2.5,
+      "what_moves": "Vertical lines and horizontal arrows indicating face proportions.",
+      "motion": "translate",
+      "direction": "inward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Tag/Pill PopIn",
+      "purpose": "To illustrate geometric grooming advice, such as making the face look longer or keeping sides shorter.",
+      "reusable_as": "Showing dimensions, fits, adjustments, or focal points on a diagram or photo.",
+      "we_already_have": null,
+      "would_need_building": "DimensionLines"
+    },
+    {
+      "name": "Tag/Pill PopIn",
+      "approx_t": 3.0,
+      "what_moves": "Green checkmark or red cross recommendation pills.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": false,
+      "layered_with": "Beard Style Montage",
+      "purpose": "To clearly label a beard style as recommended (green check) or to be avoided (red cross).",
+      "reusable_as": "Displaying pros/cons, feature tags, or dos/don'ts on any product or comparison video.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Beard Style Montage",
+      "approx_t": 5.0,
+      "what_moves": "The beard style on the model's face changes instantly.",
+      "motion": "wipe",
+      "direction": "none",
+      "feel": "abrupt",
+      "staggered": false,
+      "layered_with": "Tag/Pill PopIn",
+      "purpose": "To show how different beard styles look on the same face shape in rapid succession.",
+      "reusable_as": "Swapping hairstyles, glasses, clothing, makeup, or accessories on a model.",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Contour Draw for face shapes",
+      "Beard Style Montage for rapid visual swaps",
+      "Dimension Lines for geometric advice"
+    ],
+    "how_things_enter": "Face contours draw on smoothly, while recommendation pills pop in with an elastic scale-up.",
+    "how_things_leave": "Elements generally fade out or are replaced abruptly by the next scene's elements.",
+    "how_scenes_change": "Hard cuts between different models representing different face shapes.",
+    "what_stays_still": "The model's face and the background remain perfectly static to maintain alignment during beard swaps.",
+    "rhythm": "Bursty and educational, with rapid-fire beard swaps and tag pop-ins matching the voiceover's pace."
+  },
+  "what_we_should_steal": [
+    "The seamless Beard Style Montage swap on a static model face to show instant variations.",
+    "The Contour Draw tracing face shapes to immediately establish the visual context of the advice."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Title and subtitle appear with a dotted face outline",
+      "element": "Text and graphic overlay",
+      "motion": "fade",
+      "content": "Round face / KAPIL SHARMA, INDIAN COMEDIAN"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Dotted outline shifts to highlight the beard area",
+      "element": "Graphic overlay",
+      "motion": "morph",
+      "content": "Beard area outline"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Green checkmark label appears",
+      "element": "Text label",
+      "motion": "scale",
+      "content": "LONGER"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Green checkmark label and arrows appear",
+      "element": "Text and graphic overlay",
+      "motion": "scale",
+      "content": "SHORTER SIDES"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "TAPERED BEARD"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "DUCKTAIL"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "THICK BOXED BEARD"
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Beard style changes to a discouraged style with red cross label",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "FULL BEARD"
+    },
+    {
+      "approx_t": 12.0,
+      "event": "Beard style changes to a discouraged style with red cross label",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "HAIR AROUND CHEEKS"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Cut to new subject with square face title and dotted square outline",
+      "element": "Video frame, text, and graphic overlay",
+      "motion": "cut",
+      "content": "Square face / YASH, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Dotted outline shifts to jawline and label appears",
+      "element": "Graphic overlay and text label",
+      "motion": "morph",
+      "content": "WIDE"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Green checkmark label appears",
+      "element": "Text label",
+      "motion": "scale",
+      "content": "SOFTEN"
+    },
+    {
+      "approx_t": 19.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "BEARDSTACHE"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "SHORT TAPERED BEARD"
+    },
+    {
+      "approx_t": 22.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "BALBO"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "LONG BOXED BEARD"
+    },
+    {
+      "approx_t": 25.0,
+      "event": "Beard style changes to a discouraged style with red cross label",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "THICK FULL BEARD"
+    },
+    {
+      "approx_t": 27.0,
+      "event": "Cut to new subject with oval face title and dotted oval outline",
+      "element": "Video frame, text, and graphic overlay",
+      "motion": "cut",
+      "content": "Oval face / RANBIR KAPOOR, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Green checkmark label appears",
+      "element": "Text label",
+      "motion": "scale",
+      "content": "BALANCED"
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "STUBBLE"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "BEARDSTACHE"
+    },
+    {
+      "approx_t": 35.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "FULL BEARD"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Beard style changes and label updates",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "VAN DYKE"
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Beard style changes to a discouraged style with red cross label",
+      "element": "Beard graphic and text label",
+      "motion": "morph",
+      "content": "EXTREME VERSIONS"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Cut to live-action footage with call-to-action text",
+      "element": "Video frame and text overlay",
+      "motion": "cut",
+      "content": "for more grooming tips."
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-19.mp4",
+    "tokens": {
+      "animation": 8088,
+      "content": 7998
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

@@ -1,0 +1,63 @@
+# VARIANT B — "Give Me Twenty Seconds". Sydney Sweeney in line one.
+# Sibling of docs/scripts/celeb-sweeney-lips.txt (v5); read that file's header
+# for the measured pair, the compliance rules and the tone note.
+#
+# THE ENTRY IS A CONTRADICTION, THEN A TIME CONTRACT. Line 1 says the thing
+# nobody says about the most-looked-at mouth going. Line 2 — "I know how that
+# sounds" — is the reel anticipating her disagreement out loud, which is what
+# a person does and a brand doesn't. Line 3 asks for twenty seconds, which is
+# an explicit retention deal and the most native device on this platform.
+#
+# It is the sharpest of the three and the shortest: 50s against A's 55s. It
+# trades A's warmth for curiosity, so it will live or die on whether the
+# contradiction in line 1 is interesting enough to buy the twenty seconds.
+# Worth testing head to head against A rather than choosing on taste.
+#
+# "I know how that sounds" is a DISCOURSE MARKER, not a persona. Nothing here
+# claims a narrator with an age, a face or a history — inventing one would be
+# a fabricated testimonial. Keep it that way if this line is rewritten.
+#
+# SWEENEY IS NAMED, NOT SHOWN. No licensed photograph, no altered image of a
+# named person — beat 1 wants a phone, a screen or a type card, never her
+# face and never a render of it. That is what keeps gate 1 closed.
+#
+# 23 lines. shots.json must declare 3/3/3/3/3/2/2/4 or beats.ts throws.
+
+# -- 1. the contradiction --------------------------------------------------
+Sydney Sweeney's lips aren't the thing.                        | 0.28
+I know how that sounds.                                        | 0.30
+Give me twenty seconds.                                        | 0.45
+
+# -- 2. the wrong turn -----------------------------------------------------
+One day you stop liking photos of yourself.                    | 0.28
+And you blame your lips.                                       | 0.35
+It isn't your lips.                                            | 0.45
+
+# -- 3. the proof ----------------------------------------------------------
+Look at these two.                                             | 0.25
+We changed one thing. Her mouth.                               | 0.30
+Now watch what happens to everything else.                     | 0.45
+
+# -- 4. the twist ----------------------------------------------------------
+It's the gap.                                                  | 0.28
+That little bit of space under the nose.                       | 0.25
+Thinner lip, longer gap.                                       | 0.45
+
+# -- 5. the payoff ---------------------------------------------------------
+And your eye reads the gap.                                    | 0.25
+So it's not that you've lost lip.                              | 0.25
+You've gained gap.                                             | 0.50
+
+# -- 6. try it -------------------------------------------------------------
+Roll your lips in right now.                                   | 0.25
+Watch your chin come forward.                                  | 0.45
+
+# -- 7. the nuance ---------------------------------------------------------
+And no, more isn't better.                                     | 0.25
+On plenty of faces it's less.                                  | 0.45
+
+# -- 8. the offer ----------------------------------------------------------
+So before anybody touches your face,                           | 0.25
+see it on yours first.                                         | 0.30
+A preview, not a promise.                                      | 0.40
+Search Refina AI.                                              | 0.65

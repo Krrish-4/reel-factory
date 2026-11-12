@@ -1,0 +1,126 @@
+{
+  "label": "ref-01-piercings-explainer",
+  "source": "refs/corpus/ref-01.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 55.533,
+  "pacing": {
+    "cuts": 5,
+    "cuts_per_min": 5.4,
+    "median_shot_s": 4.93,
+    "shortest_shot_s": 1.93,
+    "longest_shot_s": 34.8,
+    "frozen_pct": 50.5
+  },
+  "element_events": {
+    "count": 109,
+    "per_min": 117.8,
+    "median_gap_s": 0.1,
+    "frames": [
+      55,
+      63,
+      66,
+      146,
+      173,
+      176,
+      179,
+      182,
+      185,
+      346,
+      349,
+      352,
+      355,
+      358,
+      361,
+      364,
+      430,
+      433,
+      436,
+      439,
+      442,
+      445,
+      651,
+      654,
+      657,
+      660,
+      663,
+      666,
+      669,
+      672,
+      675,
+      709,
+      712,
+      779,
+      782,
+      785,
+      788,
+      791,
+      848,
+      851
+    ]
+  },
+  "continuous_motion": {
+    "spans": 18,
+    "total_s": 19.86,
+    "pct_of_runtime": 35.8,
+    "median_span_s": 0.58,
+    "longest_span_s": 5.63,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 16,
+    "median_s": 0.6,
+    "spans_s": [
+      0.167,
+      0.467,
+      1.0,
+      0.267,
+      0.567,
+      0.967,
+      1.0,
+      0.233,
+      0.3,
+      0.867,
+      0.533,
+      0.367,
+      0.633,
+      0.633,
+      1.533,
+      0.9
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      159,
+      181,
+      191
+    ],
+    "dominant_hex": "#9FB5BF",
+    "corner_flatness": 0.59,
+    "background_drift": 17.39,
+    "flat_background": false,
+    "headline_band_frames_pct": 46.3,
+    "caption_band_frames_pct": 67.2
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 29.5,
+    "approx_any_face_frames_pct": 77.0,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 15,
+    "speech_pct": 95.1,
+    "median_phrase_s": 3.19,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    58,
+    184,
+    354,
+    434,
+    1478
+  ]
+}

@@ -1,0 +1,76 @@
+# "One Face, Three Impressions" — QOVES-style facial-analysis reel, RefinaTrio.
+#
+# THIS FILE IS THE SOURCE OF TRUTH. Edit a line, re-run gen-voiceover.py, and
+# the audio, every cue, every word frame and every beat bound move together.
+#
+# FROM: Rahul's brief text_to_pdf_Imagetotext.pdf (2026-10-23), section 02,
+# VERBATIM with one change, approved by him: "In the FIRST version, a facelift"
+# became "In the SECOND version" so the read agrees with the on-screen labels
+# (01 ORIGINAL / 02 STRUCTURAL CHANGE / 03 FEATURE REFINEMENT) and with the vote
+# question "one, two, or three?".
+#
+# LENGTH: TRIMMED, on Rahul's call (2026-10-23). Verbatim (222 words, kept at
+# gen/out/trio1/trio-verbatim.txt) measured 97.5s at --speed 1.2 and still 82s at
+# 1.45 -- Aura-2 vesta reads this copy at ~171 wpm after the 1.2x. Every beat but
+# the hook was tightened to reach ~150 words (~65-70s); the hook is word-for-word.
+#
+# THE THREE VERSIONS ARE RENDERS (trio1-before / -facelift2 / -refine), all i2i
+# off one generated before. Nothing in the read claims an outcome, and the vote
+# is framed by the script itself as subjective — no version is called best.
+#
+# Beat grouping lives in src/refina/trio/shots.json, by LINE COUNT.
+
+# -- 1. hook ---------------------------------------------------------------
+Same woman.                                                    | 0.15
+Same face.                                                     | 0.15
+So why do these three versions look so different?              | 0.30
+
+# -- 2. setup --------------------------------------------------------------
+The face is the same.                                          | 0.18
+What changes is the structure,                                 | 0.10
+the proportions,                                               | 0.10
+the details.                                                   | 0.30
+
+# -- 3. structure (version 2, facelift) ------------------------------------
+In version two, a facelift reshapes her lower face.            | 0.15
+A tighter jawline, a more defined profile.                     | 0.15
+The change is structural.                                      | 0.30
+
+# -- 4. pivot --------------------------------------------------------------
+Now, the individual features.                                  | 0.25
+
+# -- 5. features (version 3, six close-ups) --------------------------------
+Brows frame the eyes.                                          | 0.12
+The eyes set the expression.                                   | 0.12
+The nose balances the midface.                                 | 0.12
+Lips shape the lower face.                                     | 0.15
+Skin and hair                                                  | 0.06
+change how the whole face reads.                               | 0.25
+
+# -- 6. together -----------------------------------------------------------
+None of these exist in isolation.                              | 0.15
+It's how they work together.                                   | 0.35
+
+# -- 7. three-way reveal ---------------------------------------------------
+Now compare all three.                                         | 0.25
+The original.                                                  | 0.18
+The facelift.                                                  | 0.18
+The refined features.                                          | 0.30
+Same woman.                                                    | 0.12
+Three different impressions.                                   | 0.35
+
+# -- 8. nuance -------------------------------------------------------------
+And interestingly,                                             | 0.08
+the biggest change isn't always the whole face.                | 0.35
+
+# -- 9. question -----------------------------------------------------------
+Beauty is subjective.                                          | 0.20
+Which do you prefer:                                           | 0.12
+one, two, or three?                                            | 0.40
+
+# -- 10. cta ---------------------------------------------------------------
+Want to understand your own face?                              | 0.20
+Refina's personalised 22-page facial analysis                  | 0.06
+maps your features, your strengths,                            | 0.05
+and what you may want to refine.                               | 0.25
+Discover your face with Refina.                                | 0.60

@@ -1,0 +1,736 @@
+{
+  "label": "ours-ratio-v1",
+  "archetype": "educational explainer",
+  "one_line": "Demonstrates how altering one facial feature changes the perception of others, promoting an AI facial preview tool.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 92.288,
+  "measured": {
+    "pacing": {
+      "cuts": 9,
+      "cuts_per_min": 5.9,
+      "median_shot_s": 8.3,
+      "shortest_shot_s": 0.23,
+      "longest_shot_s": 21.2,
+      "frozen_pct": 98.2
+    },
+    "transitions": {
+      "count": 0,
+      "median_s": null,
+      "spans_s": []
+    },
+    "element_events": {
+      "count": 6,
+      "per_min": 3.9,
+      "median_gap_s": 6.93,
+      "frames": [
+        191,
+        197,
+        1515,
+        1521,
+        2409,
+        2617
+      ]
+    },
+    "continuous_motion": {
+      "spans": 1,
+      "total_s": 0.27,
+      "pct_of_runtime": 0.3,
+      "median_span_s": 0.27,
+      "longest_span_s": 0.27,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        74,
+        87,
+        93
+      ],
+      "dominant_hex": "#4A575D",
+      "corner_flatness": 52.29,
+      "background_drift": 31.03,
+      "flat_background": false,
+      "headline_band_frames_pct": 79.0,
+      "caption_band_frames_pct": 96.1
+    },
+    "audio": {
+      "speech_segments": 65,
+      "speech_pct": 69.9,
+      "median_phrase_s": 0.81,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 9,
+    "hard_cuts": 9,
+    "cuts_per_described_change": 1.12,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": true,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 5.9,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Split-screen portrait of a woman with subtle chin alteration.",
+      "devices": [
+        "split-screen slider",
+        "text labels"
+      ]
+    },
+    {
+      "start_s": 6.2,
+      "start_frame": 186,
+      "end_s": 12.9,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Zoomed-in view highlighting the nose and chin areas with circular overlays.",
+      "devices": [
+        "circular highlight overlays",
+        "text labels"
+      ]
+    },
+    {
+      "start_s": 12.8,
+      "start_frame": 384,
+      "end_s": 19.9,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with data overlay",
+      "description": "Heatmap visualization showing pixel changes on the face.",
+      "devices": [
+        "pixel heatmap",
+        "data table overlay"
+      ]
+    },
+    {
+      "start_s": 20.1,
+      "start_frame": 603,
+      "end_s": 33.9,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Portrait with vertical measurement lines comparing nose and chin projection.",
+      "devices": [
+        "measurement lines",
+        "interactive slider"
+      ]
+    },
+    {
+      "start_s": 34.267,
+      "start_frame": 1028,
+      "end_s": 50.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Second subject portrait demonstrating eyelid hooding effects.",
+      "devices": [
+        "circular highlight overlay",
+        "before/after slider"
+      ]
+    },
+    {
+      "start_s": 50.333,
+      "start_frame": 1510,
+      "end_s": 61.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with diagram",
+      "description": "First subject portrait divided into facial thirds.",
+      "devices": [
+        "facial thirds diagram",
+        "bar chart overlay"
+      ]
+    },
+    {
+      "start_s": 61.733,
+      "start_frame": 1852,
+      "end_s": 71.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with mesh",
+      "description": "Portrait with a geometric mesh grid overlay.",
+      "devices": [
+        "geometric mesh overlay",
+        "interactive buttons"
+      ]
+    },
+    {
+      "start_s": 71.033,
+      "start_frame": 2131,
+      "end_s": 80.0,
+      "snapped_to_measured_cut": true,
+      "layout": "text-only list",
+      "description": "Text instructions on a dark background encouraging the viewer to try a physical test.",
+      "devices": [
+        "numbered list"
+      ]
+    },
+    {
+      "start_s": 80.0,
+      "start_frame": 2400,
+      "end_s": 92.3,
+      "snapped_to_measured_cut": false,
+      "layout": "centered UI overlay",
+      "description": "Close-up of eyes transitioning to a search bar CTA.",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "text labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "split-screen slider",
+      "what_it_is": "A vertical line sliding across the face to show before/after states.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "pixel heatmap",
+      "what_it_is": "A glowing overlay highlighting areas of movement/change.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "measurement lines",
+      "what_it_is": "Vertical lines indicating the relative depth of nose and chin.",
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "geometric mesh overlay",
+      "what_it_is": "A wireframe grid mapped to facial features.",
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "search bar mockup",
+      "what_it_is": "An interactive-looking search input field.",
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "circular highlight overlays",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "data table overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "interactive slider",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "circular highlight overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "before/after slider",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "facial thirds diagram",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "bar chart overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "interactive buttons",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "numbered list",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A split-screen portrait of a woman is shown with the text 'This is the same face twice. One thing on it was changed.'",
+    "why_it_works": "Creates a visual puzzle that engages curiosity immediately."
+  },
+  "narrative_arc": [
+    "Hook: Present a visual puzzle of a face with one changed feature.",
+    "Reveal: Show that the chin was changed, not the nose, using pixel data.",
+    "Explanation 1: Explain the relationship between nose and chin projection.",
+    "Explanation 2: Explain the relationship between eyelid hooding and eye size.",
+    "Explanation 3: Explain facial proportions in thirds.",
+    "Interactive Test: Ask the viewer to physically test the illusion themselves.",
+    "CTA: Introduce Refina AI to preview changes on their own face."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "Same nose."
+    },
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "This is the same face twice."
+    },
+    {
+      "approx_t": 1,
+      "track": "chip",
+      "text": "CHIN AUGMENTATION"
+    },
+    {
+      "approx_t": 1,
+      "track": "chip",
+      "text": "BEFORE"
+    },
+    {
+      "approx_t": 1,
+      "track": "citation",
+      "text": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 2,
+      "track": "caption",
+      "text": "One thing on it was changed."
+    },
+    {
+      "approx_t": 4,
+      "track": "label",
+      "text": "THE NOSE?"
+    },
+    {
+      "approx_t": 5,
+      "track": "caption",
+      "text": "Almost everyone points at the nose."
+    },
+    {
+      "approx_t": 6,
+      "track": "label",
+      "text": "Not the nose"
+    },
+    {
+      "approx_t": 7,
+      "track": "chip",
+      "text": "NOT TOUCHED"
+    },
+    {
+      "approx_t": 8,
+      "track": "chip",
+      "text": "CHANGED"
+    },
+    {
+      "approx_t": 8,
+      "track": "caption",
+      "text": "The chin is."
+    },
+    {
+      "approx_t": 9,
+      "track": "caption",
+      "text": "Your eye reads a feature against everything around it."
+    },
+    {
+      "approx_t": 13,
+      "track": "headline",
+      "text": "Every pixel that moved"
+    },
+    {
+      "approx_t": 13,
+      "track": "caption",
+      "text": "This is every pixel that changed."
+    },
+    {
+      "approx_t": 14,
+      "track": "citation",
+      "text": "PER-DESIGN PIXEL CHANGE, THIS PAIR"
+    },
+    {
+      "approx_t": 15,
+      "track": "chart",
+      "text": "NOSE 9.7 | EYES 16.7 | CHIN 36.0"
+    },
+    {
+      "approx_t": 15,
+      "track": "caption",
+      "text": "Almost none of them are on the nose."
+    },
+    {
+      "approx_t": 18,
+      "track": "caption",
+      "text": "It didn't shrink. The face caught up."
+    },
+    {
+      "approx_t": 20,
+      "track": "headline",
+      "text": "1. Nose and chin"
+    },
+    {
+      "approx_t": 20,
+      "track": "caption",
+      "text": "One. The nose and the chin are read as one line."
+    },
+    {
+      "approx_t": 21,
+      "track": "label",
+      "text": "NOSE"
+    },
+    {
+      "approx_t": 24,
+      "track": "label",
+      "text": "CHIN"
+    },
+    {
+      "approx_t": 24,
+      "track": "caption",
+      "text": "A chin that sits back leaves the nose out in front."
+    },
+    {
+      "approx_t": 29,
+      "track": "caption",
+      "text": "Bring the chin forward and the nose settles back."
+    },
+    {
+      "approx_t": 32,
+      "track": "caption",
+      "text": "Same nose. Every time."
+    },
+    {
+      "approx_t": 34,
+      "track": "headline",
+      "text": "2. Lid and eye"
+    },
+    {
+      "approx_t": 34,
+      "track": "chip",
+      "text": "SECOND SUBJECT - BEFORE"
+    },
+    {
+      "approx_t": 35,
+      "track": "chip",
+      "text": "UPPER BLEPHAROPLASTY"
+    },
+    {
+      "approx_t": 35,
+      "track": "caption",
+      "text": "Two. Another face. The lid and the eye."
+    },
+    {
+      "approx_t": 39,
+      "track": "label",
+      "text": "THE LID"
+    },
+    {
+      "approx_t": 39,
+      "track": "caption",
+      "text": "Skin resting on the lashes closes the eye beneath it."
+    },
+    {
+      "approx_t": 43,
+      "track": "caption",
+      "text": "Lift the hood and the eye reads open."
+    },
+    {
+      "approx_t": 47,
+      "track": "caption",
+      "text": "The eye didn't grow. The cover moved."
+    },
+    {
+      "approx_t": 51,
+      "track": "headline",
+      "text": "3. The thirds"
+    },
+    {
+      "approx_t": 51,
+      "track": "caption",
+      "text": "Three. A face is read in thirds."
+    },
+    {
+      "approx_t": 51,
+      "track": "label",
+      "text": "HAIRLINE - BROW"
+    },
+    {
+      "approx_t": 53,
+      "track": "label",
+      "text": "BROW - NOSE"
+    },
+    {
+      "approx_t": 53,
+      "track": "chart",
+      "text": "SHADE"
+    },
+    {
+      "approx_t": 56,
+      "track": "label",
+      "text": "NOSE - CHIN"
+    },
+    {
+      "approx_t": 57,
+      "track": "caption",
+      "text": "Move one boundary and all three change."
+    },
+    {
+      "approx_t": 61,
+      "track": "headline",
+      "text": "Read whole. Not in parts."
+    },
+    {
+      "approx_t": 63,
+      "track": "ui",
+      "text": "NOSE | CHIN | LID"
+    },
+    {
+      "approx_t": 63,
+      "track": "caption",
+      "text": "None of this tells you what to do."
+    },
+    {
+      "approx_t": 65,
+      "track": "caption",
+      "text": "It tells you why one feature can't answer it."
+    },
+    {
+      "approx_t": 67,
+      "track": "caption",
+      "text": "Faces are read whole. Not feature by feature."
+    },
+    {
+      "approx_t": 71,
+      "track": "headline",
+      "text": "Try it now"
+    },
+    {
+      "approx_t": 71,
+      "track": "caption",
+      "text": "Push your lower jaw forward a few millimetres."
+    },
+    {
+      "approx_t": 72,
+      "track": "other",
+      "text": "1 Push your lower jaw forward.\n2 A few millimetres. Hold it.\n3 Now look at your nose."
+    },
+    {
+      "approx_t": 76,
+      "track": "caption",
+      "text": "Watch your nose get smaller."
+    },
+    {
+      "approx_t": 78,
+      "track": "caption",
+      "text": "You didn't touch your nose."
+    },
+    {
+      "approx_t": 80,
+      "track": "headline",
+      "text": "A preview, not a promise."
+    },
+    {
+      "approx_t": 80,
+      "track": "caption",
+      "text": "So the question was never one feature."
+    },
+    {
+      "approx_t": 84,
+      "track": "caption",
+      "text": "It's what the whole face does when it moves."
+    },
+    {
+      "approx_t": 88.0,
+      "track": "ui",
+      "text": "Refina AI"
+    },
+    {
+      "approx_t": 90.0,
+      "track": "caption",
+      "text": "See it on your own face first."
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "This is the same face twice."
+    },
+    {
+      "approx_t": 2,
+      "text": "One thing on it was changed."
+    },
+    {
+      "approx_t": 4,
+      "text": "Almost everyone points at the nose."
+    },
+    {
+      "approx_t": 6,
+      "text": "The nose isn't what changed."
+    },
+    {
+      "approx_t": 8,
+      "text": "The chin is."
+    },
+    {
+      "approx_t": 9,
+      "text": "Your eye reads a feature against everything around it."
+    },
+    {
+      "approx_t": 13,
+      "text": "This is every pixel that changed."
+    },
+    {
+      "approx_t": 15,
+      "text": "Almost none of them are on the nose."
+    },
+    {
+      "approx_t": 18,
+      "text": "It didn't shrink. The face caught up."
+    },
+    {
+      "approx_t": 20,
+      "text": "One. The nose and the chin are read as one line."
+    },
+    {
+      "approx_t": 24,
+      "text": "A chin that sits back leaves the nose out in front."
+    },
+    {
+      "approx_t": 29,
+      "text": "Bring the chin forward and the nose settles back."
+    },
+    {
+      "approx_t": 32,
+      "text": "Same nose. Every time."
+    },
+    {
+      "approx_t": 35,
+      "text": "Two. Another face. The lid and the eye."
+    },
+    {
+      "approx_t": 39,
+      "text": "Skin resting on the lashes closes the eye beneath it."
+    },
+    {
+      "approx_t": 43,
+      "text": "Lift the hood and the eye reads open."
+    },
+    {
+      "approx_t": 47,
+      "text": "The eye didn't grow. The cover moved."
+    },
+    {
+      "approx_t": 51,
+      "text": "Three. A face is read in thirds."
+    },
+    {
+      "approx_t": 54,
+      "text": "Hairline to brow, brow to nose, nose to chin."
+    },
+    {
+      "approx_t": 57,
+      "text": "Move one boundary and all three change."
+    },
+    {
+      "approx_t": 63,
+      "text": "None of this tells you what to do."
+    },
+    {
+      "approx_t": 65,
+      "text": "It tells you why one feature can't answer it."
+    },
+    {
+      "approx_t": 67,
+      "text": "Faces are read whole. Not feature by feature."
+    },
+    {
+      "approx_t": 71,
+      "text": "Push your lower jaw forward a few millimetres."
+    },
+    {
+      "approx_t": 76,
+      "text": "Watch your nose get smaller."
+    },
+    {
+      "approx_t": 78,
+      "text": "You didn't touch your nose."
+    },
+    {
+      "approx_t": 80,
+      "text": "So the question was never one feature."
+    },
+    {
+      "approx_t": 84,
+      "text": "It's what the whole face does when it moves."
+    }
+  ],
+  "cta": {
+    "approx_t": 88,
+    "what": "Search 'Refina AI' to see facial previews on your own face."
+  },
+  "subjects": [
+    "Unnamed woman (Subject 1) - demonstrating chin and facial thirds changes",
+    "Unnamed woman (Subject 2) - demonstrating eyelid blepharoplasty changes"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Highly engaging visual illusion hook that immediately challenges the viewer's perception.",
+    "Scientific-looking data visualizations (heatmaps, grids) that build authority and trust.",
+    "An interactive physical experiment ('Try it now') that proves the concept in real-time."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "8/9"
+  }
+}

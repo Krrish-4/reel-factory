@@ -1,0 +1,92 @@
+# "It Isn't the Lips" — FINAL. Explainer told as a confession, one woman to
+# another. Audience: women 40-50, scrolling at night, there for entertainment.
+# Variants A and B keep two alternative openings; this is the cut to build.
+#
+# THE OPENING IS A QUESTION, WHICH IS THE CORPUS-NATIVE FORM — 14 of the 21
+# references open on one — and it names her in word three. It also does the
+# one thing the earlier drafts could not: it gives the viewer a reason to stay
+# that is not about her own face. She is curious about someone else for four
+# seconds, and beat 2 turns it on her while she is already listening.
+#
+# THE ORDER IS HOOK -> STORY -> EDUCATION -> OFFER. She is on Instagram for
+# entertainment, so the answer to the opening question arrives as the TWIST at
+# beat 4, about 20 seconds in, and only after she has asked for it. v1-v3 all
+# opened by teaching her geometry, which is a lecture with a story-shaped
+# first line, and a woman scrolling at 9:40pm does not stop for it.
+#
+# BEAT 3 ANNOUNCES THE SUBJECT CHANGE, AND THE QUESTION OPENING IS WHY.
+# "What makes Sydney Sweeney's lips look like that?" sets up HER mouth, and
+# what we can actually show is our own pair. Cutting silently from her name to
+# a different woman is exactly RefinaChanged's worst defect — it swapped who
+# its subject was three times in a reel arguing "same face, one thing moved".
+# "Different woman. Same idea." costs four words and closes it. Do not remove
+# that line to save time; it is the honesty of the whole reel.
+#
+# SWEENEY IS NAMED, NOT SHOWN, AND THAT KEEPS GATE 1 CLOSED. No licensed
+# photograph is needed and no altered image of a named person is generated —
+# the latter was already declined once here (RefinaSize, CLAUDE.md). Beat 1
+# wants a type card, a phone or a screen. NEVER her face, and never a render
+# of it. If someone puts her likeness on screen, the whole gate reopens.
+#
+# SPOKEN, NOT WRITTEN. Contractions, fragments and "and no," are deliberate.
+# Passive voice, jargon ("re-read", "arrive") and written connectives ("which
+# is why") are what made v3 read as copy. Read any edit ALOUD: if a woman
+# talking to a friend could not say it in one breath, it is wrong for this
+# reel.
+#
+# TONE IS LOAD-BEARING AND THE VOICE IS NOT CHOSEN. `vesta` is calm and
+# clinical and will flatten this back into the lecture. Audition for WARMTH
+# before synthesising — CLAUDE.md: pick the voice before tuning pacing.
+#
+# NEVER: an outcome, a treatment recommendation, or a figure about a face.
+# Beat 7 says "more isn't better", never "filler isn't the answer" — the
+# second is treatment advice, and this reel carries an AI PREVIEW · NOT
+# MEDICAL ADVICE chip precisely because it gives none.
+#
+# MEASURED, lips1 pair (gen/emit-lips.py): lips 51.7 / eyes 16.3 / nose 9.7 /
+# jaw 8.3, concentration 3.88 — the cleanest localisation in the repo.
+# Landmarks: philtrum 0.077 -> 0.052 while noseBase holds 0.620 -> 0.617, so
+# the gap moves and the nose does not. Beat 3 states what we DID ("we changed
+# one thing") and never "the nose never moved": nose is 9.7 against a 4.7
+# re-render floor — least of four regions, and not zero. Rule E.
+#
+# 22 lines. shots.json must declare 2/3/3/3/3/2/2/4 or beats.ts throws at
+# module load. Run docs/scripts/wordcount.py before synthesising.
+
+# -- 1. the question -------------------------------------------------------
+What makes Sydney Sweeney's lips look like that?               | 0.30
+It isn't the lips.                                             | 0.45
+
+# -- 2. now it's about her -------------------------------------------------
+One day you stop liking photos of yourself.                    | 0.28
+The mirror's still fine. It's photos.                          | 0.30
+And you go straight to your lips.                              | 0.45
+
+# -- 3. the proof ----------------------------------------------------------
+Different woman. Same idea.                                    | 0.25
+We changed one thing. Her mouth.                               | 0.30
+Now look at the rest of her face.                              | 0.45
+
+# -- 4. the twist ----------------------------------------------------------
+It's the gap.                                                  | 0.28
+That little bit of space under your nose.                      | 0.25
+Thinner lip, longer gap.                                       | 0.45
+
+# -- 5. the payoff ---------------------------------------------------------
+Your eye reads the gap, not the lip.                           | 0.25
+So you haven't lost lip.                                       | 0.25
+You've gained gap.                                             | 0.50
+
+# -- 6. try it -------------------------------------------------------------
+Try it. Roll your lips in.                                     | 0.25
+Watch your chin come forward.                                  | 0.45
+
+# -- 7. the nuance ---------------------------------------------------------
+And no, more isn't better.                                     | 0.25
+On plenty of faces it's less.                                  | 0.45
+
+# -- 8. the offer ----------------------------------------------------------
+So before anyone touches your face,                            | 0.25
+go and see it. On yours.                                       | 0.30
+A preview, not a promise.                                      | 0.40
+Search Refina AI.                                              | 0.65

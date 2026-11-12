@@ -1,0 +1,80 @@
+# "Half of It Isn't the Jaw" — celebrity feature analysis, subject Jacob Elordi.
+# Filled from docs/scripts/_celeb-template.txt. Read README-celeb-format.md.
+#
+# SLOTS: SUBJECT=Jacob Elordi · FEATURE=the jawline · NEIGHBOUR_A=the neck
+# (submental angle) · NEIGHBOUR_B=the nose · RANGE=the angle ·
+# MECHANISM=a jawline is not a bone you can see, it is the angle between the
+# jaw and the neck, so where the neck starts decides whether the bone reads.
+#
+# THIS EXAMPLE EXISTS TO PROVE THE TEMPLATE IS NOT FEMALE-AND-LIPS-SHAPED.
+# Male subject, a feature with no volume to dial, and a neighbour (the neck)
+# that is not even on the face. If the template holds here it holds anywhere,
+# and it does: the beat map is unchanged and only the slots moved.
+#
+# BEAT 5 IS THE SHIPPED NOSE REEL, RUN BACKWARDS. nose.txt measured the chin
+# pair at nose 9.7 / jaw 44.0, concentration 2.36 — the change was in the lower
+# third and the viewer read it as the nose. Here the same pair is read the
+# other way round, which means beat 5 can carry a REAL figure on day one and
+# the reel gets a measured proof beat without a new generation. Reuse that
+# reel's own pair -- sage-ratio1-before / sage-ratio1-chin, measured under the
+# key ratio1 -- and do not generate a second one to say the same thing.
+#
+# A MALE SUBJECT CHANGES THE VOICE DECISION, NOT THE SCRIPT. Every Refina reel
+# is read by Aura-2 'vesta'. ApplyForMe's audition found the fifteen male
+# voices run 114-207 wpm — a ~2x spread that moved a reel 34.5s -> 27.1s with
+# no script change. If this one is re-voiced, pick the voice BEFORE tuning
+# pacing and re-run wordcount.py's calibration against the new read.
+#
+# THE SELF-TEST IS REAL AND REPRODUCIBLE. Tongue flat to the palate visibly
+# closes the submental angle; it is the mechanism, performed. It is NOT a
+# claim that posture changes bone, and beat 8 says so out loud.
+#
+# 27 lines. Run docs/scripts/wordcount.py for the length gate. Beat grouping
+# goes in src/refina/<reel>/shots.json by line count.
+
+# -- 1. hook ---------------------------------------------------------------
+You've tilted your chin up for a photo.                        | 0.22
+Everyone has.                                                  | 0.22
+Jacob Elordi. That's what you were faking.                     | 0.40
+
+# -- 2. claim --------------------------------------------------------------
+A jawline isn't a bone you see.                                | 0.22
+It's the angle between jaw and neck.                           | 0.40
+
+# -- 3. mechanism ----------------------------------------------------------
+Two men can have the same bone.                                | 0.20
+One reads sharp. One doesn't.                                  | 0.22
+The difference is where the neck starts.                       | 0.40
+
+# -- 4. one: the neck ------------------------------------------------------
+One. Open that angle a few degrees.                            | 0.22
+The jaw disappears.                                            | 0.22
+The bone never changed.                                        | 0.40
+
+# -- 5. two: the nose ------------------------------------------------------
+Two. A stronger lower third shrinks a nose.                    | 0.22
+Same nose, both photographs.                                   | 0.40
+
+# -- 6. demo ---------------------------------------------------------------
+Here is that angle, dialled.                                   | 0.20
+Watch the neck, not the chin.                                  | 0.40
+
+# -- 7. the turn -----------------------------------------------------------
+Now turn it to profile.                                        | 0.20
+The only angle that shows the whole line.                      | 0.40
+
+# -- 8. nuance -------------------------------------------------------------
+Sharper is not the goal.                                       | 0.22
+A jaw that outruns the face reads wrong.                       | 0.22
+It's a proportion, not a maximum.                              | 0.40
+
+# -- 9. self-test ----------------------------------------------------------
+Do it now.                                                     | 0.20
+Press your tongue flat to your palate.                         | 0.22
+That's the angle, not the bone.                                | 0.40
+
+# -- 10. the standard, then the CTA ----------------------------------------
+You will not get his jaw.                                      | 0.20
+See it on your own face first.                                 | 0.30
+A preview, not a promise.                                      | 0.40
+Search Refina AI.                                              | 0.70

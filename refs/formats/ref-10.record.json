@@ -1,0 +1,239 @@
+{
+  "label": "ref-10",
+  "archetype": "interactive classification quiz",
+  "one_line": "Classifies human nose shapes using a celebrity profile and 3D models based on a scientific study.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 20.042,
+  "measured": {
+    "pacing": {
+      "cuts": 0,
+      "cuts_per_min": 0.0,
+      "median_shot_s": 20.04,
+      "shortest_shot_s": 20.04,
+      "longest_shot_s": 20.04,
+      "frozen_pct": 36.0
+    },
+    "transitions": {
+      "count": 1,
+      "median_s": 0.83,
+      "spans_s": [
+        0.833
+      ]
+    },
+    "element_events": {
+      "count": 6,
+      "per_min": 18.0,
+      "median_gap_s": 0.12,
+      "frames": [
+        351,
+        354,
+        357,
+        360,
+        363,
+        366
+      ]
+    },
+    "continuous_motion": {
+      "spans": 15,
+      "total_s": 12.87,
+      "pct_of_runtime": 64.3,
+      "median_span_s": 0.83,
+      "longest_span_s": 1.29,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        120,
+        138,
+        144
+      ],
+      "dominant_hex": "#788A90",
+      "corner_flatness": 70.97,
+      "background_drift": 11.3,
+      "flat_background": false,
+      "headline_band_frames_pct": 100.0,
+      "caption_band_frames_pct": 76.5
+    },
+    "audio": {
+      "speech_segments": 1,
+      "speech_pct": 98.8,
+      "median_phrase_s": 19.81,
+      "has_music_bed": true
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 2,
+    "hard_cuts": 0,
+    "cuts_per_described_change": 0.0,
+    "pct_scene_changes_that_are_cuts": 0.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 1,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 14.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen portrait",
+      "description": "Dua Lipa's profile on the left with a scrolling vertical list of 3D nose models on the right.",
+      "devices": [
+        "3D model cards",
+        "celebrity profile image",
+        "citation popup"
+      ]
+    },
+    {
+      "start_s": 14.0,
+      "start_frame": 336,
+      "end_s": 20.042,
+      "snapped_to_measured_cut": false,
+      "layout": "grid layout",
+      "description": "A grid displaying 14 distinct nose shape classifications with 3D models.",
+      "devices": [
+        "grid layout",
+        "3D model cards"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "3D model cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "celebrity profile image",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "citation popup",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "grid layout",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "3D nose model cards",
+      "what_it_is": "Rendered grey 3D models of different nose profiles.",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Academic citation card",
+      "what_it_is": "A small overlay box citing a journal study.",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Dua Lipa's profile is shown alongside a scrolling selector of 3D nose shapes.",
+    "why_it_works": "Uses celebrity familiarity and interactive 3D visuals to spark curiosity."
+  },
+  "narrative_arc": [
+    "Introduce nose shape measurement concept",
+    "Show celebrity reference profile",
+    "Cite scientific study for credibility",
+    "Present classification grid for self-assessment"
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "RESEARCH-BASED Let's measure your Nose Shape"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "DUA LIPA SONGWRITER & SINGER"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "Original nose"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "Fleshy nose"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "Hawk nose"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "Straight nose"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "label",
+      "text": "Bulbous nose"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "citation",
+      "text": "Based on this study: Tamir A. Numerical survey of the shapes of the human nose. J Craniofac Surg. 2011 May;22(3):1104-7. doi: 10.1097/SCS.0b013e318210b1b3. PMID: 21586956."
+    },
+    {
+      "approx_t": 8.0,
+      "track": "headline",
+      "text": "Which nose type are you?"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "label",
+      "text": "Rare variant"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Let's measure your nose shape. Which nose type are you?"
+    }
+  ],
+  "cta": {
+    "approx_t": 8.0,
+    "what": "Which nose type are you?"
+  },
+  "subjects": [
+    "Dua Lipa (Singer/Songwriter) as the profile model"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Scientific framing lends authority",
+    "Clean 3D aesthetics look professional",
+    "High-profile celebrity reference increases engagement"
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/2"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "label": "ref-19",
+  "source": "refs/corpus/ref-19.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 29.97
+  },
+  "duration_s": 41.742,
+  "pacing": {
+    "cuts": 2,
+    "cuts_per_min": 2.9,
+    "median_shot_s": 12.45,
+    "shortest_shot_s": 1.63,
+    "longest_shot_s": 27.66,
+    "frozen_pct": 83.1
+  },
+  "element_events": {
+    "count": 16,
+    "per_min": 23.0,
+    "median_gap_s": 1.37,
+    "frames": [
+      1,
+      4,
+      7,
+      184,
+      249,
+      290,
+      418,
+      590,
+      1001,
+      1124,
+      1224,
+      1227,
+      1230,
+      1233,
+      1237,
+      1240
+    ]
+  },
+  "continuous_motion": {
+    "spans": 3,
+    "total_s": 1.53,
+    "pct_of_runtime": 3.7,
+    "median_span_s": 0.47,
+    "longest_span_s": 0.73,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 4,
+    "median_s": 0.13,
+    "spans_s": [
+      0.367,
+      0.133,
+      0.133,
+      0.133
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      116,
+      118,
+      125
+    ],
+    "dominant_hex": "#74767D",
+    "corner_flatness": 101.02,
+    "background_drift": 7.65,
+    "flat_background": false,
+    "headline_band_frames_pct": 99.6,
+    "caption_band_frames_pct": 15.4
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 86.6,
+    "approx_any_face_frames_pct": 100.0,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 2,
+    "speech_pct": 99.6,
+    "median_phrase_s": 20.8,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    829,
+    1202
+  ]
+}

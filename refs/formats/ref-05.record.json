@@ -1,0 +1,541 @@
+{
+  "label": "ref-05",
+  "archetype": "educational explainer",
+  "one_line": "An analytical breakdown of the facial aesthetics and genetic diversity that define the unique beauty of Spanish women.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 64.5,
+  "measured": {
+    "pacing": {
+      "cuts": 2,
+      "cuts_per_min": 1.9,
+      "median_shot_s": 29.83,
+      "shortest_shot_s": 3.75,
+      "longest_shot_s": 30.92,
+      "frozen_pct": 36.4
+    },
+    "transitions": {
+      "count": 21,
+      "median_s": 0.92,
+      "spans_s": [
+        0.542,
+        1.083,
+        1.208,
+        0.917,
+        1.125,
+        0.958,
+        1.125,
+        1.0,
+        0.625,
+        0.792,
+        0.625,
+        0.708,
+        0.417,
+        0.417,
+        1.417,
+        1.5,
+        0.458,
+        0.542,
+        1.0,
+        1.083
+      ]
+    },
+    "element_events": {
+      "count": 95,
+      "per_min": 88.4,
+      "median_gap_s": 0.12,
+      "frames": [
+        71,
+        132,
+        135,
+        138,
+        141,
+        146,
+        151,
+        165,
+        168,
+        171,
+        174,
+        177,
+        180,
+        222,
+        242,
+        245,
+        248,
+        283,
+        286,
+        289,
+        292,
+        336,
+        339,
+        342,
+        345,
+        374,
+        377,
+        380,
+        383,
+        387,
+        406,
+        422,
+        425,
+        428,
+        431,
+        434,
+        437,
+        481,
+        522,
+        525
+      ]
+    },
+    "continuous_motion": {
+      "spans": 26,
+      "total_s": 19.91,
+      "pct_of_runtime": 30.9,
+      "median_span_s": 0.5,
+      "longest_span_s": 2.67,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        160,
+        182,
+        192
+      ],
+      "dominant_hex": "#A0B6C0",
+      "corner_flatness": 29.21,
+      "background_drift": 34.09,
+      "flat_background": false,
+      "headline_band_frames_pct": 58.6,
+      "caption_band_frames_pct": 93.2
+    },
+    "audio": {
+      "speech_segments": 5,
+      "speech_pct": 97.3,
+      "median_phrase_s": 13.35,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 6,
+    "hard_cuts": 2,
+    "cuts_per_described_change": 0.4,
+    "pct_scene_changes_that_are_cuts": 40.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 3,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 2.5,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Hook showing Blanca Padilla with title text.",
+      "devices": [
+        "text overlay"
+      ]
+    },
+    {
+      "start_s": 2.5,
+      "start_frame": 60,
+      "end_s": 6.0,
+      "snapped_to_measured_cut": false,
+      "layout": "centered graphic on dark background",
+      "description": "Series title card 'Beauty Across Borders' with a rotating globe graphic.",
+      "devices": [
+        "animated globe",
+        "text overlay"
+      ]
+    },
+    {
+      "start_s": 6.0,
+      "start_frame": 144,
+      "end_s": 25.5,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with technical UI overlays",
+      "description": "Analysis of the 'Spanish look' tension using portraits of Ursula Corbero, Ester Exposito, and Blanca Palmer Soler with UI overlays.",
+      "devices": [
+        "color swatches",
+        "facial mapping lines",
+        "3D mannequin head",
+        "checkboxes"
+      ]
+    },
+    {
+      "start_s": 25.5,
+      "start_frame": 612,
+      "end_s": 34.0,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with technical UI overlays",
+      "description": "Case study of Penelope Cruz highlighting her warm skin base and bold facial features.",
+      "devices": [
+        "facial mapping lines",
+        "color swatches"
+      ]
+    },
+    {
+      "start_s": 33.583,
+      "start_frame": 806,
+      "end_s": 57.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split screen with map and portrait overlays",
+      "description": "Geographic and genetic explanation of Spain's diversity using a map and various portraits.",
+      "devices": [
+        "interactive map",
+        "portrait cards",
+        "checkboxes"
+      ]
+    },
+    {
+      "start_s": 57.0,
+      "start_frame": 1368,
+      "end_s": 64.5,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait with dense UI overlays",
+      "description": "Outro and call to action showing a model's face analyzed with complex UI overlays.",
+      "devices": [
+        "facial mapping lines",
+        "sliders",
+        "checkboxes",
+        "search bar graphic"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "facial mapping lines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "checkboxes",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "Color Swatches",
+      "what_it_is": "Color blocks with hex codes indicating skin undertones and highlights.",
+      "how_it_animates": null,
+      "shots": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "text overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Interactive Map",
+      "what_it_is": "A stylized map of Spain showing regional genetic differences.",
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "animated globe",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "3D mannequin head",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "portrait cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "sliders",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "search bar graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "Technical UI Overlays",
+      "what_it_is": "Faux-software graphics including checkboxes, sliders, and facial mapping lines.",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": 0,
+    "what_happens": "A portrait of model Blanca Padilla appears with the question, 'What makes Spanish women so attractive?'",
+    "why_it_works": "Uses a provocative question paired with a striking visual to immediately engage the viewer."
+  },
+  "narrative_arc": [
+    "Introduce the core question regarding Spanish facial attractiveness.",
+    "Define the 'tension' theory: soft base combined with a bold feature.",
+    "Analyze the soft base component (warm olive skin tones).",
+    "Analyze the bold feature component using Penelope Cruz as a case study.",
+    "Provide geographical and genetic context for Spain's diverse facial features.",
+    "Summarize the aesthetic formula and present the call to action."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "What makes Spanish women so attractive?"
+    },
+    {
+      "approx_t": 1,
+      "track": "label",
+      "text": "BLANCA PADILLA\nSPANISH MODEL"
+    },
+    {
+      "approx_t": 3,
+      "track": "headline",
+      "text": "Beauty Across Borders"
+    },
+    {
+      "approx_t": 4,
+      "track": "chip",
+      "text": "[ EPISODE 25 ]"
+    },
+    {
+      "approx_t": 6,
+      "track": "label",
+      "text": "SPAIN"
+    },
+    {
+      "approx_t": 7,
+      "track": "label",
+      "text": "TENSION"
+    },
+    {
+      "approx_t": 9,
+      "track": "label",
+      "text": "URSULA CORBERO\nSPANISH ACTRESS"
+    },
+    {
+      "approx_t": 10,
+      "track": "ui",
+      "text": "Feminine base"
+    },
+    {
+      "approx_t": 11,
+      "track": "ui",
+      "text": "Single bolder feature"
+    },
+    {
+      "approx_t": 12,
+      "track": "ui",
+      "text": "Facial features\nEyebrows"
+    },
+    {
+      "approx_t": 14,
+      "track": "ui",
+      "text": "SKIN"
+    },
+    {
+      "approx_t": 16,
+      "track": "ui",
+      "text": "PRIMARY SKIN UNDERTONE\nWarm Olive\n#B8A76F"
+    },
+    {
+      "approx_t": 16,
+      "track": "ui",
+      "text": "PRIMARY SKIN HIGHLIGHT\nGolden Soft Glow\n#EEF2AD"
+    },
+    {
+      "approx_t": 16,
+      "track": "label",
+      "text": "ESTER EXPOSITO, SPANISH ACTRESS"
+    },
+    {
+      "approx_t": 18,
+      "track": "ui",
+      "text": "COMPLEXION SHADOW\nOlive Shadow Tone\n#8F8053"
+    },
+    {
+      "approx_t": 18,
+      "track": "label",
+      "text": "BLANCA PALMER SOLER\nSPANISH TAEKWONDO ATHLETE"
+    },
+    {
+      "approx_t": 21,
+      "track": "ui",
+      "text": "PRETTY"
+    },
+    {
+      "approx_t": 23,
+      "track": "ui",
+      "text": "MEMORABLE"
+    },
+    {
+      "approx_t": 26,
+      "track": "label",
+      "text": "PENÉLOPE CRUZ, SPANISH ACTRESS"
+    },
+    {
+      "approx_t": 30,
+      "track": "ui",
+      "text": "Facial features\nEyebrows"
+    },
+    {
+      "approx_t": 31,
+      "track": "ui",
+      "text": "Facial features\nNose"
+    },
+    {
+      "approx_t": 51,
+      "track": "label",
+      "text": "MARIA VALVERDE, SPANISH ACTRESS"
+    },
+    {
+      "approx_t": 53,
+      "track": "ui",
+      "text": "Tension\nWarm glow\nBold feature"
+    },
+    {
+      "approx_t": 56,
+      "track": "ui",
+      "text": "SPANISH CHARACTERISTIC BEAUTY"
+    },
+    {
+      "approx_t": 58,
+      "track": "headline",
+      "text": "Which country next?"
+    },
+    {
+      "approx_t": 58,
+      "track": "ui",
+      "text": "Leave a comment"
+    },
+    {
+      "approx_t": 61.0,
+      "track": "ui",
+      "text": "Philtrum\nEyebrows\nFeminine base\nSingle bolder feature"
+    },
+    {
+      "approx_t": 63.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "What makes Spanish women so attractive?"
+    },
+    {
+      "approx_t": 2.5,
+      "text": "Welcome to Beauty Across Borders, episode 25, and our country for today is Spain."
+    },
+    {
+      "approx_t": 6.5,
+      "text": "The Spanish look rests on a tension: a soft, warm, feminine base with a single bolder feature laid over it."
+    },
+    {
+      "approx_t": 13,
+      "text": "Most of that base is skin. That warm olive undertone has a glow that softens the complexion the way good light does."
+    },
+    {
+      "approx_t": 19.5,
+      "text": "But glow and softness alone would only read as pretty. What makes Spanish women's faces memorable is the bolder feature sitting on top."
+    },
+    {
+      "approx_t": 25.5,
+      "text": "Penélope Cruz is a great example of this. She too has that warm base, but her strong dark brows and defined nose are what makes her face particularly striking."
+    },
+    {
+      "approx_t": 34,
+      "text": "And where that boldness comes from is partly geography. Spain is not genetically uniform."
+    },
+    {
+      "approx_t": 38.5,
+      "text": "Research suggests the makeup of someone from Barcelona in the east may differ measurably from someone in Seville to the west, a wider spread than most countries of its size, which appears to feed the range of strong features that we see across Spanish faces."
+    },
+    {
+      "approx_t": 52,
+      "text": "And it is this tension, that warm glow against one bolder feature, that tends to give Spanish women their characteristic beauty."
+    },
+    {
+      "approx_t": 58,
+      "text": "Leave a comment to let us know what country we should visit next. And if you want us to analyze your face, click the link in bio at Qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 58,
+    "what": "Leave a comment suggesting the next country, and visit Qoves.com for a personalized face analysis."
+  },
+  "subjects": [
+    {
+      "name": "Blanca Padilla",
+      "role": "Spanish Model (Hook subject)"
+    },
+    {
+      "name": "Ursula Corbero",
+      "role": "Spanish Actress (Visual example)"
+    },
+    {
+      "name": "Ester Exposito",
+      "role": "Spanish Actress (Skin tone example)"
+    },
+    {
+      "name": "Blanca Palmer Soler",
+      "role": "Spanish Taekwondo Athlete (Visual example)"
+    },
+    {
+      "name": "Penélope Cruz",
+      "role": "Spanish Actress (Case study subject)"
+    },
+    {
+      "name": "Maria Valverde",
+      "role": "Spanish Actress (Visual example)"
+    }
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Scientific framing of subjective beauty using technical UI elements and color metrics.",
+    "Clear, structured thesis (the 'tension' theory) that simplifies complex facial aesthetics.",
+    "High-quality, recognizable celebrity examples that validate the analysis."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "2/6"
+  }
+}

@@ -1,0 +1,11 @@
+# Demo script — proves the voiceover pipeline end to end.
+# One phrase per line. `| n` is the silence after it, in seconds.
+
+You've judged your face by someone else's before-and-afters.   | 0.55
+That is the whole decision.                                     | 0.70
+---
+So we built Refina.                                             | 0.50
+Upload one photo, choose a procedure.                           | 0.45
+And see it rendered on your own face.                           | 0.75
+---
+A preview, not a promise.                                       | 0.90

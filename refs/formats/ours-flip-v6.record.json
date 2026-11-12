@@ -1,0 +1,566 @@
+{
+  "label": "ours-flip-v6",
+  "archetype": "interactive explainer",
+  "one_line": "This ad explains facial asymmetry using mirror vs. photo comparisons to pitch Refina AI for previewing cosmetic changes.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 88.064,
+  "measured": {
+    "pacing": {
+      "cuts": 8,
+      "cuts_per_min": 5.5,
+      "median_shot_s": 8.43,
+      "shortest_shot_s": 4.57,
+      "longest_shot_s": 20.83,
+      "frozen_pct": 83.9
+    },
+    "transitions": {
+      "count": 6,
+      "median_s": 0.28,
+      "spans_s": [
+        0.433,
+        0.4,
+        0.667,
+        0.167,
+        0.167,
+        0.167
+      ]
+    },
+    "element_events": {
+      "count": 16,
+      "per_min": 10.9,
+      "median_gap_s": 0.1,
+      "frames": [
+        61,
+        64,
+        67,
+        70,
+        163,
+        166,
+        169,
+        172,
+        259,
+        262,
+        265,
+        268,
+        271,
+        274,
+        277,
+        1678
+      ]
+    },
+    "continuous_motion": {
+      "spans": 17,
+      "total_s": 10.37,
+      "pct_of_runtime": 11.8,
+      "median_span_s": 0.37,
+      "longest_span_s": 1.6,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        161,
+        180,
+        185
+      ],
+      "dominant_hex": "#A1B4B9",
+      "corner_flatness": 8.15,
+      "background_drift": 17.2,
+      "flat_background": false,
+      "headline_band_frames_pct": 99.7,
+      "caption_band_frames_pct": 81.5
+    },
+    "audio": {
+      "speech_segments": 16,
+      "speech_pct": 94.0,
+      "median_phrase_s": 1.65,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 9,
+    "hard_cuts": 8,
+    "cuts_per_described_change": 1.0,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 8.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Portrait of a woman's face flipping horizontally to show mirror vs. photo versions.",
+      "devices": [
+        "horizontal flip"
+      ]
+    },
+    {
+      "start_s": 8.433,
+      "start_frame": 253,
+      "end_s": 15.5,
+      "snapped_to_measured_cut": true,
+      "layout": "stacked horizontal split",
+      "description": "Stacked split screen comparing mirror view and camera view.",
+      "devices": [
+        "sliding split line"
+      ]
+    },
+    {
+      "start_s": 16.333,
+      "start_frame": 490,
+      "end_s": 25.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with overlay",
+      "description": "Portrait with a yellow per-pixel difference heatmap overlay.",
+      "devices": [
+        "per-pixel difference overlay"
+      ]
+    },
+    {
+      "start_s": 25.467,
+      "start_frame": 764,
+      "end_s": 38.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with sliding split",
+      "description": "Portrait showing left-half doubled vs. right-half doubled faces.",
+      "devices": [
+        "sliding split line"
+      ]
+    },
+    {
+      "start_s": 37.967,
+      "start_frame": 1139,
+      "end_s": 45.5,
+      "snapped_to_measured_cut": true,
+      "layout": "3-column grid",
+      "description": "Three-panel comparison of a second subject's face halves.",
+      "devices": [
+        "multi-panel grid"
+      ]
+    },
+    {
+      "start_s": 45.767,
+      "start_frame": 1373,
+      "end_s": 55.5,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Portrait alternating between 'Photograph' and 'Mirror' labels.",
+      "devices": [
+        "sliding split line"
+      ]
+    },
+    {
+      "start_s": 55.5,
+      "start_frame": 1665,
+      "end_s": 66.5,
+      "snapped_to_measured_cut": false,
+      "layout": "full-bleed portrait",
+      "description": "Portrait emphasizing natural asymmetry with text overlays.",
+      "devices": [
+        "text overlays"
+      ]
+    },
+    {
+      "start_s": 66.6,
+      "start_frame": 1998,
+      "end_s": 75.5,
+      "snapped_to_measured_cut": true,
+      "layout": "phone mockup over blurred background",
+      "description": "Phone mockup demonstrating how to flip a photo in the camera roll.",
+      "devices": [
+        "phone mockup"
+      ]
+    },
+    {
+      "start_s": 75.833,
+      "start_frame": 2275,
+      "end_s": 88.064,
+      "snapped_to_measured_cut": true,
+      "layout": "minimalist text screen",
+      "description": "Minimalist CTA screen with an interactive search bar typing 'Refina AI'.",
+      "devices": [
+        "search bar UI"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "sliding split line",
+      "what_it_is": "A vertical line wiping across the screen to reveal different image states.",
+      "how_it_animates": null,
+      "shots": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "per-pixel difference overlay",
+      "what_it_is": "A yellow heatmap showing pixel variance.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "phone mockup",
+      "what_it_is": "A realistic smartphone frame overlay.",
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "search bar UI",
+      "what_it_is": "An animated search input field.",
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "horizontal flip",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "multi-panel grid",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "text overlays",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": 3,
+    "what_happens": "A woman's face is shown with the text 'You've never seen your own face.'",
+    "why_it_works": "It uses a counterintuitive psychological hook that immediately grabs attention."
+  },
+  "narrative_arc": [
+    "Introduce the concept that we don't know our own true faces.",
+    "Explain the difference between mirror images and photographic reality.",
+    "Demonstrate facial asymmetry visually using pixel overlays and doubled halves.",
+    "Explain the psychological impact of practicing expressions in a reversed mirror.",
+    "Reassure the viewer that asymmetry is natural and unique.",
+    "Provide an interactive, immediate action step for the viewer to try.",
+    "Introduce Refina AI as the solution to previewing cosmetic changes on your true face."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "You've never seen your own face"
+    },
+    {
+      "approx_t": 0,
+      "track": "chip",
+      "text": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "One of these is her photograph."
+    },
+    {
+      "approx_t": 2,
+      "track": "label",
+      "text": "SAME FILE, FLIPPED"
+    },
+    {
+      "approx_t": 3,
+      "track": "caption",
+      "text": "The other is the same file, flipped."
+    },
+    {
+      "approx_t": 8,
+      "track": "headline",
+      "text": "A mirror reverses you."
+    },
+    {
+      "approx_t": 8,
+      "track": "label",
+      "text": "WHAT THE MIRROR SHOWS YOU"
+    },
+    {
+      "approx_t": 10,
+      "track": "headline",
+      "text": "A photograph does not."
+    },
+    {
+      "approx_t": 10,
+      "track": "label",
+      "text": "WHAT THE CAMERA SHOWS EVERYONE"
+    },
+    {
+      "approx_t": 12,
+      "track": "caption",
+      "text": "So the face you know best is the one nobody else sees."
+    },
+    {
+      "approx_t": 16,
+      "track": "headline",
+      "text": "Where they disagree"
+    },
+    {
+      "approx_t": 16,
+      "track": "caption",
+      "text": "Lay the photograph over its own mirror."
+    },
+    {
+      "approx_t": 18,
+      "track": "label",
+      "text": "PER-PIXEL DIFFERENCE, THIS PHOTO VS ITS MIRROR"
+    },
+    {
+      "approx_t": 18,
+      "track": "chart",
+      "text": "EYES 76 NOSE 32 JAW 56"
+    },
+    {
+      "approx_t": 20,
+      "track": "caption",
+      "text": "This is every pixel where the two disagree."
+    },
+    {
+      "approx_t": 22,
+      "track": "caption",
+      "text": "Two pictures of one face."
+    },
+    {
+      "approx_t": 25,
+      "track": "headline",
+      "text": "1. Two different faces"
+    },
+    {
+      "approx_t": 25,
+      "track": "caption",
+      "text": "One. Her halves are two different faces."
+    },
+    {
+      "approx_t": 26,
+      "track": "label",
+      "text": "LEFT HALF, DOUBLED"
+    },
+    {
+      "approx_t": 28,
+      "track": "caption",
+      "text": "Left side, doubled."
+    },
+    {
+      "approx_t": 31,
+      "track": "label",
+      "text": "RIGHT HALF, DOUBLED"
+    },
+    {
+      "approx_t": 31,
+      "track": "caption",
+      "text": "Right side, doubled."
+    },
+    {
+      "approx_t": 33,
+      "track": "caption",
+      "text": "Nothing added. Nothing drawn."
+    },
+    {
+      "approx_t": 36,
+      "track": "caption",
+      "text": "Neither one is her."
+    },
+    {
+      "approx_t": 38,
+      "track": "headline",
+      "text": "2. It's everyone"
+    },
+    {
+      "approx_t": 38,
+      "track": "label",
+      "text": "SECOND SUBJECT"
+    },
+    {
+      "approx_t": 38,
+      "track": "label",
+      "text": "LEFT HALF, DOUBLED"
+    },
+    {
+      "approx_t": 38,
+      "track": "caption",
+      "text": "Two. Another face. The same operation."
+    },
+    {
+      "approx_t": 40,
+      "track": "label",
+      "text": "HER PHOTOGRAPH"
+    },
+    {
+      "approx_t": 42,
+      "track": "label",
+      "text": "RIGHT HALF, DOUBLED"
+    },
+    {
+      "approx_t": 42,
+      "track": "caption",
+      "text": "Two people again. It isn't her. It's everyone."
+    },
+    {
+      "approx_t": 45.5,
+      "track": "headline",
+      "text": "3. You rehearsed the wrong one"
+    },
+    {
+      "approx_t": 45.5,
+      "track": "caption",
+      "text": "Three. You have been practising in a mirror."
+    },
+    {
+      "approx_t": 48,
+      "track": "label",
+      "text": "PHOTOGRAPH"
+    },
+    {
+      "approx_t": 49,
+      "track": "caption",
+      "text": "Every expression you have ever checked,"
+    },
+    {
+      "approx_t": 51,
+      "track": "label",
+      "text": "MIRROR"
+    },
+    {
+      "approx_t": 51,
+      "track": "caption",
+      "text": "you checked reversed."
+    },
+    {
+      "approx_t": 53,
+      "track": "caption",
+      "text": "The photograph is the version you have seen least."
+    },
+    {
+      "approx_t": 55.5,
+      "track": "headline",
+      "text": "The asymmetry is yours"
+    },
+    {
+      "approx_t": 55.5,
+      "track": "label",
+      "text": "HER OWN FACE - UNTOUCHED"
+    },
+    {
+      "approx_t": 56,
+      "track": "caption",
+      "text": "None of this means your face is wrong."
+    },
+    {
+      "approx_t": 60.0,
+      "track": "caption",
+      "text": "The asymmetry is the part that is actually yours."
+    },
+    {
+      "approx_t": 64.0,
+      "track": "caption",
+      "text": "You just watched two faces lose it."
+    },
+    {
+      "approx_t": 66.5,
+      "track": "label",
+      "text": "THAT IS THE ONE THEY SEE"
+    },
+    {
+      "approx_t": 106.5,
+      "track": "headline",
+      "text": "Try it now"
+    },
+    {
+      "approx_t": 108,
+      "track": "ui",
+      "text": "1 Open your camera roll."
+    },
+    {
+      "approx_t": 109,
+      "track": "ui",
+      "text": "2 Pick any photo of your face."
+    },
+    {
+      "approx_t": 110,
+      "track": "ui",
+      "text": "3 Flip it left to right."
+    },
+    {
+      "approx_t": 110,
+      "track": "caption",
+      "text": "Find a photo of yourself and flip it."
+    },
+    {
+      "approx_t": 113,
+      "track": "caption",
+      "text": "That is who everyone has been looking at."
+    },
+    {
+      "approx_t": 115.5,
+      "track": "headline",
+      "text": "Your face."
+    },
+    {
+      "approx_t": 115.5,
+      "track": "headline",
+      "text": "Not a stranger's."
+    },
+    {
+      "approx_t": 118,
+      "track": "headline",
+      "text": "A preview, not a promise"
+    },
+    {
+      "approx_t": 122,
+      "track": "ui",
+      "text": "Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "One of these is her photograph. The other is the same file, flipped. You have never seen your own face. A mirror reverses you. A photograph does not. So the face you know best is the one nobody else sees. Lay the photograph over its own mirror. This is every pixel where the two disagree. Two pictures of one face. One. Her halves are two different faces. Left side, doubled. Right side, doubled. Nothing added. Nothing drawn. Neither one is her. Two. Another face. The same operation. Two people again. It isn't her. It's everyone. Three. You have been practising in a mirror. Every expression you have ever checked, you checked reversed. The photograph is the version you have seen least. None of this means your face is wrong. The asymmetry is the part that is actually yours. You just watched two faces lose it. So test it. Open your camera roll. Find a photo of yourself and flip it. That is who everyone has been looking at. If you are about to change something on that face, see it on yours first. Not on a stranger's. A preview, not a promise. Search Refina AI."
+    }
+  ],
+  "cta": {
+    "approx_t": 122,
+    "what": "Search 'Refina AI' to preview cosmetic changes on your actual face."
+  },
+  "subjects": [
+    "Subject 1: Young woman with brown hair in a bun (primary model).",
+    "Subject 2: Older woman with greyish-blonde hair (secondary model)."
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "An engaging, mind-bending hook about self-perception.",
+    "Highly scientific and clean visual demonstrations of asymmetry.",
+    "An immediate, low-friction interactive task ('Try it now') that drives user engagement.",
+    "Directly addresses a common anxiety in cosmetic procedures (unnatural previews)."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "8/9"
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "label": "ref-02",
+  "archetype": "educational explainer",
+  "one_line": "An analysis of French male facial attractiveness, covering typical features, hair styles, genetic diversity, and regional variation.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 90.958,
+  "measured": {
+    "pacing": {
+      "cuts": 6,
+      "cuts_per_min": 4.0,
+      "median_shot_s": 7.42,
+      "shortest_shot_s": 1.08,
+      "longest_shot_s": 49.04,
+      "frozen_pct": 42.0
+    },
+    "transitions": {
+      "count": 24,
+      "median_s": 0.54,
+      "spans_s": [
+        0.708,
+        1.125,
+        0.667,
+        0.375,
+        1.0,
+        1.292,
+        1.125,
+        0.167,
+        0.292,
+        2.167,
+        0.208,
+        0.333,
+        0.167,
+        0.167,
+        0.375,
+        0.417,
+        0.25,
+        1.417,
+        1.167,
+        0.25
+      ]
+    },
+    "element_events": {
+      "count": 137,
+      "per_min": 90.4,
+      "median_gap_s": 0.12,
+      "frames": [
+        63,
+        66,
+        69,
+        72,
+        127,
+        130,
+        133,
+        136,
+        139,
+        142,
+        145,
+        148,
+        151,
+        162,
+        195,
+        198,
+        201,
+        204,
+        257,
+        260,
+        264,
+        331,
+        334,
+        337,
+        340,
+        343,
+        346,
+        422,
+        425,
+        428,
+        431,
+        434,
+        437,
+        499,
+        502,
+        505,
+        508,
+        511,
+        514,
+        517
+      ]
+    },
+    "continuous_motion": {
+      "spans": 39,
+      "total_s": 34.23,
+      "pct_of_runtime": 37.6,
+      "median_span_s": 0.58,
+      "longest_span_s": 4.38,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        160,
+        182,
+        192
+      ],
+      "dominant_hex": "#A0B6C0",
+      "corner_flatness": 0.0,
+      "background_drift": 18.27,
+      "flat_background": false,
+      "headline_band_frames_pct": 40.9,
+      "caption_band_frames_pct": 88.5
+    },
+    "audio": {
+      "speech_segments": 3,
+      "speech_pct": 99.6,
+      "median_phrase_s": 32.21,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 9,
+    "hard_cuts": 6,
+    "cuts_per_described_change": 0.75,
+    "pct_scene_changes_that_are_cuts": 75.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 2,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 2.5,
+      "snapped_to_measured_cut": true,
+      "layout": "centered portrait title",
+      "description": "Title card intro with model portrait and flag.",
+      "devices": [
+        "title header",
+        "flag icon",
+        "subtitles"
+      ]
+    },
+    {
+      "start_s": 2.5,
+      "start_frame": 60,
+      "end_s": 6.5,
+      "snapped_to_measured_cut": false,
+      "layout": "graphic illustration overlay",
+      "description": "Show series logo and animated map outline of France.",
+      "devices": [
+        "logo",
+        "map outline",
+        "episode badge"
+      ]
+    },
+    {
+      "start_s": 6.5,
+      "start_frame": 156,
+      "end_s": 17.5,
+      "snapped_to_measured_cut": false,
+      "layout": "interactive facial feature callouts",
+      "description": "Feature breakdown overlaying nose, deep-set eye, and lip anatomy diagrams on model photo.",
+      "devices": [
+        "diagram box",
+        "feature highlight wireframe",
+        "profile view"
+      ]
+    },
+    {
+      "start_s": 17.5,
+      "start_frame": 420,
+      "end_s": 29.5,
+      "snapped_to_measured_cut": false,
+      "layout": "side-by-side card comparison",
+      "description": "Comparison of hairstyles using Pierre Niney, typical American cuts, and Timothée Chalamet.",
+      "devices": [
+        "comparison cards",
+        "celebrity photos",
+        "social media comment screenshot"
+      ]
+    },
+    {
+      "start_s": 29.5,
+      "start_frame": 708,
+      "end_s": 45.5,
+      "snapped_to_measured_cut": false,
+      "layout": "portrait card with feature checklist",
+      "description": "Exploration of the 'loverboy' aesthetic and nonchalance through Louis Garrel, Romain Duris, Vassili Schneider, and François Civil.",
+      "devices": [
+        "heart graphic",
+        "feature callouts",
+        "checklist UI"
+      ]
+    },
+    {
+      "start_s": 45.5,
+      "start_frame": 1092,
+      "end_s": 51.5,
+      "snapped_to_measured_cut": false,
+      "layout": "map with scientific study overlay",
+      "description": "Genetic paper citation and 6-cluster map gradient of France.",
+      "devices": [
+        "academic citation card",
+        "genetic cluster markers",
+        "gradient bar"
+      ]
+    },
+    {
+      "start_s": 51.5,
+      "start_frame": 1236,
+      "end_s": 65.0,
+      "snapped_to_measured_cut": false,
+      "layout": "split map portrait cards",
+      "description": "Regional facial differences: Northern (Pierre Niney) vs. Southern/Corsican (Baptiste Giabiconi).",
+      "devices": [
+        "3D topographical map",
+        "regional profile cards"
+      ]
+    },
+    {
+      "start_s": 65.0,
+      "start_frame": 1560,
+      "end_s": 83.0,
+      "snapped_to_measured_cut": false,
+      "layout": "dynamic portrait sequence",
+      "description": "Rapid gallery of modern multicultural French models and athletes.",
+      "devices": [
+        "origin map inset chips",
+        "name tag labels"
+      ]
+    },
+    {
+      "start_s": 83.0,
+      "start_frame": 1992,
+      "end_s": 90.0,
+      "snapped_to_measured_cut": false,
+      "layout": "end screen with website preview",
+      "description": "Closing summary portraits and final CTA screen for facial analysis tool.",
+      "devices": [
+        "search bar graphic",
+        "app interface mockup"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "title header",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "flag icon",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "subtitles",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "logo",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "map outline",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "episode badge",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "diagram box",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "feature highlight wireframe",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "profile view",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "comparison cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "celebrity photos",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "social media comment screenshot",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "heart graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "feature callouts",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "checklist UI",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "academic citation card",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "genetic cluster markers",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "gradient bar",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "3D topographical map",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "regional profile cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "origin map inset chips",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "name tag labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "search bar graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "app interface mockup",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "Anatomy UI Callout",
+      "what_it_is": "A translucent box showing geometric line art of facial features (nose, eye depth, lips).",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Checklist Overlay",
+      "what_it_is": "A semi-transparent UI widget with checkmarks next to facial trait names.",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Genetic Cluster Map",
+      "what_it_is": "A dot-matrix map of France displaying DNA cluster badges.",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Displays a model under the title 'French Face: What makes French men's faces so attractive?'",
+    "why_it_works": "Piques visual curiosity about beauty standards and cultural aesthetics."
+  },
+  "narrative_arc": [
+    "Hook: introduces the topic of French male facial attractiveness.",
+    "Feature Breakdown: details anatomical norms (nose, eyes, lips, hair).",
+    "Cultural Perception: defines the 'loverboy' archetype and nonchalance.",
+    "Genetic/Regional Context: maps facial variation along a north-to-south genetic gradient.",
+    "Modern Diversity: highlights modern global influences on French faces.",
+    "Call to Action: prompts country suggestions and promotes facial analysis software."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.5,
+      "track": "headline",
+      "text": "French Face"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "headline",
+      "text": "What makes French men's faces so attractive?"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "headline",
+      "text": "Beauty Across borders [ EPISODE 25 ]"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "TYPICAL FRENCH MAN'S FACE"
+    },
+    {
+      "approx_t": 9.0,
+      "track": "label",
+      "text": "Nose"
+    },
+    {
+      "approx_t": 11.5,
+      "track": "label",
+      "text": "Deep-set eyes"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "label",
+      "text": "Medium full lips"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "chip",
+      "text": "WAVY"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "label",
+      "text": "PIERRE NINEY - FRENCH TELEVISION DIRECTOR"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "TYPICAL AMERICAN CUT"
+    },
+    {
+      "approx_t": 25.5,
+      "track": "label",
+      "text": "TIMOTHÉE CHALAMET - AMERICAN-FRENCH ACTOR"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "REFINED AND SEDUCTIVE"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "label",
+      "text": "LOUIS GARREL - FRENCH ACTOR AND FILMMAKER"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "citation",
+      "text": "The genetic history of France. Saint Pierre A... European Journal of Human Genetics (2020)"
+    },
+    {
+      "approx_t": 60.0,
+      "track": "label",
+      "text": "BAPTISTE GIABICONI - FRENCH MODEL AND SINGER"
+    },
+    {
+      "approx_t": 71.0,
+      "track": "label",
+      "text": "YOUNÈS BENDJIMA - ALGERIAN-FRENCH MODEL"
+    },
+    {
+      "approx_t": 73.0,
+      "track": "label",
+      "text": "DJEBRIL ZONGA - FRENCH ACTOR"
+    },
+    {
+      "approx_t": 79.0,
+      "track": "label",
+      "text": "KYLIAN MBAPPÉ - FRENCH FOOTBALLER"
+    },
+    {
+      "approx_t": 81.0,
+      "track": "label",
+      "text": "BÁCH BUQUEN - FRENCH INFLUENCER AND MODEL"
+    },
+    {
+      "approx_t": 85.0,
+      "track": "headline",
+      "text": "Which country next?"
+    },
+    {
+      "approx_t": 90.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "What makes French men's faces so attractive?"
+    },
+    {
+      "approx_t": 3.0,
+      "text": "Welcome to Beauty Across Borders, episode 25."
+    },
+    {
+      "approx_t": 5.0,
+      "text": "Our country for today is France."
+    },
+    {
+      "approx_t": 7.0,
+      "text": "The typical French man's face is built around a straight, fairly narrow nose"
+    },
+    {
+      "approx_t": 11.0,
+      "text": "and deep-set eyes that sit under strong brows."
+    },
+    {
+      "approx_t": 13.5,
+      "text": "The lips usually run medium full with a clear border rather than thin."
+    },
+    {
+      "approx_t": 17.5,
+      "text": "And the hair does a lot of the work here. It tends to be wavy"
+    },
+    {
+      "approx_t": 20.0,
+      "text": "and, in popular media at least, worn longer than the typical American cut,"
+    },
+    {
+      "approx_t": 23.5,
+      "text": "which is why people said French American actor Timothée Chalamet was 'Americanized'"
+    },
+    {
+      "approx_t": 28.0,
+      "text": "when he ditched the long curls."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "The French face tends to read as refined and a little seductive,"
+    },
+    {
+      "approx_t": 33.0,
+      "text": "the classic loverboy impression."
+    },
+    {
+      "approx_t": 35.0,
+      "text": "Louis Garrel captures it well, with soft dark features, expressive eyes, and longer hair"
+    },
+    {
+      "approx_t": 39.5,
+      "text": "that leans romantic rather than tough."
+    },
+    {
+      "approx_t": 41.5,
+      "text": "The same quality runs through many French faces—a kind of effortless nonchalance."
+    },
+    {
+      "approx_t": 45.5,
+      "text": "The French population splits into six genetic clusters that follow its regions,"
+    },
+    {
+      "approx_t": 49.0,
+      "text": "along a rough north-to-south gradient."
+    },
+    {
+      "approx_t": 51.0,
+      "text": "That spread shows up in the faces too."
+    },
+    {
+      "approx_t": 53.0,
+      "text": "In the north, you get the cooler, more refined look, seen in faces like Parisian Pierre Niney."
+    },
+    {
+      "approx_t": 58.0,
+      "text": "That tends to give way to a warmer, more Mediterranean set of features in the south,"
+    },
+    {
+      "approx_t": 62.0,
+      "text": "seen most clearly in Corsica, the home of model Baptiste Giabiconi."
+    },
+    {
+      "approx_t": 65.0,
+      "text": "So there has never been a single French face."
+    },
+    {
+      "approx_t": 68.0,
+      "text": "And this is even more true in 2026, as the country becomes increasingly cosmopolitan;"
+    },
+    {
+      "approx_t": 72.0,
+      "text": "you can see all manner of aesthetics expressed on French men's faces, with roots ranging from sub-Saharan Africa"
+    },
+    {
+      "approx_t": 77.0,
+      "text": "and the Maghreb in the case of Kylian Mbappé, to Southeast Asia in the case of Bách Buquen."
+    },
+    {
+      "approx_t": 83.0,
+      "text": "What ties them all together is their alluring charm."
+    },
+    {
+      "approx_t": 85.0,
+      "text": "Leave a comment to let us know what country we should visit next."
+    },
+    {
+      "approx_t": 87.0,
+      "text": "And if you want us to analyze your face, click the link in bio at Qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 1.27,
+    "what": "Prompting users to comment their country suggestion and visit Qoves.com for facial analysis."
+  },
+  "subjects": [
+    "Pierre Niney (French television director)",
+    "Timothée Chalamet (Actor)",
+    "Louis Garrel (Actor)",
+    "Romain Duris (Actor)",
+    "Vassili Schneider (Actor)",
+    "François Civil (Actor)",
+    "Vincent Lacoste (Actor)",
+    "Baptiste Giabiconi (Model/Singer)",
+    "Younès Bendjima (Model)",
+    "Djebril Zonga (Actor)",
+    "Kylian Mbappé (Footballer)",
+    "Bách Buquen (Influencer/Model)"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Combines pop culture references with peer-reviewed genetic data.",
+    "Clean vector overlays translate complex aesthetic concepts into clear visual diagrams.",
+    "Fast pacing maintains viewer retention across dense information."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.6-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/9"
+  }
+}

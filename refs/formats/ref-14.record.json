@@ -1,0 +1,294 @@
+{
+  "label": "ref-14",
+  "archetype": "educational explainer",
+  "one_line": "A quick visual guide to determining if a chin is masculine or feminine based on facial width ratios.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 21.875,
+  "measured": {
+    "pacing": {
+      "cuts": 3,
+      "cuts_per_min": 8.2,
+      "median_shot_s": 2.81,
+      "shortest_shot_s": 2.17,
+      "longest_shot_s": 14.08,
+      "frozen_pct": 39.3
+    },
+    "transitions": {
+      "count": 6,
+      "median_s": 0.77,
+      "spans_s": [
+        0.958,
+        0.708,
+        0.583,
+        1.625,
+        0.708,
+        0.833
+      ]
+    },
+    "element_events": {
+      "count": 15,
+      "per_min": 41.2,
+      "median_gap_s": 0.12,
+      "frames": [
+        57,
+        139,
+        142,
+        145,
+        293,
+        296,
+        299,
+        302,
+        357,
+        360,
+        406,
+        409,
+        442,
+        445,
+        449
+      ]
+    },
+    "continuous_motion": {
+      "spans": 9,
+      "total_s": 3.97,
+      "pct_of_runtime": 18.2,
+      "median_span_s": 0.38,
+      "longest_span_s": 0.88,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        132,
+        115,
+        109
+      ],
+      "dominant_hex": "#84736D",
+      "corner_flatness": 26.44,
+      "background_drift": 29.49,
+      "flat_background": false,
+      "headline_band_frames_pct": 71.4,
+      "caption_band_frames_pct": 41.9
+    },
+    "audio": {
+      "speech_segments": 10,
+      "speech_pct": 88.8,
+      "median_phrase_s": 1.69,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 4,
+    "hard_cuts": 3,
+    "cuts_per_described_change": 1.0,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 2.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Frontal portrait of a young man on a solid light blue background.",
+      "devices": [
+        "text overlay"
+      ]
+    },
+    {
+      "start_s": 2.417,
+      "start_frame": 58,
+      "end_s": 4.0,
+      "snapped_to_measured_cut": true,
+      "layout": "minimalist text screen",
+      "description": "Solid light blue screen with transition text.",
+      "devices": [
+        "text overlay"
+      ]
+    },
+    {
+      "start_s": 4.583,
+      "start_frame": 110,
+      "end_s": 18.0,
+      "snapped_to_measured_cut": true,
+      "layout": "cropped portrait with graphic overlays",
+      "description": "Close-up of the man's face with animated measurement lines and dots.",
+      "devices": [
+        "dotted lines",
+        "glowing nodes",
+        "text labels"
+      ]
+    },
+    {
+      "start_s": 18.667,
+      "start_frame": 448,
+      "end_s": 21.8,
+      "snapped_to_measured_cut": true,
+      "layout": "minimalist text screen",
+      "description": "Solid light blue screen with final CTA.",
+      "devices": [
+        "text overlay",
+        "button graphic"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "text overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "glowing nodes",
+      "what_it_is": "Bright white circular markers",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "dotted lines",
+      "what_it_is": "Vertical dashed alignment lines",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "text labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "button graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "bracket labels",
+      "what_it_is": "Text with horizontal bracket lines",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-2",
+    "what_happens": "A portrait of a man with text asking if they have a masculine or feminine chin.",
+    "why_it_works": "Appeals to self-curiosity and facial aesthetics."
+  },
+  "narrative_arc": [
+    "Pose the core question about chin shape.",
+    "Introduce a simple self-test method.",
+    "Demonstrate the measurement technique visually.",
+    "Define the criteria for masculine vs. feminine chins.",
+    "Direct viewers to the website for a personalized analysis."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Do you have Masculine chin?"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "headline",
+      "text": "Do you have Feminine chin?"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "headline",
+      "text": "Here's how to tell"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "label",
+      "text": "CLOSER TO Mouth width?"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "label",
+      "text": "Masculine Chin"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "label",
+      "text": "CLOSER TO Nose width?"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "label",
+      "text": "Feminine Chin"
+    },
+    {
+      "approx_t": 18.5,
+      "track": "headline",
+      "text": "Analyze your face at"
+    },
+    {
+      "approx_t": 19.5,
+      "track": "ui",
+      "text": "qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Do you have a masculine or feminine chin?"
+    },
+    {
+      "approx_t": 2.0,
+      "text": "Here's a quick rough test for you to tell."
+    },
+    {
+      "approx_t": 4.0,
+      "text": "Imagine two sets of parallel lines coming straight down from the corners of your nose and the corners of your mouth."
+    },
+    {
+      "approx_t": 10.0,
+      "text": "If your chin is about the same width as your mouth, you probably have a masculine chin."
+    },
+    {
+      "approx_t": 14.0,
+      "text": "If it's about the same width as your nose, you probably have a feminine chin."
+    },
+    {
+      "approx_t": 18.0,
+      "text": "If you want us to analyze your face, click the link in bio at qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 18.5,
+    "what": "Visit qoves.com to get a professional facial analysis."
+  },
+  "subjects": [
+    "Unidentified young male model with freckles, serving as the visual reference."
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Clear, minimalist visual aids that simplify complex facial geometry.",
+    "High-quality, clean portrait photography that looks professional.",
+    "Direct, engaging voiceover that guides the viewer through the self-test."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "4/4"
+  }
+}

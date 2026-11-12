@@ -1,0 +1,178 @@
+{
+  "_note": "The shot plan for RefinaSize, \"It Isn't the Size\". Hand-authored; gen/shots.py validates it, emits shots.ts, and verifies a render against it. `lines` is how many script phrases the beat covers and is the single declaration of beat structure - beats.ts derives its bounds from here, so docs/scripts/size.txt, words-vo.ts and this file cannot disagree without failing at module load.",
+  "reel": "size",
+  "script": "docs/scripts/size.txt",
+  "cues": "src/refina/size/words-vo.ts",
+  "_argument": "The same instrument RefinaLips uses, pointed at VOLUME instead of localisation. The lip line is what the philtrum above and the chin below are both measured FROM, so moving it alone moves both readings with neither neighbour moving. Where \"Load-Bearing\" proves the edit is CONFINED to the mouth, this reel shows the RANGE - one face at two lip volumes - and adds the profile, because a frontal photograph is the view that hides projection.",
+  "_hero": "size1-before IS A REAL PHOTOGRAPH, not a render - a consented photograph of a real woman, restaged to the house portrait and repainted to stage sage by gen/sage.py. Only size1-lipred (the thin end of the range) and size1-profile are generated, both i2i off that one file via `node gen/flow.mjs derive`, which re-uploads the hero each round so no variant is derived from another. This is the reverse of every other reel here, where both halves are ours.",
+  "_evidence": "Every figure on screen comes from gen/emit-lips.py via measured.ts and describes two IMAGE FILES, never a face (rule E). The proof chips are labelled PER-REGION PIXEL CHANGE, THIS PAIR. NOTE THE PROVENANCE ASYMMETRY: because the `before` is a photograph rather than a render, the pair's floor is camera noise plus one model pass, not two model passes - so the drift figure is not comparable to lips1's and the reel must not claim it is.",
+  "_naming": "NO ONE IS NAMED. The draft this was cut from opened on a celebrity's name over the hero's face. The hero is a real private person, so naming her as someone else is a false claim about the face in frame - the same class of error rule E exists for. The corpus explainers open on a question about the viewer, which is what the hook does now.",
+  "_motion": "A beat is `moving` only if its picture changes over time on its own. `philtrum`, `test` and `cta` are declared STATIC deliberately. `demo` is a travelling HARD EDGE rather than a crossfade between the two volumes: invariant BB - a blend between two near-identical pictures crosses no tile threshold at all, and this pair is identical everywhere except the mouth, so the seam has to cross the mouth repeatedly rather than settle. `mechanism` is declared moving on the strength of a solid bracket that travels; if --verify scores it under band it becomes static rather than acquiring a creep (rule P). CLAIM IS DECLARED STATIC AFTER THE RENDER SAID SO. It sweeps a gradient band down the lower third and draws three measured rules, and --verify scored it at 10% against a 30% floor. That is invariant L and the same finding RefinaNose's `mechanism` beat produced at 1%: a soft, small overlay does not clear the tile threshold at 270x480. The build contract also settles it independently -- a still photograph with overlays arriving on top is STATIC however many arrive, because the PICTURE does not change. The band stays and the declaration changed; adding a creep to make the number true would be rule P exactly.",
+  "_shots": "Six close beats, one medium, three wide - travel ~0.45 to ~0.15, about 3x, against the 1.8x floor. The wide end is NOT a shrunken portrait: `nuance` splits the picture into two sized panels and `test`/`cta` are type over the stage, which is how the references get their range (invariant Y).",
+  "min_moving_share": 0.35,
+  "beats": [
+    {
+      "name": "hook",
+      "lines": 3,
+      "composition": "pair-sweep",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "size1-lipred",
+        "over": "size1-before",
+        "zoom": 1.02,
+        "focus": "50% 38%",
+        "fit": 0.72,
+        "sweeps": 2,
+        "compliance": true
+      },
+      "prosody_exempt": "opens on a question. A rising terminal genuinely sits high and reads as the format's own hook, not as a seam between takes -- 14 of the 21 corpus explainers open this way. Measured +3.6 semitones over the read's median; every other axis is in band."
+    },
+    {
+      "name": "claim",
+      "lines": 2,
+      "composition": "lower-third-rules",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "under": "size1-before",
+        "subject": "size1-before",
+        "zoom": 1.0,
+        "focus": "50% 40%",
+        "fit": 0.72,
+        "rules": [
+          "noseBase",
+          "lipTop",
+          "chin"
+        ]
+      }
+    },
+    {
+      "name": "mechanism",
+      "lines": 2,
+      "composition": "gap-shuttle",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "size1-before",
+        "subject": "size1-before",
+        "zoom": 1.0,
+        "focus": "50% 40%",
+        "fit": 0.72,
+        "band": "philtrum",
+        "caption": "THE GAP, NOT THE PART"
+      }
+    },
+    {
+      "name": "philtrum",
+      "lines": 3,
+      "composition": "span-compare",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "left": "size1-lipred",
+        "right": "size1-before",
+        "band": "philtrum",
+        "labels": [
+          "THIN",
+          "FULL"
+        ],
+        "caption": "NOSE BASE TO LIP EDGE, MEASURED",
+        "fit": 0.82
+      }
+    },
+    {
+      "name": "chin",
+      "lines": 2,
+      "composition": "pair-toggle",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "size1-lipred",
+        "over": "size1-before",
+        "zoom": 1.0,
+        "focus": "50% 44%",
+        "fit": 0.72,
+        "period": 30,
+        "reticle": "jaw",
+        "reticleLabel": "THE CHIN"
+      }
+    },
+    {
+      "name": "demo",
+      "lines": 2,
+      "composition": "range-slider",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "size1-lipred",
+        "over": "size1-before",
+        "zoom": 1.0,
+        "focus": "50% 40%",
+        "fit": 0.82,
+        "band": "philtrum",
+        "labels": [
+          "THIN",
+          "FULL"
+        ],
+        "caption": "ONE FACE, TWO LIP VOLUMES"
+      }
+    },
+    {
+      "name": "turn",
+      "lines": 2,
+      "composition": "profile-turn",
+      "motion": "moving",
+      "shot": "medium",
+      "props": {
+        "under": "size1-before",
+        "over": "size1-profile",
+        "fit": 0.58,
+        "compliance": true,
+        "zoom": 1.12
+      }
+    },
+    {
+      "name": "nuance",
+      "lines": 3,
+      "composition": "pair-split",
+      "motion": "moving",
+      "shot": "wide",
+      "props": {
+        "under": "size1-lipred",
+        "over": "size1-before",
+        "fit": 0.38,
+        "note": "ONE FILE, ONE REGION EDITED"
+      }
+    },
+    {
+      "name": "test",
+      "lines": 3,
+      "composition": "instruction-cards",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "Roll your lips inward",
+          "Hold it",
+          "Watch your chin"
+        ],
+        "tag": "DO THIS NOW"
+      }
+    },
+    {
+      "name": "cta",
+      "lines": 3,
+      "composition": "disclaimer-search",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "type": "Refina AI",
+        "locked": [
+          "A preview,",
+          "not a promise."
+        ]
+      }
+    }
+  ]
+}

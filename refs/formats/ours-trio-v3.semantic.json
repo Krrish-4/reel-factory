@@ -1,0 +1,712 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "An AI-powered visual breakdown of facial structure and feature refinements leading into an offer for a personalized facial analysis dossier.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A portrait of a woman is shown, splitting into three vertical panels with text stating 'Same woman. Same face.' and 'One face, three impressions.'",
+    "why_it_works": "Creates instant visual curiosity by showing how subtle structural and feature edits dramatically alter perception."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 5.0,
+      "description": "Portrait split into three panels demonstrating subtle visual variations.",
+      "layout": "3-column split portrait",
+      "devices": [
+        "split-screen slider",
+        "text overlays"
+      ]
+    },
+    {
+      "approx_start": 5.0,
+      "approx_end": 12.0,
+      "description": "Center line and grid overlays highlight structural and proportional breakdown.",
+      "layout": "full-bleed portrait with diagram overlay",
+      "devices": [
+        "measurement grid lines",
+        "chip tags"
+      ]
+    },
+    {
+      "approx_start": 12.0,
+      "approx_end": 22.0,
+      "description": "Zoomed view of lower face comparing original vs facelift jawline definition.",
+      "layout": "split-screen portrait zoom",
+      "devices": [
+        "before-after slider",
+        "contour outline animation"
+      ]
+    },
+    {
+      "approx_start": 22.0,
+      "approx_end": 37.0,
+      "description": "Split face cycling through individual facial features (brows, eyes, nose, lips, hair).",
+      "layout": "split-screen feature zoom",
+      "devices": [
+        "feature bounding boxes",
+        "navigation tab bar"
+      ]
+    },
+    {
+      "approx_start": 37.0,
+      "approx_end": 42.0,
+      "description": "Full face showing interconnected feature lines.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "interconnection lines",
+        "bounding boxes"
+      ]
+    },
+    {
+      "approx_start": 42.0,
+      "approx_end": 49.0,
+      "description": "Three full portraits displayed side-by-side for direct comparison.",
+      "layout": "3-column grid portrait",
+      "devices": [
+        "side-by-side comparison",
+        "numbered labels"
+      ]
+    },
+    {
+      "approx_start": 49.0,
+      "approx_end": 53.0,
+      "description": "Horizontal split dividing upper feature edits from lower structural edits.",
+      "layout": "horizontal split portrait",
+      "devices": [
+        "horizontal slider",
+        "directional tags"
+      ]
+    },
+    {
+      "approx_start": 53.0,
+      "approx_end": 58.0,
+      "description": "Three portraits side-by-side with overlaid numbers 1, 2, 3.",
+      "layout": "3-column grid portrait",
+      "devices": [
+        "interactive prompt overlay",
+        "numbered choices"
+      ]
+    },
+    {
+      "approx_start": 58.0,
+      "approx_end": 70.0,
+      "description": "Interactive mobile UI demo scrolling through a personalized facial dossier report.",
+      "layout": "phone mockup",
+      "devices": [
+        "ui scroll animation",
+        "document preview"
+      ]
+    },
+    {
+      "approx_start": 70.0,
+      "approx_end": 73.8,
+      "description": "Final call to action screen featuring search bar entry.",
+      "layout": "minimal text panel with search bar",
+      "devices": [
+        "simulated typing search bar",
+        "cta card"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "split-screen slider",
+      "what_it_is": "A vertical divider line moving across the frame",
+      "used_for": "Direct before-and-after comparison"
+    },
+    {
+      "name": "measurement grid lines",
+      "what_it_is": "Dashed horizontal and vertical guidelines",
+      "used_for": "Illustrating facial proportions and symmetry"
+    },
+    {
+      "name": "phone mockup",
+      "what_it_is": "Smartphone frame presenting digital app pages",
+      "used_for": "Demonstrating product interface and dossier report"
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Same woman."
+    },
+    {
+      "approx_t": 1.0,
+      "track": "headline",
+      "text": "Same face."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "headline",
+      "text": "One face, three impressions."
+    },
+    {
+      "approx_t": 5.0,
+      "track": "headline",
+      "text": "What actually changes?"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "chip",
+      "text": "STRUCTURE"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "PROPORTIONS"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "DETAILS"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "headline",
+      "text": "Version two, the facelift."
+    },
+    {
+      "approx_t": 12.0,
+      "track": "label",
+      "text": "02 / STRUCTURE"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "headline",
+      "text": "Now, the features."
+    },
+    {
+      "approx_t": 25.0,
+      "track": "ui",
+      "text": "BROWS EYES NOSE LIPS SKIN HAIR"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "headline",
+      "text": "None of them in isolation."
+    },
+    {
+      "approx_t": 42.0,
+      "track": "headline",
+      "text": "Compare all three."
+    },
+    {
+      "approx_t": 48.0,
+      "track": "headline",
+      "text": "Same woman. Three impressions."
+    },
+    {
+      "approx_t": 50.0,
+      "track": "headline",
+      "text": "Not always the whole face."
+    },
+    {
+      "approx_t": 54.0,
+      "track": "headline",
+      "text": "Which would you choose?"
+    },
+    {
+      "approx_t": 56.0,
+      "track": "chip",
+      "text": "COMMENT 1, 2 OR 3"
+    },
+    {
+      "approx_t": 58.0,
+      "track": "headline",
+      "text": "Your face. Understood in detail."
+    },
+    {
+      "approx_t": 59.0,
+      "track": "ui",
+      "text": "The Facial Dossier"
+    },
+    {
+      "approx_t": 70.0,
+      "track": "chip",
+      "text": "GET YOUR PERSONALISD FACIAL ANALYSIS"
+    },
+    {
+      "approx_t": 71.0,
+      "track": "ui",
+      "text": "Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Same woman."
+    },
+    {
+      "approx_t": 1.0,
+      "text": "Same face."
+    },
+    {
+      "approx_t": 3.0,
+      "text": "So why do these three versions look so different?"
+    },
+    {
+      "approx_t": 5.0,
+      "text": "The face is the same."
+    },
+    {
+      "approx_t": 7.0,
+      "text": "What changes is the structure, the proportions, the details."
+    },
+    {
+      "approx_t": 12.0,
+      "text": "In version two, a facelift reshapes her lower face."
+    },
+    {
+      "approx_t": 17.0,
+      "text": "A tighter jawline, a more defined profile."
+    },
+    {
+      "approx_t": 20.0,
+      "text": "The change is structural."
+    },
+    {
+      "approx_t": 22.0,
+      "text": "Now, the individual features."
+    },
+    {
+      "approx_t": 25.0,
+      "text": "Brows frame the eyes."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "The eyes set the expression."
+    },
+    {
+      "approx_t": 28.0,
+      "text": "The nose balances the midface."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "Lips shape the lower face."
+    },
+    {
+      "approx_t": 33.0,
+      "text": "Skin and hair change how the whole face reads."
+    },
+    {
+      "approx_t": 37.0,
+      "text": "None of these exist in isolation."
+    },
+    {
+      "approx_t": 40.0,
+      "text": "It's how they work together."
+    },
+    {
+      "approx_t": 42.0,
+      "text": "Now compare all three. The original, the facelift, the refined features."
+    },
+    {
+      "approx_t": 47.0,
+      "text": "Same woman, three different impressions."
+    },
+    {
+      "approx_t": 50.0,
+      "text": "And interestingly, the biggest change isn't always the whole face."
+    },
+    {
+      "approx_t": 53.0,
+      "text": "Beauty is subjective. Which do you prefer: one, two, or three?"
+    },
+    {
+      "approx_t": 58.0,
+      "text": "Want to understand your own face? Refina's personalized 22-page facial analysis maps your features, your strengths, and what you may want to refine."
+    },
+    {
+      "approx_t": 70.0,
+      "text": "Discover your face with Refina."
+    }
+  ],
+  "narrative_arc": [
+    "Presents a visual puzzle of one face rendered in three distinct ways.",
+    "Deconstructs the face into structural vs feature-level adjustments.",
+    "Compares all versions and prompts audience interaction.",
+    "Transitions to product solution offering personalized facial analysis reports."
+  ],
+  "cta": {
+    "approx_t": 70.0,
+    "what": "Prompt to search 'Refina AI' and discover personalized facial analysis."
+  },
+  "subjects": [
+    "Unidentified female model used for AI facial analysis visualization"
+  ],
+  "what_makes_it_work": [
+    "Analytical visuals build technical credibility before presenting the product offer.",
+    "Interactive poll element drives engagement midway through the ad."
+  ],
+  "animations": [
+    {
+      "name": "Vertical Split Column Reveal",
+      "approx_t": 2.0,
+      "what_moves": "Vertical white divider lines and numeric labels",
+      "motion": "draw-on",
+      "direction": "top-to-bottom",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Divides face portrait into comparison regions.",
+      "reusable_as": "Splitting key visual regions for comparative analysis.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Anatomical Contour Trace",
+      "approx_t": 7.0,
+      "what_moves": "Jawline vector curve and horizontal proportion guidelines",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "text labels fading in",
+      "purpose": "Highlights structural lines and facial symmetry.",
+      "reusable_as": "Tracing product geometry or technical features.",
+      "we_already_have": "ContourDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Interactive Slider Comparison",
+      "approx_t": 12.0,
+      "what_moves": "Vertical split line sweeping across portrait",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "subtle text label shifts",
+      "purpose": "Demonstrates structural before/after edits.",
+      "reusable_as": "Before and after image comparison slider.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Feature Tag Focus Step",
+      "approx_t": 25.0,
+      "what_moves": "Horizontal navigation pills and facial crop box",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "mechanical",
+      "staggered": true,
+      "layered_with": "image zoom and pan",
+      "purpose": "Steps sequentially through individual facial features.",
+      "reusable_as": "Step-by-step feature inspection of a product.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "Relational Callout Lines",
+      "approx_t": 38.0,
+      "what_moves": "Dotted vector lines connecting facial feature bounding boxes",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Shows interdependence of facial features.",
+      "reusable_as": "Diagramming relationships across complex UI or machinery.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Option Highlight Cycle",
+      "approx_t": 43.0,
+      "what_moves": "Brightness focus across three side-by-side portraits",
+      "motion": "fade",
+      "direction": "left-to-right",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "subtle scaling",
+      "purpose": "Compares three versions sequentially.",
+      "reusable_as": "Presenting multi-option product tiers or styles.",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    },
+    {
+      "name": "Voting Number Badges",
+      "approx_t": 56.0,
+      "what_moves": "Large numbers 1, 2, and 3 over images",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Prompts viewer engagement to choose a preference.",
+      "reusable_as": "Call-to-action choice selections.",
+      "we_already_have": "StepPill",
+      "would_need_building": null
+    },
+    {
+      "name": "In-App Dossier Vertical Scroll",
+      "approx_t": 58.0,
+      "what_moves": "Report page contents inside phone frame screen",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Showcases full mobile app report functionality.",
+      "reusable_as": "Mobile application workflow demo.",
+      "we_already_have": "ScrollReveal",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Interactive wipe slider",
+      "Vector contour draw-ons",
+      "Bounding-box feature focus tracking"
+    ],
+    "how_things_enter": "Clean line draw-ons, subtle spring scales, and horizontal slider wipes.",
+    "how_things_leave": "Cross-fades or linear translate wipes.",
+    "how_scenes_change": "Direct cuts synchronized with line wipes or feature tab changes.",
+    "what_stays_still": "Base portrait alignment and framing canvas.",
+    "rhythm": "Rhythmic sequence matching voiceover cadence."
+  },
+  "what_we_should_steal": [
+    "Interactive split-screen slider wipe (SliderReveal)",
+    "Contour vector line drawing overlay (ContourDraw)",
+    "Feature inspection bounding-box navigation (TagStack)"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Text headline appears above subject",
+      "element": "Headline text",
+      "motion": "fade",
+      "content": "Same woman."
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Headline text changes",
+      "element": "Headline text",
+      "motion": "fade",
+      "content": "Same face."
+    },
+    {
+      "approx_t": 2.0,
+      "event": "First vertical dividing line appears separating face panel",
+      "element": "Divider line 01",
+      "motion": "draw-on",
+      "content": "01 vertical guide"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Second vertical line divides frame into three panels with new headline",
+      "element": "Divider line 02 and headline",
+      "motion": "draw-on",
+      "content": "One face, three impressions."
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Frame resets to single split line down center with new text",
+      "element": "Center split line and text",
+      "motion": "cut",
+      "content": "What actually changes?"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Jaw structure contour line draws around lower face with label",
+      "element": "Contour outline and badge",
+      "motion": "draw-on",
+      "content": "STRUCTURE"
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Horizontal proportion guide lines appear across face",
+      "element": "Dashed guide lines and badge",
+      "motion": "draw-on",
+      "content": "PROPORTIONS"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Target markers appear over key facial points",
+      "element": "Feature target circles and badge",
+      "motion": "fade",
+      "content": "DETAILS"
+    },
+    {
+      "approx_t": 12.0,
+      "event": "Transition to close-up comparison view with vertical slider line",
+      "element": "Split slider line and side labels",
+      "motion": "wipe",
+      "content": "Version two, the facelift."
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Jawline outline draws over facelift side to highlight definition",
+      "element": "Jawline vector curve",
+      "motion": "draw-on",
+      "content": "A tighter jawline, a more defined profile."
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Cut to full face view with feature tab badge",
+      "element": "Badge and text",
+      "motion": "cut",
+      "content": "Now, the features. 03 / FEATURES"
+    },
+    {
+      "approx_t": 25.0,
+      "event": "Split view activates highlighting eyebrow area with focus square",
+      "element": "Focus brackets and tab highlight",
+      "motion": "scale",
+      "content": "BROWS - Brows frame the eyes."
+    },
+    {
+      "approx_t": 27.0,
+      "event": "Focus box shifts to eyes section",
+      "element": "Focus brackets",
+      "motion": "translate",
+      "content": "EYES - The eyes set the expression."
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Focus box shifts to nose section",
+      "element": "Focus brackets",
+      "motion": "translate",
+      "content": "NOSE - The nose balances the midface."
+    },
+    {
+      "approx_t": 30.0,
+      "event": "Focus box shifts to lips section",
+      "element": "Focus brackets",
+      "motion": "translate",
+      "content": "LIPS - Lips shape the lower face."
+    },
+    {
+      "approx_t": 33.0,
+      "event": "View shifts to skin texture close-up on cheek",
+      "element": "Camera frame framing skin",
+      "motion": "translate",
+      "content": "SKIN"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Frame expands back out to full head framing hair and face",
+      "element": "Outer corner framing brackets",
+      "motion": "scale",
+      "content": "HAIR - Hair changes how the whole face reads."
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Multiple target boxes highlight various facial features simultaneously",
+      "element": "Feature bounding boxes",
+      "motion": "fade",
+      "content": "None of them in isolation."
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Dotted interconnecting lines draw between facial feature boxes",
+      "element": "Connecting lines and center label",
+      "motion": "draw-on",
+      "content": "HOW THEY WORK TOGETHER"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Three face versions appear side by side in split grid",
+      "element": "Three portrait columns",
+      "motion": "cut",
+      "content": "Compare all three."
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Column 01 brightens while others dim",
+      "element": "Left portrait panel",
+      "motion": "fade",
+      "content": "01 ORIGINAL"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Column 02 brightens while others dim",
+      "element": "Center portrait panel",
+      "motion": "fade",
+      "content": "02 STRUCTURAL CHANGE"
+    },
+    {
+      "approx_t": 46.0,
+      "event": "Column 03 brightens while others dim",
+      "element": "Right portrait panel",
+      "motion": "fade",
+      "content": "03 FEATURE REFINEMENT"
+    },
+    {
+      "approx_t": 48.0,
+      "event": "All three columns highlight equally",
+      "element": "All three portrait panels",
+      "motion": "fade",
+      "content": "Same woman. Three impressions."
+    },
+    {
+      "approx_t": 50.0,
+      "event": "Horizontal dividing line slides down face splitting top and bottom features",
+      "element": "Horizontal split slider bar",
+      "motion": "translate",
+      "content": "Not always the whole face."
+    },
+    {
+      "approx_t": 54.0,
+      "event": "Return to three side-by-side face comparison layout",
+      "element": "Three portrait columns",
+      "motion": "cut",
+      "content": "Which would you choose?"
+    },
+    {
+      "approx_t": 56.0,
+      "event": "Large numbers 1, 2, 3 appear over each respective face column",
+      "element": "Numeric overlays and call-to-action bar",
+      "motion": "scale",
+      "content": "1 2 3 - COMMENT 1, 2 OR 3"
+    },
+    {
+      "approx_t": 58.0,
+      "event": "Transition to mobile smartphone graphic displaying digital report interface",
+      "element": "Smartphone frame and screen content",
+      "motion": "fade",
+      "content": "Your face. Understood in detail. The Facial Dossier"
+    },
+    {
+      "approx_t": 60.0,
+      "event": "Mobile application screen scrolls vertically through analysis menu options",
+      "element": "App menu list text",
+      "motion": "translate",
+      "content": "Executive summary, Proportions, Symmetry, Face shape, Eyebrows..."
+    },
+    {
+      "approx_t": 63.0,
+      "event": "Mobile screen updates to display personalized dossier summary page",
+      "element": "Dossier profile report content",
+      "motion": "cut",
+      "content": "Executive Summary - Huzaifa"
+    },
+    {
+      "approx_t": 69.0,
+      "event": "Screen dims and search input box pops up",
+      "element": "Search bar modal window",
+      "motion": "scale",
+      "content": "Search field"
+    },
+    {
+      "approx_t": 71.0,
+      "event": "Text types into search box letter by letter",
+      "element": "Typed query text",
+      "motion": "draw-on",
+      "content": "Refina AI"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "out/refina-trio-v3.mp4",
+    "tokens": {
+      "animation": 10817,
+      "content": 11587
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

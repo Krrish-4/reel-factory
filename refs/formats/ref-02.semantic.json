@@ -1,0 +1,710 @@
+{
+  "format_archetype": "educational explainer",
+  "one_line": "An analysis of French male facial attractiveness, covering typical features, hair styles, genetic diversity, and regional variation.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Displays a model under the title 'French Face: What makes French men's faces so attractive?'",
+    "why_it_works": "Piques visual curiosity about beauty standards and cultural aesthetics."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 2.5,
+      "description": "Title card intro with model portrait and flag.",
+      "layout": "centered portrait title",
+      "devices": [
+        "title header",
+        "flag icon",
+        "subtitles"
+      ]
+    },
+    {
+      "approx_start": 2.5,
+      "approx_end": 6.5,
+      "description": "Show series logo and animated map outline of France.",
+      "layout": "graphic illustration overlay",
+      "devices": [
+        "logo",
+        "map outline",
+        "episode badge"
+      ]
+    },
+    {
+      "approx_start": 6.5,
+      "approx_end": 17.5,
+      "description": "Feature breakdown overlaying nose, deep-set eye, and lip anatomy diagrams on model photo.",
+      "layout": "interactive facial feature callouts",
+      "devices": [
+        "diagram box",
+        "feature highlight wireframe",
+        "profile view"
+      ]
+    },
+    {
+      "approx_start": 17.5,
+      "approx_end": 29.5,
+      "description": "Comparison of hairstyles using Pierre Niney, typical American cuts, and Timothée Chalamet.",
+      "layout": "side-by-side card comparison",
+      "devices": [
+        "comparison cards",
+        "celebrity photos",
+        "social media comment screenshot"
+      ]
+    },
+    {
+      "approx_start": 29.5,
+      "approx_end": 45.5,
+      "description": "Exploration of the 'loverboy' aesthetic and nonchalance through Louis Garrel, Romain Duris, Vassili Schneider, and François Civil.",
+      "layout": "portrait card with feature checklist",
+      "devices": [
+        "heart graphic",
+        "feature callouts",
+        "checklist UI"
+      ]
+    },
+    {
+      "approx_start": 45.5,
+      "approx_end": 51.5,
+      "description": "Genetic paper citation and 6-cluster map gradient of France.",
+      "layout": "map with scientific study overlay",
+      "devices": [
+        "academic citation card",
+        "genetic cluster markers",
+        "gradient bar"
+      ]
+    },
+    {
+      "approx_start": 51.5,
+      "approx_end": 65.0,
+      "description": "Regional facial differences: Northern (Pierre Niney) vs. Southern/Corsican (Baptiste Giabiconi).",
+      "layout": "split map portrait cards",
+      "devices": [
+        "3D topographical map",
+        "regional profile cards"
+      ]
+    },
+    {
+      "approx_start": 65.0,
+      "approx_end": 83.0,
+      "description": "Rapid gallery of modern multicultural French models and athletes.",
+      "layout": "dynamic portrait sequence",
+      "devices": [
+        "origin map inset chips",
+        "name tag labels"
+      ]
+    },
+    {
+      "approx_start": 83.0,
+      "approx_end": 90.0,
+      "description": "Closing summary portraits and final CTA screen for facial analysis tool.",
+      "layout": "end screen with website preview",
+      "devices": [
+        "search bar graphic",
+        "app interface mockup"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Anatomy UI Callout",
+      "what_it_is": "A translucent box showing geometric line art of facial features (nose, eye depth, lips).",
+      "used_for": "Highlighting exact morphological traits discussed in narration."
+    },
+    {
+      "name": "Checklist Overlay",
+      "what_it_is": "A semi-transparent UI widget with checkmarks next to facial trait names.",
+      "used_for": "Listing defining subjective qualities like 'effortless nonchalance'."
+    },
+    {
+      "name": "Genetic Cluster Map",
+      "what_it_is": "A dot-matrix map of France displaying DNA cluster badges.",
+      "used_for": "Grounding aesthetic variation in genetic research."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.5,
+      "track": "headline",
+      "text": "French Face"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "headline",
+      "text": "What makes French men's faces so attractive?"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "headline",
+      "text": "Beauty Across borders [ EPISODE 25 ]"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "TYPICAL FRENCH MAN'S FACE"
+    },
+    {
+      "approx_t": 9.0,
+      "track": "label",
+      "text": "Nose"
+    },
+    {
+      "approx_t": 11.5,
+      "track": "label",
+      "text": "Deep-set eyes"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "label",
+      "text": "Medium full lips"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "chip",
+      "text": "WAVY"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "label",
+      "text": "PIERRE NINEY - FRENCH TELEVISION DIRECTOR"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "TYPICAL AMERICAN CUT"
+    },
+    {
+      "approx_t": 25.5,
+      "track": "label",
+      "text": "TIMOTHÉE CHALAMET - AMERICAN-FRENCH ACTOR"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "REFINED AND SEDUCTIVE"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "label",
+      "text": "LOUIS GARREL - FRENCH ACTOR AND FILMMAKER"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "citation",
+      "text": "The genetic history of France. Saint Pierre A... European Journal of Human Genetics (2020)"
+    },
+    {
+      "approx_t": 60.0,
+      "track": "label",
+      "text": "BAPTISTE GIABICONI - FRENCH MODEL AND SINGER"
+    },
+    {
+      "approx_t": 71.0,
+      "track": "label",
+      "text": "YOUNÈS BENDJIMA - ALGERIAN-FRENCH MODEL"
+    },
+    {
+      "approx_t": 73.0,
+      "track": "label",
+      "text": "DJEBRIL ZONGA - FRENCH ACTOR"
+    },
+    {
+      "approx_t": 79.0,
+      "track": "label",
+      "text": "KYLIAN MBAPPÉ - FRENCH FOOTBALLER"
+    },
+    {
+      "approx_t": 81.0,
+      "track": "label",
+      "text": "BÁCH BUQUEN - FRENCH INFLUENCER AND MODEL"
+    },
+    {
+      "approx_t": 85.0,
+      "track": "headline",
+      "text": "Which country next?"
+    },
+    {
+      "approx_t": 90.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "What makes French men's faces so attractive?"
+    },
+    {
+      "approx_t": 3.0,
+      "text": "Welcome to Beauty Across Borders, episode 25."
+    },
+    {
+      "approx_t": 5.0,
+      "text": "Our country for today is France."
+    },
+    {
+      "approx_t": 7.0,
+      "text": "The typical French man's face is built around a straight, fairly narrow nose"
+    },
+    {
+      "approx_t": 11.0,
+      "text": "and deep-set eyes that sit under strong brows."
+    },
+    {
+      "approx_t": 13.5,
+      "text": "The lips usually run medium full with a clear border rather than thin."
+    },
+    {
+      "approx_t": 17.5,
+      "text": "And the hair does a lot of the work here. It tends to be wavy"
+    },
+    {
+      "approx_t": 20.0,
+      "text": "and, in popular media at least, worn longer than the typical American cut,"
+    },
+    {
+      "approx_t": 23.5,
+      "text": "which is why people said French American actor Timothée Chalamet was 'Americanized'"
+    },
+    {
+      "approx_t": 28.0,
+      "text": "when he ditched the long curls."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "The French face tends to read as refined and a little seductive,"
+    },
+    {
+      "approx_t": 33.0,
+      "text": "the classic loverboy impression."
+    },
+    {
+      "approx_t": 35.0,
+      "text": "Louis Garrel captures it well, with soft dark features, expressive eyes, and longer hair"
+    },
+    {
+      "approx_t": 39.5,
+      "text": "that leans romantic rather than tough."
+    },
+    {
+      "approx_t": 41.5,
+      "text": "The same quality runs through many French faces—a kind of effortless nonchalance."
+    },
+    {
+      "approx_t": 45.5,
+      "text": "The French population splits into six genetic clusters that follow its regions,"
+    },
+    {
+      "approx_t": 49.0,
+      "text": "along a rough north-to-south gradient."
+    },
+    {
+      "approx_t": 51.0,
+      "text": "That spread shows up in the faces too."
+    },
+    {
+      "approx_t": 53.0,
+      "text": "In the north, you get the cooler, more refined look, seen in faces like Parisian Pierre Niney."
+    },
+    {
+      "approx_t": 58.0,
+      "text": "That tends to give way to a warmer, more Mediterranean set of features in the south,"
+    },
+    {
+      "approx_t": 62.0,
+      "text": "seen most clearly in Corsica, the home of model Baptiste Giabiconi."
+    },
+    {
+      "approx_t": 65.0,
+      "text": "So there has never been a single French face."
+    },
+    {
+      "approx_t": 68.0,
+      "text": "And this is even more true in 2026, as the country becomes increasingly cosmopolitan;"
+    },
+    {
+      "approx_t": 72.0,
+      "text": "you can see all manner of aesthetics expressed on French men's faces, with roots ranging from sub-Saharan Africa"
+    },
+    {
+      "approx_t": 77.0,
+      "text": "and the Maghreb in the case of Kylian Mbappé, to Southeast Asia in the case of Bách Buquen."
+    },
+    {
+      "approx_t": 83.0,
+      "text": "What ties them all together is their alluring charm."
+    },
+    {
+      "approx_t": 85.0,
+      "text": "Leave a comment to let us know what country we should visit next."
+    },
+    {
+      "approx_t": 87.0,
+      "text": "And if you want us to analyze your face, click the link in bio at Qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Hook: introduces the topic of French male facial attractiveness.",
+    "Feature Breakdown: details anatomical norms (nose, eyes, lips, hair).",
+    "Cultural Perception: defines the 'loverboy' archetype and nonchalance.",
+    "Genetic/Regional Context: maps facial variation along a north-to-south genetic gradient.",
+    "Modern Diversity: highlights modern global influences on French faces.",
+    "Call to Action: prompts country suggestions and promotes facial analysis software."
+  ],
+  "cta": {
+    "approx_t": 1.27,
+    "what": "Prompting users to comment their country suggestion and visit Qoves.com for facial analysis."
+  },
+  "subjects": [
+    "Pierre Niney (French television director)",
+    "Timothée Chalamet (Actor)",
+    "Louis Garrel (Actor)",
+    "Romain Duris (Actor)",
+    "Vassili Schneider (Actor)",
+    "François Civil (Actor)",
+    "Vincent Lacoste (Actor)",
+    "Baptiste Giabiconi (Model/Singer)",
+    "Younès Bendjima (Model)",
+    "Djebril Zonga (Actor)",
+    "Kylian Mbappé (Footballer)",
+    "Bách Buquen (Influencer/Model)"
+  ],
+  "what_makes_it_work": [
+    "Combines pop culture references with peer-reviewed genetic data.",
+    "Clean vector overlays translate complex aesthetic concepts into clear visual diagrams.",
+    "Fast pacing maintains viewer retention across dense information."
+  ],
+  "animations": [
+    {
+      "name": "Map outline & badge pop",
+      "approx_t": 5.0,
+      "what_moves": "France geographic vector and country badge",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Fade in",
+      "purpose": "Establish geographical context for the episode subject.",
+      "reusable_as": "Location-based video intro card",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "HUD feature callout draw-on",
+      "approx_t": 8.5,
+      "what_moves": "Dotted feature outline and HUD label card",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Scale in",
+      "purpose": "Highlight specific anatomical facial features.",
+      "reusable_as": "Technical overlay for product or portrait analysis",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Side-by-side comparison slide",
+      "approx_t": 21.0,
+      "what_moves": "Portrait comparison cards",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Compare French hair aesthetics against American hair cuts.",
+      "reusable_as": "Before/after or regional style comparisons",
+      "we_already_have": "SlideIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Interactive trait checklist toggle",
+      "approx_t": 42.0,
+      "what_moves": "Checklist overlay and subject portrait sequence",
+      "motion": "stagger",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Portrait montage swap",
+      "purpose": "Check off matching aesthetic criteria across multiple example subjects.",
+      "reusable_as": "Criteria or feature breakdown list overlay",
+      "we_already_have": "AnimatedCheckList",
+      "would_need_building": null
+    },
+    {
+      "name": "Genetic map node pins",
+      "approx_t": 47.0,
+      "what_moves": "Region pins, DNA icons, and portrait thumbnails",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Map regional genetic diversity and associated facial phenotypes across France.",
+      "reusable_as": "Regional data breakdown or branch map display",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Diversity facial montage",
+      "approx_t": 67.0,
+      "what_moves": "Central portrait card",
+      "motion": "wipe",
+      "direction": "none",
+      "feel": "abrupt",
+      "staggered": false,
+      "layered_with": "Region badge pop-ins",
+      "purpose": "Demonstrate modern demographic diversity rapidly.",
+      "reusable_as": "Fast photo grid or subject carousel showcase",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    },
+    {
+      "name": "UI dashboard scroll reveal",
+      "approx_t": 87.0,
+      "what_moves": "Facial analysis report UI panel",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Showcase deep analysis application UI during call-to-action.",
+      "reusable_as": "Product demo or report page preview preview",
+      "we_already_have": "ScrollReveal",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "HUD callout draw-ons over faces",
+      "Animated checklist items ticking off over cycling photos",
+      "Interactive map pin pop-ins"
+    ],
+    "how_things_enter": "Elements scale up with light bounce or slide horizontally into framed positions.",
+    "how_things_leave": "Cards fade out or push off-screen as new elements replace them.",
+    "how_scenes_change": "Smooth cross-fades and card slide overlays over persistent map/color backgrounds.",
+    "what_stays_still": "Background color canvas and main subtitle captions.",
+    "rhythm": "Fast-paced visual changes synced tightly with commentary beat points."
+  },
+  "what_we_should_steal": [
+    "Interactive trait checklist overlaying dynamic portrait montage",
+    "HUD callout lines highlighting specific anatomical face regions",
+    "Regional map with animated genetic node clusters"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Video opens with portrait of a French man and title overlay.",
+      "element": "Title overlay and cover portrait",
+      "motion": "fade",
+      "content": "French Face"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Subtitle updates at the bottom of the screen.",
+      "element": "Subtitle text",
+      "motion": "fade",
+      "content": "What makes French men's faces so attractive?"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Transition to episode title graphic.",
+      "element": "Series title card",
+      "motion": "wipe",
+      "content": "Beauty Across borders [ EPISODE 25 ]"
+    },
+    {
+      "approx_t": 5.5,
+      "event": "Map of France appears with national flag tag.",
+      "element": "France map graphic",
+      "motion": "scale",
+      "content": "FRANCE"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Portrait of typical French man appears in framed box.",
+      "element": "Model portrait card",
+      "motion": "fade",
+      "content": "TYPICAL FRENCH MAN'S FACE"
+    },
+    {
+      "approx_t": 9.0,
+      "event": "Analysis overlay appears pointing to the nose feature.",
+      "element": "Facial feature box graphic",
+      "motion": "draw-on",
+      "content": "Nose"
+    },
+    {
+      "approx_t": 11.5,
+      "event": "Profile camera view switches with deep-set eyes callout box.",
+      "element": "Facial feature box graphic",
+      "motion": "cut",
+      "content": "Deep-set eyes"
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Lips feature callout box and dotted outline appear.",
+      "element": "Lip contour overlay",
+      "motion": "draw-on",
+      "content": "Medium full lips"
+    },
+    {
+      "approx_t": 19.0,
+      "event": "Zoom out to full face showing hair texture label.",
+      "element": "Tag badge",
+      "motion": "scale",
+      "content": "WAVY"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Side-by-side card slides in showing French director Pierre Niney.",
+      "element": "Actor portrait card",
+      "motion": "translate",
+      "content": "PIERRE NINEY - FRENCH TELEVISION DIRECTOR"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Comparison card slides in showing American style haircut.",
+      "element": "Haircut comparison card",
+      "motion": "translate",
+      "content": "TYPICAL AMERICAN CUT"
+    },
+    {
+      "approx_t": 25.5,
+      "event": "Card transitions to Timothée Chalamet.",
+      "element": "Actor portrait card",
+      "motion": "fade",
+      "content": "TIMOTHÉE CHALAMET - AMERICAN-FRENCH ACTOR"
+    },
+    {
+      "approx_t": 27.0,
+      "event": "Social media style comment bubble pops up over video.",
+      "element": "Comment bubble graphic",
+      "motion": "scale",
+      "content": "Do you think he still writes his name with the 'é'?"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Frame appears with heart embellishment and aesthetic classification label.",
+      "element": "Card overlay frame",
+      "motion": "fade",
+      "content": "REFINED AND SEDUCTIVE"
+    },
+    {
+      "approx_t": 35.0,
+      "event": "Card changes to Louis Garrel.",
+      "element": "Actor portrait card",
+      "motion": "fade",
+      "content": "LOUIS GARREL - FRENCH ACTOR AND FILMMAKER"
+    },
+    {
+      "approx_t": 36.5,
+      "event": "Feature pointers expand across Louis Garrel's head shot.",
+      "element": "Feature tag lines",
+      "motion": "draw-on",
+      "content": "Longer hair / Dark Features / Expressive eyes"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Split display with movie clip and romantic motif graphic.",
+      "element": "Movie clip card and illustration",
+      "motion": "translate",
+      "content": "LOUIS GARREL - LA BELLE PERSONNE (2008)"
+    },
+    {
+      "approx_t": 42.5,
+      "event": "Rapid carousel of French actors with feature checkmarks.",
+      "element": "Actor cards with checklist",
+      "motion": "cut",
+      "content": "Soft dark features / Expressive eyes / Effortless nonchalance"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Scientific citation card overlays map showing genetic clusters.",
+      "element": "Map with genetic cluster diagrams",
+      "motion": "fade",
+      "content": "The genetic history of France"
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Pierre Niney footage clip appears representing northern French features.",
+      "element": "Video card overlay",
+      "motion": "translate",
+      "content": "PIERRE NINEY"
+    },
+    {
+      "approx_t": 59.0,
+      "event": "Card transitions to Baptiste Giabiconi representing southern Corsican features.",
+      "element": "Model portrait card",
+      "motion": "translate",
+      "content": "BAPTISTE GIABICONI - FRENCH MODEL AND SINGER"
+    },
+    {
+      "approx_t": 67.0,
+      "event": "Map graphic zooms behind cycling series of diverse faces.",
+      "element": "Morphing center portrait",
+      "motion": "morph",
+      "content": "A single French face diversity reel"
+    },
+    {
+      "approx_t": 71.0,
+      "event": "Card transitions to Younès Bendjima.",
+      "element": "Model portrait card",
+      "motion": "fade",
+      "content": "YOUNÈS BENDJIMA - ALGERIAN-FRENCH MODEL"
+    },
+    {
+      "approx_t": 73.0,
+      "event": "Card transitions to Djebril Zonga.",
+      "element": "Actor portrait card",
+      "motion": "fade",
+      "content": "DJEBRIL ZONGA - FRENCH ACTOR"
+    },
+    {
+      "approx_t": 79.0,
+      "event": "Card transitions to Kylian Mbappé with Sub-Saharan Africa inset.",
+      "element": "Footballer portrait card",
+      "motion": "fade",
+      "content": "KYLIAN MBAPPÉ - FRENCH FOOTBALLER"
+    },
+    {
+      "approx_t": 81.0,
+      "event": "Card transitions to Bách Buquen with Southeast Asia inset.",
+      "element": "Influencer portrait card",
+      "motion": "fade",
+      "content": "BÁCH BUQUEN - FRENCH INFLUENCER AND MODEL"
+    },
+    {
+      "approx_t": 83.0,
+      "event": "Final portrait showcasing classic French features.",
+      "element": "Full frame portrait",
+      "motion": "fade",
+      "content": "Alluring charm summary"
+    },
+    {
+      "approx_t": 85.0,
+      "event": "Call to action prompt appears over map of Europe.",
+      "element": "Text prompt overlay",
+      "motion": "fade",
+      "content": "Which country next?"
+    },
+    {
+      "approx_t": 87.0,
+      "event": "Website facial analysis demo scrolls into view.",
+      "element": "UI scroll demo",
+      "motion": "translate",
+      "content": "Qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.6-flash",
+    "wanted_model": "gemini-3.6-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-02.mp4",
+    "tokens": {
+      "animation": 11708,
+      "content": 13524
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

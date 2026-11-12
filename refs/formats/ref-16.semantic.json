@@ -1,0 +1,873 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "This video uses scientific data and visual examples to show that the gap between our 'best' and 'average' photos is mostly in our heads.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A model stares at the camera while a graphic overlay prompts the viewer to think of their best photo.",
+    "why_it_works": "Engages personal vanity and self-image immediately."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 13.0,
+      "description": "Model portrait transitioning to a split-screen comparison of her best and average photos.",
+      "layout": "full-bleed portrait with floating image cards",
+      "devices": [
+        "camera graphic overlay",
+        "image cards"
+      ]
+    },
+    {
+      "approx_start": 13.0,
+      "approx_end": 30.0,
+      "description": "Animated bar chart illustrating the self-perception vs. others' perception data.",
+      "layout": "chart panel with floating photo inserts",
+      "devices": [
+        "bar chart",
+        "citation text"
+      ]
+    },
+    {
+      "approx_start": 30.0,
+      "approx_end": 50.0,
+      "description": "Analysis of the model's casual photo compared to her professional portfolio.",
+      "layout": "split-screen and slideshow of model photos",
+      "devices": [
+        "labeled pointers",
+        "photo slideshow"
+      ]
+    },
+    {
+      "approx_start": 50.0,
+      "approx_end": 66.8,
+      "description": "UGC TikTok clips showing reactions to 'bad' photos, ending with a search bar CTA.",
+      "layout": "phone mockup frame over solid background",
+      "devices": [
+        "phone mockup",
+        "search bar UI"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "camera graphic overlay",
+      "what_it_is": "A wireframe outline of a DSLR camera.",
+      "used_for": "Visualizing the concept of taking a photo."
+    },
+    {
+      "name": "bar chart",
+      "what_it_is": "A minimalist grey bar chart showing percentage differences.",
+      "used_for": "Presenting scientific data from the Aella study."
+    },
+    {
+      "name": "phone mockup",
+      "what_it_is": "A vertical smartphone frame displaying social media clips.",
+      "used_for": "Hosting relatable UGC content."
+    },
+    {
+      "name": "search bar UI",
+      "what_it_is": "A clean search input field with a magnifying glass icon.",
+      "used_for": "Displaying the brand URL as a final CTA."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Experiment: Think of your best photo"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "caption",
+      "text": "Let's do an experiment."
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "BHAVITHA MANDAVA, INDIAN MODEL"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "chip",
+      "text": "YOUR BEST PHOTO"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "headline",
+      "text": "How much better is your best photo?"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "YOUR AVERAGE PHOTO"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "headline",
+      "text": "Most people think it's way better."
+    },
+    {
+      "approx_t": 13.0,
+      "track": "headline",
+      "text": "But most people are wrong."
+    },
+    {
+      "approx_t": 14.0,
+      "track": "citation",
+      "text": "Aella, (2025, January 21). People are delusional about how hot they are. Knowingless (Substack)"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "chart",
+      "text": "ATTRACTIVENESS"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chart",
+      "text": "SELF RATING/"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "chart",
+      "text": "+17%"
+    },
+    {
+      "approx_t": 20.0,
+      "track": "chart",
+      "text": "OTHERS RATING/"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chart",
+      "text": "+5%"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "headline",
+      "text": "1 in 3 have it backwards"
+    },
+    {
+      "approx_t": 25.0,
+      "track": "headline",
+      "text": "Others prefer your \"average\" to your favorite!"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "headline",
+      "text": "Take a look at this photo"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "headline",
+      "text": "She might think this is a \"bad photo\""
+    },
+    {
+      "approx_t": 36.0,
+      "track": "chip",
+      "text": "CASUAL PHOTO"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "label",
+      "text": "Glasses"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "label",
+      "text": "Earphones"
+    },
+    {
+      "approx_t": 39.0,
+      "track": "headline",
+      "text": "She probably thinks there's a big difference."
+    },
+    {
+      "approx_t": 45.0,
+      "track": "headline",
+      "text": "But we can see she always looks good."
+    },
+    {
+      "approx_t": 51.0,
+      "track": "headline",
+      "text": "The same is true about you"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "headline",
+      "text": "You think your photos are so different."
+    },
+    {
+      "approx_t": 53.0,
+      "track": "ui",
+      "text": "@kelseysoles"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "ui",
+      "text": "when someone shows me a bad picture they took of me and it ruins my whole day"
+    },
+    {
+      "approx_t": 56.0,
+      "track": "headline",
+      "text": "Other people would disagree."
+    },
+    {
+      "approx_t": 58.0,
+      "track": "ui",
+      "text": "When she says \"delete that photo I look so stupid\" but it's a picture I'd put in my helmet if I ever went to war"
+    },
+    {
+      "approx_t": 65.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Let's do an experiment. Think of the best picture of yourself that you've ever taken."
+    },
+    {
+      "approx_t": 3.0,
+      "text": "Your 'this is her' photo. How much better is that photo than the average photo of yourself?"
+    },
+    {
+      "approx_t": 9.0,
+      "text": "If you're like most people, you probably think it's notably better."
+    },
+    {
+      "approx_t": 13.0,
+      "text": "Aella's research indicates that on average, people think they look 17% better in their best photo than in their average photo."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "But to other people, it turns out, they only look 5% better."
+    },
+    {
+      "approx_t": 22.0,
+      "text": "And in fact, 1 in 3 people actually have it backwards."
+    },
+    {
+      "approx_t": 25.0,
+      "text": "That is, other people prefer their average photo to the photo that they think is their best photo."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "This might seem surprising, but look at this photo of Bhavitha Mandava."
+    },
+    {
+      "approx_t": 33.0,
+      "text": "She might think that this is a 'bad photo' of herself, as it's pretty casual and she has done tons of more glamorous shoots."
+    },
+    {
+      "approx_t": 41.0,
+      "text": "And it's her own face, so naturally she's more sensitive to contextual differences."
+    },
+    {
+      "approx_t": 44.0,
+      "text": "But as outsiders, we can see she's exceptionally beautiful in any photo."
+    },
+    {
+      "approx_t": 48.0,
+      "text": "This specific photo really doesn't make as much of a difference."
+    },
+    {
+      "approx_t": 51.0,
+      "text": "And the same is true about you. You would think, 'Oh, I look so different from photo to photo,' but you probably look pretty good regardless."
+    },
+    {
+      "approx_t": 56.0,
+      "text": "In fact, ask your boyfriend or girlfriend or friend to send you their favorite photo of you, and we can almost guarantee you'll be surprised at their choice."
+    },
+    {
+      "approx_t": 64.0,
+      "text": "If you want to glow up, click the link in bio at qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Prompt the viewer to visualize their best photo.",
+    "Introduce the common belief that our best photos are vastly superior.",
+    "Debunk this belief using statistical data from the Aella study.",
+    "Apply the data to a real-world case study of a professional model.",
+    "Relate the findings back to the viewer's personal life using UGC examples.",
+    "Call to action to visit the brand's website for self-improvement."
+  ],
+  "cta": {
+    "approx_t": 104.0,
+    "what": "Visit Qoves.com via the link in bio to 'glow up'."
+  },
+  "subjects": [
+    "Bhavitha Mandava (Indian Model used as the primary visual example)",
+    "Kelsey Soles (UGC creator showing photo anxiety)",
+    "Unnamed male UGC creator (representing the partner's perspective)"
+  ],
+  "what_makes_it_work": [
+    "Leverages scientific data to validate a highly relatable social insecurity.",
+    "Uses a professional model to objectively prove that 'average' photos still look great to outsiders.",
+    "Maintains a clean, high-end aesthetic that aligns with clinical self-improvement branding."
+  ],
+  "animations": [
+    {
+      "name": "Camera Outline Trace",
+      "approx_t": 0.0,
+      "what_moves": "Camera graphic outline",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Introduce the photography theme over the subject's face.",
+      "reusable_as": "Tracing any technical or thematic vector icon over a subject.",
+      "we_already_have": "ContourDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Best Photo Reveal",
+      "approx_t": 1.0,
+      "what_moves": "Vertical divider and image mask",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Reveal the 'best photo' behind the subject's face.",
+      "reusable_as": "Before/after comparisons or revealing hidden details.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Photo Reposition and Pop",
+      "approx_t": 5.0,
+      "what_moves": "Best photo scales down; average photo pops in",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Compare the best photo side-by-side with an average photo.",
+      "reusable_as": "Transitioning from a single featured item to a comparison grid.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Comparison Divider Sweep",
+      "approx_t": 8.0,
+      "what_moves": "A vertical divider line",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Draw attention to the contrast between the two photos.",
+      "reusable_as": "Highlighting differences in side-by-side comparisons.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Bar Chart Growth",
+      "approx_t": 13.0,
+      "what_moves": "Chart bars and percentage labels",
+      "motion": "scale",
+      "direction": "up",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Visualize statistical data comparing self-rating vs others' rating.",
+      "reusable_as": "Displaying survey results or comparative metrics.",
+      "we_already_have": null,
+      "would_need_building": "BarChartGrow"
+    },
+    {
+      "name": "Photo Position Swap",
+      "approx_t": 22.0,
+      "what_moves": "Two photo panels",
+      "motion": "translate",
+      "direction": "horizontal",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Illustrate the concept of having things 'backwards'.",
+      "reusable_as": "Swapping priority or order of two compared items.",
+      "we_already_have": null,
+      "would_need_building": "SwapPanels"
+    },
+    {
+      "name": "Average Photo Slide Over",
+      "approx_t": 25.0,
+      "what_moves": "Average photo panel",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Show the average photo overtaking the best photo in preference.",
+      "reusable_as": "Overlapping content to show dominance or selection.",
+      "we_already_have": "SlideOver",
+      "would_need_building": null
+    },
+    {
+      "name": "Feature Callouts",
+      "approx_t": 36.0,
+      "what_moves": "Dotted lines and text labels",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Point out specific casual details like glasses and earphones.",
+      "reusable_as": "Labeling product features or specific parts of an image.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Glamour Shoot Montage",
+      "approx_t": 39.0,
+      "what_moves": "Sequence of photos",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "abrupt",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Show a rapid succession of professional modeling shoots.",
+      "reusable_as": "Displaying a portfolio or variety of looks quickly.",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    },
+    {
+      "name": "Phone Frame Slide In",
+      "approx_t": 52.0,
+      "what_moves": "Smartphone frame with video",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Introduce social media reaction videos.",
+      "reusable_as": "Showcasing app UI, mobile content, or social proof.",
+      "we_already_have": "SlideIn",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "SliderReveal wipes for comparisons",
+      "Elastic PopIn for photo panels",
+      "DrawnCallout for detailing image features"
+    ],
+    "how_things_enter": "Elements slide up from the bottom or scale up with a slight spring bounce.",
+    "how_things_leave": "Elements scale down or are covered by sliding overlays.",
+    "how_scenes_change": "Wipes and slide-overs transition between different comparison layouts.",
+    "what_stays_still": "The solid pastel background and main text headers.",
+    "rhythm": "Bursty, with rapid photo montages alternating with slower, data-driven chart animations."
+  },
+  "what_we_should_steal": [
+    "SwapPanels for intuitive visual reversals of compared items.",
+    "BarChartGrow for clean, animated data presentation."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Camera graphic overlay draws/fades in over the woman's face",
+      "element": "Camera graphic",
+      "motion": "draw-on",
+      "content": ""
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Text fades in at the bottom",
+      "element": "Text",
+      "motion": "fade",
+      "content": "Let's do an experiment."
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Camera graphic transitions/reveals a photo of Bhavitha Mandava and Margot Robbie",
+      "element": "Photo card",
+      "motion": "mask-reveal",
+      "content": ""
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Text fades in below the photo",
+      "element": "Text",
+      "motion": "fade",
+      "content": "BHAVITHA MANDAVA, INDIAN MODEL"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Text fades in on the photo",
+      "element": "Text",
+      "motion": "fade",
+      "content": "YOUR BEST PHOTO"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Screen transitions/slides up to show new text",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "How much better is your best photo?"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "The 'YOUR BEST PHOTO' card slides in from the left",
+      "element": "Photo card",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 7.0,
+      "event": "The 'YOUR AVERAGE PHOTO' card slides in from the right",
+      "element": "Photo card",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Text fades in on the right photo",
+      "element": "Text",
+      "motion": "fade",
+      "content": "YOUR AVERAGE PHOTO"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "A circular timer/loading animation starts filling up in the center",
+      "element": "Timer graphic",
+      "motion": "draw-on",
+      "content": ""
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Text fades in at the top",
+      "element": "Text",
+      "motion": "fade",
+      "content": "Most people think it's way better."
+    },
+    {
+      "approx_t": 11.0,
+      "event": "The 'YOUR BEST PHOTO' card scales up and moves slightly forward, while the average photo card scales down",
+      "element": "Photo cards",
+      "motion": "scale",
+      "content": ""
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "But most people are wrong."
+    },
+    {
+      "approx_t": 13.5,
+      "event": "Video of Aella fades in",
+      "element": "Video card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Text fades in at the top",
+      "element": "Text",
+      "motion": "fade",
+      "content": "Aella, (2025, January 21). People are delusional about how hot they are. Knowingless (Substack)"
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Bar chart axes and 'ATTRACTIVENESS' label fade in",
+      "element": "Chart graphic",
+      "motion": "fade",
+      "content": "ATTRACTIVENESS"
+    },
+    {
+      "approx_t": 16.0,
+      "event": "'SELF RATING/' label fades in",
+      "element": "Text",
+      "motion": "fade",
+      "content": "SELF RATING/"
+    },
+    {
+      "approx_t": 16.5,
+      "event": "The 'YOUR FAV PHOTO' bar animates/grows upwards",
+      "element": "Chart bar",
+      "motion": "scale",
+      "content": ""
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Text fades in above the first bar",
+      "element": "Text",
+      "motion": "fade",
+      "content": "+17%"
+    },
+    {
+      "approx_t": 19.5,
+      "event": "'OTHERS RATING/' label fades in",
+      "element": "Text",
+      "motion": "fade",
+      "content": "OTHERS RATING/"
+    },
+    {
+      "approx_t": 20.0,
+      "event": "The 'YOUR AVG PHOTO' bar animates/grows upwards",
+      "element": "Chart bar",
+      "motion": "scale",
+      "content": ""
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Text fades in above the second bar",
+      "element": "Text",
+      "motion": "fade",
+      "content": "+5%"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "1 in 3 have it backwards"
+    },
+    {
+      "approx_t": 23.5,
+      "event": "The two photo cards slide in, with the average photo on the left and best photo on the right",
+      "element": "Photo cards",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 25.0,
+      "event": "Text fades in",
+      "element": "Text",
+      "motion": "fade",
+      "content": "Others prefer your \"average\" to your favorite!"
+    },
+    {
+      "approx_t": 26.0,
+      "event": "The 'YOUR AVERAGE PHOTO' card scales up and moves forward, while the best photo card scales down",
+      "element": "Photo cards",
+      "motion": "scale",
+      "content": ""
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "Take a look at this photo"
+    },
+    {
+      "approx_t": 31.5,
+      "event": "The average photo of Bhavitha Mandava fades in",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "She might think this is a \"bad photo\""
+    },
+    {
+      "approx_t": 33.5,
+      "event": "The average photo card slides in next to Bhavitha's face",
+      "element": "Photo card",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Text fades in on the photo",
+      "element": "Text",
+      "motion": "fade",
+      "content": "CASUAL PHOTO"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "A pointer line and text 'Glasses' draw/fade in pointing to her glasses",
+      "element": "Pointer graphic",
+      "motion": "draw-on",
+      "content": "Glasses"
+    },
+    {
+      "approx_t": 38.0,
+      "event": "A pointer line and text 'Earphones' draw/fade in pointing to her earphones",
+      "element": "Pointer graphic",
+      "motion": "draw-on",
+      "content": "Earphones"
+    },
+    {
+      "approx_t": 39.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "She probably thinks there's a big difference."
+    },
+    {
+      "approx_t": 39.5,
+      "event": "The average photo card slides in on the left, and a glamorous photo card slides in on the right",
+      "element": "Photo cards",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 40.0,
+      "event": "The glamorous photo on the right transitions/fades to a second glamorous photo",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 41.0,
+      "event": "The second glamorous photo transitions/fades to a third glamorous photo",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 42.0,
+      "event": "The third glamorous photo transitions/fades to a fourth glamorous photo",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 43.0,
+      "event": "The fourth glamorous photo transitions/fades to a fifth glamorous photo",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "But we can see she always looks good."
+    },
+    {
+      "approx_t": 45.5,
+      "event": "A runway photo of Bhavitha fades in",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 46.0,
+      "event": "The runway photo transitions/fades to a photo of her in a maroon shirt",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 47.0,
+      "event": "The maroon shirt photo transitions/fades to a graduation photo",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 48.0,
+      "event": "The graduation photo transitions/fades to a close-up outdoor photo",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 49.0,
+      "event": "The close-up outdoor photo transitions/fades to a photo of her with glasses",
+      "element": "Photo card",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 51.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "The same is true about you"
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "You think your photos are so different."
+    },
+    {
+      "approx_t": 53.0,
+      "event": "A phone frame slides up into the center",
+      "element": "Phone graphic",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 53.5,
+      "event": "Video of @kelseysoles starts playing inside the phone frame",
+      "element": "Video",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 54.0,
+      "event": "Text overlay fades in on the video",
+      "element": "Text",
+      "motion": "fade",
+      "content": "when someone shows me a bad picture they took of me and it ruins my whole day"
+    },
+    {
+      "approx_t": 56.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": "Other people would disagree."
+    },
+    {
+      "approx_t": 58.0,
+      "event": "Video of a guy looking at his phone starts playing inside the phone frame",
+      "element": "Video",
+      "motion": "fade",
+      "content": ""
+    },
+    {
+      "approx_t": 58.0,
+      "event": "Text overlay fades in on the video",
+      "element": "Text",
+      "motion": "fade",
+      "content": "When she says \"delete that photo I look so stupid\" but it's actually a pic I'd put in my helmet if I ever went to war"
+    },
+    {
+      "approx_t": 65.0,
+      "event": "Screen transitions/slides to the left",
+      "element": "Screen content",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 65.0,
+      "event": "A search bar slides into the center",
+      "element": "Search bar graphic",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 65.5,
+      "event": "Text is typed/drawn inside the search bar",
+      "element": "Text",
+      "motion": "draw-on",
+      "content": "Qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-16.mp4",
+    "tokens": {
+      "animation": 10028,
+      "content": 11081
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

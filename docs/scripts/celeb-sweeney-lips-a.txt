@@ -1,0 +1,58 @@
+# VARIANT A — "Half Your Age". Sydney Sweeney in line one.
+# Sibling of docs/scripts/celeb-sweeney-lips.txt (v5); read that file's header
+# for the measured pair, the compliance rules and the tone note. Only the
+# entry differs — beats 3-8 are the same story, the same spoken register.
+#
+# THE ENTRY IS COMEDY. She is named in word one, then immediately undercut by
+# a joke the viewer is in on: the photo is on HER phone, and the woman in it
+# is half her age. Self-deprecating, not aspirational — which is the whole
+# difference between a 50-year-old laughing and a 50-year-old feeling
+# measured against a 28-year-old. Line 3 then promises the secret.
+#
+# Lowest-risk of the three openings: it never says the viewer's face is
+# lacking, and the joke is about her phone, not about her mouth.
+#
+# SWEENEY IS NAMED, NOT SHOWN. No licensed photograph, no altered image of a
+# named person — beat 1 wants a phone, a screen or a type card, never her
+# face and never a render of it. That is what keeps gate 1 closed.
+#
+# 23 lines. shots.json must declare 3/3/3/3/3/2/2/4 or beats.ts throws.
+
+# -- 1. the setup ----------------------------------------------------------
+Sydney Sweeney's mouth.                                        | 0.28
+It's on your phone. She's half your age.                       | 0.30
+And you're looking at the wrong part of it.                    | 0.45
+
+# -- 2. the wrong turn -----------------------------------------------------
+Because you think it's the lips.                               | 0.25
+That yours have gone.                                          | 0.35
+They haven't.                                                  | 0.45
+
+# -- 3. the proof ----------------------------------------------------------
+Look at these two.                                             | 0.25
+We changed one thing. Her mouth.                               | 0.30
+Now look at the rest of her face.                              | 0.45
+
+# -- 4. the twist ----------------------------------------------------------
+It's the gap.                                                  | 0.28
+That little bit of space under your nose.                      | 0.25
+When the lip goes thin, the gap gets longer.                   | 0.45
+
+# -- 5. the payoff ---------------------------------------------------------
+And your eye reads the gap, not the lip.                       | 0.25
+So it's not less lip.                                          | 0.25
+It's more gap.                                                 | 0.50
+
+# -- 6. try it -------------------------------------------------------------
+Try it now. Roll your lips in.                                 | 0.25
+Watch your chin come forward.                                  | 0.45
+
+# -- 7. the nuance ---------------------------------------------------------
+More isn't better, by the way.                                 | 0.25
+On a lot of faces, it's less.                                  | 0.45
+
+# -- 8. the offer ----------------------------------------------------------
+So before you let anyone near your face,                       | 0.25
+go and see it. On yours.                                       | 0.30
+A preview, not a promise.                                      | 0.40
+Search Refina AI.                                              | 0.65

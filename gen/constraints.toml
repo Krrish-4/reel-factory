@@ -1,0 +1,123 @@
+# The generation constraints, learned the expensive way, in one place.
+#
+# WHY THIS FILE EXISTS
+# --------------------
+# `procedures.toml`, `subjects.toml`, `conditions.toml`, `conditions-b.toml` and
+# `hook.toml` each carry a prompt template, and the same hard-won clauses were
+# copy-pasted between them and then drifted. The anti-filter sentence exists in
+# three slightly different wordings. The backdrop clause is load-bearing for
+# `align_core` and is stated in full in two files and paraphrased in a third.
+#
+# So the CLAUSES live here, once, each with the failure that produced it. A spec
+# composes a prompt by naming the clauses it needs. The adapter half of "one
+# interface for image and voice APIs" is deliberately NOT built: it buys
+# symmetry, while this buys the thing that actually cost days.
+#
+# Every clause below is a rule discovered by a render coming back wrong. None of
+# them is style.
+
+# ── clauses ──────────────────────────────────────────────────────────
+
+[clause.flat_backdrop]
+text = """Plain seamless pale blue-grey studio backdrop, completely uniform, no \
+texture, no vignette, no gradient. No shadow on the background."""
+why = """LOAD-BEARING, NOT STYLING. `align_core.metrics()` finds the subject by \
+sampling the frame corners for a flat background, so a textured or graded \
+backdrop silently breaks alignment, scoring and the sage repaint. Do not make \
+it more interesting."""
+
+[clause.studio_portrait]
+text = """Head and shoulders, facing the camera straight on, chin level, neutral \
+relaxed expression, mouth closed, eyes open looking directly at the lens. Hair \
+tied back off the face. Plain black turtleneck. Sharp focus, natural \
+unretouched skin with real pores and fine lines. Shot on an 85mm lens from two \
+metres away. No text, no jewellery, no makeup."""
+why = """The turtleneck is why neck lifts are not in these specs: the neck is \
+covered, so the procedure would be invisible and unmeasurable. 85mm at two \
+metres is the control condition for the lens-distortion demonstration."""
+
+[clause.flat_light]
+text = """Completely flat even frontal softbox lighting with no shadows anywhere \
+on her face."""
+why = """Doubles as the control condition for the lighting beat: every other \
+light setup is measured against this one."""
+
+[clause.not_a_filter]
+text = """It is very important that it actually looks like the actual cosmetic \
+procedure and not a filter or FaceTune."""
+why = """Names the MEASURED failure. The 2026-08-25 batch produced global \
+beautification instead of a regional edit and no prompt had forbidden it. \
+Naming a failure mode you have measured is worth more than a list of things not \
+to touch."""
+
+[clause.leave_the_rest]
+text = "Leave everything else exactly the same and unchanged."
+why = """One clause beats a list. The eleven-item do-not-touch variant \
+('do not alter the eyes, eyebrows, mouth, hairline, skin tone...') scored \
+second-worst of three strategies at 0.96 concentration — nowhere."""
+
+[clause.same_person]
+text = """Same person, same face, same age, same bone structure, same hair, same \
+black turtleneck, same plain seamless backdrop. Do not slim, smooth, retouch or \
+beautify her, and do not change her identity. It looks like the same person \
+photographed a second time thirty seconds later, not a different woman."""
+why = """For PHOTOGRAPHIC conditions, where any facial change invalidates the \
+demonstration — the inverse of a procedure edit, and the reason conditions.toml \
+cannot share subjects.toml's template."""
+
+[clause.readable_small]
+text = """The change must be clearly visible when the photograph is viewed small \
+on a phone screen."""
+why = """Two beats shipped honest and invisible: a chin tilt and a mouth lift \
+that read at 1080 and vanished at 390. An asset that only works at full \
+resolution is not an asset."""
+
+[clause.hold_framing]
+text = """The picture stays framed exactly as it is now - head and shoulders, her \
+head the same size in the frame, the same amount of background around her. Do \
+not crop in, do not zoom, do not make this a close-up."""
+why = """Framing is the first thing this model family reaches for. Asked to move \
+the camera closer it returned a CROP at the same perspective; asked for a tight \
+region as a reference it returned a tighter portrait. The README records it as \
+'the prompt has more influence over the camera than over the nose'."""
+
+[clause.strong_not_subtle]
+text = "Give her a realistic and strong {done}."
+why = """Every prompt in the failed batch said 'subtle'. Combined with casting a \
+subject who needed nothing, the only thing left to measure was resample noise."""
+
+
+# ── casting ──────────────────────────────────────────────────────────
+
+[casting]
+rule = """THE BEFORE AND THE AFTER ARE ONE CASTING DECISION, NOT TWO PROMPTS. \
+Cast the before to visibly NEED the procedure. Every early attempt generated a \
+woman with a fine nose and jaw and then asked to fix them; there was nothing to \
+change, nothing changed, and the measurement of that nothing got blamed on the \
+model."""
+corollary = """And a subject cast for one beat may be wrong for another. `demo1` \
+was cast 'none of it extreme' so the LIGHT beat would have something subtle to \
+find; a facelift on her then scored 17 against a threshold of 25, twice, on two \
+different briefs. A face that barely needs a procedure shows barely anything \
+after one. Decide which beat the casting serves before writing it."""
+
+
+# ── recipes: which clauses each kind of generation needs ─────────────
+# A spec names a recipe; the recipe names clauses. Nothing is retyped.
+
+[recipe.base_portrait]
+clauses = ["studio_portrait", "flat_light", "flat_backdrop"]
+note = "the control frame every other render in a set is measured against"
+
+[recipe.procedure_after]
+clauses = ["strong_not_subtle", "leave_the_rest", "not_a_filter"]
+note = "changes the FACE, holds the photograph still"
+
+[recipe.photographic_after]
+clauses = ["same_person", "readable_small"]
+note = """changes the PHOTOGRAPH, holds the face still — the inverse of \
+procedure_after, and the reason score.py is the wrong screen for it"""
+
+[recipe.lens_after]
+clauses = ["same_person", "hold_framing", "readable_small"]
+note = "a lens change; needs framing pinned or the model crops instead"

@@ -1,0 +1,822 @@
+{
+  "format_archetype": "educational explainer",
+  "one_line": "An analytical breakdown of the facial aesthetics and genetic diversity that define the unique beauty of Spanish women.",
+  "hook": {
+    "approx_seconds": 0,
+    "what_happens": "A portrait of model Blanca Padilla appears with the question, 'What makes Spanish women so attractive?'",
+    "why_it_works": "Uses a provocative question paired with a striking visual to immediately engage the viewer."
+  },
+  "shots": [
+    {
+      "approx_start": 0,
+      "approx_end": 2.5,
+      "description": "Hook showing Blanca Padilla with title text.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "text overlay"
+      ]
+    },
+    {
+      "approx_start": 2.5,
+      "approx_end": 6,
+      "description": "Series title card 'Beauty Across Borders' with a rotating globe graphic.",
+      "layout": "centered graphic on dark background",
+      "devices": [
+        "animated globe",
+        "text overlay"
+      ]
+    },
+    {
+      "approx_start": 6,
+      "approx_end": 25.5,
+      "description": "Analysis of the 'Spanish look' tension using portraits of Ursula Corbero, Ester Exposito, and Blanca Palmer Soler with UI overlays.",
+      "layout": "portrait with technical UI overlays",
+      "devices": [
+        "color swatches",
+        "facial mapping lines",
+        "3D mannequin head",
+        "checkboxes"
+      ]
+    },
+    {
+      "approx_start": 25.5,
+      "approx_end": 34,
+      "description": "Case study of Penelope Cruz highlighting her warm skin base and bold facial features.",
+      "layout": "portrait with technical UI overlays",
+      "devices": [
+        "facial mapping lines",
+        "color swatches"
+      ]
+    },
+    {
+      "approx_start": 34,
+      "approx_end": 57,
+      "description": "Geographic and genetic explanation of Spain's diversity using a map and various portraits.",
+      "layout": "split screen with map and portrait overlays",
+      "devices": [
+        "interactive map",
+        "portrait cards",
+        "checkboxes"
+      ]
+    },
+    {
+      "approx_start": 57,
+      "approx_end": 64.5,
+      "description": "Outro and call to action showing a model's face analyzed with complex UI overlays.",
+      "layout": "portrait with dense UI overlays",
+      "devices": [
+        "facial mapping lines",
+        "sliders",
+        "checkboxes",
+        "search bar graphic"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Technical UI Overlays",
+      "what_it_is": "Faux-software graphics including checkboxes, sliders, and facial mapping lines.",
+      "used_for": "Creating a scientific, analytical aesthetic for beauty evaluation."
+    },
+    {
+      "name": "Color Swatches",
+      "what_it_is": "Color blocks with hex codes indicating skin undertones and highlights.",
+      "used_for": "Deconstructing skin tones objectively."
+    },
+    {
+      "name": "Interactive Map",
+      "what_it_is": "A stylized map of Spain showing regional genetic differences.",
+      "used_for": "Providing geographical context to genetic diversity."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "What makes Spanish women so attractive?"
+    },
+    {
+      "approx_t": 1,
+      "track": "label",
+      "text": "BLANCA PADILLA\nSPANISH MODEL"
+    },
+    {
+      "approx_t": 3,
+      "track": "headline",
+      "text": "Beauty Across Borders"
+    },
+    {
+      "approx_t": 4,
+      "track": "chip",
+      "text": "[ EPISODE 25 ]"
+    },
+    {
+      "approx_t": 6,
+      "track": "label",
+      "text": "SPAIN"
+    },
+    {
+      "approx_t": 7,
+      "track": "label",
+      "text": "TENSION"
+    },
+    {
+      "approx_t": 9,
+      "track": "label",
+      "text": "URSULA CORBERO\nSPANISH ACTRESS"
+    },
+    {
+      "approx_t": 10,
+      "track": "ui",
+      "text": "Feminine base"
+    },
+    {
+      "approx_t": 11,
+      "track": "ui",
+      "text": "Single bolder feature"
+    },
+    {
+      "approx_t": 12,
+      "track": "ui",
+      "text": "Facial features\nEyebrows"
+    },
+    {
+      "approx_t": 14,
+      "track": "ui",
+      "text": "SKIN"
+    },
+    {
+      "approx_t": 16,
+      "track": "ui",
+      "text": "PRIMARY SKIN UNDERTONE\nWarm Olive\n#B8A76F"
+    },
+    {
+      "approx_t": 16,
+      "track": "ui",
+      "text": "PRIMARY SKIN HIGHLIGHT\nGolden Soft Glow\n#EEF2AD"
+    },
+    {
+      "approx_t": 16,
+      "track": "label",
+      "text": "ESTER EXPOSITO, SPANISH ACTRESS"
+    },
+    {
+      "approx_t": 18,
+      "track": "ui",
+      "text": "COMPLEXION SHADOW\nOlive Shadow Tone\n#8F8053"
+    },
+    {
+      "approx_t": 18,
+      "track": "label",
+      "text": "BLANCA PALMER SOLER\nSPANISH TAEKWONDO ATHLETE"
+    },
+    {
+      "approx_t": 21,
+      "track": "ui",
+      "text": "PRETTY"
+    },
+    {
+      "approx_t": 23,
+      "track": "ui",
+      "text": "MEMORABLE"
+    },
+    {
+      "approx_t": 26,
+      "track": "label",
+      "text": "PENÉLOPE CRUZ, SPANISH ACTRESS"
+    },
+    {
+      "approx_t": 30,
+      "track": "ui",
+      "text": "Facial features\nEyebrows"
+    },
+    {
+      "approx_t": 31,
+      "track": "ui",
+      "text": "Facial features\nNose"
+    },
+    {
+      "approx_t": 51,
+      "track": "label",
+      "text": "MARIA VALVERDE, SPANISH ACTRESS"
+    },
+    {
+      "approx_t": 53,
+      "track": "ui",
+      "text": "Tension\nWarm glow\nBold feature"
+    },
+    {
+      "approx_t": 56,
+      "track": "ui",
+      "text": "SPANISH CHARACTERISTIC BEAUTY"
+    },
+    {
+      "approx_t": 58,
+      "track": "headline",
+      "text": "Which country next?"
+    },
+    {
+      "approx_t": 58,
+      "track": "ui",
+      "text": "Leave a comment"
+    },
+    {
+      "approx_t": 61.0,
+      "track": "ui",
+      "text": "Philtrum\nEyebrows\nFeminine base\nSingle bolder feature"
+    },
+    {
+      "approx_t": 63.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "What makes Spanish women so attractive?"
+    },
+    {
+      "approx_t": 2.5,
+      "text": "Welcome to Beauty Across Borders, episode 25, and our country for today is Spain."
+    },
+    {
+      "approx_t": 6.5,
+      "text": "The Spanish look rests on a tension: a soft, warm, feminine base with a single bolder feature laid over it."
+    },
+    {
+      "approx_t": 13,
+      "text": "Most of that base is skin. That warm olive undertone has a glow that softens the complexion the way good light does."
+    },
+    {
+      "approx_t": 19.5,
+      "text": "But glow and softness alone would only read as pretty. What makes Spanish women's faces memorable is the bolder feature sitting on top."
+    },
+    {
+      "approx_t": 25.5,
+      "text": "Penélope Cruz is a great example of this. She too has that warm base, but her strong dark brows and defined nose are what makes her face particularly striking."
+    },
+    {
+      "approx_t": 34,
+      "text": "And where that boldness comes from is partly geography. Spain is not genetically uniform."
+    },
+    {
+      "approx_t": 38.5,
+      "text": "Research suggests the makeup of someone from Barcelona in the east may differ measurably from someone in Seville to the west, a wider spread than most countries of its size, which appears to feed the range of strong features that we see across Spanish faces."
+    },
+    {
+      "approx_t": 52,
+      "text": "And it is this tension, that warm glow against one bolder feature, that tends to give Spanish women their characteristic beauty."
+    },
+    {
+      "approx_t": 58,
+      "text": "Leave a comment to let us know what country we should visit next. And if you want us to analyze your face, click the link in bio at Qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the core question regarding Spanish facial attractiveness.",
+    "Define the 'tension' theory: soft base combined with a bold feature.",
+    "Analyze the soft base component (warm olive skin tones).",
+    "Analyze the bold feature component using Penelope Cruz as a case study.",
+    "Provide geographical and genetic context for Spain's diverse facial features.",
+    "Summarize the aesthetic formula and present the call to action."
+  ],
+  "cta": {
+    "approx_t": 58,
+    "what": "Leave a comment suggesting the next country, and visit Qoves.com for a personalized face analysis."
+  },
+  "subjects": [
+    {
+      "name": "Blanca Padilla",
+      "role": "Spanish Model (Hook subject)"
+    },
+    {
+      "name": "Ursula Corbero",
+      "role": "Spanish Actress (Visual example)"
+    },
+    {
+      "name": "Ester Exposito",
+      "role": "Spanish Actress (Skin tone example)"
+    },
+    {
+      "name": "Blanca Palmer Soler",
+      "role": "Spanish Taekwondo Athlete (Visual example)"
+    },
+    {
+      "name": "Penélope Cruz",
+      "role": "Spanish Actress (Case study subject)"
+    },
+    {
+      "name": "Maria Valverde",
+      "role": "Spanish Actress (Visual example)"
+    }
+  ],
+  "what_makes_it_work": [
+    "Scientific framing of subjective beauty using technical UI elements and color metrics.",
+    "Clear, structured thesis (the 'tension' theory) that simplifies complex facial aesthetics.",
+    "High-quality, recognizable celebrity examples that validate the analysis."
+  ],
+  "animations": [
+    {
+      "name": "Title Text Slide-In",
+      "approx_t": 0.0,
+      "what_moves": "Title text and flag icon",
+      "motion": "slide",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Introduce the video's core question.",
+      "reusable_as": "Any introductory hook text.",
+      "we_already_have": "SlideIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Globe Spin & Text Reveal",
+      "approx_t": 2.0,
+      "what_moves": "Globe graphic and series title text",
+      "motion": "rotate",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Establish the series branding.",
+      "reusable_as": "Series intro or logo sting.",
+      "we_already_have": null,
+      "would_need_building": "Rotating globe graphic with staggered text fade-in."
+    },
+    {
+      "name": "Map Pop-In",
+      "approx_t": 5.0,
+      "what_moves": "Country map outline and flag pin",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Introduce the geographic focus of the episode.",
+      "reusable_as": "Any map-based location introduction.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Overlapping Portrait Cards Slide",
+      "approx_t": 6.0,
+      "what_moves": "Multiple portrait cards of Spanish women",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Show a variety of examples in a compact space.",
+      "reusable_as": "Displaying a gallery or stack of reference images.",
+      "we_already_have": null,
+      "would_need_building": "Staggered overlapping card deck entry."
+    },
+    {
+      "name": "Animated Checklist",
+      "approx_t": 10.0,
+      "what_moves": "Checklist rows and checkmarks",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Break down the components of the 'Spanish look'.",
+      "reusable_as": "Listing key features or criteria.",
+      "we_already_have": "AnimatedCheckList",
+      "would_need_building": null
+    },
+    {
+      "name": "Drawn Callout / Feature Highlight",
+      "approx_t": 11.0,
+      "what_moves": "Eyebrow highlight path and text box",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Pinpoint specific facial features being discussed.",
+      "reusable_as": "Technical diagrams or product feature callouts.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Color Palette Chips Pop-In",
+      "approx_t": 15.0,
+      "what_moves": "Color swatch chips with hex codes",
+      "motion": "scale",
+      "direction": "up",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Display analyzed skin undertones and highlights.",
+      "reusable_as": "Showing color palettes, product variants, or data tags.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "Mannequin & Label Pop-In with Arrow",
+      "approx_t": 20.0,
+      "what_moves": "3D mannequin head, brain graphic, text labels, and connecting arrow",
+      "motion": "scale",
+      "direction": "none",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Illustrate the cognitive distinction between 'pretty' and 'memorable'.",
+      "reusable_as": "Explaining conceptual relationships or comparisons.",
+      "we_already_have": null,
+      "would_need_building": "Mannequin head pop-in with internal brain graphic reveal and connecting arrows."
+    },
+    {
+      "name": "Map Navigation & Portrait Slide",
+      "approx_t": 34.0,
+      "what_moves": "Map background and regional portraits",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Show genetic diversity across different Spanish regions.",
+      "reusable_as": "Geographic data visualization or regional comparisons.",
+      "we_already_have": null,
+      "would_need_building": "Map panning synchronized with portrait cards popping up at specific coordinates."
+    },
+    {
+      "name": "Face Montage",
+      "approx_t": 47.0,
+      "what_moves": "Rapid succession of portraits",
+      "motion": "wipe",
+      "direction": "none",
+      "feel": "abrupt",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Demonstrate the wide range of strong features.",
+      "reusable_as": "Rapid-fire showcase of examples or testimonials.",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    },
+    {
+      "name": "Bracket Label Draw-On",
+      "approx_t": 51.0,
+      "what_moves": "Corner brackets and text label",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Highlight a specific aesthetic characteristic on the face.",
+      "reusable_as": "Framing or targeting key elements in an image.",
+      "we_already_have": null,
+      "would_need_building": "Corner brackets drawing on to frame a region of interest."
+    },
+    {
+      "name": "Complex Face Analysis Overlay",
+      "approx_t": 60.0,
+      "what_moves": "Multiple callout boxes, sliders, and checklists over a face",
+      "motion": "scale",
+      "direction": "none",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Simulate a comprehensive facial analysis tool.",
+      "reusable_as": "High-tech UI overlays or complex data dashboards.",
+      "we_already_have": null,
+      "would_need_building": "Multi-element UI overlay with simultaneous sliders, checklists, and callouts."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Staggered card deck entries",
+      "Technical UI callouts drawing on",
+      "Map-based regional navigation"
+    ],
+    "how_things_enter": "Elements pop in with a slight spring overshoot or slide in from the bottom.",
+    "how_things_leave": "Elements fade out or are pushed off-screen by incoming content.",
+    "how_scenes_change": "Hard cuts or smooth camera pans across a continuous background map.",
+    "what_stays_still": "The central portrait subject remains relatively static while UI overlays animate around it.",
+    "rhythm": "Highly active and bursty, with multiple UI elements popping in rapid succession to match the voiceover."
+  },
+  "what_we_should_steal": [
+    "Complex Face Analysis Overlay",
+    "Map Navigation & Portrait Slide",
+    "Overlapping Portrait Cards Slide"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Text overlay appears",
+      "element": "What makes Spanish women so attractive?",
+      "motion": "fade",
+      "content": "What makes Spanish women so attractive?"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Model name overlay appears",
+      "element": "BLANCA PADILLA SPANISH MODEL",
+      "motion": "fade",
+      "content": "BLANCA PADILLA SPANISH MODEL"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Title screen transition",
+      "element": "Beauty Across Borders",
+      "motion": "fade",
+      "content": "Beauty Across Borders"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Episode number appears",
+      "element": "[ EPISODE 25 ]",
+      "motion": "fade",
+      "content": "[ EPISODE 25 ]"
+    },
+    {
+      "approx_t": 5.5,
+      "event": "Map transition",
+      "element": "Map of Spain",
+      "motion": "fade",
+      "content": "Spain map"
+    },
+    {
+      "approx_t": 6.0,
+      "event": "Country label appears",
+      "element": "SPAIN",
+      "motion": "fade",
+      "content": "SPAIN"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Singer portrait slides up",
+      "element": "Rosalia portrait",
+      "motion": "translate",
+      "content": "Rosalia"
+    },
+    {
+      "approx_t": 7.5,
+      "event": "Tension label appears",
+      "element": "TENSION",
+      "motion": "fade",
+      "content": "TENSION"
+    },
+    {
+      "approx_t": 8.5,
+      "event": "Actress portrait slides up",
+      "element": "Ursula Corbero portrait",
+      "motion": "translate",
+      "content": "Ursula Corbero"
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Feminine base label appears",
+      "element": "Feminine base",
+      "motion": "fade",
+      "content": "Feminine base"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Bolder feature label appears",
+      "element": "Single bolder feature",
+      "motion": "fade",
+      "content": "Single bolder feature"
+    },
+    {
+      "approx_t": 12.0,
+      "event": "Eyebrow analysis box appears",
+      "element": "Facial features Eyebrows",
+      "motion": "fade",
+      "content": "Eyebrows"
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Skin grid overlay appears",
+      "element": "SKIN",
+      "motion": "fade",
+      "content": "SKIN"
+    },
+    {
+      "approx_t": 15.5,
+      "event": "Actress portrait slides in",
+      "element": "Ester Exposito portrait",
+      "motion": "translate",
+      "content": "Ester Exposito"
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Skin undertone swatches appear",
+      "element": "Warm Olive & Golden Soft Glow",
+      "motion": "fade",
+      "content": "Skin undertones"
+    },
+    {
+      "approx_t": 17.5,
+      "event": "Athlete portrait slides in",
+      "element": "Blanca Palmer Soler portrait",
+      "motion": "translate",
+      "content": "Blanca Palmer Soler"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Shadow tone swatch appears",
+      "element": "Olive Shadow Tone",
+      "motion": "fade",
+      "content": "Olive Shadow Tone"
+    },
+    {
+      "approx_t": 20.5,
+      "event": "Portrait scales down",
+      "element": "Blanca Palmer Soler portrait",
+      "motion": "scale",
+      "content": "Blanca Palmer Soler"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Pretty label appears",
+      "element": "PRETTY",
+      "motion": "fade",
+      "content": "PRETTY"
+    },
+    {
+      "approx_t": 21.5,
+      "event": "3D head model slides in",
+      "element": "3D head model",
+      "motion": "translate",
+      "content": "Head model"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Memorable label appears",
+      "element": "MEMORABLE",
+      "motion": "fade",
+      "content": "MEMORABLE"
+    },
+    {
+      "approx_t": 25.5,
+      "event": "Video clip transition",
+      "element": "Penelope Cruz video clip",
+      "motion": "fade",
+      "content": "Penelope Cruz"
+    },
+    {
+      "approx_t": 26.5,
+      "event": "Portrait transition",
+      "element": "Penelope Cruz portrait",
+      "motion": "fade",
+      "content": "Penelope Cruz"
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Skin undertone swatch appears",
+      "element": "Warm Olive",
+      "motion": "fade",
+      "content": "Warm Olive"
+    },
+    {
+      "approx_t": 30.0,
+      "event": "Eyebrow analysis box appears",
+      "element": "Facial features Eyebrows",
+      "motion": "fade",
+      "content": "Eyebrows"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Nose analysis box appears",
+      "element": "Facial features Nose",
+      "motion": "fade",
+      "content": "Nose"
+    },
+    {
+      "approx_t": 33.5,
+      "event": "Video clip transition",
+      "element": "Penelope Cruz video clip",
+      "motion": "fade",
+      "content": "Penelope Cruz"
+    },
+    {
+      "approx_t": 34.5,
+      "event": "Portrait transition",
+      "element": "Woman's portrait",
+      "motion": "fade",
+      "content": "Woman's face"
+    },
+    {
+      "approx_t": 35.5,
+      "event": "Map background appears",
+      "element": "Map of Spain",
+      "motion": "fade",
+      "content": "Spain map"
+    },
+    {
+      "approx_t": 37.5,
+      "event": "Portrait transition",
+      "element": "Woman's portrait",
+      "motion": "fade",
+      "content": "Woman's face"
+    },
+    {
+      "approx_t": 39.5,
+      "event": "Map zooms and pans",
+      "element": "Map of Spain",
+      "motion": "translate",
+      "content": "Map movement"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Barcelona portrait appears",
+      "element": "Woman's portrait",
+      "motion": "fade",
+      "content": "Barcelona woman"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Seville portrait slides in",
+      "element": "Woman's portrait",
+      "motion": "translate",
+      "content": "Seville woman"
+    },
+    {
+      "approx_t": 47.5,
+      "event": "First face in rapid succession",
+      "element": "Woman's portrait",
+      "motion": "fade",
+      "content": "Woman's face"
+    },
+    {
+      "approx_t": 48.5,
+      "event": "Second face in rapid succession",
+      "element": "Woman's portrait",
+      "motion": "fade",
+      "content": "Woman's face"
+    },
+    {
+      "approx_t": 49.5,
+      "event": "Third face in rapid succession",
+      "element": "Woman's portrait",
+      "motion": "fade",
+      "content": "Woman's face"
+    },
+    {
+      "approx_t": 50.5,
+      "event": "Actress portrait transition",
+      "element": "Maria Valverde portrait",
+      "motion": "fade",
+      "content": "Maria Valverde"
+    },
+    {
+      "approx_t": 52.5,
+      "event": "Checklist overlay appears",
+      "element": "Tension, Warm glow, Bold feature",
+      "motion": "fade",
+      "content": "Checklist"
+    },
+    {
+      "approx_t": 55.5,
+      "event": "Beauty characteristic label appears",
+      "element": "SPANISH CHARACTERISTIC BEAUTY",
+      "motion": "fade",
+      "content": "SPANISH CHARACTERISTIC BEAUTY"
+    },
+    {
+      "approx_t": 57.5,
+      "event": "Map of Europe transition",
+      "element": "Map of Europe",
+      "motion": "fade",
+      "content": "Europe map"
+    },
+    {
+      "approx_t": 58.0,
+      "event": "Call to action overlays appear",
+      "element": "Which country next? & Leave a comment",
+      "motion": "fade",
+      "content": "Call to action"
+    },
+    {
+      "approx_t": 61.0,
+      "event": "Facial analysis overlays appear",
+      "element": "Philtrum, Eyebrows, Feminine base",
+      "motion": "fade",
+      "content": "Facial analysis"
+    },
+    {
+      "approx_t": 63.0,
+      "event": "Search bar animation",
+      "element": "Qoves.com search bar",
+      "motion": "fade",
+      "content": "Qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "refs/corpus/ref-05.mp4",
+    "tokens": {
+      "animation": 11535,
+      "content": 10755
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "format_archetype": "interactive classification quiz",
+  "one_line": "Classifies human nose shapes using a celebrity profile and 3D models based on a scientific study.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Dua Lipa's profile is shown alongside a scrolling selector of 3D nose shapes.",
+    "why_it_works": "Uses celebrity familiarity and interactive 3D visuals to spark curiosity."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 14.0,
+      "description": "Dua Lipa's profile on the left with a scrolling vertical list of 3D nose models on the right.",
+      "layout": "split-screen portrait",
+      "devices": [
+        "3D model cards",
+        "celebrity profile image",
+        "citation popup"
+      ]
+    },
+    {
+      "approx_start": 14.0,
+      "approx_end": 20.042,
+      "description": "A grid displaying 14 distinct nose shape classifications with 3D models.",
+      "layout": "grid layout",
+      "devices": [
+        "grid layout",
+        "3D model cards"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "3D nose model cards",
+      "what_it_is": "Rendered grey 3D models of different nose profiles.",
+      "used_for": "Visualizing anatomical classifications."
+    },
+    {
+      "name": "Academic citation card",
+      "what_it_is": "A small overlay box citing a journal study.",
+      "used_for": "Establishing scientific credibility."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "RESEARCH-BASED Let's measure your Nose Shape"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "DUA LIPA SONGWRITER & SINGER"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "Original nose"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "Fleshy nose"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "Hawk nose"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "Straight nose"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "label",
+      "text": "Bulbous nose"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "citation",
+      "text": "Based on this study: Tamir A. Numerical survey of the shapes of the human nose. J Craniofac Surg. 2011 May;22(3):1104-7. doi: 10.1097/SCS.0b013e318210b1b3. PMID: 21586956."
+    },
+    {
+      "approx_t": 8.0,
+      "track": "headline",
+      "text": "Which nose type are you?"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "label",
+      "text": "Rare variant"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Let's measure your nose shape. Which nose type are you?"
+    }
+  ],
+  "narrative_arc": [
+    "Introduce nose shape measurement concept",
+    "Show celebrity reference profile",
+    "Cite scientific study for credibility",
+    "Present classification grid for self-assessment"
+  ],
+  "cta": {
+    "approx_t": 8.0,
+    "what": "Which nose type are you?"
+  },
+  "subjects": [
+    "Dua Lipa (Singer/Songwriter) as the profile model"
+  ],
+  "what_makes_it_work": [
+    "Scientific framing lends authority",
+    "Clean 3D aesthetics look professional",
+    "High-profile celebrity reference increases engagement"
+  ],
+  "animations": [
+    {
+      "name": "Vertical List Scroll",
+      "approx_t": 0.0,
+      "what_moves": "Vertical list of nose shape cards on the right side",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Static background profile image",
+      "purpose": "Showcases the variety of nose shapes to build curiosity.",
+      "reusable_as": "Scrolling through product features, categories, or options.",
+      "we_already_have": null,
+      "would_need_building": "Vertical list carousel that scrolls continuously or step-by-step"
+    },
+    {
+      "name": "Citation Card Pop-In",
+      "approx_t": 5.0,
+      "what_moves": "Scientific study citation card on the left",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": false,
+      "layered_with": "Ongoing vertical list scroll",
+      "purpose": "Establishes scientific credibility mid-video.",
+      "reusable_as": "Displaying trust badges, reviews, or tooltips.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Headline Crossfade",
+      "approx_t": 8.0,
+      "what_moves": "Main headline text",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Ongoing vertical list scroll",
+      "purpose": "Shifts the narrative from hook to interactive question.",
+      "reusable_as": "Updating call-to-actions or key benefits dynamically.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Staggered Grid Reveal",
+      "approx_t": 14.0,
+      "what_moves": "A 3x5 grid of nose shape illustrations",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Presents the full taxonomy at once, prompting viewer interaction.",
+      "reusable_as": "Displaying a product catalog or feature overview at the end.",
+      "we_already_have": null,
+      "would_need_building": "StaggeredGridPopIn"
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Continuous vertical list scrolling",
+      "Staggered grid pop-in"
+    ],
+    "how_things_enter": "Elements pop in with scale and fade, or scroll vertically into view.",
+    "how_things_leave": "Elements fade out to make room for the final grid transition.",
+    "how_scenes_change": "A clean fade transition from the single-profile view to the full grid view.",
+    "what_stays_still": "The background profile image of the model remains static for most of the video.",
+    "rhythm": "Constant and steady scrolling on the right, punctuated by quick UI pops on the left."
+  },
+  "what_we_should_steal": [
+    "Continuous vertical list scroll for showcasing options",
+    "Staggered grid pop-in for clean, structured outro screens"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.5,
+      "event": "The 'Original nose' card scrolls up and out of the frame, replaced by the 'Fleshy nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Original nose, Fleshy nose"
+    },
+    {
+      "approx_t": 1.5,
+      "event": "The 'Fleshy nose' card scrolls up and out of the frame, replaced by the 'Hawk nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Fleshy nose, Hawk nose"
+    },
+    {
+      "approx_t": 2.5,
+      "event": "The 'Hawk nose' card scrolls up and out of the frame, replaced by the 'Straight nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Hawk nose, Straight nose"
+    },
+    {
+      "approx_t": 3.5,
+      "event": "The 'Straight nose' card scrolls up and out of the frame, replaced by the 'Bulbous nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Straight nose, Bulbous nose"
+    },
+    {
+      "approx_t": 4.5,
+      "event": "The 'Bulbous nose' card scrolls up and out of the frame, replaced by the 'Celestial nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Bulbous nose, Celestial nose"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "The 'Based on this study' card fades in on the left side of the screen.",
+      "element": "Study citation card",
+      "motion": "fade",
+      "content": "Based on this study: Tamir A. Numerical survey of the shapes of the human nose..."
+    },
+    {
+      "approx_t": 5.5,
+      "event": "The 'Celestial nose' card scrolls up and out of the frame, replaced by the 'Aquiline nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Celestial nose, Aquiline nose"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "The 'Based on this study' card fades out from the left side of the screen.",
+      "element": "Study citation card",
+      "motion": "fade",
+      "content": "Based on this study: Tamir A. Numerical survey of the shapes of the human nose..."
+    },
+    {
+      "approx_t": 7.5,
+      "event": "The 'Aquiline nose' card scrolls up and out of the frame, replaced by the 'Greek nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Aquiline nose, Greek nose"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "The text 'Which nose type are you?' fades in, replacing the original title.",
+      "element": "Title text on the left",
+      "motion": "fade",
+      "content": "Which nose type are you?"
+    },
+    {
+      "approx_t": 8.5,
+      "event": "The 'Greek nose' card scrolls up and out of the frame, replaced by the 'Bumpy nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Greek nose, Bumpy nose"
+    },
+    {
+      "approx_t": 9.5,
+      "event": "The 'Bumpy nose' card scrolls up and out of the frame, replaced by the 'Roman nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Bumpy nose, Roman nose"
+    },
+    {
+      "approx_t": 10.5,
+      "event": "The 'Roman nose' card scrolls up and out of the frame, replaced by the 'Flat nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Roman nose, Flat nose"
+    },
+    {
+      "approx_t": 11.5,
+      "event": "The 'Flat nose' card scrolls up and out of the frame, replaced by the 'Combo nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Flat nose, Combo nose"
+    },
+    {
+      "approx_t": 12.5,
+      "event": "The 'Combo nose' card scrolls up and out of the frame, replaced by the 'Nixon nose' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Combo nose, Nixon nose"
+    },
+    {
+      "approx_t": 13.5,
+      "event": "The 'Nixon nose' card scrolls up and out of the frame, replaced by the 'Rare variant' card.",
+      "element": "Nose type cards on the right",
+      "motion": "translate",
+      "content": "Nixon nose, Rare variant"
+    },
+    {
+      "approx_t": 14.5,
+      "event": "The screen transitions from the single card view to a full grid view of all nose types.",
+      "element": "Entire screen layout",
+      "motion": "fade",
+      "content": "Grid of all nose types"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.7-flash",
+    "degraded": true,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-10.mp4",
+    "tokens": {
+      "animation": 5021,
+      "content": 4985
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

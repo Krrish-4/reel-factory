@@ -1,0 +1,325 @@
+{
+  "format_archetype": "interactive test / evidence explainer",
+  "one_line": "An interactive test measuring lip fullness using a research-backed scale with Sydney Sweeney as the visual model.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Displays Sydney Sweeney with an overlay asking viewers to measure their lip fullness.",
+    "why_it_works": "Leverages instant self-assessment curiosity and celebrity familiarity."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 12.625,
+      "description": "Continuous portrait shot of Sydney Sweeney with dynamic text, image overlays, and a scientific paper screenshot.",
+      "layout": "Full-bleed portrait with floating UI cards",
+      "devices": [
+        "Lip scale cards",
+        "Research paper overlay",
+        "Interactive selector box"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Lip scale cards",
+      "what_it_is": "Cropped lip images labeled 1 to 5 representing fullness levels.",
+      "used_for": "Visual reference for the measurement scale."
+    },
+    {
+      "name": "Research paper overlay",
+      "what_it_is": "A screenshot of an academic paper on lip fullness grading.",
+      "used_for": "Establishing scientific credibility."
+    },
+    {
+      "name": "Interactive selector box",
+      "what_it_is": "A white square frame highlighting the subject's lips.",
+      "used_for": "Simulating an active scanning or measurement process."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "RESEARCH-BASED"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Let's measure your Lip Fullness!"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "1 - VERY THIN"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "2 - THIN"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "3 - MODERATE"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "headline",
+      "text": "Based on this study"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "citation",
+      "text": "Carruthers A, Bogle M, Donofrio L, et al. Lip fullness assessment..."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "4 - FULL"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "label",
+      "text": "5 - VERY FULL"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "headline",
+      "text": "How full are yours?"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "caption",
+      "text": "Based on this, moderate!"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "SYDNEY SWEENEY, AMERICAN ACTRESS"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Let's measure your lip fullness."
+    },
+    {
+      "approx_t": 2.0,
+      "text": "Based on this study, how full are yours?"
+    },
+    {
+      "approx_t": 8.0,
+      "text": "Based on this, moderate!"
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the lip fullness measurement concept",
+    "Present scientific backing via academic study",
+    "Prompt viewer self-assessment and engagement"
+  ],
+  "cta": {
+    "approx_t": 5.0,
+    "what": "Prompting the viewer to determine their own lip fullness level."
+  },
+  "subjects": [
+    "Sydney Sweeney (American Actress, visual model)"
+  ],
+  "what_makes_it_work": [
+    "Scientific framing builds immediate trust.",
+    "Interactive self-assessment format drives high viewer engagement.",
+    "Celebrity visual reference increases retention and appeal."
+  ],
+  "animations": [
+    {
+      "name": "Lip Scale Carousel Shift",
+      "approx_t": 0.5,
+      "what_moves": "Small lip comparison cards",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Shows progression of lip fullness scale dynamically.",
+      "reusable_as": "Step-by-step product feature comparison.",
+      "we_already_have": null,
+      "would_need_building": "Horizontal sliding card carousel with active index highlighting."
+    },
+    {
+      "name": "Research Paper Slide-In",
+      "approx_t": 2.0,
+      "what_moves": "Scientific study document image",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Lip Scale Carousel Shift",
+      "purpose": "Establishes scientific credibility by showing the source study.",
+      "reusable_as": "Introducing reference documents, reviews, or certificates.",
+      "we_already_have": "SlideIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Focus Selector Box",
+      "approx_t": 5.0,
+      "what_moves": "Square framing box over lips",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "Draws immediate visual focus to the subject's lips.",
+      "reusable_as": "Highlighting specific facial features or product details.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Result Label Pop-In",
+      "approx_t": 5.2,
+      "what_moves": "Text label '5 - VERY FULL'",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": false,
+      "layered_with": "Focus Selector Box",
+      "purpose": "Displays the measurement result clearly.",
+      "reusable_as": "Displaying badges, prices, or quick callouts.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Comparison Row Stagger",
+      "approx_t": 6.5,
+      "what_moves": "Five small lip scale cards in a row",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Presents the full scale for user self-assessment.",
+      "reusable_as": "Displaying rating stars, feature lists, or options.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Horizontal sliding card carousel",
+      "Elastic label pop-ins",
+      "Staggered grid/row reveals"
+    ],
+    "how_things_enter": "Elements slide in from the left or pop in with elastic scaling.",
+    "how_things_leave": "Fading out quietly to clear the frame.",
+    "how_scenes_change": "No hard cuts; elements transition over a static background portrait.",
+    "what_stays_still": "The main background portrait of the actress.",
+    "rhythm": "Bursty, timed with voiceover cues and key visual reveals."
+  },
+  "what_we_should_steal": [
+    "Horizontal sliding card carousel for step-by-step comparisons",
+    "Staggered row reveal for presenting multi-option scales"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Title text appears at the top of the screen",
+      "element": "Let's measure your Lip Fullness! / RESEARCH-BASED",
+      "motion": "fade",
+      "content": "RESEARCH-BASED Let's measure your Lip Fullness!"
+    },
+    {
+      "approx_t": 0.0,
+      "event": "First lip fullness card appears over the lips",
+      "element": "1 - VERY THIN card",
+      "motion": "fade",
+      "content": "1 - VERY THIN"
+    },
+    {
+      "approx_t": 0.0,
+      "event": "Second lip fullness card slides in from the right side",
+      "element": "2 - THIN card",
+      "motion": "translate",
+      "content": "2 - THIN"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "First card disappears, second card moves to center, third card slides in from right",
+      "element": "1 - VERY THIN, 2 - THIN, 3 - MODERATE cards",
+      "motion": "translate",
+      "content": "2 - THIN / 3 - MODERATE"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Second card disappears, third card moves to center, fourth card slides in from right",
+      "element": "2 - THIN, 3 - MODERATE, 4 - FULL cards",
+      "motion": "translate",
+      "content": "3 - MODERATE / 4 - FULL"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Research study text and paper screenshot slide in from the left",
+      "element": "Based on this study text and paper image",
+      "motion": "translate",
+      "content": "Based on this study / Carruthers A, Bogle M..."
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Third card disappears, fourth card moves to center, fifth card slides in from right",
+      "element": "3 - MODERATE, 4 - FULL, 5 - VERY FULL cards",
+      "motion": "translate",
+      "content": "4 - FULL / 5 - VERY FULL"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Fourth card disappears, fifth card moves to center",
+      "element": "4 - FULL, 5 - VERY FULL cards",
+      "motion": "translate",
+      "content": "5 - VERY FULL"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Research study elements and main title fade out",
+      "element": "Based on this study text, paper image, and main title",
+      "motion": "fade",
+      "content": "RESEARCH-BASED Let's measure your Lip Fullness! / Based on this study"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "New question text appears at the top",
+      "element": "How full are yours? text",
+      "motion": "fade",
+      "content": "How full are yours?"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Row of five small lip fullness scale cards appears",
+      "element": "Five small scale cards",
+      "motion": "fade",
+      "content": "1 - VERY THIN, 2 - THIN, 3 - MODERATE, 4 - FULL, 5 - VERY FULL"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Result text appears below the scale cards",
+      "element": "Based on this, moderate! text",
+      "motion": "fade",
+      "content": "Based on this, moderate!"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "All overlay text and cards fade out, leaving only the actress",
+      "element": "All text and card overlays",
+      "motion": "fade",
+      "content": "How full are yours? / Based on this, moderate! / scale cards"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.7-flash",
+    "degraded": true,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-11.mp4",
+    "tokens": {
+      "animation": 4605,
+      "content": 4331
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

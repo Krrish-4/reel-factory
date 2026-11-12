@@ -1,0 +1,102 @@
+# TEMPLATE — "celebrity feature analysis", educational explainer.
+#
+# COPY THIS FILE, fill every {{SLOT}}, delete this header block, rename to
+# docs/scripts/celeb-<subject>-<feature>.txt. Read
+# docs/scripts/README-celeb-format.md FIRST — it carries the neighbour matrix
+# that fills {{NEIGHBOUR_A}} / {{NEIGHBOUR_B}}, and the four gates that have to
+# clear before a filled copy of this may be rendered.
+#
+# THE ENGINE, AND IT IS THE SAME ONE nose.txt AND lips.txt ALREADY RUN:
+#   A feature is never read on its own. It is read against the two features
+#   next to it. Change the feature and the neighbours RE-READ without moving.
+#   The celebrity is a hook, not a new argument.
+#
+# THE SLOTS
+#   {{SUBJECT}}      the named person, in the hook and once in the CTA
+#   {{FEATURE}}      the feature being analysed
+#   {{NEIGHBOUR_A}}  what sits above/beside it and is read against it
+#   {{NEIGHBOUR_B}}  what sits below/beside it and is read against it
+#   {{MECHANISM}}    the geometric reason, in one reproducible sentence
+#   {{RANGE}}        what the Refina demo dials, e.g. "volume", "projection"
+#   {{SELF_TEST}}    a physical action that reproduces {{MECHANISM}} in 3s
+#   {{VIEWER_WORRY}} the insecurity the feature attaches to, in the viewer
+#   {{WRONG_CAUSE}}  what they think causes it, and beats 3-5 disprove
+#
+# BEAT 3 IS THE EVIDENCE SLOT, AND IT TAKES EITHER OF TWO THINGS.
+#
+#   A CITED SOURCE, if one has actually been read. Citations are allowed --
+#   reel-script/REFERENCE.md dropped the old blanket ban, 8 of 21 references
+#   run on exactly this, and kit/CitationCard is built for it. Record it above
+#   the claim and gen/check-citations.py will enforce the receipt:
+#
+#       # SOURCE: Author et al. (2021), Journal. https://doi.org/10.xxxx/yyyy
+#       In that trial, participants rated them higher.          | 0.30
+#
+#   A MECHANISM, otherwise -- and this is the default, because it is free and
+#   it is what both shipped explainers run on. One geometric sentence the
+#   viewer can reproduce on their own face, which beat 9 then has them do.
+#
+# WHAT IS BANNED IS THE SHAPE WITHOUT THE SUBSTANCE. The brief asked to "link
+# it to science"; "full lips signal fertility" is not that link, because it
+# cites nothing and is contested besides. Cite a paper or show a mechanism --
+# never imply a paper. And the check cannot tell you a source is real or says
+# what you claim: someone has to have read it.
+#
+# BEATS 8 AND 9 ARE NOT OPTIONAL. Every one of the 14 corpus explainers carries
+# a nuance that complicates its own claim, and five carry a self-test — the most
+# saveable moment in the format. reel-script/REFERENCE.md: do not cut them for
+# time. Cutting the demo beat to length is the correct trade, not cutting these.
+#
+# LENGTH IS A REQUIREMENT. 27-29 lines, 145-165 words, lands 58-62s at the
+# ~170 wpm vesta reads at. Corpus median is 55.5s; flip-v6 was REJECTED at
+# 88.1s as "long and thin". Count the words before synthesising, not after.
+#
+# Beat grouping lives in src/refina/<reel>/shots.json by LINE COUNT. A line
+# added here must be added there or beats.ts throws at module load.
+
+# -- 1. hook: the celebrity, and a question -------------------------------
+Think your {{FEATURE}} {{VIEWER_WORRY}}?                        | 0.22
+This is who you're comparing {{them}} to.                       | 0.22
+{{SUBJECT}}. And it was never about {{WRONG_CAUSE}}.            | 0.40
+
+# -- 2. claim: flat, and about the viewer's face too ----------------------
+{{FEATURE}} is not a feature you can change on its own.         | 0.22
+It's what {{NEIGHBOUR_A}} and {{NEIGHBOUR_B}} are measured from. | 0.40
+
+# -- 3. mechanism: the reproducible reason --------------------------------
+Your eye never measures a feature on its own.                   | 0.20
+It measures what's around it.                                   | 0.22
+{{MECHANISM}}                                                   | 0.40
+
+# -- 4. one: {{NEIGHBOUR_A}} re-reads -------------------------------------
+One. {{NEIGHBOUR_A}} looks different.                           | 0.22
+Nothing happened to {{NEIGHBOUR_A}}.                            | 0.22
+It's being read against a new {{FEATURE}}.                      | 0.40
+
+# -- 5. two: {{NEIGHBOUR_B}} re-reads -------------------------------------
+Two. {{NEIGHBOUR_B}} looks different too.                       | 0.22
+Measure it. It's the same.                                      | 0.40
+
+# -- 6. demo: the Refina range --------------------------------------------
+Here is that {{RANGE}}, dialled through its range.              | 0.20
+Watch {{NEIGHBOUR_A}}, not the {{FEATURE}}.                     | 0.40
+
+# -- 7. the turn: 3D ------------------------------------------------------
+Now turn it.                                                    | 0.20
+A front photograph is the one angle that hides this.            | 0.40
+
+# -- 8. nuance: complicate your own claim ---------------------------------
+More of it is not better.                                       | 0.22
+{{FEATURE}} is load-bearing, not a score.                       | 0.22
+On some faces the change is less of it.                         | 0.40
+
+# -- 9. self-test ---------------------------------------------------------
+Do it now.                                                      | 0.20
+{{SELF_TEST}}                                                   | 0.22
+Watch {{NEIGHBOUR_A}}, not the {{FEATURE}}.                     | 0.40
+
+# -- 10. the standard, then the CTA ---------------------------------------
+You're not going to get {{SUBJECT}}'s {{FEATURE}}.              | 0.20
+See it on your own face first.                                  | 0.30
+A preview, not a promise.                                       | 0.40
+Search Refina AI.                                               | 0.70

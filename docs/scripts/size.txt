@@ -1,0 +1,99 @@
+# "It Isn't the Size" — educational explainer, RefinaSize.
+#
+# THIS FILE IS THE SOURCE OF TRUTH. Edit a line, re-run gen-voiceover.py, and
+# the audio, every cue, every word frame and every beat bound move together.
+# Nothing downstream types a frame number.
+#
+# THE ARGUMENT: the same one RefinaLips makes, pointed at VOLUME rather than at
+# localisation. The lip line is what the philtrum above and the chin below are
+# both measured FROM, so moving it alone moves both readings without either
+# neighbour moving. Where "Load-Bearing" proves the edit is CONFINED to the
+# mouth, this one shows the RANGE — the same face at two lip volumes — and adds
+# the profile, because a frontal photograph is the view that hides projection.
+#
+# WHAT IT NEVER DOES: claim an outcome, cite a study, name a person, or print a
+# number about a face. The only figures are per-region pixel change between two
+# files we generated and can account for, labelled as such. Rule E.
+#
+# NO ONE IS NAMED. The draft this was cut from opened on a celebrity's name over
+# the hero's face — "This is who you're comparing them to." The hero is a real
+# private person photographed with consent, so naming her as someone else is a
+# false claim about the face in frame, and the corpus explainers open on a
+# QUESTION about the viewer, not on a person. "The mouth you're picturing" does
+# the same rhetorical work and is true.
+#
+# THE HERO IS A REAL PHOTOGRAPH, NOT A RENDER. size1-before is a consented
+# photograph of a real woman, restaged to the house portrait (flat pale
+# blue-grey sweep, black turtleneck) and repainted to stage sage by gen/sage.py.
+# Only the thin-lip variant and the profile are generated. That is the reverse
+# of every other reel here, where both halves are ours — so the pair's
+# provenance belongs in the shot plan's _evidence note, not in the reel's mouth.
+#
+# LENGTH IS A REQUIREMENT, NOT A HOPE. flip-v6 was rejected at 88.1s against a
+# corpus median of 55.5s. Written to the measured 154.5 wpm read rate this repo
+# gets from Aura-2 vesta, 158 words lands near 62s.
+#
+# THE WORDS FOLLOWED THE MEASUREMENT, TWICE. The draft read "The nose never
+# moved" and "Same chin, both photographs". Scored on this pair the nose moved
+# 10.7 and the jaw 10.3 against a 5.3 re-render floor -- least of the four
+# regions, but not zero -- so both lines claimed more than the pair can keep.
+# They are now "The nose isn't what changed" and "The chin isn't what changed
+# either", which is the same rewrite ratio.txt and lips.txt each had to make.
+# If a re-render moves those numbers, the lines move.
+#
+# CUT FOR PACE, ON RAHUL'S MARK ("I do not care if the video gets shortened").
+# Two lines went: mechanism's "It measures the gaps around it." (a restatement
+# of the line above it) and the CTA's "You will not get that mouth." (the corpus
+# CTA is one or two lines, and "a preview, not a promise" plus the compliance
+# chip already carry that honesty). Neither carries the argument. Retiming alone
+# could not go past x1.15 without the VO gate failing at 14f, so the rest of the
+# pace had to come from word count.
+#
+# Beat grouping lives in src/refina/size/shots.json, by LINE COUNT — a line
+# added here must be added there, and beats.ts throws at module load if the two
+# disagree.
+
+# -- 1. hook ---------------------------------------------------------------
+Think your lips are too thin?                                  | 0.20
+This is the mouth you're picturing.                            | 0.20
+And it was never about size.                                   | 0.28
+
+# -- 2. claim --------------------------------------------------------------
+Lips are not a feature.                                        | 0.20
+They are the line the lower face is measured from.             | 0.28
+
+# -- 3. mechanism ----------------------------------------------------------
+Your eye never measures a feature alone.                       | 0.20
+Move the lip line and every gap moves.                         | 0.28
+
+# -- 4. one: the philtrum --------------------------------------------------
+One. The gap between nose and lip.                             | 0.20
+Full lips make it short. Thin lips, long.                      | 0.20
+The nose isn't what changed.                                   | 0.28
+
+# -- 5. two: the chin ------------------------------------------------------
+Two. The chin reads stronger.                                  | 0.20
+The chin isn't what changed either.                            | 0.28
+
+# -- 6. demo ---------------------------------------------------------------
+Here is that range, on one face.                               | 0.20
+Watch the gap, not the lips.                                   | 0.28
+
+# -- 7. the turn -----------------------------------------------------------
+Now turn it.                                                   | 0.20
+A front photograph hides it.                                   | 0.28
+
+# -- 8. nuance -------------------------------------------------------------
+None of this means fuller is better.                           | 0.20
+It means lips are load-bearing.                                | 0.20
+On many faces, less is the change.                             | 0.28
+
+# -- 9. self-test ----------------------------------------------------------
+Do it now.                                                     | 0.20
+Roll your lips inward and hold.                                | 0.20
+Watch your chin arrive.                                        | 0.28
+
+# -- 10. the standard, then the CTA ----------------------------------------
+See it on your own face first.                                 | 0.22
+A preview, not a promise.                                      | 0.28
+Search Refina AI.                                              | 0.55

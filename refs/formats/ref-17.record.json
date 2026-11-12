@@ -1,0 +1,524 @@
+{
+  "label": "ref-17",
+  "archetype": "evidence explainer",
+  "one_line": "This ad explains how multiple subtle, scientifically-backed facial adjustments accumulate to create a dramatic 'glow-up' effect, promoting Qoves' custom aesthetic reports.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 72.708,
+  "measured": {
+    "pacing": {
+      "cuts": 3,
+      "cuts_per_min": 2.5,
+      "median_shot_s": 15.85,
+      "shortest_shot_s": 0.25,
+      "longest_shot_s": 40.75,
+      "frozen_pct": 62.9
+    },
+    "transitions": {
+      "count": 11,
+      "median_s": 0.75,
+      "spans_s": [
+        0.208,
+        1.042,
+        1.708,
+        1.125,
+        0.75,
+        0.25,
+        0.875,
+        0.958,
+        0.708,
+        0.75,
+        0.333
+      ]
+    },
+    "element_events": {
+      "count": 67,
+      "per_min": 55.3,
+      "median_gap_s": 0.12,
+      "frames": [
+        173,
+        176,
+        179,
+        182,
+        185,
+        188,
+        191,
+        343,
+        346,
+        349,
+        352,
+        355,
+        358,
+        361,
+        364,
+        367,
+        370,
+        373,
+        376,
+        427,
+        430,
+        433,
+        436,
+        439,
+        442,
+        445,
+        506,
+        509,
+        512,
+        521,
+        524,
+        527,
+        687,
+        690,
+        693,
+        785,
+        788,
+        791,
+        794,
+        797
+      ]
+    },
+    "continuous_motion": {
+      "spans": 15,
+      "total_s": 15.85,
+      "pct_of_runtime": 21.8,
+      "median_span_s": 0.67,
+      "longest_span_s": 3.38,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        158,
+        182,
+        190
+      ],
+      "dominant_hex": "#9EB6BE",
+      "corner_flatness": 0.66,
+      "background_drift": 14.83,
+      "flat_background": false,
+      "headline_band_frames_pct": 41.1,
+      "caption_band_frames_pct": 79.9
+    },
+    "audio": {
+      "speech_segments": 14,
+      "speech_pct": 91.9,
+      "median_phrase_s": 4.45,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 5,
+    "hard_cuts": 3,
+    "cuts_per_described_change": 0.75,
+    "pct_scene_changes_that_are_cuts": 75.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 1,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 7.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen portrait",
+      "description": "Side-by-side comparison of the original and subtly edited female face on a solid light-blue background.",
+      "devices": [
+        "side-by-side comparison",
+        "text overlays"
+      ]
+    },
+    {
+      "start_s": 7.0,
+      "start_frame": 168,
+      "end_s": 21.0,
+      "snapped_to_measured_cut": false,
+      "layout": "centered portrait with interactive hotspots",
+      "description": "Close-up of the edited face with interactive hotspots popping up to label 11 minor adjustments, complete with scientific citations.",
+      "devices": [
+        "hotspot labels",
+        "academic citations",
+        "zoom-in transitions"
+      ]
+    },
+    {
+      "start_s": 21.375,
+      "start_frame": 513,
+      "end_s": 45.0,
+      "snapped_to_measured_cut": true,
+      "layout": "portrait with floating detail cards",
+      "description": "Analysis of the original face, highlighting minor flaws (redness, acne, dry hair) in isolated zoom boxes, demonstrating how fixing one does little, but fixing all creates an 'exceptional' look.",
+      "devices": [
+        "detail zoom boxes",
+        "before/after toggle labels",
+        "text bubbles"
+      ]
+    },
+    {
+      "start_s": 45.0,
+      "start_frame": 1080,
+      "end_s": 59.0,
+      "snapped_to_measured_cut": false,
+      "layout": "animated line chart",
+      "description": "An animated line graph comparing the perceived attractiveness over time of 'one big fix' versus 'small changes adding up'.",
+      "devices": [
+        "line graph",
+        "floating avatar icons"
+      ]
+    },
+    {
+      "start_s": 59.0,
+      "start_frame": 1416,
+      "end_s": 72.7,
+      "snapped_to_measured_cut": false,
+      "layout": "scrolling document mockup",
+      "description": "A rapid scroll of non-surgical techniques leading into a multi-page mockup of a custom 'Qoves' aesthetic report, ending with a search bar CTA.",
+      "devices": [
+        "scrolling list",
+        "report mockup",
+        "animated search bar"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "Hotspot Labels",
+      "what_it_is": "Interactive text boxes pointing to specific facial features.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "Detail Zoom Boxes",
+      "what_it_is": "Cropped, high-contrast close-ups of specific skin/hair areas.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "Report Mockup",
+      "what_it_is": "A multi-page digital PDF document showing personalized facial analysis.",
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "side-by-side comparison",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "text overlays",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "academic citations",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "zoom-in transitions",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "before/after toggle labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "text bubbles",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "line graph",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "floating avatar icons",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "scrolling list",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "animated search bar",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "Attractiveness Graph",
+      "what_it_is": "A simplified 2D line graph plotting Attractiveness against Time.",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Two highly similar female faces are shown side-by-side with the text 'Can you see the differences?'",
+    "why_it_works": "It immediately engages the viewer's visual curiosity and challenges them to spot subtle details."
+  },
+  "narrative_arc": [
+    "Present a visual puzzle comparing two highly similar faces.",
+    "Reveal that the preferred face has 11 minor, scientifically-backed edits.",
+    "Explain that minor flaws seem negligible individually, but compounding them creates a massive aesthetic leap.",
+    "Debunk the myth of the 'one big fix' (like plastic surgery) using a comparative graph.",
+    "Introduce Qoves' database of non-surgical techniques and offer a personalized report as the solution."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Can you see the differences?"
+    },
+    {
+      "approx_t": 1.5,
+      "track": "caption",
+      "text": "Take a look at these two faces."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "You probably prefer this one"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "headline",
+      "text": "But can you spot the changes?"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "headline",
+      "text": "Eleven small edits"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "Bolder brows"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "citation",
+      "text": "Wegner, J. D., & Mileva, V. R. (2018). The relative contribution of eyebrows and cheekbones..."
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Thicker hair"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Higher hair shine"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Clearer sclera"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Reduced undereye circles"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "More red lip pigment"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Reduced acne"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "More even complexion"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Reduced wrinkles"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "headline",
+      "text": "Bimatoprost can thicken the brows and lashes"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "headline",
+      "text": "Brimonidine drops can improve eye brightness"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "ui",
+      "text": "There's not much for you to improve..."
+    },
+    {
+      "approx_t": 28.0,
+      "track": "label",
+      "text": "SLIGHTLY RED"
+    },
+    {
+      "approx_t": 30.0,
+      "track": "label",
+      "text": "MILD ACNE"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "label",
+      "text": "SOMEWHAT DRY"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "headline",
+      "text": "Fixing one = Doesn't change much"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "headline",
+      "text": "Fixing several = Changes your life"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "NORMAL"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "label",
+      "text": "EXCEPTIONAL"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "headline",
+      "text": "This is where people mess up"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "chart",
+      "text": "People want one big fix"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "chart",
+      "text": "Usually, the small changes add up to more"
+    },
+    {
+      "approx_t": 59.0,
+      "track": "headline",
+      "text": "1000+ Non-surgical techniques"
+    },
+    {
+      "approx_t": 62.0,
+      "track": "headline",
+      "text": "Get your custom glow-up plan"
+    },
+    {
+      "approx_t": 65.0,
+      "track": "ui",
+      "text": "Alexa's Protocol"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Take a look at these two faces. Almost everyone would agree that the version on the right is much more attractive."
+    },
+    {
+      "approx_t": 5.0,
+      "text": "But can you spot the changes? It wasn't just one thing, or two or three. It was actually eleven tiny adjustments, each supported by the facial aesthetics literature."
+    },
+    {
+      "approx_t": 14.0,
+      "text": "And this is a very realistic glow-up. All of the changes we made here can be achieved with scientifically proven, non-surgical methods."
+    },
+    {
+      "approx_t": 21.0,
+      "text": "Now, if you met a woman who looked like this, you'd probably say she's pretty and that there's not much she can change. She has no big flaws."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "Her eyes just have a tiny bit of redness, she has very mild acne, her hair is just a little dry. It's a bunch of small stuff where fixing one wouldn't change much at all."
+    },
+    {
+      "approx_t": 37.0,
+      "text": "But if you fix several small things, that can be the difference between looking like a run-of-the-mill good-looking person, and someone who could star in a film."
+    },
+    {
+      "approx_t": 45.0,
+      "text": "This is what people get wrong about glow-ups. They want the big fix, like a nose job or a new hair color, that they imagine will radically transform their look."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "But while it might not be as exciting, it's just the truth that usually it's a list of tiny adjustments between you and your best self."
+    },
+    {
+      "approx_t": 59.0,
+      "text": "The Qoves database now has over 1000 beautification techniques. So if you want us to write you that list, in the form of a bespoke glow-up plan, and show you a preview of what you would look like at your best self, click the link in bio at Qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 69.0,
+    "what": "Click the link in bio at Qoves.com to get a custom glow-up plan."
+  },
+  "subjects": [
+    "Unidentified female model (used for the before/after facial comparison)."
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Uses academic citations to establish high scientific authority.",
+    "The interactive hotspot design makes the aesthetic analysis feel objective and clinical rather than subjective.",
+    "The line graph clearly conceptualizes the value proposition of 'compounding small changes' over drastic surgeries."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "2/5"
+  }
+}

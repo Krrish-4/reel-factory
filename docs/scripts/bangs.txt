@@ -1,0 +1,45 @@
+# "Why Anne Hathaway Looks So Different With Bangs" — educational explainer, RefinaBangs.
+#
+# THIS FILE IS THE SOURCE OF TRUTH. Edit a line, re-run gen-voiceover.py, and
+# the audio, every cue, every word frame and every beat bound move together.
+#
+# THE WORDING IS RAHUL'S, VERBATIM (2026-10-29: "there will be no dialogue
+# changes"). Lines are split at sentence and clause breaks only, so the read
+# can carry its own pauses; no word was added, removed or reordered.
+#
+# THE HERO IS ANNE HATHAWAY, NAMED. Raised before synthesis -- naming a
+# celebrity over a face that is not hers is the RefinaSize false claim, and her
+# face on a Refina sales reel is an implied endorsement. Rahul confirmed the
+# hero image IS her and that commercial rights are held. Her two looks are the
+# client's real photographs, restaged to the house portrait by image edit (see
+# the BANGS block in gen/subjects.toml) and labelled on screen as edited
+# photographs. Only women B and C, in the lesson beat, are generated.
+#
+# "Bangs or no bangs?" carries the long pause: the brief asks for a moment to
+# reconsider, and it is the last line of its beat so --group keeps it.
+
+Which Anne Hathaway look do you prefer?                          | 0.20
+With bangs, or without?                                          | 0.40
+
+Look at the space between her hairline and her eyebrows.         | 0.20
+Without bangs, you see the full upper third of her face.         | 0.30
+
+Add a fringe, and part of that space disappears.                 | 0.20
+Her actual bone structure hasn't changed.                        | 0.20
+But the proportions you perceive have.                           | 0.30
+
+And there's something else.                                      | 0.20
+The fringe frames her eyes, shifting where your attention naturally goes. | 0.30
+
+That's why the same haircut can look completely different on two people. | 0.20
+It's not just the hair.                                          | 0.20
+It's the relationship between the forehead, eyes, brows, and the rest of the face. | 0.30
+
+Now look at Anne again.                                          | 0.20
+Bangs or no bangs?                                               | 1.40
+
+And if you've ever wondered what would suit your own face,       | 0.15
+Refina's Facial Dossier maps how your features work together,    | 0.15
+then shows you personalized recommendations and previews before you change a thing. | 0.30
+
+Understand your face with Refina AI.                             | 0.60

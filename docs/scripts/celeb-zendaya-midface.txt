@@ -1,0 +1,76 @@
+# "One Bone" — celebrity feature analysis, subject Zendaya.
+# Filled from docs/scripts/_celeb-template.txt. Read README-celeb-format.md.
+#
+# SLOTS: SUBJECT=Zendaya · FEATURE=cheekbones · NEIGHBOUR_A=the eyes ·
+# NEIGHBOUR_B=the jaw · RANGE=projection · MECHANISM=a face is read as a taper
+# from its widest point down to the chin, so moving the widest point up
+# re-reads both the eyes above it and the jaw below it.
+#
+# THIS IS THE SECOND ENGINE DIRECTION AND IT IS WHY THIS EXAMPLE EXISTS.
+# nose.txt argues MISATTRIBUTION (the change was nowhere near the feature the
+# viewer named). lips.txt argues CONFINEMENT (the change is provably only in
+# the feature, and everything else re-reads). This one is confinement again,
+# on a region nothing in the repo has generated yet, so it is the example that
+# proves the template survives a new feature rather than re-skinning a built one.
+#
+# THE PROOF BEAT NEEDS A MEASUREMENT WE DO NOT HAVE. lips/nose both put a real
+# per-region figure on screen from gen/score.py. There is no midface pair in
+# public/portraits/registry.json, so beat 6 cannot claim a number until one is
+# generated and scored. Until then beat 6 shows the RANGE and no figure — a
+# missing number is honest, an invented one is rule E. See gate 3.
+#
+# NO STUDY IS CITED HERE, BUT ONE MAY BE -- citations are allowed with a
+# recorded source (see reel-script/REFERENCE.md, gen/check-citations.py). What
+# stays banned is "high cheekbones read as youth/health" with nothing behind it.
+# Beat 3 is geometry until a paper has been read; beat 9 lets the viewer
+# reproduce it with two fingers.
+#
+# 27 lines. Run docs/scripts/wordcount.py for the length gate. Beat grouping
+# goes in src/refina/<reel>/shots.json by line count.
+
+# -- 1. hook ---------------------------------------------------------------
+You've saved a photograph like this one.                       | 0.22
+Zendaya. You called it structure.                              | 0.22
+And it isn't doing what you think.                             | 0.40
+
+# -- 2. claim --------------------------------------------------------------
+Cheekbones don't make a face look thin.                        | 0.22
+They make a jaw look narrow.                                   | 0.40
+
+# -- 3. mechanism ----------------------------------------------------------
+Your eye reads a face as a taper.                              | 0.20
+Widest at the top, narrowest at the chin.                      | 0.22
+Move that point and the face reorganises.                      | 0.40
+
+# -- 4. one: the eyes ------------------------------------------------------
+One. The eyes look more set.                                   | 0.22
+Nothing happened to the eyes.                                  | 0.22
+They gained a shelf underneath.                                | 0.40
+
+# -- 5. two: the jaw -------------------------------------------------------
+Two. The jaw looks narrower.                                   | 0.22
+Measure it. It's the same width.                               | 0.40
+
+# -- 6. demo ---------------------------------------------------------------
+Here is that shelf, dialled.                                   | 0.20
+Watch the eyes, not the cheek.                                 | 0.40
+
+# -- 7. the turn -----------------------------------------------------------
+Now turn it.                                                   | 0.20
+Projection is what a front photo hides.                        | 0.40
+
+# -- 8. nuance -------------------------------------------------------------
+Higher is not better.                                          | 0.22
+A soft midface is what reads young.                            | 0.22
+This is a trade, not an upgrade.                               | 0.40
+
+# -- 9. self-test ----------------------------------------------------------
+Do it now.                                                     | 0.20
+Two fingers under the cheekbone. Lift.                         | 0.22
+Watch your eyes, not your cheek.                               | 0.40
+
+# -- 10. the standard, then the CTA ----------------------------------------
+You will not get her bones.                                    | 0.20
+See it on your own face first.                                 | 0.30
+A preview, not a promise.                                      | 0.40
+Search Refina AI.                                              | 0.70

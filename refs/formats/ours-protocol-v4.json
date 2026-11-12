@@ -1,0 +1,118 @@
+{
+  "label": "ours-protocol-v4",
+  "source": "out/refina-protocol-v4.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 77.653,
+  "pacing": {
+    "cuts": 7,
+    "cuts_per_min": 5.4,
+    "median_shot_s": 7.1,
+    "shortest_shot_s": 2.63,
+    "longest_shot_s": 20.73,
+    "frozen_pct": 85.1
+  },
+  "element_events": {
+    "count": 33,
+    "per_min": 25.5,
+    "median_gap_s": 0.55,
+    "frames": [
+      352,
+      355,
+      521,
+      524,
+      527,
+      744,
+      816,
+      916,
+      919,
+      922,
+      1081,
+      1236,
+      1339,
+      1352,
+      1355,
+      1358,
+      1452,
+      1594,
+      1598,
+      1680,
+      1840,
+      1843,
+      1846,
+      1967,
+      1970,
+      1973,
+      2147,
+      2171,
+      2191,
+      2251,
+      2261,
+      2271,
+      2282
+    ]
+  },
+  "continuous_motion": {
+    "spans": 14,
+    "total_s": 7.87,
+    "pct_of_runtime": 10.1,
+    "median_span_s": 0.37,
+    "longest_span_s": 2.1,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 13,
+    "median_s": 0.23,
+    "spans_s": [
+      0.367,
+      0.333,
+      0.167,
+      0.167,
+      1.233,
+      0.133,
+      0.367,
+      0.267,
+      0.4,
+      0.133,
+      0.133,
+      0.233,
+      0.133
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      161,
+      180,
+      185
+    ],
+    "dominant_hex": "#A1B4B9",
+    "corner_flatness": 0.0,
+    "background_drift": 14.94,
+    "flat_background": false,
+    "headline_band_frames_pct": 91.3,
+    "caption_band_frames_pct": 73.0
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 39.9,
+    "approx_any_face_frames_pct": 61.6,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 35,
+    "speech_pct": 85.3,
+    "median_phrase_s": 1.89,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    520,
+    663,
+    1080,
+    1217,
+    1839,
+    1966,
+    2045
+  ]
+}

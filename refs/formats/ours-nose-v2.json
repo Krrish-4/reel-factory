@@ -1,0 +1,71 @@
+{
+  "label": "ours-nose-v2",
+  "source": "out/refina-nose-v2.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 50.645,
+  "pacing": {
+    "cuts": 3,
+    "cuts_per_min": 3.6,
+    "median_shot_s": 8.8,
+    "shortest_shot_s": 4.57,
+    "longest_shot_s": 28.43,
+    "frozen_pct": 93.1
+  },
+  "element_events": {
+    "count": 4,
+    "per_min": 4.7,
+    "median_gap_s": 7.1,
+    "frames": [
+      199,
+      891,
+      1076,
+      1289
+    ]
+  },
+  "continuous_motion": {
+    "spans": 2,
+    "total_s": 1.56,
+    "pct_of_runtime": 3.1,
+    "median_span_s": 0.78,
+    "longest_span_s": 1.03,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 0,
+    "median_s": null,
+    "spans_s": []
+  },
+  "treatment": {
+    "dominant_rgb": [
+      161,
+      180,
+      185
+    ],
+    "dominant_hex": "#A1B4B9",
+    "corner_flatness": 0.0,
+    "background_drift": 0.37,
+    "flat_background": true,
+    "headline_band_frames_pct": 40.8,
+    "caption_band_frames_pct": 92.2
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 51.8,
+    "approx_any_face_frames_pct": 66.4,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 38,
+    "speech_pct": 68.5,
+    "median_phrase_s": 0.79,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    329,
+    466,
+    665
+  ]
+}

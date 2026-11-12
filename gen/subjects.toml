@@ -1,0 +1,481 @@
+# Casting + procedure briefs for new before/after pairs.
+#
+# The before and after are ONE casting decision, not two prompts. The before
+# casts a woman who visibly NEEDS the procedure; the after says she has HAD it,
+# strongly. The 2026-08-25 batch failed partly because neither was true: the
+# subject needed nothing and every prompt asked for something "subtle", so the
+# only thing left to measure was resample noise.
+
+model   = "nano-pro"
+aspect  = "3:4"
+upscale = "2k"
+variants = 2          # candidate 'before' portraits per subject (1-4)
+out     = "gen/out"
+
+[base]
+# Verified on hero3 - do not restyle. THE FLAT BACKDROP IS LOAD-BEARING:
+# align_core.metrics() finds the subject by sampling the frame corners, so a
+# textured or graded backdrop silently breaks alignment AND scoring.
+# The black turtleneck is why neck lifts are not in this file: the neck is
+# covered, so the procedure would be invisible and unmeasurable.
+portrait = """Photorealistic studio portrait photograph of a beautiful {describe} woman {need}. \
+Head and shoulders, facing the camera straight on, neutral relaxed expression, mouth closed, \
+eyes open looking directly at the lens. Hair tied back off the face. Plain black turtleneck. \
+Flat even softbox lighting, no shadows on the background. Plain seamless pale blue-grey studio \
+backdrop, completely uniform, no texture, no vignette, no gradient. Sharp focus, natural \
+unretouched skin with real pores and fine lines. Shot on 85mm lens. No text, no jewellery, \
+no makeup."""
+
+[after]
+# Short and direct. The anti-filter sentence is the important one: it names the
+# exact measured failure (a global beautification instead of a regional edit).
+# Do not pad this with a list of things not to touch -- the long "do not alter
+# the eyes, eyebrows, mouth, hairline..." variant scored second-worst.
+template = """Give her a realistic and strong {done}. Leave everything else exactly the same \
+and unchanged. It is very important that it actually looks like the actual cosmetic procedure \
+and not a filter or FaceTune. Same woman, same camera angle, same framing, same lighting, \
+same plain backdrop."""
+
+
+[[subjects]]
+id       = "rhino1"
+describe = "early 30s Middle Eastern"
+need     = "with a noticeably big nose - a prominent dorsal hump and a wide, slightly drooping tip"
+
+  [[subjects.afters]]
+  id     = "rhinoplasty"
+  target = "nose"
+  done   = "nose job - her nose is significantly smaller, the dorsal hump removed and the tip refined and lifted"
+
+
+[[subjects]]
+id       = "lift1"
+describe = "late 50s White"
+need     = "who clearly is in need of a facelift - pronounced jowls breaking the jawline, loose midface skin and deep nasolabial folds"
+
+  [[subjects.afters]]
+  id     = "facelift"
+  target = "jaw"
+  done   = "facelift - the jowls are gone, the jawline is clean and defined and the midface is lifted"
+
+
+[[subjects]]
+id       = "bleph1"
+describe = "early 60s Black"
+need     = "who clearly is in need of an upper and lower blepharoplasty - heavy hooded upper eyelids resting on the lashes and puffy under-eye bags"
+
+  [[subjects.afters]]
+  id     = "blepharoplasty"
+  target = "eyes"
+  done   = "upper and lower blepharoplasty - the hooding is removed so the upper lid shows clearly, and the under-eye bags are gone"
+
+
+# Two afters off ONE before. CLAUDE.md records that SwapScene's `afterAlt` is
+# absent, which is why the rail selection deliberately does not move - labelling
+# "Upper Blepharoplasty" over a facelift render would mislabel it. This is that
+# missing asset: same face, same frame, two honestly-labelled procedures.
+[[subjects]]
+id       = "swap1"
+describe = "mid 50s Latina"
+need     = "who clearly is in need of both a facelift and an upper and lower blepharoplasty - jowls breaking the jawline, heavy hooded upper eyelids and puffy under-eye bags"
+
+  [[subjects.afters]]
+  id     = "facelift"
+  target = "jaw"
+  done   = "facelift - the jowls are gone and the jawline is clean and defined. Her eyes are NOT touched: the upper lid hooding and under-eye bags stay exactly as they are"
+
+  [[subjects.afters]]
+  id     = "blepharoplasty"
+  target = "eyes"
+  done   = "upper and lower blepharoplasty - the hooding is removed so the upper lid shows clearly and the under-eye bags are gone. Her jawline is NOT touched: the jowls stay exactly as they are"
+
+
+# ── "Same Nose" (RefinaRatioReel) ────────────────────────────────────────────
+# This reel's argument is that the eye reads a face in RATIOS, not parts, so the
+# proof is a pair whose change is provably nowhere near the feature the viewer
+# will point at. `score.py`'s concentration axis is not just a screen here — it
+# is the reel's evidence, and the proof beat puts the measurement on screen.
+#
+# FIRST ATTEMPT FAILED AND WHY (run subjects-20260829-164114):
+#   chin  eyes=15.0 nose=9.0 jaw=12.0  conc=0.80 drift=4.0 tex=0.96  -> too weak
+# Drift 4.0 and texture 0.96 say the model behaved perfectly — it changed almost
+# nothing else. It just did not change the CHIN either, because the casting gave
+# it nothing to work with: a mildly recessed chin, described in one subordinate
+# clause, on a face the base prompt has already called beautiful. This is the
+# exact failure gen/README calls the casting fix, arrived at from the other side
+# — the 2026-08-25 batch asked for a "subtle" change, and this one asked for a
+# real change on a subject who did not need one. Frontally, chin projection is
+# also the least visible axis there is, so the ask has to buy LENGTH and WIDTH
+# in the lower third, not just projection, or nothing survives the camera.
+
+[[subjects]]
+id       = "ratio1"
+describe = "early 30s White"
+need     = "whose chin is severely underdeveloped and recessed - the chin is tiny and slopes sharply backwards from her lower lip, the lower third of her face is strikingly short and undersized, there is no jawline definition at all, and against that missing chin her perfectly straight nose looks far too large for her face"
+
+  [[subjects.afters]]
+  id     = "chin"
+  target = "jaw"
+  done   = "chin augmentation - her chin is dramatically bigger, longer and squarer and projects clearly forward past her lower lip, the whole lower third of her face is visibly longer and fuller, and the jawline is defined all the way to the ear. This is a large, obvious, unmistakable change to the chin and jaw. Her nose is NOT touched: its size, shape, width, length and projection stay exactly as they are, pixel for pixel"
+
+
+# ── "You've Never Seen Your Own Face" (RefinaMirrorFace) ─────────────────────
+# THIS SUBJECT HAS NO `afters`, AND THAT IS THE POINT. The reel's "after" is a
+# horizontal flip and two self-chimeras, computed by `gen/asym.py` from this one
+# master. Nothing about the second picture is generated, so there is no
+# localisation question to screen for and `score.py` does not apply — the pair
+# is exact by construction, which is why this reel can put its measurement on
+# screen without making a claim about a person (rule E).
+#
+# Casting is still the whole ballgame. `gen/asym.py --scan` measured every
+# portrait already in the registry and the strongest read p90 32 (bleph1-before)
+# with the chimeras looking like the same woman twice — the argument needs a
+# face where "left half doubled" and "right half doubled" are visibly two
+# different people, or the hook does not land. So the brief asks for strong,
+# obvious asymmetry, in the four places a viewer can actually name.
+#
+# The anti-failure sentence names what this model family will otherwise do:
+# quietly return a symmetric face (the ratio1 failure — the ask was in a
+# subordinate clause and nothing happened), or overshoot into a warped, melted
+# AI face that reads as a glitch rather than as a person.
+
+[[subjects]]
+id       = "asym1"
+describe = "late 20s White"
+need     = "whose face is strikingly and obviously asymmetric - her left eyebrow sits clearly higher and at a different angle from her right, her nose is visibly bent and deviates to one side rather than running straight down the midline, her chin and jaw are set noticeably off centre so her whole lower face is shifted to one side, and one eye is smaller and sits lower than the other. This asymmetry is strong, immediately obvious and the first thing you notice about her. It is very important that she still looks like a real healthy woman photographed straight on with a normal symmetrical camera - not warped, not melted, not distorted, not a glitch, and not a face that has been mirrored"
+
+
+# ── "..." (RefinaLips) ───────────────────────────────────────────────────────
+# The argument is that the lips are not a part you can change in isolation: they
+# set the lower third against the nose and chin, so moving them re-reads the
+# whole face. The proof beat therefore needs a pair whose change is LARGE inside
+# the lips box and quiet everywhere else — the inverse of ratio1, where the
+# point was that the change landed nowhere near the feature people named.
+#
+# DIRECTION. The before is cast thin and the after is the augmentation. Cast the
+# other way round there is nothing to change, which is the documented casting
+# failure (ratio1's first attempt scored 12 against a threshold of 25).
+#
+# NO LIPSTICK, AND THIS IS LOAD-BEARING, NOT STYLING. `region_score` measures
+# absolute pixel difference; lip colour or gloss would move that number hard
+# without a single millimetre of anatomical change, so a tinted render would
+# PASS the screen having done nothing the reel claims. The base portrait already
+# says "no makeup"; the after has to repeat it or the model reaches for it
+# unprompted every time it is asked for fuller lips.
+#
+# `lips` is also a NOISY box: bleph1's blepharoplasty — no lip work at all —
+# scores 26.7 there, over the 25.0 strength floor, purely from re-render. So
+# strength alone cannot screen this one. Concentration is the real gate and it
+# wants to land well clear of the 1.20 minimum.
+
+[[subjects]]
+id       = "lips1"
+describe = "early 20s White, fair-skinned and blonde"
+need     = "whose lips are strikingly thin and flat - there is barely any vermilion showing on either lip, the upper lip is almost a straight line with no cupid's bow at all, the philtrum above it is unusually long and flat, and against those thin lips the lower third of her face reads long and empty"
+
+  [[subjects.afters]]
+  id     = "lipaug"
+  target = "lips"
+  done   = "lip augmentation - her lips are dramatically fuller and larger, both the upper and lower vermilion are much taller and rolled outwards, there is a clearly defined cupid's bow, and the philtrum above is visibly shorter. This is a large, obvious, unmistakable change to the lips. Her nose, chin, jawline, eyes and eyebrows are NOT touched: their size, shape and position stay exactly as they are, pixel for pixel. She is wearing NO lipstick, NO gloss and NO makeup of any kind - her lips are exactly the same colour and finish as before, only their shape and size change"
+
+
+# The SECOND SUBJECT for RefinaLips, beat 5. Deliberately a different age and
+# ethnicity from lips1: the beat's line is "another face, same edit", and two
+# fair blonde women in their twenties would not carry it. Same brief otherwise,
+# including the lipstick ban — a tinted render would move `region_score` hard
+# with no anatomical change and PASS the screen having done nothing.
+[[subjects]]
+id       = "lips2"
+describe = "late 30s East Asian"
+need     = "whose lips are strikingly thin and flat - barely any vermilion showing on either lip, the upper lip almost a straight line with no cupid's bow, and the whole lower third of her face reads long and empty against them"
+
+  [[subjects.afters]]
+  id     = "lipaug"
+  target = "lips"
+  done   = "lip augmentation - her lips are dramatically fuller and larger, both the upper and lower vermilion are much taller and rolled outwards, there is a clearly defined cupid's bow, and the philtrum above is visibly shorter. This is a large, obvious, unmistakable change to the lips. Her nose, chin, jawline, eyes and eyebrows are NOT touched: their size, shape and position stay exactly as they are, pixel for pixel. She is wearing NO lipstick, NO gloss and NO makeup of any kind - her lips are exactly the same colour and finish as before, only their shape and size change"
+
+
+# ── "It Wasn't the Nose" (RefinaNose) ────────────────────────────────────────
+# Same argument as ratio1 and a HARDER casting, because this reel's hook line is
+# "Think your nose is too big?" and the picture has to answer it. ratio1 was cast
+# on the chin alone — "against that missing chin her perfectly straight nose
+# looks far too large" was a subordinate clause about a nose the model then drew
+# as unremarkable. It scored jaw 44.0 / nose 9.7 / conc 2.36, which is a good
+# PAIR, but the before does not read as a woman who would book a rhinoplasty, so
+# the hook has nothing to point at. Cast the nose explicitly this time.
+#
+# WHAT THE ratio1 AFTER ACTUALLY DELIVERED, measured on the aligned pair:
+#   face height   1070 -> 1059 px   (SHORTER)
+#   nose base to chin bottom  375 -> 375 px   (unchanged)
+#   lower-face width @0.75    572 -> 628 px   (+9.8%)
+# The brief asked for "bigger, longer and squarer and projects clearly forward"
+# and "the whole lower third visibly longer"; the model delivered WIDTH and
+# nothing else. Frontally that is the axis that survives the camera anyway, so
+# the after brief now asks for width and definition FIRST and treats length and
+# projection as secondary — asking for the invisible axis first is what produced
+# a brief the render could satisfy without the picture changing.
+#
+# THE NOSE CLAUSE IS THE LOAD-BEARING ONE. Shown a face cast around a large
+# nose, this model family's instinct is to fix it — that is the documented
+# global-beautification failure, and here it would destroy the entire argument:
+# a reel that says "her nose never changed" over a render that quietly slimmed
+# it is rule E in its purest form. So the ban is explicit, repeated, and names
+# the specific edits (smaller, straighter, narrower) rather than trusting
+# "unchanged" to carry it.
+
+[[subjects]]
+id       = "nose1"
+describe = "early 30s White"
+need     = "with a large, prominent nose that is the first thing you notice about her - it is long and wide with a clear dorsal hump and a broad, heavy tip - and beneath it a severely underdeveloped chin that is tiny and slopes sharply backwards from her lower lip, so the lower third of her face is strikingly short, narrow and undersized with no jawline definition at all. Her nose looks far too big for her face precisely because there is nothing underneath it to balance it"
+
+  [[subjects.afters]]
+  id     = "chin"
+  target = "jaw"
+  done   = "chin and jaw augmentation - her lower face is dramatically wider and fuller, the chin is much broader and squarer, and the jawline is sharply defined all the way back to the ear so the lower third of her face is visibly bigger and stronger. The chin also projects forward past her lower lip and the lower third is longer. This is a large, obvious, unmistakable change to the chin and jaw. Her nose is NOT touched at all - its size, shape, width, length, projection and the dorsal hump on the bridge stay exactly as they are, pixel for pixel. Do NOT make her nose smaller, do NOT make it narrower, do NOT straighten the hump, do NOT refine or lift the tip. The nose must be identical"
+
+
+# bleph2 -- ADDED as the end-to-end test of the migrated-host generation path
+# (gflow's labs.google driver died when Google moved this account to
+# flow.google.com; see gen/README.md). Procedure chosen for MEASURABILITY:
+# `eyes` is the one region whose box in align_core.REGIONS is written for this
+# exact operation -- "brow-line down past the under-eye bags" -- so an upper and
+# lower blepharoplasty moves the target region and almost nothing else.
+# Frontally it is also the opposite of the ratio1 problem: chin projection is
+# the least visible axis on a straight-on portrait, hooding and lower-lid bags
+# are among the most.
+#
+# DISTINCT FROM bleph1, who is early 60s Black. Same procedure, different
+# casting, so the pair tests the prompt templates rather than re-running a
+# subject that already has a measured result.
+#
+# The need clause names dermatochalasis severity in visible terms -- lid skin
+# resting ON the lashes, hidden lid platform, deep tear troughs -- because the
+# 2026-08-25 batch failed on subjects who needed nothing, and a subject who does
+# not need the procedure cannot be given a legible one.
+
+[[subjects]]
+id       = "bleph2"
+describe = "late 60s White"
+need     = "who clearly is in need of an upper and lower blepharoplasty - her upper eyelid skin is so heavy and redundant that it hangs down and rests directly on her lashes, completely hiding the lid platform and crowding the eye into a narrow slit, and beneath each eye sit large pronounced puffy fat pads and deep dark tear troughs. Her eyes look permanently tired and hooded, and this is the first thing you notice about her face"
+
+  [[subjects.afters]]
+  id     = "blepharoplasty"
+  target = "eyes"
+  done   = "upper and lower blepharoplasty - the heavy hooding is gone so the upper lid platform is fully visible above the lash line and the eye is open and much larger, and the puffy under-eye fat pads and tear troughs are gone so the lower lid is smooth and flat. This is a large, obvious, unmistakable change around the eyes. Nothing else about her face is touched - her nose, her mouth and lips, her jawline and chin, her cheeks, her hairline and her skin texture and wrinkles everywhere else stay exactly as they are. Do NOT slim her nose, do NOT plump her lips, do NOT tighten her jaw, do NOT smooth the rest of her skin"
+
+
+# ---------------------------------------------------------------- size1
+# RefinaSize, "It Isn't the Size". THIS SUBJECT IS INVERTED AND ITS `before`
+# IS NOT GENERATED. size1-before is a consented photograph of a real woman,
+# restaged to the house portrait and repainted by gen/sage.py -- so `describe`
+# and `need` below are a RECORD of who is in that file, not a prompt that was
+# ever submitted. flow-prompts.py will still render a before prompt from them;
+# ignore it, and drive the after i2i off the real photograph instead.
+#
+# THE EDIT RUNS THE OTHER WAY. Every other lips entry here generates a thin
+# subject and augments her. This hero already has the full mouth the script
+# calls "the mouth you're picturing", so the generated half is the THIN end of
+# the range and the pair reads (thin -> full) on screen. The lipstick ban is
+# copied verbatim and is load-bearing for the same reason it is on lips1:
+# region_score measures absolute pixel difference, so a colour or gloss change
+# moves the number hard with no anatomical change and would PASS the screen
+# having done nothing the reel claims.
+[[subjects]]
+id       = "size1"
+describe = "late 20s White, fair-skinned and blonde"
+need     = "whose lips are full and well defined, with a clear cupid's bow and a short philtrum, against a strong chin and a balanced lower third"
+
+  [[subjects.afters]]
+  id     = "lipred"
+  target = "lips"
+  done   = "lip reduction - her lips are now STRIKINGLY THIN AND FLAT, with barely any vermilion showing on either lip. The upper lip is almost a straight line with no cupid's bow at all, and the lower lip is thin and flat rather than full or rolled. Because the lips are so much shorter, the philtrum - the gap of skin between the base of the nose and the top lip - is markedly LONGER. This is an extreme, dramatic, unmistakable change and the lips should look like a completely different mouth. Her nose, chin, jawline, eyes, eyebrows, hair and skin texture are NOT touched: their size, shape, position and detail stay exactly as they are, pixel for pixel - do not re-render, smooth, sharpen or beautify any part of her face except the lips. She is wearing NO lipstick, NO gloss and NO makeup of any kind - her lips are exactly the same colour and finish as before, only their shape and size change"
+
+
+# ---------------------------------------------------------------- ANGLES
+# Added 2026-09-09. A turntable of ONE subject, generated i2i off her own
+# frontal render so identity is anchored to a file rather than to a
+# description. Every clause that holds the studio setup constant is repeated
+# here because the model drifts the backdrop and wardrobe the moment the
+# camera moves -- and a set whose backdrop shifts between angles cannot be
+# cut against itself.
+#
+# The frontal `before` is NOT in this list: it already exists and is what the
+# angles are generated from.
+
+[angles]
+template = """Same woman, exactly the same person and face, unchanged. {view} \
+Keep everything else identical: same hair tied back off the face, same plain black turtleneck, \
+same flat even softbox lighting with no shadows on the background, same plain seamless pale \
+blue-grey studio backdrop, completely uniform, no texture, no vignette, no gradient. Same neutral \
+relaxed expression, mouth closed. Sharp focus, natural unretouched skin with real pores and fine \
+lines, shot on 85mm lens. Head and shoulders. No text, no jewellery, no makeup."""
+
+  [[angles.views]]
+  id   = "three-quarter-left"
+  view = "Turn her head 45 degrees to her left so we see a three-quarter view of her face, eyes still toward the camera."
+
+  [[angles.views]]
+  id   = "three-quarter-right"
+  view = "Turn her head 45 degrees to her right so we see a three-quarter view of her face, eyes still toward the camera."
+
+  [[angles.views]]
+  id   = "profile-left"
+  view = "Turn her head a full 90 degrees to her left so we see a clean side profile, looking straight ahead, the whole outline of her nose, lips and chin visible against the backdrop."
+
+  [[angles.views]]
+  id   = "profile-right"
+  view = "Turn her head a full 90 degrees to her right so we see a clean side profile, looking straight ahead, the whole outline of her nose, lips and chin visible against the backdrop."
+
+  [[angles.views]]
+  id   = "chin-up"
+  view = "Tilt her head back so the camera looks slightly up at her from below the chin, showing the base of the nose and the underside of the jaw, still facing the camera."
+
+  [[angles.views]]
+  id   = "chin-down"
+  view = "Tilt her head down so the camera looks slightly down at her from above, showing the top of the nose and the brow, eyes raised toward the camera."
+
+
+# rhino2 -- cast for the 8-image turntable test (before + after + 6 angles).
+# NOSE, deliberately: it is the procedure whose result is least visible on a
+# frontal pair (rhino1's whole failure mode) and most visible in profile, so a
+# turntable is worth generating for it in a way it would not be for a chin.
+# The need clause buys a hump, width AND a drooping tip -- three separate
+# things the camera can see from three different angles.
+
+[[subjects]]
+id       = "rhino2"
+describe = "late 20s Southern European"
+need     = "with a large, strikingly prominent nose that dominates her face - it is long and noticeably wide across the bridge, with a big sharp bony dorsal hump halfway down that is unmistakable from the side, and a heavy bulbous tip that droops downward toward her lip. Her nose is by far the first thing anyone notices about her, and the rest of her features are small and delicate by comparison"
+
+  [[subjects.afters]]
+  id     = "rhinoplasty"
+  target = "nose"
+  done   = "nose job - her nose is dramatically smaller and narrower, the bony dorsal hump on the bridge is completely removed so the profile is straight, and the drooping bulbous tip is refined, lifted and rotated up. This is a large, obvious, unmistakable change to the nose. Everything else about her face is untouched - her eyes, brows, mouth and lips, her cheeks, her jawline and chin, her hairline, and her skin texture everywhere else stay exactly as they are. Do NOT change her eyes, do NOT plump her lips, do NOT slim her jaw, do NOT smooth her skin"
+
+
+# trio1 -- "One Face, Three Impressions" (RefinaTrio). ONE before, TWO afters,
+# and the afters are deliberately DIFFERENT KINDS of change: the facelift is
+# structural and must leave the features alone; the refinement edits the six
+# features the script walks through (brows, eyes, nose, lips, skin, hair) and
+# must leave the jawline alone. If either leaks into the other's territory the
+# three-way reveal stops being a comparison of two different ideas.
+# Cast with BOTH needs visible, per the casting fix: clear jowls for the lift,
+# and features with real room to refine (sparse flat brows, mildly hooded eyes,
+# a slightly wide tip, thin lips, dull uneven skin, thin flat hair).
+[[subjects]]
+id       = "trio1"
+describe = "early 50s White"
+need     = "who clearly is in need of a facelift - visible jowls breaking her jawline, softened lower-face contours and loose skin under the chin line - and whose individual features are plain and unrefined: thin sparse flat eyebrows, slightly hooded tired eyes, a nose with a somewhat wide rounded tip, thin flat lips, dull uneven skin tone with some redness, and thin flat dull hair"
+
+  [[subjects.afters]]
+  id     = "facelift"
+  target = "jaw"
+  done   = "facelift - the jowls are gone, the jawline is clean, tight and sharply defined and the lower face is visibly lifted. This is a structural change to the contours of the lower face only. Her eyebrows, eyes, nose, lips, skin texture and hair are NOT touched and stay exactly as they are"
+
+  [[subjects.afters]]
+  id     = "refine"
+  target = "eyes"
+  done   = "set of feature refinements - fuller, groomed, gently arched eyebrows; more open, brighter eyes with the hooding lifted; a slimmer, more refined nose tip; fuller, more defined lips with a clear cupid's bow; smoother, clearer, even-toned healthy skin; and fuller, glossier, healthier hair with a few soft strands framing her face. Her jawline and lower-face contour are NOT touched: the jowls stay exactly as they are, so this is a change to her features, not to the structure of her face"
+
+  # facelift v1 scored jaw 26.3 / conc 1.39 (PASS) but read as almost nothing by
+  # eye, AND smoothed her skin -- leaking into the refinement's territory. v2
+  # asks for a large change and pins skin texture explicitly.
+  [[subjects.afters]]
+  id     = "facelift2"
+  target = "jaw"
+  done   = "deep-plane facelift and neck lift - this is a large, obvious, unmistakable change: the jowls are completely gone, the jawline is now a clean, sharp, tight straight line from chin to ear, the soft fullness under the jawline and chin is gone so the jaw clearly separates from the neck, the marionette area is smooth and the cheeks sit higher. Only the contours of her lower face change. Her skin texture, pores, redness and fine lines stay exactly as they are - do NOT smooth or retouch her skin. Her eyebrows, eyes, nose, lips and hair are NOT touched"
+
+  # refine v1 (2026-10-23): eyes 32 / nose 38 / lips 33 / JAW 113 -> FAIL. By eye
+  # only the brows moved, and the face narrowed (it slimmed the jaw it was told to
+  # leave). v2 asks for each feature change to be obvious and pins the outline.
+  [[subjects.afters]]
+  id     = "refine2"
+  target = "eyes"
+  done   = "full set of strong, clearly visible feature refinements, as a top aesthetic clinic and stylist would do in one day: thick, groomed, beautifully arched defined eyebrows; noticeably more open, brighter, lifted eyes with the upper-lid hooding removed and fuller dark lashes; a visibly slimmer nose bridge and a refined, lifted, narrower nose tip; clearly fuller, plumper, well-defined lips with a crisp cupid's bow and natural rosy colour; smooth, clear, glowing even-toned skin with the redness and blotches gone; and thick, glossy, voluminous healthy hair with soft face-framing strands loose around her temples and cheeks. Each of these six changes must be obvious at a glance. The OUTLINE of her face does NOT change at all: same jowls, same jawline, same chin, same face width, same head position and size in the frame"
+
+
+# ---------------------------------------------------------------- BANGS
+# RefinaBangs (working title; the Anne Hathaway draft, celebrity removed --
+# a real person's recognisable face cannot carry a Refina sales reel, and two
+# different photographs of anyone differ in far more than a fringe). The
+# argument is "same face, only the fringe changed", so the after is a HAIR
+# edit that holds the face still -- the inverse of a procedure, closer to
+# conditions.toml than to [after].
+#
+# THE BROWS MUST STAY VISIBLE. Two beats depend on them: the thirds diagram
+# measures hairline-to-brow, and "same eyes, different frame" needs the fringe
+# to END at the brow, not cover it. A fringe that eats the brows leaves the
+# upper third with no lower edge to draw to.
+#
+# SCREEN NOTE: score.py's stillness axis measures change over facial skin, and
+# a fringe COVERS forehead skin by design -- so the forehead will read as a huge
+# change on a correct render. Judge stillness on eyes / nose / lips / jaw only.
+
+[hair]
+template = """Re-photograph this exact woman. The only change is her hair: {done}. \
+Her face is NOT touched at all - same face, same age, same bone structure, same forehead, \
+same eyebrows, same eyes, same nose, same lips, same jaw, same skin with the same pores and \
+fine lines. Do not slim, smooth, sharpen, beautify or add makeup to her face. Same hair colour \
+and texture, same plain black turtleneck, same camera angle, same framing, same flat even \
+lighting, same plain seamless pale blue-grey studio backdrop, completely uniform. \
+It is very important that this looks like a real haircut photographed in the same sitting, \
+not a wig, not a filter, not FaceTune."""
+
+# For a SUPPLIED photograph. Identity comes from the uploaded file, so this
+# changes only the studio setup -- every clause from [base] that alignment and
+# sage.py depend on (flat backdrop, straight-on, head and shoulders) is here.
+# The hair is pulled fully back because this IS the "no bangs" half: the whole
+# upper third, hairline included, has to be visible.
+[restage]
+template = """Re-photograph this exact woman as a studio portrait. Same person, same face, \
+same age, same bone structure, same features, same skin with real pores and fine lines - do not \
+change, slim, smooth or beautify her face in any way. Change only the setup: head and shoulders, \
+facing the camera straight on, neutral relaxed expression, mouth closed, eyes open looking \
+directly at the lens. Her hair is pulled fully back off her face into a low bun behind her head, \
+so her whole forehead and her entire hairline are clearly visible, with no strands or fringe \
+falling on her forehead. Plain black turtleneck. Flat even softbox lighting, no shadows on the \
+background. Plain seamless pale blue-grey studio backdrop, completely uniform, no texture, no \
+vignette, no gradient. Sharp focus, shot on 85mm lens. No text, no jewellery, no makeup."""
+
+# THE HERO IS NOT HERE: she is Anne Hathaway and her two looks were NOT made
+# from these prompts. The client supplied real photographs of her with and
+# without bangs; Rahul restaged them to the house portrait (backdrop,
+# turtleneck, lighting) by image edit, 2026-10-29, and holds the rights.
+# Files: gen/out/anne/anne-before.png (no bangs), anne-fringe.png (bangs).
+# Screened as a pair: eyes 156.7 (the fringe), nose 15.3, lips 30.0, jaw 27.7,
+# concentration 5.22, drift 12.0 -> PASS. The two are DIFFERENT sittings made to
+# match by the edit, so on screen they carry an operation label (edited
+# photograph), never "photograph, unmodified" and never "same sitting".
+# Keep the client's originals alongside: they are the only proof the edit did
+# not change her face.
+
+# The two faces for "the same haircut looks different on two people". Cast as
+# OPPOSITE upper thirds, because the reel's claim is about the forehead-brow-eye
+# relationship and two similar foreheads would show nothing (the casting rule:
+# a subject who does not need the change cannot show it). Both take the SAME
+# fringe clause, word for word -- the haircut is the controlled variable.
+[[subjects]]
+id       = "bangs2"
+describe = "early 30s South Asian"
+need     = "with a very tall forehead and a high hairline, so the upper third of her face is strikingly long, a long oval face, wide-set almond eyes and thin, high, arched eyebrows sitting well above the eyes"
+
+  [[subjects.afters]]
+  id       = "fringe"
+  target   = "eyes"
+  template = "hair"
+  done     = "she now has a full, thick, blunt straight-across fringe (bangs), cut so its lower edge sits just above her eyebrows and it covers her whole forehead from temple to temple, so her hairline is no longer visible. Her eyebrows stay fully visible directly below the fringe. The rest of her hair stays pulled back exactly as before"
+
+[[subjects]]
+id       = "bangs3"
+describe = "late 20s East Asian"
+need     = "with a short forehead and a low hairline, so the upper third of her face is noticeably short, a round wide face, close-set eyes and thick, straight, low eyebrows sitting close above the eyes"
+
+  [[subjects.afters]]
+  id       = "fringe"
+  target   = "eyes"
+  template = "hair"
+  done     = "she now has a full, thick, blunt straight-across fringe (bangs), cut so its lower edge sits just above her eyebrows and it covers her whole forehead from temple to temple, so her hairline is no longer visible. Her eyebrows stay fully visible directly below the fringe. The rest of her hair stays pulled back exactly as before"
+
+  # ONLY IF THE APP REALLY HAS HAIR PREVIEWS. The script's reveal shows
+  # "hairstyle and hair-colour visualizations"; showing a feature Refina does
+  # not have is inventing a fact about Refina. Confirm before generating.

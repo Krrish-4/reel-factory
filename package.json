@@ -1,0 +1,52 @@
+{
+  "name": "reel-factory",
+  "version": "1.0.0",
+  "description": "Script-to-reel pipeline for QOVES-style educational reels (Remotion + Claude Code skill)",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@paper-design/shaders-react": "^0.0.80",
+    "@remotion/animation-utils": "4.0.502",
+    "@remotion/captions": "4.0.502",
+    "@remotion/cli": "4.0.502",
+    "@remotion/google-fonts": "4.0.502",
+    "@remotion/layout-utils": "4.0.502",
+    "@remotion/media-utils": "4.0.502",
+    "@remotion/motion-blur": "4.0.502",
+    "@remotion/noise": "4.0.502",
+    "@remotion/paths": "4.0.502",
+    "@remotion/shapes": "4.0.502",
+    "@remotion/studio": "4.0.502",
+    "@remotion/tailwind-v4": "4.0.502",
+    "@remotion/transitions": "4.0.502",
+    "culori": "^4.0.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.502",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.502",
+    "@types/culori": "^4.0.1",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "playwright-core": "^1.63.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "check": "python gen/check.py src/refina/changed",
+    "verify": "python gen/check.py src/refina/changed out/refina-changed.mp4",
+    "corpus": "python refs/corpus-stats.py && python refs/shot-bands.py",
+    "render:sample": "remotion render RefinaChanged out/refina-changed.mp4 --codec h264 --concurrency=1"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "label": "ours-flip-v6",
+  "source": "out/refina-flip-v6.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 88.064,
+  "pacing": {
+    "cuts": 8,
+    "cuts_per_min": 5.5,
+    "median_shot_s": 8.43,
+    "shortest_shot_s": 4.57,
+    "longest_shot_s": 20.83,
+    "frozen_pct": 83.9
+  },
+  "element_events": {
+    "count": 16,
+    "per_min": 10.9,
+    "median_gap_s": 0.1,
+    "frames": [
+      61,
+      64,
+      67,
+      70,
+      163,
+      166,
+      169,
+      172,
+      259,
+      262,
+      265,
+      268,
+      271,
+      274,
+      277,
+      1678
+    ]
+  },
+  "continuous_motion": {
+    "spans": 17,
+    "total_s": 10.37,
+    "pct_of_runtime": 11.8,
+    "median_span_s": 0.37,
+    "longest_span_s": 1.6,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 6,
+    "median_s": 0.28,
+    "spans_s": [
+      0.433,
+      0.4,
+      0.667,
+      0.167,
+      0.167,
+      0.167
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      161,
+      180,
+      185
+    ],
+    "dominant_hex": "#A1B4B9",
+    "corner_flatness": 8.15,
+    "background_drift": 17.2,
+    "flat_background": false,
+    "headline_band_frames_pct": 99.7,
+    "caption_band_frames_pct": 81.5
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 82.7,
+    "approx_any_face_frames_pct": 85.5,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 16,
+    "speech_pct": 94.0,
+    "median_phrase_s": 1.65,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    253,
+    490,
+    627,
+    764,
+    1139,
+    1373,
+    1998,
+    2275
+  ]
+}

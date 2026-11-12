@@ -1,0 +1,109 @@
+# "Her Own List" — Jennifer Lawrence, angle: CONFESSION.
+# Written to .claude/skills/refina-reel/reel-script/PROCESS.md (v2, 2026-11-10).
+# Supersedes celeb-lawrence-brow.txt (v1 process, kept for reference).
+#
+# FACT SET — all self_stated. PRIMARY ARTICLES NOT READ: the outlets below are
+# where the secondary article read says she said it. Read the primary pieces
+# before posting and fix the on-screen attribution if they differ.
+#   F1 "I get baby Botox, but I can't do a lot" / needs movement in her face
+#      orig: Vogue, Sep 2026 | read: InStyle via AOL, 28 Oct 2026
+#      https://www.aol.com/articles/jennifer-lawrence-confirms-she-underwent-181827000.html
+#   F2 does not get fillers
+#      orig: The New Yorker, Oct 2025 | read: People via AOL, 27 Oct 2025
+#      https://www.aol.com/articles/jennifer-lawrence-confirms-cosmetic-enhancement-180912985.html
+#   F3 wants buccal fat removal, "I can't because everybody would know"
+#      orig: DISPUTED (InStyle places it beside the Vogue quotes; Know Your Meme says The Cut, Oct 2026)
+#      read: InStyle via AOL, 28 Oct 2026 (same URL as F1). On screen: "InStyle, Oct 2026".
+#   F4 2023: "I didn't have eye surgery. I'm doing makeup."
+#      orig: Interview magazine, Nov 2023 | read: HuffPost UK, 28 Nov 2023
+#      (used in hook variant H2 only)
+# Not used: breast surgery (not a face reel); facelift ("Believe me, I'm gonna!",
+# New Yorker 2025). It's a plan, not a procedure, and the beat would run long.
+#
+# EXCLUDED RUMOURS — never state, never imply: eyelid surgery, a facelift
+# already done, buccal fat already removed, anything a surgeon "says" about her.
+#
+# HOOK VARIANTS (swap beat 1 only; body unchanged)
+#   H1 P2 confession (default, in body below)
+#   H2 P8 rumour vs reality:
+#      Everyone says Jennifer Lawrence had eye surgery.          | 0.22
+#      She says it was makeup. Here's what she does get.         | 0.40
+#   H3 P4 one thing:
+#      Jennifer Lawrence wants one procedure.                    | 0.22
+#      She says she'll never get it.                             | 0.40
+#   H4 P3 myth-bust:
+#      Forget the rumours about Jennifer Lawrence's face.        | 0.22
+#      Here's her own list.                                      | 0.40
+#   Test first: H1 vs H2 (confession vs rumour, the two strongest PDF patterns).
+#
+# CAPTION HOOK (differs from spoken): "Botox yes. Fillers no. And the one she can't have 👀"
+# CAPTION BODY: Jennifer Lawrence has been open about what she does to her face, and what she won't.
+#   Sources: Vogue (Sep 2026), The New Yorker (Oct 2025), InStyle (Oct 2026).
+#   Refina shows simulated previews, not guaranteed results. Always consult a qualified professional.
+# HASHTAGS: #jenniferlawrence #buccalfat #babybotox #facialanalysis #refinaai
+#
+# FACES: licensed photographs of her in beats 1–6, commentary only. NO preview
+# of her. The beat 7 preview runs on a generated face (announce it on screen).
+#
+# GATES: wordcount and check-citations: see the run below. Self_stated only ✓,
+# one quote per source under 15 words ✓, no "needs" ✓, Dossier sections real
+# (cheeks / wrinkles / jaw) ✓, beats 6 and 9 present ✓, hooks 4 patterns ✓.
+
+# -- 1. hook (H1, P2) ------------------------------------------------------
+# ON SCREEN: "The one procedure she wants" | VISUAL: licensed portrait, full bleed
+Jennifer Lawrence named the one procedure she wants.            | 0.22
+And why she won't get it.                                       | 0.40
+
+# -- 2. bridge -------------------------------------------------------------
+# ON SCREEN: — | VISUAL: push in on the portrait
+It changes how you read a face.                                 | 0.40
+
+# -- 3. setup --------------------------------------------------------------
+# ON SCREEN: "THE INTERNET'S VERSION" | VISUAL: grid of her recent photos, blurred headlines
+Look at the photos everyone is sharing.                         | 0.20
+The internet already decided what she's had done.               | 0.40
+
+# -- 4. open loop ----------------------------------------------------------
+# ON SCREEN: "HER VERSION" | VISUAL: grid wipes to one clean portrait
+So what has she actually said?                                  | 0.40
+
+# -- 5. three points -------------------------------------------------------
+# ON SCREEN: "01 BOTOX, A LITTLE" + "Source: Vogue, Sep 2026" | VISUAL: ring on forehead
+# SOURCE: Vogue (Sep 2026), quoted in InStyle, 28 Oct 2026. https://www.aol.com/articles/jennifer-lawrence-confirms-she-underwent-181827000.html
+First. Botox, but only a little.                                | 0.20
+She needs movement in her face to act.                          | 0.30
+# ON SCREEN: "02 NO FILLERS" + "Source: The New Yorker, Oct 2025"
+# SOURCE: The New Yorker (Oct 2025), reported by People, 27 Oct 2025. https://www.aol.com/articles/jennifer-lawrence-confirms-cosmetic-enhancement-180912985.html
+Second. No fillers.                                             | 0.30
+# ON SCREEN: "03 BUCCAL FAT REMOVAL" + "Source: InStyle, Oct 2026" | VISUAL: ring on the cheek hollow
+# SOURCE: InStyle (28 Oct 2026). https://www.aol.com/articles/jennifer-lawrence-confirms-she-underwent-181827000.html
+Third. The one she wants is buccal fat removal.                 | 0.20
+She says she can't, because everybody would know.               | 0.30
+# WHY IT READS — mechanism (neighbour matrix: cheeks ↔ eyes, jaw); drawn, not cited
+# VISUAL: taper lines from cheekbone to chin
+And she's right.                                                | 0.15
+The cheeks set where a face is widest.                          | 0.20
+Change them, and the whole face reads differently.              | 0.40
+
+# -- 6. the mistake (carries the nuance) -----------------------------------
+# ON SCREEN: "HER FACE ≠ YOUR FACE"
+Here's the mistake most people make.                            | 0.20
+They copy a celebrity's list.                                   | 0.22
+But her reasons are about her face, not yours.                  | 0.40
+
+# -- 7. product pivot -------------------------------------------------------
+# ON SCREEN: "SIMULATED PREVIEWS, NOT GUARANTEED RESULTS" + SECOND SUBJECT tag
+# VISUAL: app preview on a generated face → Dossier cheeks / wrinkles / jaw pages
+Most people decide blind.                                       | 0.20
+Refina AI previews a procedure on your own photo.               | 0.20
+Its 22-page Dossier maps your cheeks, skin and jaw.             | 0.30
+A preview, not a promise.                                       | 0.40
+
+# -- 8. CTA ----------------------------------------------------------------
+# VISUAL: typing search bar (house ending)
+Search Refina AI.                                               | 0.40
+
+# -- 9. comment bait -------------------------------------------------------
+# ON SCREEN: "TELL OR KEEP QUIET?" | VISUAL: search bar holds
+If you had work done,                                           | 0.15
+would you tell people, or keep it quiet?                        | 0.80

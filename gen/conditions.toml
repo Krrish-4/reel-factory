@@ -1,0 +1,97 @@
+# Casting + photographic briefs for the "What Else Changed" reel.
+#
+# THIS SPEC INVERTS procedures.toml AND subjects.toml. Those ask the model to
+# change one region of the face and leave the photograph alone. This one asks it
+# to change the PHOTOGRAPH and leave the face alone — the reel teaches that four
+# non-surgical variables move a before/after, so every pair here must differ in
+# exactly one of them and in nothing else.
+#
+# Consequence worth knowing before reading a score: `gen/score.py` is the wrong
+# screen for this file. It passes a render when the target anatomical box moved
+# MORE than the rest of the face. Here a passing render is one where no
+# anatomical box moved at all. `subject.py` will still print a score for these;
+# ignore the verdict and judge them on identity + the single intended change.
+#
+# The base is deliberately the dullest possible photograph — flat frontal light,
+# 85mm, chin level, neutral mouth. It is the control, and all four afters are
+# one step away from it.
+
+model    = "nano-pro"
+aspect   = "3:4"
+upscale  = "2k"
+variants = 3
+out      = "gen/out"
+
+[base]
+# Same load-bearing constraints as subjects.toml: the plain seamless backdrop is
+# what lets align_core.metrics() find the subject by sampling frame corners, so
+# it stays uniform. The lighting clause is doing double duty here — it is both
+# an alignment requirement and the literal control condition for pair 1.
+portrait = """Photorealistic studio portrait photograph of a {describe} woman {need}. \
+Head and shoulders, facing the camera straight on, chin level, neutral relaxed expression, \
+mouth closed, eyes open looking directly at the lens. Hair tied back off the face. Plain black \
+turtleneck. Completely flat even frontal softbox lighting with no shadows anywhere on her face \
+and no shadow on the background. Plain seamless pale blue-grey studio backdrop, completely \
+uniform, no texture, no vignette, no gradient. Sharp focus, natural unretouched skin with real \
+pores and fine lines. Shot on an 85mm lens from two metres away. No text, no jewellery, no makeup."""
+
+[after]
+# One placeholder, like subjects.toml, and the same anti-filter sentence — but
+# pointed at the failure that matters here. On the procedure specs the measured
+# failure was "global beautification instead of a regional edit". Here it is the
+# opposite: any change to the face at all invalidates the demonstration, because
+# the whole claim is that nothing about her changed.
+template = """Re-photograph this exact woman. The only change: {done}. Same person, same face, \
+same age, same bone structure, same hair, same black turtleneck, same plain seamless backdrop, \
+same distance from camera unless stated. Do not slim, smooth, retouch or beautify her, and do \
+not change her identity. It is very important that this looks like the same person photographed \
+a second time thirty seconds later, not a different woman and not a FaceTuned version of her."""
+
+
+[[subjects]]
+id       = "demo1"
+describe = "late 40s White"
+# She has to have something for the light to find. A face with no folds, no
+# hollows and no jawline to lose demonstrates nothing in beat 1 — the same
+# casting mistake the 2026-08-25 procedure batch made, in a different costume.
+need     = """with visible natural ageing - soft nasolabial folds, slight under-eye hollows \
+and a slightly soft jawline, none of it extreme"""
+
+  [[subjects.afters]]
+  id     = "overhead"
+  target = "any"
+  done   = """the key light is moved from flat in front of her to directly overhead, so hard \
+shadows now fall under her brows, into her eye sockets, under her cheekbones, under her nose and \
+under her jaw, and the nasolabial folds and under-eye hollows are strongly shadowed"""
+
+  # Draft 1 said "the camera is moved to about 30cm from her face and switched
+  # to a phone's wide selfie lens". The model read that as a CROP and returned a
+  # macro close-up of her face at the same perspective — the identical failure
+  # the README records for the `region` strategy, where "the prompt has more
+  # influence over the camera than over the nose". Framing is the thing this
+  # model reaches for first, so the framing has to be pinned explicitly and the
+  # crop forbidden by name.
+  [[subjects.afters]]
+  id     = "closeup"
+  target = "any"
+  done   = """the lens is swapped to a 24mm wide-angle held close to her face, while the picture \
+stays framed exactly as it is now - head and shoulders, her head the same size in the frame, the \
+same amount of background around her. The wide lens exaggerates perspective, so her nose and \
+forehead loom forward and larger while her ears and jaw fall away and look narrower. Do not crop \
+in, do not zoom, do not make this a close-up - only the lens perspective changes"""
+
+  # Draft 1 asked for "about fifteen degrees" and got a head that did not move
+  # at all. Draft 2 named the failure and overshot into a glare up through the
+  # brows — a different face, not a different angle, which breaks the one claim
+  # this reel makes. Draft 3 keeps the physical description that made draft 2
+  # work and bounds it: small, eyes still on the lens, expression unchanged.
+  [[subjects.afters]]
+  id     = "chindown"
+  target = "any"
+  done   = """she lowers her chin a small amount toward her chest - a subtle nod, not a stare - while the camera stays exactly where it was at her original eye level. Her eyes stay open and still look straight into the lens and her expression does not change at all. Her jawline is slightly foreshortened and a little more of the top of her head shows. She must not glare or look up from under her brows, and her eyebrows must not lower"""
+
+  [[subjects.afters]]
+  id     = "lift"
+  target = "any"
+  done   = """she makes a very slight closed-mouth smile with the corners of her mouth barely \
+raised, which lifts her midface and cheeks and shortens the nasolabial folds"""

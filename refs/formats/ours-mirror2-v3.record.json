@@ -1,0 +1,751 @@
+{
+  "label": "ours-mirror2-v3",
+  "archetype": "product demo",
+  "one_line": "This ad demonstrates the Refina AI app, showing how users can preview cosmetic procedures on their own faces to make informed decisions at home.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 82.517,
+  "measured": {
+    "pacing": {
+      "cuts": 2,
+      "cuts_per_min": 1.5,
+      "median_shot_s": 21.13,
+      "shortest_shot_s": 2.33,
+      "longest_shot_s": 59.0,
+      "frozen_pct": 85.4
+    },
+    "transitions": {
+      "count": 16,
+      "median_s": 0.23,
+      "spans_s": [
+        0.233,
+        0.333,
+        0.333,
+        0.3,
+        0.333,
+        0.267,
+        0.233,
+        0.233,
+        0.233,
+        0.233,
+        0.233,
+        0.2,
+        0.133,
+        0.233,
+        0.133,
+        0.267
+      ]
+    },
+    "element_events": {
+      "count": 46,
+      "per_min": 33.5,
+      "median_gap_s": 0.33,
+      "frames": [
+        6,
+        153,
+        307,
+        311,
+        314,
+        324,
+        327,
+        330,
+        536,
+        545,
+        548,
+        551,
+        720,
+        900,
+        1010,
+        1013,
+        1016,
+        1398,
+        1408,
+        1411,
+        1414,
+        1423,
+        1426,
+        1453,
+        1456,
+        1483,
+        1486,
+        1513,
+        1516,
+        1543,
+        1546,
+        1573,
+        1576,
+        1603,
+        1685,
+        1688,
+        1705,
+        1715,
+        1739,
+        1749
+      ]
+    },
+    "continuous_motion": {
+      "spans": 17,
+      "total_s": 7.0,
+      "pct_of_runtime": 8.5,
+      "median_span_s": 0.33,
+      "longest_span_s": 0.8,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        161,
+        180,
+        185
+      ],
+      "dominant_hex": "#A1B4B9",
+      "corner_flatness": 0.0,
+      "background_drift": 0.0,
+      "flat_background": true,
+      "headline_band_frames_pct": 46.4,
+      "caption_band_frames_pct": 72.7
+    },
+    "audio": {
+      "speech_segments": 28,
+      "speech_pct": 9.9,
+      "median_phrase_s": 0.23,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 9,
+    "hard_cuts": 2,
+    "cuts_per_described_change": 0.25,
+    "pct_scene_changes_that_are_cuts": 25.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 6,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 10.0,
+      "snapped_to_measured_cut": true,
+      "layout": "framed portrait video",
+      "description": "Woman demonstrating the 'mirror test' by pulling her temple and cheek skin back.",
+      "devices": [
+        "text labels",
+        "pointer lines"
+      ]
+    },
+    {
+      "start_s": 10.0,
+      "start_frame": 300,
+      "end_s": 17.0,
+      "snapped_to_measured_cut": false,
+      "layout": "framed portrait photo with UI overlay",
+      "description": "A static portrait of the woman with an AI face mesh overlay.",
+      "devices": [
+        "AI face mesh",
+        "interactive chips"
+      ]
+    },
+    {
+      "start_s": 17.0,
+      "start_frame": 510,
+      "end_s": 29.0,
+      "snapped_to_measured_cut": false,
+      "layout": "phone mockup",
+      "description": "In-app demonstration showing photo upload, procedure selection, and rendering.",
+      "devices": [
+        "phone mockup",
+        "app UI",
+        "rendering progress bar"
+      ]
+    },
+    {
+      "start_s": 29.0,
+      "start_frame": 870,
+      "end_s": 33.0,
+      "snapped_to_measured_cut": false,
+      "layout": "minimal text layout",
+      "description": "Text transition screen introducing the three benefits of the app.",
+      "devices": [
+        "text chips"
+      ]
+    },
+    {
+      "start_s": 33.0,
+      "start_frame": 990,
+      "end_s": 46.0,
+      "snapped_to_measured_cut": false,
+      "layout": "split-screen portrait",
+      "description": "Side-by-side comparison of original vs preview with an interactive slider.",
+      "devices": [
+        "interactive slider",
+        "before/after labels"
+      ]
+    },
+    {
+      "start_s": 46.0,
+      "start_frame": 1380,
+      "end_s": 55.0,
+      "snapped_to_measured_cut": false,
+      "layout": "image grid with interactive buttons",
+      "description": "Grid of different procedure examples being filtered out.",
+      "devices": [
+        "image cards",
+        "procedure chips"
+      ]
+    },
+    {
+      "start_s": 55.0,
+      "start_frame": 1650,
+      "end_s": 68.0,
+      "snapped_to_measured_cut": false,
+      "layout": "photo collage and text overlay",
+      "description": "Visualizing the decision-making process at home versus a clinical consultation.",
+      "devices": [
+        "photo cards",
+        "pricing list graphic"
+      ]
+    },
+    {
+      "start_s": 68.0,
+      "start_frame": 2040,
+      "end_s": 79.0,
+      "snapped_to_measured_cut": false,
+      "layout": "framed portrait with UI markers",
+      "description": "Close-up preview of specific eye and lip procedures on the user's face.",
+      "devices": [
+        "UI markers",
+        "before/after transition"
+      ]
+    },
+    {
+      "start_s": 79.0,
+      "start_frame": 2370,
+      "end_s": 82.5,
+      "snapped_to_measured_cut": false,
+      "layout": "minimal search bar layout",
+      "description": "Final call to action screen.",
+      "devices": [
+        "search bar graphic"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "AI face mesh",
+      "what_it_is": "A digital grid overlaying the subject's face.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "phone mockup",
+      "what_it_is": "A realistic smartphone frame displaying app screens.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "interactive slider",
+      "what_it_is": "A sliding bar labeled 'Dread' and 'Hope'.",
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "procedure chips",
+      "what_it_is": "Selectable buttons representing different cosmetic procedures.",
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "text labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "pointer lines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "interactive chips",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "app UI",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "rendering progress bar",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "text chips",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "before/after labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "image cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "photo cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "pricing list graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "UI markers",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "before/after transition",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "search bar graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A woman performs the 'mirror test' by pulling her facial skin back in front of a bathroom mirror.",
+    "why_it_works": "It targets a highly relatable, universal behavior among people considering cosmetic procedures."
+  },
+  "narrative_arc": [
+    "Identify the common habit of manually pulling back skin to imagine cosmetic results.",
+    "Introduce Refina AI as a tool to replace guesswork with realistic previews.",
+    "Detail the three main benefits: stopping the guesswork, ruling out unwanted procedures, and deciding privately at home.",
+    "Address the limitation honestly (it is a preview, not a promise).",
+    "Call to action to download the app."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "The mirror test"
+    },
+    {
+      "approx_t": 1,
+      "track": "caption",
+      "text": "You've done it in"
+    },
+    {
+      "approx_t": 3,
+      "track": "label",
+      "text": "TEMPLE"
+    },
+    {
+      "approx_t": 3,
+      "track": "caption",
+      "text": "Pulled the skin back at your"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "CHEEK"
+    },
+    {
+      "approx_t": 5,
+      "track": "caption",
+      "text": "Lifted your cheek with two fingers."
+    },
+    {
+      "approx_t": 8,
+      "track": "label",
+      "text": "HELD - 4 SECONDS"
+    },
+    {
+      "approx_t": 8,
+      "track": "caption",
+      "text": "Held it there. Let"
+    },
+    {
+      "approx_t": 10,
+      "track": "headline",
+      "text": "A guess, not a picture"
+    },
+    {
+      "approx_t": 11,
+      "track": "caption",
+      "text": "That is the whole"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "a little"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "not too much"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "natural"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "still me"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "but better"
+    },
+    {
+      "approx_t": 13,
+      "track": "chip",
+      "text": "?"
+    },
+    {
+      "approx_t": 14,
+      "track": "caption",
+      "text": "A guess you make with your"
+    },
+    {
+      "approx_t": 16,
+      "track": "caption",
+      "text": "and finish in"
+    },
+    {
+      "approx_t": 17,
+      "track": "headline",
+      "text": "So we built Refina"
+    },
+    {
+      "approx_t": 19,
+      "track": "ui",
+      "text": "Reference Photos"
+    },
+    {
+      "approx_t": 20,
+      "track": "caption",
+      "text": "Upload one photo."
+    },
+    {
+      "approx_t": 21,
+      "track": "ui",
+      "text": "Select Procedures"
+    },
+    {
+      "approx_t": 23,
+      "track": "caption",
+      "text": "And see it rendered"
+    },
+    {
+      "approx_t": 25,
+      "track": "caption",
+      "text": "on your own"
+    },
+    {
+      "approx_t": 27,
+      "track": "headline",
+      "text": "Your face."
+    },
+    {
+      "approx_t": 28,
+      "track": "caption",
+      "text": "Not a diagram. Not a gallery. Your face."
+    },
+    {
+      "approx_t": 30,
+      "track": "chip",
+      "text": "stop guessing"
+    },
+    {
+      "approx_t": 31,
+      "track": "chip",
+      "text": "rule things out"
+    },
+    {
+      "approx_t": 31,
+      "track": "chip",
+      "text": "decide alone"
+    },
+    {
+      "approx_t": 32,
+      "track": "caption",
+      "text": "Three things change once you can see it."
+    },
+    {
+      "approx_t": 33,
+      "track": "caption",
+      "text": "First,"
+    },
+    {
+      "approx_t": 34,
+      "track": "headline",
+      "text": "1. Stop guessing"
+    },
+    {
+      "approx_t": 34,
+      "track": "label",
+      "text": "ORIGINAL"
+    },
+    {
+      "approx_t": 34,
+      "track": "label",
+      "text": "PREVIEW"
+    },
+    {
+      "approx_t": 35,
+      "track": "caption",
+      "text": "The picture in your head was never accurate."
+    },
+    {
+      "approx_t": 38,
+      "track": "label",
+      "text": "DREAD"
+    },
+    {
+      "approx_t": 38,
+      "track": "label",
+      "text": "HOPE"
+    },
+    {
+      "approx_t": 39,
+      "track": "caption",
+      "text": "It was hope on a good day"
+    },
+    {
+      "approx_t": 42,
+      "track": "caption",
+      "text": "and dread on a bad one."
+    },
+    {
+      "approx_t": 44,
+      "track": "label",
+      "text": "MEASURED"
+    },
+    {
+      "approx_t": 44,
+      "track": "caption",
+      "text": "Now it is just a"
+    },
+    {
+      "approx_t": 47,
+      "track": "headline",
+      "text": "2. Rule it out"
+    },
+    {
+      "approx_t": 48,
+      "track": "caption",
+      "text": "Second, you find out what you don't want."
+    },
+    {
+      "approx_t": 50,
+      "track": "chip",
+      "text": "Rhinoplasty"
+    },
+    {
+      "approx_t": 50,
+      "track": "chip",
+      "text": "Lip filler"
+    },
+    {
+      "approx_t": 51,
+      "track": "chip",
+      "text": "Brow lift"
+    },
+    {
+      "approx_t": 51,
+      "track": "chip",
+      "text": "Facelift"
+    },
+    {
+      "approx_t": 51,
+      "track": "caption",
+      "text": "Ruling a procedure out is an answer too,"
+    },
+    {
+      "approx_t": 53,
+      "track": "caption",
+      "text": "and it costs you"
+    },
+    {
+      "approx_t": 56,
+      "track": "headline",
+      "text": "3. Decide before the desk"
+    },
+    {
+      "approx_t": 56,
+      "track": "caption",
+      "text": "And third, you decide before anyone is selling to you."
+    },
+    {
+      "approx_t": 60.0,
+      "track": "caption",
+      "text": "At home. On your own time"
+    },
+    {
+      "approx_t": 63.0,
+      "track": "caption",
+      "text": "Not across a desk from someone"
+    },
+    {
+      "approx_t": 65.0,
+      "track": "chart",
+      "text": "CONSULTATION\nRhinoplasty .......... 6,500\nFacelift ............. 11,000\nDeposit today ........ 500"
+    },
+    {
+      "approx_t": 66.0,
+      "track": "caption",
+      "text": "with a price list and a waiting room."
+    },
+    {
+      "approx_t": 69.0,
+      "track": "headline",
+      "text": "A preview, not a promise"
+    },
+    {
+      "approx_t": 109,
+      "track": "caption",
+      "text": "Refina is a preview, not a promise."
+    },
+    {
+      "approx_t": 112,
+      "track": "caption",
+      "text": "Your surgeon determines your result."
+    },
+    {
+      "approx_t": 114,
+      "track": "caption",
+      "text": "But you should get to see"
+    },
+    {
+      "approx_t": 117,
+      "track": "caption",
+      "text": "before you spend another year imagining it."
+    },
+    {
+      "approx_t": 120,
+      "track": "ui",
+      "text": "Refina AI"
+    },
+    {
+      "approx_t": 121,
+      "track": "caption",
+      "text": "Search Refina AI on the App Store."
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 33,
+      "text": "First, you stop guessing. The picture in your head was never accurate."
+    },
+    {
+      "approx_t": 39,
+      "text": "It was hope on a good day, and dread on a bad one."
+    },
+    {
+      "approx_t": 44,
+      "text": "Now it is just a..."
+    },
+    {
+      "approx_t": 48,
+      "text": "Second, you find out what you don't want. Ruling a procedure out is an answer too."
+    },
+    {
+      "approx_t": 56,
+      "text": "And third, you decide before anyone is selling to you."
+    },
+    {
+      "approx_t": 60.0,
+      "text": "At home. On your own time. Not across a desk from someone with a price list and a waiting room."
+    },
+    {
+      "approx_t": 69.0,
+      "text": "Refina is a preview, not a promise. Your surgeon determines your result."
+    },
+    {
+      "approx_t": 74.0,
+      "text": "But you should get to see before you spend another year imagining it."
+    }
+  ],
+  "cta": {
+    "approx_t": 120,
+    "what": "Search Refina AI on the App Store."
+  },
+  "subjects": [
+    "Unidentified blonde woman, acting as the primary user demonstrating the app's utility on her own face."
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Relatable hook that mirrors real-life user behavior.",
+    "Clear, step-by-step app demonstration showing realistic results.",
+    "Strong emotional framing contrasting 'dread' and 'hope' with objective visualization.",
+    "Honest disclaimer ('a preview, not a promise') which builds consumer trust."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/9"
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "label": "ours-size-v3",
+  "archetype": "evidence explainer",
+  "one_line": "The video uses a split-screen analysis of Sydney Sweeney's face to explain that lip aesthetics are about facial proportions, promoting Refina AI to preview these changes.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 68.437,
+  "measured": {
+    "pacing": {
+      "cuts": 6,
+      "cuts_per_min": 5.3,
+      "median_shot_s": 6.83,
+      "shortest_shot_s": 3.57,
+      "longest_shot_s": 21.0,
+      "frozen_pct": 94.6
+    },
+    "transitions": {
+      "count": 0,
+      "median_s": null,
+      "spans_s": []
+    },
+    "element_events": {
+      "count": 3,
+      "per_min": 2.6,
+      "median_gap_s": 24.13,
+      "frames": [
+        316,
+        1626,
+        1764
+      ]
+    },
+    "continuous_motion": {
+      "spans": 7,
+      "total_s": 5.67,
+      "pct_of_runtime": 8.3,
+      "median_span_s": 0.8,
+      "longest_span_s": 1.7,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        161,
+        180,
+        185
+      ],
+      "dominant_hex": "#A1B4B9",
+      "corner_flatness": 0.0,
+      "background_drift": 10.48,
+      "flat_background": true,
+      "headline_band_frames_pct": 76.7,
+      "caption_band_frames_pct": 94.6
+    },
+    "audio": {
+      "speech_segments": 57,
+      "speech_pct": 67.0,
+      "median_phrase_s": 0.66,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 9,
+    "hard_cuts": 6,
+    "cuts_per_described_change": 0.75,
+    "pct_scene_changes_that_are_cuts": 75.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 2,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 5.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Unmodified portrait of Sydney Sweeney with introductory text.",
+      "devices": [
+        "text overlay"
+      ]
+    },
+    {
+      "start_s": 5.367,
+      "start_frame": 161,
+      "end_s": 22.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with overlays",
+      "description": "Measurement lines appear on the portrait to show facial proportions.",
+      "devices": [
+        "measurement lines",
+        "text callouts"
+      ]
+    },
+    {
+      "start_s": 22.767,
+      "start_frame": 683,
+      "end_s": 32.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen vertical",
+      "description": "Split-screen comparison showing thin vs. full lips on the same face.",
+      "devices": [
+        "split-screen slider",
+        "dimension labels"
+      ]
+    },
+    {
+      "start_s": 32.467,
+      "start_frame": 974,
+      "end_s": 36.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with overlay",
+      "description": "Highlighting the chin area on the portrait.",
+      "devices": [
+        "circular highlight overlay"
+      ]
+    },
+    {
+      "start_s": 37.0,
+      "start_frame": 1110,
+      "end_s": 43.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen vertical with slider",
+      "description": "Interactive slider demonstrating the range of lip volumes on one face.",
+      "devices": [
+        "interactive slider UI"
+      ]
+    },
+    {
+      "start_s": 43.833,
+      "start_frame": 1315,
+      "end_s": 47.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen vertical",
+      "description": "Side profile view comparison.",
+      "devices": [
+        "profile comparison"
+      ]
+    },
+    {
+      "start_s": 47.4,
+      "start_frame": 1422,
+      "end_s": 54.0,
+      "snapped_to_measured_cut": true,
+      "layout": "side-by-side portrait",
+      "description": "Side-by-side comparison of the full face with different lip sizes.",
+      "devices": [
+        "dual portrait comparison"
+      ]
+    },
+    {
+      "start_s": 54.0,
+      "start_frame": 1620,
+      "end_s": 58.0,
+      "snapped_to_measured_cut": false,
+      "layout": "text-only screen",
+      "description": "Text-only instruction screen prompting the viewer to try an exercise.",
+      "devices": [
+        "numbered list"
+      ]
+    },
+    {
+      "start_s": 58.0,
+      "start_frame": 1740,
+      "end_s": 68.0,
+      "snapped_to_measured_cut": false,
+      "layout": "text-only screen with UI mockup",
+      "description": "CTA screen with a search bar mockup for Refina AI.",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "split-screen slider",
+      "what_it_is": "A vertical dividing line showing before/after states.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "measurement lines",
+      "what_it_is": "Horizontal lines marking facial landmarks.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "search bar mockup",
+      "what_it_is": "An interactive-looking search input field.",
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "text overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "text callouts",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "dimension labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "circular highlight overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "interactive slider UI",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "profile comparison",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "dual portrait comparison",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "numbered list",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": 3,
+    "what_happens": "A portrait of Sydney Sweeney is shown with the question of whether the viewer thinks their lips are too thin.",
+    "why_it_works": "It targets a common cosmetic insecurity using a highly recognizable celebrity face."
+  },
+  "narrative_arc": [
+    "Challenge the viewer's perception of thin lips.",
+    "Introduce the concept of facial proportions and 'gaps'.",
+    "Demonstrate how changing lip size alters the perception of the nose and chin.",
+    "Provide an interactive physical exercise for the viewer to experience the effect.",
+    "Introduce the product as a tool to preview these changes on the viewer's own face."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "It was"
+    },
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "Think your lips"
+    },
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 1,
+      "track": "headline",
+      "text": "It was never about size"
+    },
+    {
+      "approx_t": 1,
+      "track": "label",
+      "text": "PHOTOGRAPH, UNMODIFIED"
+    },
+    {
+      "approx_t": 5,
+      "track": "caption",
+      "text": "Lips are"
+    },
+    {
+      "approx_t": 6,
+      "track": "headline",
+      "text": "The lower third is read from here"
+    },
+    {
+      "approx_t": 6,
+      "track": "label",
+      "text": "NOSE BASE"
+    },
+    {
+      "approx_t": 6,
+      "track": "label",
+      "text": "LIP EDGE"
+    },
+    {
+      "approx_t": 6,
+      "track": "label",
+      "text": "CHIN"
+    },
+    {
+      "approx_t": 6,
+      "track": "caption",
+      "text": "Lips are not a feature."
+    },
+    {
+      "approx_t": 7,
+      "track": "caption",
+      "text": "They are the line the lower face is measured from."
+    },
+    {
+      "approx_t": 11,
+      "track": "headline",
+      "text": "Your eye reads gaps"
+    },
+    {
+      "approx_t": 11,
+      "track": "label",
+      "text": "THE GAP, NOT THE PART"
+    },
+    {
+      "approx_t": 11,
+      "track": "caption",
+      "text": "Your eye never measures a feature alone."
+    },
+    {
+      "approx_t": 15,
+      "track": "caption",
+      "text": "It measures the gaps around it."
+    },
+    {
+      "approx_t": 18,
+      "track": "caption",
+      "text": "Move the lip line and every gap moves."
+    },
+    {
+      "approx_t": 23,
+      "track": "headline",
+      "text": "1. The gap above"
+    },
+    {
+      "approx_t": 23,
+      "track": "label",
+      "text": "NOSE BASE TO LIP EDGE, MEASURED"
+    },
+    {
+      "approx_t": 23,
+      "track": "label",
+      "text": "THIN"
+    },
+    {
+      "approx_t": 23,
+      "track": "label",
+      "text": "FULL"
+    },
+    {
+      "approx_t": 23,
+      "track": "caption",
+      "text": "One. The gap between nose and lip."
+    },
+    {
+      "approx_t": 27,
+      "track": "caption",
+      "text": "Full lips make it short. Thin lips, long."
+    },
+    {
+      "approx_t": 30,
+      "track": "caption",
+      "text": "The nose isn't what changed."
+    },
+    {
+      "approx_t": 33,
+      "track": "headline",
+      "text": "2. The chin below"
+    },
+    {
+      "approx_t": 33,
+      "track": "label",
+      "text": "PHOTOGRAPH, UNMODIFIED"
+    },
+    {
+      "approx_t": 33,
+      "track": "label",
+      "text": "THE CHIN"
+    },
+    {
+      "approx_t": 33,
+      "track": "caption",
+      "text": "Two. The chin reads stronger."
+    },
+    {
+      "approx_t": 35,
+      "track": "caption",
+      "text": "The chin isn't what changed either."
+    },
+    {
+      "approx_t": 37,
+      "track": "headline",
+      "text": "One face, two volumes"
+    },
+    {
+      "approx_t": 37,
+      "track": "label",
+      "text": "THE GAP"
+    },
+    {
+      "approx_t": 37,
+      "track": "label",
+      "text": "THIN"
+    },
+    {
+      "approx_t": 37,
+      "track": "label",
+      "text": "FULL"
+    },
+    {
+      "approx_t": 37,
+      "track": "caption",
+      "text": "Here is that range, on one face."
+    },
+    {
+      "approx_t": 41,
+      "track": "caption",
+      "text": "Watch the gap, not the lips."
+    },
+    {
+      "approx_t": 44,
+      "track": "headline",
+      "text": "The view that hides it"
+    },
+    {
+      "approx_t": 44,
+      "track": "label",
+      "text": "SIDE VIEW, GENERATED"
+    },
+    {
+      "approx_t": 44,
+      "track": "caption",
+      "text": "Now turn it."
+    },
+    {
+      "approx_t": 45,
+      "track": "caption",
+      "text": "A front photograph hides it."
+    },
+    {
+      "approx_t": 47,
+      "track": "headline",
+      "text": "Not better. Load-bearing."
+    },
+    {
+      "approx_t": 47,
+      "track": "label",
+      "text": "ONE FILE, ONE REGION EDITED"
+    },
+    {
+      "approx_t": 47,
+      "track": "caption",
+      "text": "None of this means fuller is better."
+    },
+    {
+      "approx_t": 49,
+      "track": "caption",
+      "text": "It means lips are load-bearing."
+    },
+    {
+      "approx_t": 51,
+      "track": "caption",
+      "text": "On many faces, less is the change."
+    },
+    {
+      "approx_t": 54,
+      "track": "label",
+      "text": "DO THIS NOW"
+    },
+    {
+      "approx_t": 54,
+      "track": "caption",
+      "text": "Do it now."
+    },
+    {
+      "approx_t": 55,
+      "track": "headline",
+      "text": "Try it now"
+    },
+    {
+      "approx_t": 55,
+      "track": "other",
+      "text": "1 Roll your lips inward"
+    },
+    {
+      "approx_t": 55,
+      "track": "other",
+      "text": "2 Hold it"
+    },
+    {
+      "approx_t": 55,
+      "track": "other",
+      "text": "3 Watch your chin"
+    },
+    {
+      "approx_t": 55,
+      "track": "caption",
+      "text": "Roll your lips inward and hold."
+    },
+    {
+      "approx_t": 57,
+      "track": "caption",
+      "text": "Watch your chin arrive."
+    },
+    {
+      "approx_t": 59,
+      "track": "headline",
+      "text": "Your face. Not that one."
+    },
+    {
+      "approx_t": 59,
+      "track": "headline",
+      "text": "A preview, not a promise."
+    },
+    {
+      "approx_t": 59,
+      "track": "caption",
+      "text": "You will not get that mouth."
+    },
+    {
+      "approx_t": 61.0,
+      "track": "caption",
+      "text": "See it on your own face first."
+    },
+    {
+      "approx_t": 64.0,
+      "track": "ui",
+      "text": "Refina AI"
+    },
+    {
+      "approx_t": 66.0,
+      "track": "caption",
+      "text": "Search Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "Think your lips are too thin? This is the mouth you're picturing. And it was never about size."
+    },
+    {
+      "approx_t": 5,
+      "text": "Lips are not a feature. They are the line the lower face is measured from."
+    },
+    {
+      "approx_t": 11,
+      "text": "Your eye never measures a feature alone. It measures the gaps around it. Move the lip line and every gap moves."
+    },
+    {
+      "approx_t": 23,
+      "text": "One. The gap between nose and lip. Full lips make it short. Thin lips, long. The nose isn't what changed."
+    },
+    {
+      "approx_t": 33,
+      "text": "Two. The chin reads stronger. The chin isn't what changed either."
+    },
+    {
+      "approx_t": 37,
+      "text": "Here is that range, on one face. Watch the gap, not the lips."
+    },
+    {
+      "approx_t": 44,
+      "text": "Now turn it. A front photograph hides it."
+    },
+    {
+      "approx_t": 47,
+      "text": "None of this means fuller is better. It means lips are load-bearing. On many faces, less is the change."
+    },
+    {
+      "approx_t": 54,
+      "text": "Do it now. Roll your lips inward and hold. Watch your chin arrive."
+    },
+    {
+      "approx_t": 59,
+      "text": "You will not get that mouth. See it on your own face first. A preview, not a promise. Search Refina AI."
+    }
+  ],
+  "cta": {
+    "approx_t": 104,
+    "what": "Search Refina AI to preview lip changes on your own face."
+  },
+  "subjects": [
+    {
+      "name": "Sydney Sweeney",
+      "role": "Model used for facial proportion analysis"
+    }
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Uses scientific-sounding terminology ('load-bearing', 'lower third') to build authority.",
+    "Engages the viewer with a physical interactive test ('Roll your lips inward').",
+    "Leverages a highly recognizable celebrity face to maintain visual interest."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "7/9"
+  }
+}

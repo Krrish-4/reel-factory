@@ -1,0 +1,129 @@
+{
+  "label": "ref-13",
+  "source": "refs/corpus/ref-13.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 66.417,
+  "pacing": {
+    "cuts": 6,
+    "cuts_per_min": 5.4,
+    "median_shot_s": 2.21,
+    "shortest_shot_s": 0.25,
+    "longest_shot_s": 44.79,
+    "frozen_pct": 37.5
+  },
+  "element_events": {
+    "count": 117,
+    "per_min": 105.8,
+    "median_gap_s": 0.12,
+    "frames": [
+      11,
+      14,
+      17,
+      20,
+      23,
+      27,
+      30,
+      41,
+      44,
+      56,
+      59,
+      62,
+      71,
+      74,
+      77,
+      80,
+      83,
+      86,
+      89,
+      92,
+      98,
+      101,
+      104,
+      107,
+      110,
+      113,
+      255,
+      258,
+      261,
+      264,
+      267,
+      461,
+      464,
+      467,
+      470,
+      473,
+      617,
+      682,
+      696,
+      784
+    ]
+  },
+  "continuous_motion": {
+    "spans": 30,
+    "total_s": 26.36,
+    "pct_of_runtime": 39.7,
+    "median_span_s": 0.77,
+    "longest_span_s": 2.38,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 18,
+    "median_s": 0.79,
+    "spans_s": [
+      1.0,
+      0.375,
+      0.917,
+      0.792,
+      0.667,
+      0.208,
+      0.542,
+      0.75,
+      0.708,
+      0.75,
+      0.833,
+      0.875,
+      1.333,
+      0.333,
+      1.167,
+      0.792,
+      1.125,
+      1.167
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      158,
+      182,
+      190
+    ],
+    "dominant_hex": "#9EB6BE",
+    "corner_flatness": 0.67,
+    "background_drift": 19.87,
+    "flat_background": false,
+    "headline_band_frames_pct": 94.2,
+    "caption_band_frames_pct": 78.0
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 61.7,
+    "approx_any_face_frames_pct": 86.5,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 11,
+    "speech_pct": 95.8,
+    "median_phrase_s": 5.62,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    24,
+    47,
+    53,
+    106,
+    1181,
+    1533
+  ]
+}

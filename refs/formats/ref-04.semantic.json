@@ -1,0 +1,882 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "This video uses celebrity examples, social media comments, and academic research to argue that women's beauty choices are driven by self-expression and social influences rather than the male gaze.",
+  "hook": {
+    "approx_seconds": 0,
+    "what_happens": "Celebrity portraits of Doja Cat, Cardi B, and Rihanna appear alongside critical comments from men about their makeup and hair.",
+    "why_it_works": "It immediately addresses a relatable social debate using high-profile celebrities and real social media comments."
+  },
+  "shots": [
+    {
+      "approx_start": 0,
+      "approx_end": 2,
+      "description": "Celebrity portraits with overlaying negative male comments.",
+      "layout": "full-bleed portrait with floating UI elements",
+      "devices": [
+        "social media comment bubbles",
+        "text labels"
+      ]
+    },
+    {
+      "approx_start": 2,
+      "approx_end": 7,
+      "description": "Flowchart comparing male approval vs. female intrinsic motivations.",
+      "layout": "diagram on solid background",
+      "devices": [
+        "flowchart",
+        "avatar icons"
+      ]
+    },
+    {
+      "approx_start": 7,
+      "approx_end": 16,
+      "description": "Showcase of unconventional beauty trends followed by a mockup of male vs. female perception.",
+      "layout": "split screen and interactive mockup",
+      "devices": [
+        "image carousel",
+        "checkbox UI",
+        "speech bubbles"
+      ]
+    },
+    {
+      "approx_start": 16,
+      "approx_end": 21,
+      "description": "Mind map showing who actually shapes beauty trends.",
+      "layout": "diagram on solid background",
+      "devices": [
+        "mind map",
+        "circular avatar crops"
+      ]
+    },
+    {
+      "approx_start": 21,
+      "approx_end": 29,
+      "description": "Academic citation overlay with clips of female celebrities.",
+      "layout": "video carousel with text overlay",
+      "devices": [
+        "academic citation card",
+        "video player mockup"
+      ]
+    },
+    {
+      "approx_start": 29,
+      "approx_end": 37,
+      "description": "Mannequin head with cosmetic tools pointing to it, revealing 'Themselves' as the primary motivator.",
+      "layout": "3D render with interactive elements",
+      "devices": [
+        "3D mannequin model",
+        "interactive pointer",
+        "checkbox UI"
+      ]
+    },
+    {
+      "approx_start": 37,
+      "approx_end": 42,
+      "description": "Mannequin head opening up to show media, peers, and social norms filling it, alongside celebrity clips.",
+      "layout": "3D animation with phone mockup overlay",
+      "devices": [
+        "3D animation",
+        "phone mockup",
+        "academic citation card"
+      ]
+    },
+    {
+      "approx_start": 42,
+      "approx_end": 46,
+      "description": "Diagram showing the interconnectedness of social influences and personal identity.",
+      "layout": "diagram on solid background",
+      "devices": [
+        "interactive flowchart"
+      ]
+    },
+    {
+      "approx_start": 46,
+      "approx_end": 50,
+      "description": "Call to action for a facial analysis.",
+      "layout": "minimalist text with search bar mockup",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "social media comment bubbles",
+      "what_it_is": "Mockups of TikTok/Instagram comments.",
+      "used_for": "Showing real-world male opinions on women's makeup."
+    },
+    {
+      "name": "academic citation card",
+      "what_it_is": "A styled text box containing a formal APA journal citation.",
+      "used_for": "Lending scientific credibility to the video's claims."
+    },
+    {
+      "name": "3D mannequin model",
+      "what_it_is": "A minimalist grey mannequin head.",
+      "used_for": "Visualizing abstract concepts of self-image and external influences."
+    },
+    {
+      "name": "interactive flowchart",
+      "what_it_is": "Connecting lines and boxes that light up or link together.",
+      "used_for": "Explaining complex psychological and sociological relationships simply."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "\"Who cares what men think?\""
+    },
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "DOJA CAT\nAMERICAN RAPPER"
+    },
+    {
+      "approx_t": 0,
+      "track": "ui",
+      "text": "Scott_Vlog\nWho is this actually for?\n1d Reply"
+    },
+    {
+      "approx_t": 0,
+      "track": "ui",
+      "text": "Josh_Beats\nLess makeup looks better\n1d Reply"
+    },
+    {
+      "approx_t": 0,
+      "track": "ui",
+      "text": "DavidsThoughts\nNot my preference.\n1d Reply"
+    },
+    {
+      "approx_t": 1,
+      "track": "label",
+      "text": "CARDI B\nAMERICAN RAPPER"
+    },
+    {
+      "approx_t": 2,
+      "track": "label",
+      "text": "RIHANNA\nBARBADIAN SINGER"
+    },
+    {
+      "approx_t": 3,
+      "track": "headline",
+      "text": "What influences women's beauty choices?"
+    },
+    {
+      "approx_t": 4,
+      "track": "chip",
+      "text": "Male approval"
+    },
+    {
+      "approx_t": 5,
+      "track": "chip",
+      "text": "Motivation"
+    },
+    {
+      "approx_t": 5,
+      "track": "chip",
+      "text": "Confidence"
+    },
+    {
+      "approx_t": 6,
+      "track": "chip",
+      "text": "Self image"
+    },
+    {
+      "approx_t": 7,
+      "track": "headline",
+      "text": "Beauty trends often push boundaries"
+    },
+    {
+      "approx_t": 8,
+      "track": "label",
+      "text": "Bleached eyebrows"
+    },
+    {
+      "approx_t": 9,
+      "track": "label",
+      "text": "Colorful hair"
+    },
+    {
+      "approx_t": 10,
+      "track": "label",
+      "text": "Gradient lips"
+    },
+    {
+      "approx_t": 11,
+      "track": "label",
+      "text": "Laminated brows"
+    },
+    {
+      "approx_t": 12,
+      "track": "label",
+      "text": "Unconventional nail shape"
+    },
+    {
+      "approx_t": 13,
+      "track": "headline",
+      "text": "Appealing to men isn't the goal"
+    },
+    {
+      "approx_t": 14,
+      "track": "ui",
+      "text": "Smile [x] Eyes [x] Skin [x]"
+    },
+    {
+      "approx_t": 14,
+      "track": "ui",
+      "text": "Nice skin!"
+    },
+    {
+      "approx_t": 15,
+      "track": "ui",
+      "text": "Beautiful eyes"
+    },
+    {
+      "approx_t": 15,
+      "track": "ui",
+      "text": "Not really into the brows."
+    },
+    {
+      "approx_t": 17,
+      "track": "headline",
+      "text": "Who shapes beauty trends?"
+    },
+    {
+      "approx_t": 18,
+      "track": "chip",
+      "text": "CREATIVE DIRECTORS"
+    },
+    {
+      "approx_t": 18,
+      "track": "chip",
+      "text": "STYLISTS"
+    },
+    {
+      "approx_t": 19,
+      "track": "chip",
+      "text": "MAKEUP ARTISTS"
+    },
+    {
+      "approx_t": 19,
+      "track": "chip",
+      "text": "PHOTOGRAPHERS"
+    },
+    {
+      "approx_t": 19,
+      "track": "chip",
+      "text": "INFLUENCERS"
+    },
+    {
+      "approx_t": 19,
+      "track": "chip",
+      "text": "MODELS"
+    },
+    {
+      "approx_t": 21,
+      "track": "citation",
+      "text": "Bonell, S., Austen, E., & Griffiths, S. (2022). Australian women's motivations for, and experiences of, cosmetic surgery: a qualitative investigation. Body Image, 41, 128-139."
+    },
+    {
+      "approx_t": 22,
+      "track": "headline",
+      "text": "Question: \"Why did you pursue cosmetic procedures?\""
+    },
+    {
+      "approx_t": 22,
+      "track": "label",
+      "text": "ARIANA GRANDE, AMERICAN SINGER"
+    },
+    {
+      "approx_t": 22,
+      "track": "label",
+      "text": "BILLIE EILISH, AMERICAN SINGER"
+    },
+    {
+      "approx_t": 23,
+      "track": "label",
+      "text": "KAREN ELSON, ENGLISH MODEL"
+    },
+    {
+      "approx_t": 25,
+      "track": "label",
+      "text": "JENNA ORTEGA, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 28,
+      "track": "label",
+      "text": "EVA MENDES, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 28,
+      "track": "chip",
+      "text": "Confidence"
+    },
+    {
+      "approx_t": 28,
+      "track": "chip",
+      "text": "Self Image"
+    },
+    {
+      "approx_t": 30,
+      "track": "headline",
+      "text": "Who do women actually get cosmetic work done for?"
+    },
+    {
+      "approx_t": 33,
+      "track": "headline",
+      "text": "The best answer"
+    },
+    {
+      "approx_t": 35,
+      "track": "chip",
+      "text": "Themselves"
+    },
+    {
+      "approx_t": 36,
+      "track": "chip",
+      "text": "Media"
+    },
+    {
+      "approx_t": 36,
+      "track": "chip",
+      "text": "Peers"
+    },
+    {
+      "approx_t": 37,
+      "track": "citation",
+      "text": "Rodgers, R. F., Hewitt, R. C., & Lashway, K. (2016). Sociocultural pressures and engagement with cosmetic products and procedures in adult women. Body Image, 19, 101-107."
+    },
+    {
+      "approx_t": 38,
+      "track": "label",
+      "text": "MADISON BEER, AMERICAN SINGER"
+    },
+    {
+      "approx_t": 39,
+      "track": "label",
+      "text": "SYDNEY SWEENEY, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 40,
+      "track": "label",
+      "text": "KENDALL JENNER, AMERICAN MODEL"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "MEDIA"
+    },
+    {
+      "approx_t": 41,
+      "track": "chip",
+      "text": "PEERS"
+    },
+    {
+      "approx_t": 41,
+      "track": "chip",
+      "text": "SOCIAL NORMS"
+    },
+    {
+      "approx_t": 43,
+      "track": "headline",
+      "text": "Multiple interconnected factors shape beauty decisions"
+    },
+    {
+      "approx_t": 44,
+      "track": "chip",
+      "text": "IDENTITY"
+    },
+    {
+      "approx_t": 44,
+      "track": "chip",
+      "text": "SELF-IMAGE"
+    },
+    {
+      "approx_t": 44,
+      "track": "chip",
+      "text": "CONFIDENCE"
+    },
+    {
+      "approx_t": 47,
+      "track": "headline",
+      "text": "You're Curious?"
+    },
+    {
+      "approx_t": 48,
+      "track": "headline",
+      "text": "Get your Facial Analysis"
+    },
+    {
+      "approx_t": 49,
+      "track": "ui",
+      "text": "acos.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "Who cares what men think?"
+    },
+    {
+      "approx_t": 2,
+      "text": "One thing a lot of guys don't get is that this is literally most women's attitude when making decisions about their looks."
+    },
+    {
+      "approx_t": 7,
+      "text": "Look at beauty trends: bleached eyebrows, colourful hair, gradient lips, laminated brows, unconventional nail shapes."
+    },
+    {
+      "approx_t": 13,
+      "text": "This is stuff men literally do not notice or even actively like."
+    },
+    {
+      "approx_t": 16,
+      "text": "If you're even somewhat plugged into the beauty industry, you know it's obviously not for the male gaze."
+    },
+    {
+      "approx_t": 21,
+      "text": "Indeed, when Bonell and colleagues asked women why they pursue cosmetic procedures, they reported doing it to feel more confident and better align their appearance with their self-image."
+    },
+    {
+      "approx_t": 29,
+      "text": "So, who do women actually get cosmetic work done for? The best answer is likely, simply, 'themselves'."
+    },
+    {
+      "approx_t": 35,
+      "text": "But the full truth is a bit more complicated."
+    },
+    {
+      "approx_t": 37,
+      "text": "Research by Rodgers and colleagues suggest that beauty ideals are shaped by media, peers, and social norms."
+    },
+    {
+      "approx_t": 42,
+      "text": "So, personal preferences and social influences are somewhat deeply intertwined."
+    },
+    {
+      "approx_t": 47,
+      "text": "Do you want us to analyze your face? Click the link in bio. acos.com"
+    }
+  ],
+  "narrative_arc": [
+    "Establish the premise that women do not dress or style themselves for male approval.",
+    "Provide examples of trends that men dislike or ignore but women love.",
+    "Introduce academic research showing cosmetic procedures are done for self-confidence.",
+    "Complicate the 'for themselves' narrative by showing how media and peers shape those desires.",
+    "Conclude that beauty choices are a mix of personal identity and social norms, leading to a CTA."
+  ],
+  "cta": {
+    "approx_t": 47,
+    "what": "Encourages viewers to get a personalized facial analysis by visiting acos.com."
+  },
+  "subjects": [
+    "Doja Cat (American Rapper)",
+    "Cardi B (American Rapper)",
+    "Rihanna (Barbadian Singer)",
+    "Ariana Grande (American Singer)",
+    "Billie Eilish (American Singer)",
+    "Karen Elson (English Model)",
+    "Jenna Ortega (American Actress)",
+    "Eva Mendes (American Actress)",
+    "Madison Beer (American Singer)",
+    "Sydney Sweeney (American Actress)",
+    "Kendall Jenner (American Model)"
+  ],
+  "what_makes_it_work": [
+    "Uses academic citations to back up sociological claims, elevating it above standard social media commentary.",
+    "Highly visual diagrams and 3D animations break down complex psychological concepts.",
+    "Leverages recognizable celebrity imagery to maintain high engagement throughout."
+  ],
+  "animations": [
+    {
+      "name": "Social Comment Pop",
+      "approx_t": 0.0,
+      "what_moves": "Social media comment boxes",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "Background image transitions",
+      "purpose": "Simulate real-time social media feedback popping up around the subject.",
+      "reusable_as": "Displaying user reviews or testimonials over a product image.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Avatar Grid Reveal",
+      "approx_t": 3.0,
+      "what_moves": "Circular profile avatars and text labels",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Central question text",
+      "purpose": "Introduce demographic categories and their corresponding motivations.",
+      "reusable_as": "Presenting team members or persona profiles in a pitch deck.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Trend Card Carousel",
+      "approx_t": 8.0,
+      "what_moves": "Stacked image cards of beauty trends",
+      "motion": "translate",
+      "direction": "right-to-left",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "Static background text",
+      "purpose": "Showcase a rapid succession of visual examples in a compact space.",
+      "reusable_as": "Displaying a portfolio of work or product variations.",
+      "we_already_have": "SlideOver",
+      "would_need_building": null
+    },
+    {
+      "name": "Feature Checklist Ticks",
+      "approx_t": 14.0,
+      "what_moves": "Checkmark icons inside pill buttons",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Text bubble pop-ins",
+      "purpose": "Indicate active criteria being met or noticed.",
+      "reusable_as": "Highlighting completed steps in a process or product features.",
+      "we_already_have": "AnimatedCheckList",
+      "would_need_building": null
+    },
+    {
+      "name": "Hub and Spoke Diagram",
+      "approx_t": 17.0,
+      "what_moves": "Central image, surrounding category bubbles, and connecting arrows",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Text fade-in",
+      "purpose": "Map out multiple contributing factors to a central theme.",
+      "reusable_as": "Explaining organizational structure or ecosystem components.",
+      "we_already_have": "TrimPath",
+      "would_need_building": "A composite template that coordinates PopIn nodes with TrimPath connectors."
+    },
+    {
+      "name": "Horizontal Celebrity Scroll",
+      "approx_t": 22.0,
+      "what_moves": "A continuous horizontal strip of celebrity portraits",
+      "motion": "translate",
+      "direction": "right-to-left",
+      "feel": "floaty",
+      "staggered": false,
+      "layered_with": "Overlay text and question box",
+      "purpose": "Provide a gallery of examples supporting the narrative.",
+      "reusable_as": "Displaying client logos or user-generated content.",
+      "we_already_have": null,
+      "would_need_building": "Horizontal continuous scroll container with snapping or constant velocity."
+    },
+    {
+      "name": "Anatomical Block Drop",
+      "approx_t": 40.0,
+      "what_moves": "Labeled blocks falling into a mannequin head silhouette",
+      "motion": "translate",
+      "direction": "down",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "Phone screen scroll in background",
+      "purpose": "Metaphorically show external factors filling up a person's mind.",
+      "reusable_as": "Illustrating inputs entering a system or ingredients in a recipe.",
+      "we_already_have": "Drop",
+      "would_need_building": null
+    },
+    {
+      "name": "Interconnected Network Map",
+      "approx_t": 44.0,
+      "what_moves": "Two rows of text blocks and double-ended connecting arrows",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "mechanical",
+      "staggered": true,
+      "layered_with": "Title text",
+      "purpose": "Demonstrate complex, reciprocal relationships between different concepts.",
+      "reusable_as": "Showing data flow or feedback loops in a system architecture.",
+      "we_already_have": "TrimPath",
+      "would_need_building": "A network diagram generator that links text elements with dynamic SVG paths."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Elastic PopIn for social elements",
+      "Staggered TrimPath arrows for diagrams",
+      "Smooth horizontal card transitions"
+    ],
+    "how_things_enter": "Elements scale up with a spring bounce or slide in from the right edge.",
+    "how_things_leave": "Most elements fade out or are covered by incoming panels.",
+    "how_scenes_change": "Hard cuts combined with full-screen color shifts and slide-overs.",
+    "what_stays_still": "The minimalist pastel background and main conceptual headers.",
+    "rhythm": "Highly structured and rhythmic, matching the voiceover beats with precise, staggered arrivals."
+  },
+  "what_we_should_steal": [
+    "The Hub and Spoke Diagram template for mapping complex relationships visually.",
+    "The Anatomical Block Drop concept for creative, metaphorical data visualization.",
+    "The Trend Card Carousel for compact, high-impact visual showcases."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Doja Cat background image and text elements appear",
+      "element": "Background image, main text, and comment boxes",
+      "motion": "fade",
+      "content": "\"Who cares what men think?\", \"DOJA CAT AMERICAN RAPPER\", and comments by Scott_Vlog, Josh_Beats, DavidsThoughts"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Background image transitions to Cardi B",
+      "element": "Background image and artist label",
+      "motion": "fade",
+      "content": "Cardi B image, \"CARDI B AMERICAN RAPPER\""
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Background image transitions to Rihanna",
+      "element": "Background image and artist label",
+      "motion": "fade",
+      "content": "Rihanna image, \"RIHANNA BARBADIAN SINGER\""
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Transition to blue background with question and male avatars",
+      "element": "Background, question text, and three male avatars",
+      "motion": "cut",
+      "content": "\"What influences women's beauty choices?\""
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Arrows and labels appear under male avatars",
+      "element": "Arrows and \"Male approval\" labels",
+      "motion": "draw-on",
+      "content": "\"Male approval\""
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Female avatars and their labels appear on the right",
+      "element": "Female avatars and labels",
+      "motion": "fade",
+      "content": "\"Motivation\", \"Confidence\", \"Self image\""
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Transition to beauty trends scene",
+      "element": "Main image of woman with bleached eyebrows and carousel container",
+      "motion": "cut",
+      "content": "\"Beauty trends often push boundaries\""
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Carousel scrolls to show bleached eyebrows card",
+      "element": "Carousel card",
+      "motion": "translate",
+      "content": "\"Bleached eyebrows\""
+    },
+    {
+      "approx_t": 9.0,
+      "event": "Carousel scrolls to show colorful hair card",
+      "element": "Carousel card",
+      "motion": "translate",
+      "content": "\"Colorful hair\""
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Carousel scrolls to show gradient lips card",
+      "element": "Carousel card",
+      "motion": "translate",
+      "content": "\"Gradient lips\""
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Carousel scrolls to show laminated brows card",
+      "element": "Carousel card",
+      "motion": "translate",
+      "content": "\"Laminated brows\""
+    },
+    {
+      "approx_t": 12.0,
+      "event": "Carousel scrolls to show unconventional nail shape card",
+      "element": "Carousel card",
+      "motion": "translate",
+      "content": "\"Unconventional nail shape\""
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Transition to appealing to men scene",
+      "element": "Background image of couple and main text",
+      "motion": "cut",
+      "content": "\"Appealing to men isn't the goal\""
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Checkboxes and first text bubble appear",
+      "element": "Checkboxes and \"Nice skin!\" text bubble",
+      "motion": "fade",
+      "content": "\"Smile\", \"Eyes\", \"Skin\" checkboxes and \"Nice skin!\""
+    },
+    {
+      "approx_t": 15.0,
+      "event": "More text bubbles appear near the couple",
+      "element": "Text bubbles",
+      "motion": "fade",
+      "content": "\"Beautiful eyes\", \"Not really into the brows.\""
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Transition to who shapes beauty trends scene",
+      "element": "Central female avatar and main text",
+      "motion": "cut",
+      "content": "\"Who shapes beauty trends?\""
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Creative directors and stylists avatars appear with arrows",
+      "element": "Avatars and arrows",
+      "motion": "fade",
+      "content": "\"CREATIVE DIRECTORS\", \"STYLISTS\""
+    },
+    {
+      "approx_t": 19.0,
+      "event": "Remaining industry avatars and arrows appear",
+      "element": "Avatars and arrows",
+      "motion": "fade",
+      "content": "\"MAKEUP ARTISTS\", \"PHOTOGRAPHERS\", \"INFLUENCERS\", \"MODELS\""
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Transition to research citation and question scene",
+      "element": "Citation text and question box",
+      "motion": "cut",
+      "content": "Citation by Bonell et al. (2022) and \"Why did you pursue cosmetic procedures?\""
+    },
+    {
+      "approx_t": 22.0,
+      "event": "Celebrity carousel starts with Ariana Grande and Billie Eilish",
+      "element": "Celebrity images and labels",
+      "motion": "fade",
+      "content": "\"ARIANA GRANDE\", \"BILLIE EILISH\""
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Carousel scrolls to Karen Elson",
+      "element": "Celebrity image and label",
+      "motion": "translate",
+      "content": "\"KAREN ELSON, ENGLISH MODEL\""
+    },
+    {
+      "approx_t": 25.0,
+      "event": "Carousel scrolls to Jenna Ortega",
+      "element": "Celebrity image and label",
+      "motion": "translate",
+      "content": "\"JENNA ORTEGA, AMERICAN ACTRESS\""
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Carousel scrolls to Eva Mendes with confidence and self-image labels",
+      "element": "Celebrity image and labels",
+      "motion": "translate",
+      "content": "\"EVA MENDES, AMERICAN ACTRESS\", \"Confidence\", \"Self Image\""
+    },
+    {
+      "approx_t": 30.0,
+      "event": "Transition to mannequin head scene with cosmetic tools",
+      "element": "Mannequin head, main text, syringe, and brush",
+      "motion": "cut",
+      "content": "\"Who do women actually get cosmetic work done for?\""
+    },
+    {
+      "approx_t": 33.0,
+      "event": "The best answer text and arrow appear",
+      "element": "Text and arrow",
+      "motion": "fade",
+      "content": "\"The best answer\""
+    },
+    {
+      "approx_t": 35.0,
+      "event": "Themselves label with checkmark appears",
+      "element": "Label",
+      "motion": "fade",
+      "content": "\"Themselves\""
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Media and Peers labels appear below",
+      "element": "Labels",
+      "motion": "fade",
+      "content": "\"Media\", \"Peers\""
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Transition to phone screen showing Madison Beer",
+      "element": "Phone frame, citation, label, and celebrity image",
+      "motion": "cut",
+      "content": "Citation by Rodgers et al. (2016), \"Sociocultural pressures\", \"MADISON BEER\""
+    },
+    {
+      "approx_t": 39.0,
+      "event": "Phone screen scrolls to Sydney Sweeney",
+      "element": "Celebrity image and label",
+      "motion": "translate",
+      "content": "\"SYDNEY SWEENEY, AMERICAN ACTRESS\""
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Phone screen scrolls to Kendall Jenner and mannequin head gets labels",
+      "element": "Celebrity image, label, and mannequin head labels",
+      "motion": "translate",
+      "content": "\"KENDALL JENNER\", \"MEDIA\", \"PEERS\", \"SOCIAL NORMS\""
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Transition to interconnected factors scene",
+      "element": "Main text and top labels",
+      "motion": "cut",
+      "content": "\"Multiple interconnected factors shape beauty decisions\", \"MEDIA\", \"SOCIAL NORMS\", \"PEERS\""
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Bottom labels and connecting arrows appear",
+      "element": "Labels and arrows",
+      "motion": "fade",
+      "content": "\"IDENTITY\", \"SELF-IMAGE\", \"CONFIDENCE\""
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Transition to female face image",
+      "element": "Image of woman",
+      "motion": "cut",
+      "content": ""
+    },
+    {
+      "approx_t": 48.0,
+      "event": "Transition to call to action text",
+      "element": "Text elements",
+      "motion": "cut",
+      "content": "\"You're Curious? Get your Facial Analysis\""
+    },
+    {
+      "approx_t": 49.0,
+      "event": "Search bar animation appears",
+      "element": "Search bar and typed text",
+      "motion": "fade",
+      "content": "\"acos.com\""
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 1,
+    "source": "refs/corpus/ref-04.mp4",
+    "tokens": {
+      "animation": 8369,
+      "content": 10943
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

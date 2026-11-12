@@ -1,0 +1,618 @@
+{
+  "label": "ours-trio-v3",
+  "archetype": "evidence explainer",
+  "one_line": "An AI-powered visual breakdown of facial structure and feature refinements leading into an offer for a personalized facial analysis dossier.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 73.792,
+  "measured": {
+    "pacing": {
+      "cuts": 12,
+      "cuts_per_min": 9.8,
+      "median_shot_s": 3.3,
+      "shortest_shot_s": 0.77,
+      "longest_shot_s": 15.47,
+      "frozen_pct": 86.2
+    },
+    "transitions": {
+      "count": 6,
+      "median_s": 0.18,
+      "spans_s": [
+        0.133,
+        0.267,
+        0.167,
+        0.2,
+        0.333,
+        0.167
+      ]
+    },
+    "element_events": {
+      "count": 26,
+      "per_min": 21.2,
+      "median_gap_s": 1.63,
+      "frames": [
+        1,
+        36,
+        55,
+        73,
+        749,
+        801,
+        852,
+        919,
+        1005,
+        1028,
+        1031,
+        1309,
+        1341,
+        1374,
+        1423,
+        1503,
+        1601,
+        1749,
+        1752,
+        1755,
+        1895,
+        1998,
+        2001,
+        2004,
+        2079,
+        2082
+      ]
+    },
+    "continuous_motion": {
+      "spans": 12,
+      "total_s": 4.83,
+      "pct_of_runtime": 6.6,
+      "median_span_s": 0.4,
+      "longest_span_s": 0.53,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        161,
+        180,
+        185
+      ],
+      "dominant_hex": "#A1B4B9",
+      "corner_flatness": 0.0,
+      "background_drift": 6.67,
+      "flat_background": true,
+      "headline_band_frames_pct": 91.8,
+      "caption_band_frames_pct": 96.6
+    },
+    "audio": {
+      "speech_segments": 36,
+      "speech_pct": 85.1,
+      "median_phrase_s": 1.15,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 10,
+    "hard_cuts": 12,
+    "cuts_per_described_change": 1.33,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": true,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 5.0,
+      "snapped_to_measured_cut": true,
+      "layout": "3-column split portrait",
+      "description": "Portrait split into three panels demonstrating subtle visual variations.",
+      "devices": [
+        "split-screen slider",
+        "text overlays"
+      ]
+    },
+    {
+      "start_s": 5.0,
+      "start_frame": 150,
+      "end_s": 12.0,
+      "snapped_to_measured_cut": false,
+      "layout": "full-bleed portrait with diagram overlay",
+      "description": "Center line and grid overlays highlight structural and proportional breakdown.",
+      "devices": [
+        "measurement grid lines",
+        "chip tags"
+      ]
+    },
+    {
+      "start_s": 12.1,
+      "start_frame": 363,
+      "end_s": 22.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen portrait zoom",
+      "description": "Zoomed view of lower face comparing original vs facelift jawline definition.",
+      "devices": [
+        "before-after slider",
+        "contour outline animation"
+      ]
+    },
+    {
+      "start_s": 22.5,
+      "start_frame": 675,
+      "end_s": 37.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen feature zoom",
+      "description": "Split face cycling through individual facial features (brows, eyes, nose, lips, hair).",
+      "devices": [
+        "feature bounding boxes",
+        "navigation tab bar"
+      ]
+    },
+    {
+      "start_s": 37.533,
+      "start_frame": 1126,
+      "end_s": 42.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Full face showing interconnected feature lines.",
+      "devices": [
+        "interconnection lines",
+        "bounding boxes"
+      ]
+    },
+    {
+      "start_s": 41.767,
+      "start_frame": 1253,
+      "end_s": 49.0,
+      "snapped_to_measured_cut": true,
+      "layout": "3-column grid portrait",
+      "description": "Three full portraits displayed side-by-side for direct comparison.",
+      "devices": [
+        "side-by-side comparison",
+        "numbered labels"
+      ]
+    },
+    {
+      "start_s": 49.7,
+      "start_frame": 1491,
+      "end_s": 53.0,
+      "snapped_to_measured_cut": true,
+      "layout": "horizontal split portrait",
+      "description": "Horizontal split dividing upper feature edits from lower structural edits.",
+      "devices": [
+        "horizontal slider",
+        "directional tags"
+      ]
+    },
+    {
+      "start_s": 53.0,
+      "start_frame": 1590,
+      "end_s": 58.0,
+      "snapped_to_measured_cut": false,
+      "layout": "3-column grid portrait",
+      "description": "Three portraits side-by-side with overlaid numbers 1, 2, 3.",
+      "devices": [
+        "interactive prompt overlay",
+        "numbered choices"
+      ]
+    },
+    {
+      "start_s": 58.267,
+      "start_frame": 1748,
+      "end_s": 70.0,
+      "snapped_to_measured_cut": true,
+      "layout": "phone mockup",
+      "description": "Interactive mobile UI demo scrolling through a personalized facial dossier report.",
+      "devices": [
+        "ui scroll animation",
+        "document preview"
+      ]
+    },
+    {
+      "start_s": 70.0,
+      "start_frame": 2100,
+      "end_s": 73.8,
+      "snapped_to_measured_cut": false,
+      "layout": "minimal text panel with search bar",
+      "description": "Final call to action screen featuring search bar entry.",
+      "devices": [
+        "simulated typing search bar",
+        "cta card"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "split-screen slider",
+      "what_it_is": "A vertical divider line moving across the frame",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "measurement grid lines",
+      "what_it_is": "Dashed horizontal and vertical guidelines",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "text overlays",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "chip tags",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "before-after slider",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "contour outline animation",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "feature bounding boxes",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "navigation tab bar",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "interconnection lines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "bounding boxes",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "side-by-side comparison",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "numbered labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "horizontal slider",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "directional tags",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "interactive prompt overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "numbered choices",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "ui scroll animation",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "document preview",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "simulated typing search bar",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        9
+      ]
+    },
+    {
+      "name": "cta card",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        9
+      ]
+    },
+    {
+      "name": "phone mockup",
+      "what_it_is": "Smartphone frame presenting digital app pages",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A portrait of a woman is shown, splitting into three vertical panels with text stating 'Same woman. Same face.' and 'One face, three impressions.'",
+    "why_it_works": "Creates instant visual curiosity by showing how subtle structural and feature edits dramatically alter perception."
+  },
+  "narrative_arc": [
+    "Presents a visual puzzle of one face rendered in three distinct ways.",
+    "Deconstructs the face into structural vs feature-level adjustments.",
+    "Compares all versions and prompts audience interaction.",
+    "Transitions to product solution offering personalized facial analysis reports."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Same woman."
+    },
+    {
+      "approx_t": 1.0,
+      "track": "headline",
+      "text": "Same face."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "headline",
+      "text": "One face, three impressions."
+    },
+    {
+      "approx_t": 5.0,
+      "track": "headline",
+      "text": "What actually changes?"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "chip",
+      "text": "STRUCTURE"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "PROPORTIONS"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "DETAILS"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "headline",
+      "text": "Version two, the facelift."
+    },
+    {
+      "approx_t": 12.0,
+      "track": "label",
+      "text": "02 / STRUCTURE"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "headline",
+      "text": "Now, the features."
+    },
+    {
+      "approx_t": 25.0,
+      "track": "ui",
+      "text": "BROWS EYES NOSE LIPS SKIN HAIR"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "headline",
+      "text": "None of them in isolation."
+    },
+    {
+      "approx_t": 42.0,
+      "track": "headline",
+      "text": "Compare all three."
+    },
+    {
+      "approx_t": 48.0,
+      "track": "headline",
+      "text": "Same woman. Three impressions."
+    },
+    {
+      "approx_t": 50.0,
+      "track": "headline",
+      "text": "Not always the whole face."
+    },
+    {
+      "approx_t": 54.0,
+      "track": "headline",
+      "text": "Which would you choose?"
+    },
+    {
+      "approx_t": 56.0,
+      "track": "chip",
+      "text": "COMMENT 1, 2 OR 3"
+    },
+    {
+      "approx_t": 58.0,
+      "track": "headline",
+      "text": "Your face. Understood in detail."
+    },
+    {
+      "approx_t": 59.0,
+      "track": "ui",
+      "text": "The Facial Dossier"
+    },
+    {
+      "approx_t": 70.0,
+      "track": "chip",
+      "text": "GET YOUR PERSONALISD FACIAL ANALYSIS"
+    },
+    {
+      "approx_t": 71.0,
+      "track": "ui",
+      "text": "Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Same woman."
+    },
+    {
+      "approx_t": 1.0,
+      "text": "Same face."
+    },
+    {
+      "approx_t": 3.0,
+      "text": "So why do these three versions look so different?"
+    },
+    {
+      "approx_t": 5.0,
+      "text": "The face is the same."
+    },
+    {
+      "approx_t": 7.0,
+      "text": "What changes is the structure, the proportions, the details."
+    },
+    {
+      "approx_t": 12.0,
+      "text": "In version two, a facelift reshapes her lower face."
+    },
+    {
+      "approx_t": 17.0,
+      "text": "A tighter jawline, a more defined profile."
+    },
+    {
+      "approx_t": 20.0,
+      "text": "The change is structural."
+    },
+    {
+      "approx_t": 22.0,
+      "text": "Now, the individual features."
+    },
+    {
+      "approx_t": 25.0,
+      "text": "Brows frame the eyes."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "The eyes set the expression."
+    },
+    {
+      "approx_t": 28.0,
+      "text": "The nose balances the midface."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "Lips shape the lower face."
+    },
+    {
+      "approx_t": 33.0,
+      "text": "Skin and hair change how the whole face reads."
+    },
+    {
+      "approx_t": 37.0,
+      "text": "None of these exist in isolation."
+    },
+    {
+      "approx_t": 40.0,
+      "text": "It's how they work together."
+    },
+    {
+      "approx_t": 42.0,
+      "text": "Now compare all three. The original, the facelift, the refined features."
+    },
+    {
+      "approx_t": 47.0,
+      "text": "Same woman, three different impressions."
+    },
+    {
+      "approx_t": 50.0,
+      "text": "And interestingly, the biggest change isn't always the whole face."
+    },
+    {
+      "approx_t": 53.0,
+      "text": "Beauty is subjective. Which do you prefer: one, two, or three?"
+    },
+    {
+      "approx_t": 58.0,
+      "text": "Want to understand your own face? Refina's personalized 22-page facial analysis maps your features, your strengths, and what you may want to refine."
+    },
+    {
+      "approx_t": 70.0,
+      "text": "Discover your face with Refina."
+    }
+  ],
+  "cta": {
+    "approx_t": 70.0,
+    "what": "Prompt to search 'Refina AI' and discover personalized facial analysis."
+  },
+  "subjects": [
+    "Unidentified female model used for AI facial analysis visualization"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Analytical visuals build technical credibility before presenting the product offer.",
+    "Interactive poll element drives engagement midway through the ad."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "7/10"
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "label": "ours-bangs-v1",
+  "archetype": "evidence explainer",
+  "one_line": "Explains facial proportions using Anne Hathaway with bangs as an example before pitching an AI facial mapping app.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 64.3,
+  "measured": {
+    "pacing": {
+      "cuts": 6,
+      "cuts_per_min": 5.6,
+      "median_shot_s": 9.4,
+      "shortest_shot_s": 1.37,
+      "longest_shot_s": 15.6,
+      "frozen_pct": 84.3
+    },
+    "transitions": {
+      "count": 5,
+      "median_s": 0.37,
+      "spans_s": [
+        0.933,
+        0.367,
+        0.5,
+        0.333,
+        0.267
+      ]
+    },
+    "element_events": {
+      "count": 37,
+      "per_min": 34.6,
+      "median_gap_s": 0.13,
+      "frames": [
+        1,
+        26,
+        55,
+        137,
+        157,
+        160,
+        163,
+        166,
+        169,
+        172,
+        175,
+        445,
+        719,
+        919,
+        922,
+        1310,
+        1314,
+        1360,
+        1400,
+        1417,
+        1420,
+        1423,
+        1458,
+        1461,
+        1528,
+        1531,
+        1534,
+        1537,
+        1540,
+        1650,
+        1653,
+        1657,
+        1714,
+        1717,
+        1720,
+        1724,
+        1808
+      ]
+    },
+    "continuous_motion": {
+      "spans": 16,
+      "total_s": 6.29,
+      "pct_of_runtime": 9.8,
+      "median_span_s": 0.33,
+      "longest_span_s": 0.67,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        160,
+        179,
+        184
+      ],
+      "dominant_hex": "#A0B3B8",
+      "corner_flatness": 0.35,
+      "background_drift": 3.16,
+      "flat_background": true,
+      "headline_band_frames_pct": 91.4,
+      "caption_band_frames_pct": 99.7
+    },
+    "audio": {
+      "speech_segments": 31,
+      "speech_pct": 83.5,
+      "median_phrase_s": 1.12,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 7,
+    "hard_cuts": 6,
+    "cuts_per_described_change": 1.0,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 4.5,
+      "snapped_to_measured_cut": true,
+      "layout": "split portrait",
+      "description": "Anne Hathaway split image comparing bangs (A) vs no bangs (B).",
+      "devices": [
+        "split screen",
+        "A/B labels",
+        "interactive text overlay"
+      ]
+    },
+    {
+      "start_s": 4.5,
+      "start_frame": 135,
+      "end_s": 14.0,
+      "snapped_to_measured_cut": false,
+      "layout": "close-up portrait",
+      "description": "Close-up on forehead highlighting the hairline-to-brow dimension.",
+      "devices": [
+        "measurement lines",
+        "graphic labels"
+      ]
+    },
+    {
+      "start_s": 14.0,
+      "start_frame": 420,
+      "end_s": 23.0,
+      "snapped_to_measured_cut": true,
+      "layout": "portrait with grid overlay",
+      "description": "Facial proportion grid showing upper, middle, and lower thirds.",
+      "devices": [
+        "proportion dividers",
+        "text chips"
+      ]
+    },
+    {
+      "start_s": 23.4,
+      "start_frame": 702,
+      "end_s": 30.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split close-up",
+      "description": "Split view focusing on eye framing differences with/without fringe.",
+      "devices": [
+        "focus reticles",
+        "split screen"
+      ]
+    },
+    {
+      "start_s": 30.4,
+      "start_frame": 912,
+      "end_s": 43.5,
+      "snapped_to_measured_cut": true,
+      "layout": "side-by-side portrait",
+      "description": "Side-by-side comparison of AI-generated faces with different upper third lengths.",
+      "devices": [
+        "side-by-side comparison",
+        "dimension boxes"
+      ]
+    },
+    {
+      "start_s": 43.767,
+      "start_frame": 1313,
+      "end_s": 48.5,
+      "snapped_to_measured_cut": true,
+      "layout": "split portrait",
+      "description": "Revisits the initial Anne Hathaway comparison with a comment CTA.",
+      "devices": [
+        "split screen",
+        "comment badge"
+      ]
+    },
+    {
+      "start_s": 48.567,
+      "start_frame": 1457,
+      "end_s": 64.3,
+      "snapped_to_measured_cut": true,
+      "layout": "phone mockup",
+      "description": "App preview demonstrating facial dossier mapping and customized analysis on a phone.",
+      "devices": [
+        "phone frame",
+        "app interface scroll",
+        "search bar graphic"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "split screen",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "A/B labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "interactive text overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "measurement lines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "graphic labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "proportion dividers",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "text chips",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "focus reticles",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "side-by-side comparison",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "dimension boxes",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "comment badge",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "phone frame",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "app interface scroll",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "search bar graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "Split Screen Comparison",
+      "what_it_is": "Vertical divide showing before/after or A/B versions",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Proportion Overlays",
+      "what_it_is": "Dotted line overlays and facial third grids",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Phone UI Mockup",
+      "what_it_is": "Framed mobile interface demonstrating app features",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A split portrait asks viewers whether they prefer Anne Hathaway with or without bangs.",
+    "why_it_works": "Piques curiosity using a celebrity comparison and interactive question."
+  },
+  "narrative_arc": [
+    "Engagement Hook: Celebrity A/B comparison.",
+    "Educational Insight: Explanation of facial third proportions.",
+    "Visual Proof: Side-by-side analysis of different forehead lengths.",
+    "Call to Action & Product Solution: Introducing Refina AI for personal facial mapping."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Which look do you prefer?"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "caption",
+      "text": "Which Anne Hathaway look do you prefer?"
+    },
+    {
+      "approx_t": 2.8,
+      "track": "label",
+      "text": "A"
+    },
+    {
+      "approx_t": 2.8,
+      "track": "label",
+      "text": "B"
+    },
+    {
+      "approx_t": 2.8,
+      "track": "chip",
+      "text": "EDITED PHOTOGRAPH"
+    },
+    {
+      "approx_t": 3.2,
+      "track": "caption",
+      "text": "With bangs, or without?"
+    },
+    {
+      "approx_t": 4.5,
+      "track": "headline",
+      "text": "Hairline to brow."
+    },
+    {
+      "approx_t": 4.5,
+      "track": "caption",
+      "text": "Look at the space between her hairline and her eyebrows."
+    },
+    {
+      "approx_t": 6.5,
+      "track": "label",
+      "text": "HAIRLINE"
+    },
+    {
+      "approx_t": 7.5,
+      "track": "label",
+      "text": "BROW"
+    },
+    {
+      "approx_t": 8.5,
+      "track": "caption",
+      "text": "Without bangs, you see the full upper third of her face."
+    },
+    {
+      "approx_t": 10.5,
+      "track": "chip",
+      "text": "UPPER FACIAL THIRD"
+    },
+    {
+      "approx_t": 13.5,
+      "track": "headline",
+      "text": "Add a fringe."
+    },
+    {
+      "approx_t": 13.5,
+      "track": "caption",
+      "text": "Add a fringe, and part of that space disappears."
+    },
+    {
+      "approx_t": 13.5,
+      "track": "label",
+      "text": "UPPER"
+    },
+    {
+      "approx_t": 13.5,
+      "track": "label",
+      "text": "MIDDLE"
+    },
+    {
+      "approx_t": 13.5,
+      "track": "label",
+      "text": "LOWER"
+    },
+    {
+      "approx_t": 17.5,
+      "track": "chip",
+      "text": "SAME STRUCTURE"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "caption",
+      "text": "Her actual bone structure hasn't changed."
+    },
+    {
+      "approx_t": 20.5,
+      "track": "headline",
+      "text": "What you perceive."
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "STRUCTURE VS. PERCEPTION"
+    },
+    {
+      "approx_t": 21.5,
+      "track": "caption",
+      "text": "But the proportions you perceive have."
+    },
+    {
+      "approx_t": 23.0,
+      "track": "headline",
+      "text": "Same eyes. Different frame."
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "WITHOUT"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "WITH FRINGE"
+    },
+    {
+      "approx_t": 24.5,
+      "track": "caption",
+      "text": "And there's something else."
+    },
+    {
+      "approx_t": 26.0,
+      "track": "caption",
+      "text": "The fringe frames her eyes, shifting where your attention naturally goes."
+    },
+    {
+      "approx_t": 30.0,
+      "track": "chip",
+      "text": "AI PREVIEW - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 30.5,
+      "track": "headline",
+      "text": "Same haircut. Two faces."
+    },
+    {
+      "approx_t": 30.5,
+      "track": "chip",
+      "text": "FRINGE, GENERATED"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "caption",
+      "text": "That's why the same haircut can look completely different on two people."
+    },
+    {
+      "approx_t": 35.0,
+      "track": "caption",
+      "text": "It's not just the hair."
+    },
+    {
+      "approx_t": 36.5,
+      "track": "headline",
+      "text": "Facial harmony is personal."
+    },
+    {
+      "approx_t": 36.5,
+      "track": "caption",
+      "text": "It's the relationship between the forehead, eyes, brows, and the rest of the face."
+    },
+    {
+      "approx_t": 39.0,
+      "track": "label",
+      "text": "TALL UPPER THIRD"
+    },
+    {
+      "approx_t": 39.0,
+      "track": "label",
+      "text": "SHORT UPPER THIRD"
+    },
+    {
+      "approx_t": 43.5,
+      "track": "headline",
+      "text": "Now look again."
+    },
+    {
+      "approx_t": 44.0,
+      "track": "caption",
+      "text": "Now look at Anne again."
+    },
+    {
+      "approx_t": 45.0,
+      "track": "headline",
+      "text": "A or B?"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "caption",
+      "text": "Bangs or no bangs?"
+    },
+    {
+      "approx_t": 47.5,
+      "track": "chip",
+      "text": "COMMENT A OR B"
+    },
+    {
+      "approx_t": 48.5,
+      "track": "headline",
+      "text": "Your face, mapped."
+    },
+    {
+      "approx_t": 48.5,
+      "track": "caption",
+      "text": "And if you've ever wondered what would suit your own face,"
+    },
+    {
+      "approx_t": 48.5,
+      "track": "chip",
+      "text": "THE FACIAL DOSSIER"
+    },
+    {
+      "approx_t": 51.0,
+      "track": "caption",
+      "text": "Refina's Facial Dossier maps how your features work together,"
+    },
+    {
+      "approx_t": 55.0,
+      "track": "caption",
+      "text": "then shows you personalized recommendations and previews before you change a thing."
+    },
+    {
+      "approx_t": 60.0,
+      "track": "headline",
+      "text": "Your face, understood."
+    },
+    {
+      "approx_t": 60.0,
+      "track": "chip",
+      "text": "GET YOUR FACIAL DOSSIER"
+    },
+    {
+      "approx_t": 60.0,
+      "track": "ui",
+      "text": "Refina AI"
+    },
+    {
+      "approx_t": 60.5,
+      "track": "caption",
+      "text": "Understand your face with Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Which Anne Hathaway look do you prefer? With bangs, or without?"
+    },
+    {
+      "approx_t": 4.5,
+      "text": "Look at the space between her hairline and her eyebrows."
+    },
+    {
+      "approx_t": 8.5,
+      "text": "Without bangs, you see the full upper third of her face."
+    },
+    {
+      "approx_t": 13.5,
+      "text": "Add a fringe, and part of that space disappears."
+    },
+    {
+      "approx_t": 18.0,
+      "text": "Her actual bone structure hasn't changed,"
+    },
+    {
+      "approx_t": 21.5,
+      "text": "but the proportions you perceive have."
+    },
+    {
+      "approx_t": 24.5,
+      "text": "And there's something else: the fringe frames her eyes, shifting where your attention naturally goes."
+    },
+    {
+      "approx_t": 30.5,
+      "text": "That's why the same haircut can look completely different on two people."
+    },
+    {
+      "approx_t": 35.0,
+      "text": "It's not just the hair. It's the relationship between the forehead, eyes, brows, and the rest of the face."
+    },
+    {
+      "approx_t": 44.0,
+      "text": "Now look at Anne again. Bangs or no bangs?"
+    },
+    {
+      "approx_t": 48.5,
+      "text": "And if you've ever wondered what would suit your own face,"
+    },
+    {
+      "approx_t": 51.0,
+      "text": "Refina's Facial Dossier maps how your features work together,"
+    },
+    {
+      "approx_t": 55.0,
+      "text": "then shows you personalized recommendations and previews before you change a thing."
+    },
+    {
+      "approx_t": 60.5,
+      "text": "Understand your face with Refina AI."
+    }
+  ],
+  "cta": {
+    "approx_t": 60.0,
+    "what": "Get Your Facial Dossier / Search Refina AI"
+  },
+  "subjects": [
+    "Anne Hathaway (Celebrity example)",
+    "AI Generated Models (Facial shape demonstrations)"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Uses a recognizable celebrity to demonstrate aesthetic analysis concepts.",
+    "Clear visual overlays prove the educational points before selling the product.",
+    "Seamless transition from high-value analysis to personalized software CTA."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "6/7"
+  }
+}

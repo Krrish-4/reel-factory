@@ -1,0 +1,162 @@
+{
+  "_note": "The shot plan for RefinaChanged. Hand-authored; gen/shots.py validates it, emits shots.ts, and verifies a render against it. `lines` is how many script phrases the beat covers and is the single declaration of beat structure \u2014 beats.ts derives its bounds from here.",
+  "reel": "changed",
+  "script": "docs/scripts/changed.txt",
+  "cues": "src/refina/changed/words-vo.ts",
+  "_motion": "A beat is `moving` only if its picture changes over time on its own \u2014 footage, a wipe travelling, a diagram animating, a subject growing. A still photograph with overlays arriving on top of it is `static`, however many overlays arrive. Every reel this repo has produced measured 82-95% frozen against a corpus median of 50.5, and 0.3-14% continuous motion against 27.3, because almost every beat was the second kind.",
+  "min_moving_share": 0.35,
+  "beats": [
+    {
+      "name": "hook",
+      "lines": 3,
+      "composition": "full-bleed-wipe",
+      "motion": "moving",
+      "shot": "medium",
+      "props": {
+        "under": "demo1-before",
+        "over": "demo1-facelift",
+        "zoom": 1.06,
+        "reticle": "jaw",
+        "reticleLabel": "JAWLINE",
+        "compliance": true,
+        "wipe": "once"
+      }
+    },
+    {
+      "name": "claim",
+      "lines": 2,
+      "composition": "radial-fan",
+      "motion": "static",
+      "shot": "medium",
+      "props": {
+        "under": "demo1-before",
+        "zoom": 1.02,
+        "dim": 0.44,
+        "fan": true
+      }
+    },
+    {
+      "name": "light",
+      "lines": 4,
+      "composition": "full-bleed-wipe-down",
+      "motion": "moving",
+      "shot": "medium",
+      "props": {
+        "under": "demo1-before",
+        "over": "demo1-overhead",
+        "zoom": 1.04,
+        "dir": "y",
+        "lamp": true,
+        "reticle": "eyes",
+        "reticleLabel": "EYE SOCKETS",
+        "tag": "SAME FACE - NOTHING TOUCHED",
+        "wipe": "sweep",
+        "period": 134
+      }
+    },
+    {
+      "name": "distance",
+      "lines": 4,
+      "composition": "boxed-diagram",
+      "motion": "moving",
+      "shot": "wide",
+      "props": {
+        "under": "demo1-before",
+        "over": "demo1-closeup",
+        "boxed": true,
+        "track": true,
+        "tags": [
+          "NOSE FORWARD",
+          "JAW BACK"
+        ]
+      }
+    },
+    {
+      "name": "tilt",
+      "lines": 4,
+      "composition": "full-bleed-wipe",
+      "motion": "moving",
+      "shot": "medium",
+      "props": {
+        "under": "demo1-before",
+        "over": "demo1-chindown",
+        "zoom": 1.0,
+        "focus": "50% 34%",
+        "tag": "A FEW DEGREES OF TILT",
+        "wipe": "sweep",
+        "period": 110
+      }
+    },
+    {
+      "name": "express",
+      "lines": 3,
+      "composition": "extreme-close-wipe",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "demo1-before",
+        "over": "demo1-lift",
+        "zoom": 1.42,
+        "focus": "50% 58%",
+        "fold": true,
+        "tag": "NASOLABIAL FOLD",
+        "wipe": "sweep",
+        "period": 120
+      }
+    },
+    {
+      "name": "nuance",
+      "lines": 3,
+      "composition": "full-bleed-mesh",
+      "motion": "static",
+      "shot": "medium",
+      "props": {
+        "under": "demo1-before",
+        "zoom": 1.02,
+        "dim": 0.32,
+        "mesh": true,
+        "chips": "vars"
+      }
+    },
+    {
+      "name": "test",
+      "lines": 4,
+      "composition": "instruction-card",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "under": "demo1-before",
+        "zoom": 1.16,
+        "focus": "50% 26%",
+        "dim": 0.55,
+        "steps": [
+          "Two photos, same room, a minute apart.",
+          "One with the light in front of you.",
+          "One with the light above you."
+        ],
+        "tag": "SAME FACE. TWO PEOPLE."
+      }
+    },
+    {
+      "name": "standard",
+      "lines": 3,
+      "composition": "checklist-search",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "under": "demo1-before",
+        "zoom": 1.08,
+        "dim": 0.5,
+        "locked": [
+          "Same face",
+          "Same light",
+          "Same lens",
+          "Same angle"
+        ],
+        "type": "Refina AI"
+      }
+    }
+  ],
+  "_shot": "Declared shot size per beat, checked against refs/shot-bands.json \u2014 bands derived from the pooled per-frame face-height distribution of the 21-reel corpus plus the two supplied framing references. The reel must also TRAVEL: the corpus moves ~2.1x between its widest and tightest shot and our last cut sat at 1.35x with every other check green.",
+  "_props": "Assets, labels and per-beat options as DATA. The composition is a compiler over this list: it looks each beat's `composition` up in a registry of beat components and hands it these props. Changing which asset a beat shows, or what it is labelled, is an edit here \u2014 not in TSX."
+}

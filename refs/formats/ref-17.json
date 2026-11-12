@@ -1,0 +1,119 @@
+{
+  "label": "ref-17",
+  "source": "refs/corpus/ref-17.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 72.708,
+  "pacing": {
+    "cuts": 3,
+    "cuts_per_min": 2.5,
+    "median_shot_s": 15.85,
+    "shortest_shot_s": 0.25,
+    "longest_shot_s": 40.75,
+    "frozen_pct": 62.9
+  },
+  "element_events": {
+    "count": 67,
+    "per_min": 55.3,
+    "median_gap_s": 0.12,
+    "frames": [
+      173,
+      176,
+      179,
+      182,
+      185,
+      188,
+      191,
+      343,
+      346,
+      349,
+      352,
+      355,
+      358,
+      361,
+      364,
+      367,
+      370,
+      373,
+      376,
+      427,
+      430,
+      433,
+      436,
+      439,
+      442,
+      445,
+      506,
+      509,
+      512,
+      521,
+      524,
+      527,
+      687,
+      690,
+      693,
+      785,
+      788,
+      791,
+      794,
+      797
+    ]
+  },
+  "continuous_motion": {
+    "spans": 15,
+    "total_s": 15.85,
+    "pct_of_runtime": 21.8,
+    "median_span_s": 0.67,
+    "longest_span_s": 3.38,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 11,
+    "median_s": 0.75,
+    "spans_s": [
+      0.208,
+      1.042,
+      1.708,
+      1.125,
+      0.75,
+      0.25,
+      0.875,
+      0.958,
+      0.708,
+      0.75,
+      0.333
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      158,
+      182,
+      190
+    ],
+    "dominant_hex": "#9EB6BE",
+    "corner_flatness": 0.66,
+    "background_drift": 14.83,
+    "flat_background": false,
+    "headline_band_frames_pct": 41.1,
+    "caption_band_frames_pct": 79.9
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 26.8,
+    "approx_any_face_frames_pct": 71.1,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 14,
+    "speech_pct": 91.9,
+    "median_phrase_s": 4.45,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    513,
+    519,
+    1497
+  ]
+}

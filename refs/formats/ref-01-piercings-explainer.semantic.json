@@ -1,0 +1,715 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "An evidence-based video examining how facial piercings impact societal perceptions of attractiveness and intelligence.",
+  "hook": {
+    "approx_seconds": "0-5",
+    "what_happens": "Digitally added piercings on celebrities while posing a provocative question about facial attractiveness.",
+    "why_it_works": "Uses familiar celebrity faces and direct questioning to instantly engage viewer curiosity."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 5.2,
+      "description": "Celebrity portraits featuring dynamically overlaid facial piercings with bold headline text.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "digital piercing overlay",
+        "kinetic typography",
+        "celebrity imagery"
+      ]
+    },
+    {
+      "approx_start": 5.2,
+      "approx_end": 11.8,
+      "description": "Study citation intro leading to an interactive photo matrix comparing piercing counts on Tom Holland.",
+      "layout": "centered portrait mockup with avatar carousel",
+      "devices": [
+        "paper cutout overlay",
+        "academic citation card",
+        "interactive toggle UI"
+      ]
+    },
+    {
+      "approx_start": 11.8,
+      "approx_end": 15.1,
+      "description": "Male model portrait showcasing progressive digital facial piercings.",
+      "layout": "full-bleed portrait with circular zoom",
+      "devices": [
+        "digital piercing overlay",
+        "circular zoom transition"
+      ]
+    },
+    {
+      "approx_start": 15.1,
+      "approx_end": 22.0,
+      "description": "Data visualization bar chart showing perceived attractiveness and intelligence ratings.",
+      "layout": "chart panel",
+      "devices": [
+        "animated bar chart",
+        "academic citation card",
+        "headshot indicators"
+      ]
+    },
+    {
+      "approx_start": 22.0,
+      "approx_end": 28.8,
+      "description": "Female model grid comparison across four piercing levels.",
+      "layout": "2x2 grid panel",
+      "devices": [
+        "multi-panel grid",
+        "label chips"
+      ]
+    },
+    {
+      "approx_start": 28.8,
+      "approx_end": 32.2,
+      "description": "Side-by-side male vs female model visual bar comparing gender social expectations.",
+      "layout": "split side-by-side card",
+      "devices": [
+        "progress comparison bar",
+        "split comparison card"
+      ]
+    },
+    {
+      "approx_start": 32.2,
+      "approx_end": 45.8,
+      "description": "Second psychological study breakdown mapping personality traits to a female model's piercings.",
+      "layout": "portrait image over grid with floating media tiles",
+      "devices": [
+        "floating trait badges",
+        "social video embeds",
+        "academic citation card"
+      ]
+    },
+    {
+      "approx_start": 45.8,
+      "approx_end": 51.5,
+      "description": "Lenny Kravitz photo juxtaposed against a professional corporate LinkedIn headshot.",
+      "layout": "full-bleed portrait transitioning to circular mask",
+      "devices": [
+        "circular mask transition",
+        "platform mockup"
+      ]
+    },
+    {
+      "approx_start": 51.5,
+      "approx_end": 55.5,
+      "description": "Product interface preview showing Qoves facial report and search CTA.",
+      "layout": "app UI report mockup to search bar",
+      "devices": [
+        "UI report card mockup",
+        "search bar input"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Digital piercing overlay",
+      "what_it_is": "Photorealistic digital edits adding nose, eyebrow, and lip piercings to unpierced portraits.",
+      "used_for": "Demonstrating visual changes instantly on controlled subject photos."
+    },
+    {
+      "name": "Academic citation card",
+      "what_it_is": "A floating dark card listing formal journal citations.",
+      "used_for": "Establishing scientific credibility and source transparency."
+    },
+    {
+      "name": "Interactive toggle UI",
+      "what_it_is": "Chips showing 'UNPIERCED', '1 PIERCING', '3+ PIERCINGS' changing above subject headshots.",
+      "used_for": "Visualizing study experimental conditions clearly."
+    },
+    {
+      "name": "Animated bar chart",
+      "what_it_is": "A custom styled bar chart plotting mean ratings against piercing counts.",
+      "used_for": "Displaying psychological research findings visually."
+    },
+    {
+      "name": "Floating trait badges",
+      "what_it_is": "Text pills ('CREATIVE', 'ARTISTIC', 'MYSTERIOUS') floating over model visuals.",
+      "used_for": "Highlighting specific psychological perception shifts."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Do piercings ruin your face?"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "SABRINA CARPENTER\nAMERICAN SINGER"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "ZENDAYA\nAMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 6.8,
+      "track": "citation",
+      "text": "Swami, V., Stieger, S., Pietschnig, J., Voracek, M., Furnham, A., & Tovée, M. J. (2012). The influence of facial piercings and observer personality on perceptions of physical attractiveness and intelligence. European Psychologist, 17(3), 213–221."
+    },
+    {
+      "approx_t": 7.0,
+      "track": "label",
+      "text": "TOM HOLLAND, BRITISH ACTOR"
+    },
+    {
+      "approx_t": 7.1,
+      "track": "chip",
+      "text": "UNPIERCED"
+    },
+    {
+      "approx_t": 7.5,
+      "track": "chip",
+      "text": "1 PIERCING"
+    },
+    {
+      "approx_t": 8.5,
+      "track": "chip",
+      "text": "3+ PIERCINGS"
+    },
+    {
+      "approx_t": 15.3,
+      "track": "headline",
+      "text": "The influence of facial piercings"
+    },
+    {
+      "approx_t": 16.5,
+      "track": "headline",
+      "text": "More Piercings = Less Hot"
+    },
+    {
+      "approx_t": 15.5,
+      "track": "chart",
+      "text": "ATTRACTIVENESS"
+    },
+    {
+      "approx_t": 15.5,
+      "track": "chart",
+      "text": "INTELLIGENCE"
+    },
+    {
+      "approx_t": 15.5,
+      "track": "chart",
+      "text": "MEAN RATING"
+    },
+    {
+      "approx_t": 15.5,
+      "track": "chart",
+      "text": "PIERCING COUNT"
+    },
+    {
+      "approx_t": 15.5,
+      "track": "chart",
+      "text": "NONE"
+    },
+    {
+      "approx_t": 15.5,
+      "track": "chart",
+      "text": "SINGLE"
+    },
+    {
+      "approx_t": 15.5,
+      "track": "chart",
+      "text": "MULTIPLE"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "2 PIERCINGS"
+    },
+    {
+      "approx_t": 29.2,
+      "track": "label",
+      "text": "SOCIAL EXPECTATIONS"
+    },
+    {
+      "approx_t": 29.5,
+      "track": "label",
+      "text": "MEN"
+    },
+    {
+      "approx_t": 29.5,
+      "track": "label",
+      "text": "WOMEN"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "citation",
+      "text": "Martino, S. (2008). Perceptions of a photograph of a woman with visible piercings. Psychological Reports, 103(1), 134–138."
+    },
+    {
+      "approx_t": 37.0,
+      "track": "chip",
+      "text": "INTELLIGENT"
+    },
+    {
+      "approx_t": 37.2,
+      "track": "chip",
+      "text": "ATTRACTIVE"
+    },
+    {
+      "approx_t": 37.4,
+      "track": "chip",
+      "text": "FASHIONABLE"
+    },
+    {
+      "approx_t": 41.5,
+      "track": "chip",
+      "text": "ARTISTIC / CREATIVE / MYSTERIOUS"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "other",
+      "text": "@CORAL_CERAMICS"
+    },
+    {
+      "approx_t": 42.5,
+      "track": "other",
+      "text": "@ARTBYFEE"
+    },
+    {
+      "approx_t": 43.0,
+      "track": "other",
+      "text": "@ALINAROLLING"
+    },
+    {
+      "approx_t": 46.5,
+      "track": "label",
+      "text": "LENNY KRAVITZ\nAMERICAN SINGER, SONGWRITER"
+    },
+    {
+      "approx_t": 50.0,
+      "track": "ui",
+      "text": "LinkedIn"
+    },
+    {
+      "approx_t": 52.0,
+      "track": "ui",
+      "text": "Nose Recommendations"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "ui",
+      "text": "Ear Recommendations"
+    },
+    {
+      "approx_t": 54.5,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Were your parents right when they said that face piercings would ruin your attractiveness?"
+    },
+    {
+      "approx_t": 4.8,
+      "text": "Well, there's actually some research on this."
+    },
+    {
+      "approx_t": 6.2,
+      "text": "Swami and colleagues had raters assess the same male face carrying no piercing, a single piercing, and then several."
+    },
+    {
+      "approx_t": 12.0,
+      "text": "A single piercing was already enough to drop perceived attractiveness by over a whole point."
+    },
+    {
+      "approx_t": 16.2,
+      "text": "What's even more notable is that perceived intelligence declined alongside it."
+    },
+    {
+      "approx_t": 19.8,
+      "text": "And the more piercings, the lower both ratings went."
+    },
+    {
+      "approx_t": 22.1,
+      "text": "Interestingly, this is different for women."
+    },
+    {
+      "approx_t": 24.0,
+      "text": "The same first female model cost less than half as much in attractiveness ratings."
+    },
+    {
+      "approx_t": 28.8,
+      "text": "So facial piercings seem to transgress fewer expectations on a woman."
+    },
+    {
+      "approx_t": 32.2,
+      "text": "But there is a bit more nuance to all of this."
+    },
+    {
+      "approx_t": 34.2,
+      "text": "Psychologist Sara Martino scored a photograph of a woman across 13 traits, pierced and unpierced."
+    },
+    {
+      "approx_t": 39.2,
+      "text": "And her raters called the pierced version less religious, but more creative, more artistic, and more mysterious."
+    },
+    {
+      "approx_t": 44.2,
+      "text": "Which is roughly what people get pierced for."
+    },
+    {
+      "approx_t": 46.2,
+      "text": "It is probably why a nose ring reads as cool on Lenny Kravitz and as a liability on your LinkedIn headshot."
+    },
+    {
+      "approx_t": 51.5,
+      "text": "If you want us to analyze your face, click the link in bio at Qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Hook questioning traditional views on facial piercings using celebrity edits.",
+    "Presentation of academic study data showing negative impacts on male attractiveness and perceived intelligence.",
+    "Gender comparison showing a smaller negative impact on female attractiveness ratings.",
+    "Nuanced counter-analysis showing positive associations with creativity, artistic flair, and mystery.",
+    "Contextual conclusion contrasting artistic icon perception vs corporate headshot standards.",
+    "Call to action for custom facial analysis software."
+  ],
+  "cta": {
+    "approx_t": 51.5,
+    "what": "Prompting viewers to get their face analyzed by visiting the link in bio at Qoves.com."
+  },
+  "subjects": [
+    {
+      "name": "Sabrina Carpenter",
+      "role": "Celebrity test subject for digital piercing visual."
+    },
+    {
+      "name": "Zendaya",
+      "role": "Celebrity test subject for digital piercing visual."
+    },
+    {
+      "name": "Tom Holland",
+      "role": "Actor photo used to illustrate Swami study piercing counts."
+    },
+    {
+      "name": "Lenny Kravitz",
+      "role": "Musician example of piercings aligned with artistic branding."
+    }
+  ],
+  "what_makes_it_work": [
+    "Grounds popular culture questions in peer-reviewed scientific studies.",
+    "Dynamic facial edits seamlessly illustrate concepts on familiar faces.",
+    "Clear charts simplify quantitative psychological data.",
+    "Balanced perspective presenting both negative biases and positive social signals."
+  ],
+  "animations": [
+    {
+      "name": "Title Text Pop and Subtitle Fade",
+      "approx_t": 0.0,
+      "what_moves": "Headline question and caption text",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Hooks viewer instantly with prompt and dynamic text.",
+      "reusable_as": "Opening title text for educational reels.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Avatar Arc Tag Assembly",
+      "approx_t": 6.0,
+      "what_moves": "Thumbnail avatars along top arc",
+      "motion": "stagger",
+      "direction": "left-to-right",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "SlideIn",
+      "purpose": "Shows rater sample size visually across test conditions.",
+      "reusable_as": "Displaying list of user profiles or test groups.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "Facial Piercing Overlay Morph",
+      "approx_t": 8.0,
+      "what_moves": "Piercing items on subject portrait",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Demonstrates piercing additions sequentially on identical face.",
+      "reusable_as": "Before/after cosmetic comparison.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Bar Graph Vertical Rise with Badges",
+      "approx_t": 15.0,
+      "what_moves": "Chart bars and avatar top badges",
+      "motion": "scale",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Fade",
+      "purpose": "Visualizes statistical drop in ratings clearly.",
+      "reusable_as": "Data-driven research findings comparison.",
+      "we_already_have": null,
+      "would_need_building": "Animated Bar Chart with headshot data badges"
+    },
+    {
+      "name": "2x2 Image Grid Stagger Pop",
+      "approx_t": 24.0,
+      "what_moves": "Four variation portrait cards",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Displays 4 condition variants simultaneously.",
+      "reusable_as": "Multi-variant feature grid.",
+      "we_already_have": null,
+      "would_need_building": "2x2 Grid Stagger Reveal component"
+    },
+    {
+      "name": "Expectations Ratio Bar Fill",
+      "approx_t": 29.0,
+      "what_moves": "Horizontal progress bar fill level",
+      "motion": "scale",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Compares social bias threshold between genders.",
+      "reusable_as": "Comparison metric or progress gauge.",
+      "we_already_have": null,
+      "would_need_building": "Horizontal split comparison bar"
+    },
+    {
+      "name": "Trait Tag Bubble Arrivals",
+      "approx_t": 37.0,
+      "what_moves": "Perception trait pill tags",
+      "motion": "scale",
+      "direction": "up",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Highlights descriptive psychological traits assigned by raters.",
+      "reusable_as": "Keyword attribute overlays on product images.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "Context Media Cards Stack Reveal",
+      "approx_t": 41.0,
+      "what_moves": "Three social imagery cards below main photo",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Fade",
+      "purpose": "Illustrates qualitative abstract themes (artistic, creative).",
+      "reusable_as": "Moodboard or social proof panel presentation.",
+      "we_already_have": "SlideIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Circular Profile Card Popup",
+      "approx_t": 50.0,
+      "what_moves": "LinkedIn profile headshot frame",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": false,
+      "layered_with": "Fade",
+      "purpose": "Transitions subject to professional job market context.",
+      "reusable_as": "Highlighting professional profile avatar.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "UI Report Vertical Scroll",
+      "approx_t": 52.0,
+      "what_moves": "App analysis report panel",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": null,
+      "purpose": "Shows full automated facial report demo.",
+      "reusable_as": "Product feature showcase video.",
+      "we_already_have": "ScrollReveal",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Dynamic photo piercer morph overlays",
+      "Arc avatar tag stagger",
+      "Vertical bar chart growth with avatar icons"
+    ],
+    "how_things_enter": "Elements pop in with slight scale spring or slide upward into structured UI frames.",
+    "how_things_leave": "Elements vanish instantly on hard cuts or push off-screen upwards.",
+    "how_scenes_change": "Hard cuts synchronized to audio beat with centered subjects.",
+    "what_stays_still": "Main background color and core subject facial alignments.",
+    "rhythm": "Fast-paced, high density arrival cadence synced strictly to voiceover narration."
+  },
+  "what_we_should_steal": [
+    "Bar Graph Vertical Rise with Badges for animated statistical callouts",
+    "Avatar Arc Tag Assembly for dynamic audience/sample visualization",
+    "2x2 Image Grid Stagger Pop for multi-condition photo comparisons"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Opening screen with headline text and facial overlay on Sabrina Carpenter",
+      "element": "Headline text and portrait",
+      "motion": "fade",
+      "content": "Do piercings ruin your face?"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Celebrity caption label appears",
+      "element": "Text badge",
+      "motion": "fade",
+      "content": "SABRINA CARPENTER AMERICAN SINGER"
+    },
+    {
+      "approx_t": 2.2,
+      "event": "Image cuts to Zendaya with overlay facial piercings",
+      "element": "Portrait and label",
+      "motion": "cut",
+      "content": "ZENDAYA AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Research paper graphic overlays behind portrait",
+      "element": "Document graphic",
+      "motion": "translate",
+      "content": "Swami study paper snippet"
+    },
+    {
+      "approx_t": 6.2,
+      "event": "Transition to Tom Holland comparison cards",
+      "element": "Photo cards and avatar row",
+      "motion": "translate",
+      "content": "Tom Holland unpierced vs pierced"
+    },
+    {
+      "approx_t": 7.5,
+      "event": "Right comparison card updates to single piercing",
+      "element": "Photo card text and graphic",
+      "motion": "fade",
+      "content": "1 PIERCING"
+    },
+    {
+      "approx_t": 8.5,
+      "event": "Right comparison card updates to multiple piercings",
+      "element": "Photo card text and graphic",
+      "motion": "fade",
+      "content": "3+ PIERCINGS"
+    },
+    {
+      "approx_t": 11.8,
+      "event": "Cut to close-up portrait of male model with piercings",
+      "element": "Portrait image",
+      "motion": "cut",
+      "content": "Male model with lip and nose piercings"
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Transition to bar chart graphic on attractiveness and intelligence",
+      "element": "Chart card",
+      "motion": "translate",
+      "content": "The influence of facial piercings"
+    },
+    {
+      "approx_t": 16.5,
+      "event": "Chart title updates",
+      "element": "Text header",
+      "motion": "fade",
+      "content": "More Piercings = Less Hot"
+    },
+    {
+      "approx_t": 22.5,
+      "event": "Transition to female model comparison photos",
+      "element": "Photo cards",
+      "motion": "translate",
+      "content": "Unpierced vs 1 Piercing"
+    },
+    {
+      "approx_t": 25.5,
+      "event": "Cards shift to reveal 2 and 3+ piercings options",
+      "element": "Grid layout expand",
+      "motion": "translate",
+      "content": "2 PIERCINGS, 3+ PIERCINGS"
+    },
+    {
+      "approx_t": 29.0,
+      "event": "Display of Social Expectations comparison bar",
+      "element": "Bar graphic",
+      "motion": "fade",
+      "content": "SOCIAL EXPECTATIONS / MEN / WOMEN"
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Transition to Sara Martino study subject graphics",
+      "element": "Photo cards and citation label",
+      "motion": "translate",
+      "content": "Unpierced vs 3+ Piercings"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Perception trait badges appear over photos",
+      "element": "Text badges",
+      "motion": "scale",
+      "content": "INTELLIGENT, ATTRACTIVE, FASHIONABLE"
+    },
+    {
+      "approx_t": 41.0,
+      "event": "Grid of social media example videos animates into view",
+      "element": "Video thumbnail cards",
+      "motion": "translate",
+      "content": "@CORAL_CERAMICS, @ARTBYFEE, @ALINAROLLING"
+    },
+    {
+      "approx_t": 46.2,
+      "event": "Cut to Lenny Kravitz portrait",
+      "element": "Portrait and label text",
+      "motion": "cut",
+      "content": "LENNY KRAVITZ AMERICAN SINGER, SONGWRITER"
+    },
+    {
+      "approx_t": 49.5,
+      "event": "Transition to LinkedIn professional avatar circle",
+      "element": "Circular image badge",
+      "motion": "scale",
+      "content": "LinkedIn headshot"
+    },
+    {
+      "approx_t": 52.0,
+      "event": "Transition to Qoves report user interface cards",
+      "element": "Interface cards",
+      "motion": "translate",
+      "content": "Nose Recommendations, Ear Recommendations"
+    },
+    {
+      "approx_t": 54.2,
+      "event": "Search bar graphic appears for final CTA",
+      "element": "Search bar element",
+      "motion": "fade",
+      "content": "Qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.6-flash",
+    "wanted_model": "gemini-3.6-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-01.mp4",
+    "tokens": {
+      "animation": 8798,
+      "content": 10452
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

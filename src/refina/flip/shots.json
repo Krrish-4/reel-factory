@@ -1,0 +1,162 @@
+{
+  "_note": "The shot plan for RefinaFlip, \"You've Never Seen Your Own Face\". Hand-authored; gen/shots.py validates it, emits shots.ts, and verifies a render against it. `lines` is how many script phrases the beat covers and is the single declaration of beat structure — beats.ts derives its bounds from here, so docs/scripts/flip.txt, words-vo.ts and this file cannot disagree without failing at module load.",
+  "reel": "flip",
+  "script": "docs/scripts/flip.txt",
+  "cues": "src/refina/flip/words-vo.ts",
+  "_assets": "Every `over` in this file is a DERIVED asset — a horizontal flip, one half doubled onto its own mirror, or an absolute difference, all computed by gen/asym.py from the `under` master. Nothing is generated, so unlike the procedure reels there is no question of whether the model did what it was asked: the pair is exact by construction. Labels come from the record via labelOf(), and the record calls each one by its operation.",
+  "_motion": "A beat is `moving` only if its picture changes over time on its own — a flip turning, a seam travelling, panels sliding, a map building. A still photograph with overlays arriving on top of it is `static`, however many arrive. Seven of nine are moving here because the reel's argument IS a set of operations, so performing them on screen is the content rather than a transition dressed up as one. `test` and `cta` are honestly static: a phone with cards landing on it, and a search bar being typed into. `hook` is declared STATIC even though it is the reel's biggest gesture, and that is deliberate: a plane rotated through 90 degrees is a line, so a turn slow enough to count as continuous motion puts a near-empty frame on screen for a third of a second (it did, and the phone sheet caught it while the motion check scored it a pass). The flip is therefore fast and the beat holds either side of it, which is honestly static by the 30%-of-frames test.",
+  "_subjects": "asym1 carries the spine. demo1 is the SECOND SUBJECT and beat 5 announces her out loud, in the voiceover AND on a tag — RefinaChanged's first cut silently swapped who its subject was three times and that was its worst defect. asym1 was cast for this reel: gen/asym.py --scan ranked every portrait already in the registry and the best read p90 32 with chimeras that looked like the same woman twice, so the hook did not land. Recasting with a severe brief scored p90 46 — eyes 76 / nose 32 / jaw 56 — and the jaw figure is why her two chimeras read as different face SHAPES rather than different brows.",
+  "min_moving_share": 0.35,
+  "beats": [
+    {
+      "name": "hook",
+      "lines": 3,
+      "composition": "full-bleed-turn",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "under": "asym1-before",
+        "over": "asym1-flip",
+        "zoom": 1.04,
+        "turns": 2,
+        "compliance": true,
+        "fit": 0.9
+      }
+    },
+    {
+      "name": "claim",
+      "lines": 3,
+      "composition": "stacked-bands",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "asym1-before",
+        "over": "asym1-flip",
+        "zoom": 1.02,
+        "focus": "50% 40%",
+        "bands": [
+          "WHAT THE MIRROR SHOWS YOU",
+          "WHAT THE CAMERA SHOWS EVERYONE"
+        ],
+        "fit": 0.93
+      }
+    },
+    {
+      "name": "proof",
+      "lines": 3,
+      "composition": "difference-map",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "asym1-before",
+        "over": "asym1-map",
+        "zoom": 1.02,
+        "measure": "asym1",
+        "compliance": true,
+        "fit": 0.93
+      }
+    },
+    {
+      "name": "halves",
+      "lines": 4,
+      "composition": "chimera-sweep",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "asym1-before",
+        "left": "asym1-left",
+        "right": "asym1-right",
+        "zoom": 1.0,
+        "tag": "NOTHING ADDED - HER OWN PIXELS, TWICE",
+        "fit": 0.93
+      }
+    },
+    {
+      "name": "everyone",
+      "lines": 3,
+      "composition": "triptych-slide",
+      "motion": "moving",
+      "shot": "wide",
+      "props": {
+        "under": "demo1-before",
+        "left": "demo1-left",
+        "right": "demo1-right",
+        "zoom": 1.02,
+        "focus": "50% 30%",
+        "tag": "SECOND SUBJECT"
+      }
+    },
+    {
+      "name": "rehearse",
+      "lines": 4,
+      "composition": "mirror-toggle",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "asym1-before",
+        "over": "asym1-flip",
+        "zoom": 1.0,
+        "focus": "50% 36%",
+        "period": 74,
+        "bands": [
+          "MIRROR",
+          "PHOTOGRAPH"
+        ],
+        "fit": 0.93
+      }
+    },
+    {
+      "name": "nuance",
+      "lines": 3,
+      "composition": "chimera-recede",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "asym1-before",
+        "left": "asym1-left",
+        "right": "asym1-right",
+        "zoom": 1.0,
+        "focus": "50% 34%",
+        "measure": "asym1",
+        "fit": 0.93
+      }
+    },
+    {
+      "name": "test",
+      "lines": 4,
+      "composition": "phone-roll",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "under": "demo1-before",
+        "over": "demo1-flip",
+        "dim": 0.5,
+        "steps": [
+          "Open your camera roll.",
+          "Pick any photo of your face.",
+          "Flip it left to right."
+        ],
+        "tag": "THAT IS THE ONE THEY SEE"
+      }
+    },
+    {
+      "name": "cta",
+      "lines": 4,
+      "composition": "disclaimer-search",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "under": "asym1-before",
+        "zoom": 1.1,
+        "locked": [
+          "Your face",
+          "Not a stranger's",
+          "A preview, not a promise"
+        ],
+        "type": "Refina AI",
+        "fit": 0
+      }
+    }
+  ],
+  "_shots": "Six beats are full-bleed heads and measure 0.44-0.51 of frame height, so they are declared `close`; three of them were cropped tighter than the close ceiling (0.453) -- tighter than any reel in the measured corpus -- and their zooms were reduced until they landed inside it. The reel gets its 2.6x travel from the three non-portrait beats, not from re-labelling the portraits."
+}

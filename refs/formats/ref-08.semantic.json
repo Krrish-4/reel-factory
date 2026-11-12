@@ -1,0 +1,834 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "An educational video analyzing the psychological and social effects of disclosing cosmetic surgery using scientific studies and celebrity examples.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A before-and-after comparison of Bella Hadid with the question: 'Should you lie about getting work done?'",
+    "why_it_works": "It poses a controversial question about a highly recognizable celebrity, immediately engaging the viewer's curiosity."
+  },
+  "shots": [
+    {
+      "approx_start": 0,
+      "approx_end": 6,
+      "description": "Before and after comparison of Bella Hadid with text bubbles.",
+      "layout": "stacked portrait comparison",
+      "devices": [
+        "before/after labels",
+        "text bubbles"
+      ]
+    },
+    {
+      "approx_start": 6,
+      "approx_end": 13,
+      "description": "Megan Fox face scan showing 'Enhanced' and 'Favorable' ratings.",
+      "layout": "portrait with overlay",
+      "devices": [
+        "scanning graphic",
+        "rating badges"
+      ]
+    },
+    {
+      "approx_start": 13,
+      "approx_end": 26,
+      "description": "Bar chart displaying study results by Jaeger et al. (2025).",
+      "layout": "chart panel",
+      "devices": [
+        "bar chart",
+        "academic citation"
+      ]
+    },
+    {
+      "approx_start": 26,
+      "approx_end": 29,
+      "description": "Phone mockup showing Megan Fox with syringe graphics and text bubbles.",
+      "layout": "phone mockup",
+      "devices": [
+        "phone frame",
+        "syringe icons",
+        "text bubbles"
+      ]
+    },
+    {
+      "approx_start": 29,
+      "approx_end": 34,
+      "description": "Montage of celebrities (Alix Earle, Ariana Grande, Kylie Jenner) under 'The Disclosure Effect' title.",
+      "layout": "portrait frame with title",
+      "devices": [
+        "celebrity video clips",
+        "title card"
+      ]
+    },
+    {
+      "approx_start": 34,
+      "approx_end": 38,
+      "description": "Flowchart showing the drop in trustworthiness, warmth, and authenticity when procedures are disclosed.",
+      "layout": "split comparison diagram",
+      "devices": [
+        "flowchart",
+        "academic citation"
+      ]
+    },
+    {
+      "approx_start": 38,
+      "approx_end": 41,
+      "description": "Kylie Jenner side-by-side comparison labeled 'Natural' and 'Enhanced'.",
+      "layout": "side-by-side portrait comparison",
+      "devices": [
+        "comparison labels"
+      ]
+    },
+    {
+      "approx_start": 41,
+      "approx_end": 49,
+      "description": "Diagram explaining dual evaluation of face and cosmetic work.",
+      "layout": "diagram panel",
+      "devices": [
+        "line art illustration",
+        "icon graphics"
+      ]
+    },
+    {
+      "approx_start": 49,
+      "approx_end": 101,
+      "description": "Charlize Theron comparison with a slider scale showing undisclosed vs disclosed perception.",
+      "layout": "portrait with interactive slider",
+      "devices": [
+        "slider scale",
+        "text bubbles"
+      ]
+    },
+    {
+      "approx_start": 61.0,
+      "approx_end": 105,
+      "description": "Outro screen with a search bar and call to action.",
+      "layout": "centered text with search bar",
+      "devices": [
+        "search bar graphic",
+        "brand logo"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Before/After Labels",
+      "what_it_is": "Simple text badges indicating 'Before' and 'After' states.",
+      "used_for": "Clarifying visual comparisons."
+    },
+    {
+      "name": "Academic Citations",
+      "what_it_is": "Small, formal text citations of scientific papers.",
+      "used_for": "Establishing scientific credibility."
+    },
+    {
+      "name": "Interactive Slider",
+      "what_it_is": "A horizontal scale showing a value shifting from positive to neutral.",
+      "used_for": "Quantifying abstract social perceptions."
+    },
+    {
+      "name": "Text Bubbles",
+      "what_it_is": "Mock messaging bubbles containing simulated opinions.",
+      "used_for": "Representing public or observer thoughts."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "Should you lie about getting work done?"
+    },
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "Before"
+    },
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "After"
+    },
+    {
+      "approx_t": 1,
+      "track": "label",
+      "text": "BELLA HADID, AMERICAN MODEL"
+    },
+    {
+      "approx_t": 2,
+      "track": "caption",
+      "text": "If you get work done"
+    },
+    {
+      "approx_t": 3,
+      "track": "ui",
+      "text": "I got cosmetic work done...."
+    },
+    {
+      "approx_t": 7,
+      "track": "label",
+      "text": "MEGAN FOX, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 8,
+      "track": "ui",
+      "text": "EVALUATING..."
+    },
+    {
+      "approx_t": 10,
+      "track": "label",
+      "text": "Enhanced"
+    },
+    {
+      "approx_t": 11,
+      "track": "label",
+      "text": "FAVORABLE"
+    },
+    {
+      "approx_t": 13,
+      "track": "citation",
+      "text": "Jaeger, B., Bucker, B., van der Meulen, J., & van Vugt, M. (2025). Face value: The effect of facial aesthetic treatment on first impressions and partner preferences. Perception, 54(9), 651-673."
+    },
+    {
+      "approx_t": 14,
+      "track": "chart",
+      "text": "RATING"
+    },
+    {
+      "approx_t": 14,
+      "track": "chart",
+      "text": "ATTRACTIVENESS"
+    },
+    {
+      "approx_t": 18,
+      "track": "chart",
+      "text": "DESIRABILITY"
+    },
+    {
+      "approx_t": 20,
+      "track": "chart",
+      "text": "SHORT TERM DATING"
+    },
+    {
+      "approx_t": 24,
+      "track": "chart",
+      "text": "LONG TERM DATING"
+    },
+    {
+      "approx_t": 26,
+      "track": "label",
+      "text": "Cosmetic enhancement: disclosed"
+    },
+    {
+      "approx_t": 27,
+      "track": "ui",
+      "text": "Did she get something done....."
+    },
+    {
+      "approx_t": 28,
+      "track": "ui",
+      "text": "Feels artificial!"
+    },
+    {
+      "approx_t": 29,
+      "track": "headline",
+      "text": "The Disclosure Effect"
+    },
+    {
+      "approx_t": 30,
+      "track": "label",
+      "text": "ALIX EARLE, AMERICAN MEDIA PERSONALITY"
+    },
+    {
+      "approx_t": 31,
+      "track": "label",
+      "text": "ARIANA GRANDE, AMERICAN SINGER"
+    },
+    {
+      "approx_t": 32,
+      "track": "label",
+      "text": "KYLIE JENNER, AMERICAN MEDIA PERSONALITY"
+    },
+    {
+      "approx_t": 34,
+      "track": "citation",
+      "text": "Liang, F., Zhu, M., Lei, Y., Zhang, S., Liang, M., Tao, Z., ... & He, X. (2023). Untrustworthy beauty: Beautification strategies cause female applicators to be perceived untrustworthy. Psychology of Aesthetics, Creativity, and the Arts."
+    },
+    {
+      "approx_t": 35,
+      "track": "label",
+      "text": "PROCEDURES UNDISCLOSED/"
+    },
+    {
+      "approx_t": 35,
+      "track": "label",
+      "text": "PROCEDURES DISCLOSED/"
+    },
+    {
+      "approx_t": 35,
+      "track": "label",
+      "text": "TRUSTWORTHINESS"
+    },
+    {
+      "approx_t": 36,
+      "track": "label",
+      "text": "WARMTH"
+    },
+    {
+      "approx_t": 37,
+      "track": "label",
+      "text": "AUTHENTICITY"
+    },
+    {
+      "approx_t": 38,
+      "track": "headline",
+      "text": "Same face, different perception"
+    },
+    {
+      "approx_t": 40,
+      "track": "label",
+      "text": "NATURAL"
+    },
+    {
+      "approx_t": 40,
+      "track": "label",
+      "text": "ENHANCED"
+    },
+    {
+      "approx_t": 42,
+      "track": "headline",
+      "text": "Dual evaluation"
+    },
+    {
+      "approx_t": 45,
+      "track": "label",
+      "text": "FACE"
+    },
+    {
+      "approx_t": 46,
+      "track": "label",
+      "text": "COSMETIC WORK"
+    },
+    {
+      "approx_t": 49,
+      "track": "headline",
+      "text": "Subtle work undisclosed"
+    },
+    {
+      "approx_t": 50,
+      "track": "label",
+      "text": "CHARLIZE THERON, SOUTH AFRICAN ACTRESS"
+    },
+    {
+      "approx_t": 52,
+      "track": "ui",
+      "text": "She looks good"
+    },
+    {
+      "approx_t": 52,
+      "track": "ui",
+      "text": "This is nice!!!"
+    },
+    {
+      "approx_t": 55,
+      "track": "headline",
+      "text": "Subtle work disclosed"
+    },
+    {
+      "approx_t": 57,
+      "track": "ui",
+      "text": "Looks good but feels off..."
+    },
+    {
+      "approx_t": 57,
+      "track": "ui",
+      "text": "idk something changed."
+    },
+    {
+      "approx_t": 61.0,
+      "track": "headline",
+      "text": "You're Curious?"
+    },
+    {
+      "approx_t": 63.0,
+      "track": "headline",
+      "text": "Get your Facial Analysis"
+    },
+    {
+      "approx_t": 64.0,
+      "track": "ui",
+      "text": "Qoves"
+    },
+    {
+      "approx_t": 65.0,
+      "track": "label",
+      "text": "qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "If you get work done and it makes you more attractive, but then you go on and you talk about it, will it actually make you less dateable?"
+    },
+    {
+      "approx_t": 7,
+      "text": "When people evaluate the face itself, sort of cosmetic work does not seem to hurt and may even slightly improve first impressions."
+    },
+    {
+      "approx_t": 13,
+      "text": "Jaeger and colleagues found that women who had minimally invasive treatments were judged somewhat more attractive and more desirable for short term dating, although the effect was relatively small and they didn't extend to long term desirability."
+    },
+    {
+      "approx_t": 26,
+      "text": "However, the picture changes once cosmetic work is disclosed."
+    },
+    {
+      "approx_t": 29,
+      "text": "Several studies have found that women who seek or undergo cosmetic procedures can be judged less favorably on traits such as trustworthiness, warmth and authenticity."
+    },
+    {
+      "approx_t": 38,
+      "text": "The face itself has not changed, only the observer's knowledge of it has."
+    },
+    {
+      "approx_t": 42,
+      "text": "This suggests men may be evaluating two things at once: the face, and what cosmetic work is perceived to say about the person itself."
+    },
+    {
+      "approx_t": 49,
+      "text": "If the work is subtle and not disclosed, men respond primarily to the visible result, which appears neutral to slightly positive."
+    },
+    {
+      "approx_t": 55,
+      "text": "But once it becomes known, some men attach negative social meanings to that partially, which offsets the visual benefit."
+    },
+    {
+      "approx_t": 62.0,
+      "text": "So, want us to analyze your face? Click the link in bio at qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the core question: does disclosing cosmetic work reduce attractiveness?",
+    "Present evidence showing cosmetic work itself slightly improves first impressions.",
+    "Introduce the 'Disclosure Effect' where revealing work lowers perceived warmth and trustworthiness.",
+    "Explain the dual evaluation theory (evaluating both the face and the social meaning of surgery).",
+    "Demonstrate how disclosure offsets the visual benefits of subtle work.",
+    "Call to action for personal facial analysis."
+  ],
+  "cta": {
+    "approx_t": 102,
+    "what": "Get your facial analysis at qoves.com"
+  },
+  "subjects": [
+    {
+      "name": "Bella Hadid",
+      "role": "American Model (visual example)"
+    },
+    {
+      "name": "Megan Fox",
+      "role": "American Actress (visual example)"
+    },
+    {
+      "name": "Alix Earle",
+      "role": "American Media Personality (visual example)"
+    },
+    {
+      "name": "Ariana Grande",
+      "role": "American Singer (visual example)"
+    },
+    {
+      "name": "Kylie Jenner",
+      "role": "American Media Personality (visual example)"
+    },
+    {
+      "name": "Charlize Theron",
+      "role": "South African Actress (visual example)"
+    }
+  ],
+  "what_makes_it_work": [
+    "Uses peer-reviewed scientific citations to back up claims, elevating it above standard gossip content.",
+    "Maintains a clean, minimalist aesthetic with a consistent pastel blue color palette.",
+    "Leverages highly recognizable celebrities to illustrate abstract psychological concepts."
+  ],
+  "animations": [
+    {
+      "name": "Grid Scan Overlay",
+      "approx_t": 0.0,
+      "what_moves": "A dotted grid overlay sweeps across the face image.",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Simulates a digital facial analysis scan.",
+      "reusable_as": "Scanning or analyzing any portrait or product image.",
+      "we_already_have": null,
+      "would_need_building": "A grid texture mask that sweeps horizontally across a target layer."
+    },
+    {
+      "name": "Chat Bubble Pop",
+      "approx_t": 3.0,
+      "what_moves": "A text message bubble scales up from the side of the face.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Represents a quote or internal thought about cosmetic work.",
+      "reusable_as": "Displaying user testimonials or conversational text.",
+      "we_already_have": "ChatThread",
+      "would_need_building": null
+    },
+    {
+      "name": "Face Scanner Box",
+      "approx_t": 7.0,
+      "what_moves": "A bounding box with 'EVALUATING...' text sweeps down the face.",
+      "motion": "mask-reveal",
+      "direction": "down",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Indicates an automated aesthetic evaluation process.",
+      "reusable_as": "Highlighting specific regions of interest in an image.",
+      "we_already_have": null,
+      "would_need_building": "A bounding box overlay with a vertical scanning line and status text."
+    },
+    {
+      "name": "Bar Chart Growth",
+      "approx_t": 14.0,
+      "what_moves": "Vertical bars grow upwards; emoji icons pop in above them.",
+      "motion": "scale",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Presents scientific data comparing treated vs natural faces.",
+      "reusable_as": "Visualizing any comparative statistical data.",
+      "we_already_have": null,
+      "would_need_building": "An animated bar chart component where bars scale vertically and labels fade in."
+    },
+    {
+      "name": "Celebrity Montage",
+      "approx_t": 29.0,
+      "what_moves": "A rapid sequence of celebrity portrait clips replacing each other.",
+      "motion": "none",
+      "direction": "none",
+      "feel": "abrupt",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Shows examples of public figures who disclosed cosmetic work.",
+      "reusable_as": "Quickly showcasing a gallery of examples or case studies.",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    },
+    {
+      "name": "Flowchart Arrow Draw",
+      "approx_t": 34.0,
+      "what_moves": "Downward arrows draw on, and text blocks slide down in columns.",
+      "motion": "draw-on",
+      "direction": "down",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Illustrates the negative impact of disclosing cosmetic procedures.",
+      "reusable_as": "Showing cause-and-effect relationships or step-by-step flows.",
+      "we_already_have": null,
+      "would_need_building": "A flowchart component with animated directional arrows and staggered text blocks."
+    },
+    {
+      "name": "Split Face Comparison",
+      "approx_t": 39.0,
+      "what_moves": "Two labeled versions of the same face slide slightly apart.",
+      "motion": "translate",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Compares the perception of 'natural' vs 'enhanced' versions of a face.",
+      "reusable_as": "Before/after comparisons or product variations.",
+      "we_already_have": null,
+      "would_need_building": "A dual-panel split comparison component that slides outward from a central seam."
+    },
+    {
+      "name": "Step Number Pop",
+      "approx_t": 43.0,
+      "what_moves": "Numbered circular badges pop in sequentially.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Introduces a multi-part evaluation concept.",
+      "reusable_as": "Listing steps, phases, or key points in a sequence.",
+      "we_already_have": "StepPill",
+      "would_need_building": null
+    },
+    {
+      "name": "Slider Rating Pointer",
+      "approx_t": 52.0,
+      "what_moves": "A pointer moves along a horizontal scale, changing the numeric value.",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Quantifies the shift in social perception.",
+      "reusable_as": "Showing ratings, scores, or adjustments on a scale.",
+      "we_already_have": null,
+      "would_need_building": "A horizontal slider scale with an animated indicator and dynamic value display."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Grid Scan Overlay",
+      "Slider Rating Pointer",
+      "Chat Bubble Pop"
+    ],
+    "how_things_enter": "Elements scale up with elastic spring physics or slide in from the sides.",
+    "how_things_leave": "Elements fade out or are replaced abruptly by the next scene.",
+    "how_scenes_change": "Hard cuts with occasional slide-overs or full-screen color wipes.",
+    "what_stays_still": "The muted blue-grey background and top-level question text.",
+    "rhythm": "Highly dynamic, alternating between static data presentation and rapid visual demonstrations."
+  },
+  "what_we_should_steal": [
+    "Slider Rating Pointer",
+    "Grid Scan Overlay",
+    "Flowchart Arrow Draw"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Display initial title screen with before and after comparison of Bella Hadid",
+      "element": "Title text and split image of Bella Hadid",
+      "motion": "fade",
+      "content": "Should you lie about getting work done? / Before / After"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Name tag appears below Bella Hadid photos",
+      "element": "Name label",
+      "motion": "fade",
+      "content": "BELLA HADID, AMERICAN MODEL"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Caption text updates at bottom of screen",
+      "element": "Subtitle text",
+      "motion": "fade",
+      "content": "and it makes you more attractive,"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Speech bubble pops up over Bella Hadid image",
+      "element": "Speech bubble graphic",
+      "motion": "scale",
+      "content": "I got cosmetic work done...."
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Transition to Megan Fox photo with evaluation box overlay",
+      "element": "Megan Fox image and scanning overlay",
+      "motion": "cut",
+      "content": "MEGAN FOX, AMERICAN ACTRESS / EVALUATING..."
+    },
+    {
+      "approx_t": 10.0,
+      "event": "Status label 'Enhanced' appears above face frame",
+      "element": "Text overlay",
+      "motion": "fade",
+      "content": "Enhanced"
+    },
+    {
+      "approx_t": 11.0,
+      "event": "'FAVORABLE' tag and thumbs-up reaction icons pop up",
+      "element": "Rating tags and icons",
+      "motion": "scale",
+      "content": "FAVORABLE"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Transition to scientific citation card",
+      "element": "Citation text panel",
+      "motion": "fade",
+      "content": "Jaeger, B., Bucker, B., van der Meulen, J., & van Vugt, M. (2025)..."
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Bar chart animates showing attractiveness ratings",
+      "element": "Chart axis and treated bar graph",
+      "motion": "translate",
+      "content": "RATING / ATTRACTIVENESS"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Second bar graph for desirability animates onto chart",
+      "element": "Chart bar",
+      "motion": "translate",
+      "content": "DESIRABILITY"
+    },
+    {
+      "approx_t": 20.0,
+      "event": "Bracket highlights short term dating category on graph",
+      "element": "Dashed bracket line",
+      "motion": "fade",
+      "content": "SHORT TERM DATING"
+    },
+    {
+      "approx_t": 24.0,
+      "event": "Long term dating section and capability bar animate in",
+      "element": "Chart bar and bracket",
+      "motion": "translate",
+      "content": "LONG TERM DATING / CAPABILITY"
+    },
+    {
+      "approx_t": 26.0,
+      "event": "Phone mockup frame overlays showing Megan Fox disclosure graphic",
+      "element": "Phone frame graphic",
+      "motion": "scale",
+      "content": "Cosmetic enhancement: disclosed"
+    },
+    {
+      "approx_t": 27.0,
+      "event": "First questioning comment bubble pops up on phone screen",
+      "element": "Chat bubble",
+      "motion": "scale",
+      "content": "Did she get something done....."
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Second skeptical comment bubble pops up on phone screen",
+      "element": "Chat bubble",
+      "motion": "scale",
+      "content": "Feels artificial!"
+    },
+    {
+      "approx_t": 29.0,
+      "event": "Transition to 'The Disclosure Effect' featuring Alix Earle video",
+      "element": "Video frame and caption text",
+      "motion": "cut",
+      "content": "The Disclosure Effect / ALIX EARLE, AMERICAN MEDIA PERSONALITY"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Video clip updates to Ariana Grande speaking",
+      "element": "Video snippet",
+      "motion": "cut",
+      "content": "ARIANA GRANDE, AMERICAN SINGER"
+    },
+    {
+      "approx_t": 32.0,
+      "event": "Video clip updates to Kylie Jenner",
+      "element": "Video snippet",
+      "motion": "cut",
+      "content": "KYLIE JENNER, AMERICAN MEDIA PERSONALITY"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Transition to study chart comparison on social perception traits",
+      "element": "Dual column comparison diagram",
+      "motion": "fade",
+      "content": "Liang, F. et al. (2023) / PROCEDURES UNDISCLOSED / PROCEDURES DISCLOSED"
+    },
+    {
+      "approx_t": 35.0,
+      "event": "Trustworthiness trait boxes appear under both columns with direction arrows",
+      "element": "Trait comparison boxes",
+      "motion": "scale",
+      "content": "TRUSTWORTHINESS"
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Warmth trait boxes appear under both columns",
+      "element": "Trait comparison boxes",
+      "motion": "scale",
+      "content": "WARMTH"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Authenticity trait boxes appear under both columns",
+      "element": "Trait comparison boxes",
+      "motion": "scale",
+      "content": "AUTHENTICITY"
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Transition to side-by-side comparison of Kylie Jenner",
+      "element": "Title text and photo pair",
+      "motion": "cut",
+      "content": "Same face, different perception"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Labels 'NATURAL' and 'ENHANCED' slide over photo banners",
+      "element": "Ribbon labels",
+      "motion": "translate",
+      "content": "NATURAL / ENHANCED"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Transition to dark screen presenting 'Dual evaluation' concept",
+      "element": "Text and numbered steps",
+      "motion": "fade",
+      "content": "Dual evaluation / 1 / 2"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "First card reveals graphic representing face evaluation",
+      "element": "Illustrated card",
+      "motion": "translate",
+      "content": "FACE"
+    },
+    {
+      "approx_t": 46.0,
+      "event": "Second card reveals graphic representing cosmetic procedure perception",
+      "element": "Illustrated card",
+      "motion": "translate",
+      "content": "COSMETIC WORK"
+    },
+    {
+      "approx_t": 49.0,
+      "event": "Transition to Charlize Theron image card titled 'Subtle work undisclosed'",
+      "element": "Photo card and title",
+      "motion": "cut",
+      "content": "Subtle work undisclosed / CHARLIZE THERON, SOUTH AFRICAN ACTRESS"
+    },
+    {
+      "approx_t": 52.0,
+      "event": "Positive speech bubbles and rating scale pop up over Charlize Theron image",
+      "element": "Rating slider and speech bubbles",
+      "motion": "scale",
+      "content": "She looks good / This is nice!!!"
+    },
+    {
+      "approx_t": 55.0,
+      "event": "Title updates to 'Subtle work disclosed' and scale indicator adjusts",
+      "element": "Title text and slider marker",
+      "motion": "translate",
+      "content": "Subtle work disclosed"
+    },
+    {
+      "approx_t": 57.0,
+      "event": "Speech bubbles change to hesitant and critical reactions",
+      "element": "Speech bubbles",
+      "motion": "fade",
+      "content": "Looks good but feels off... / idk something changed."
+    },
+    {
+      "approx_t": 62.0,
+      "event": "End screen CTA and website callout sequence begins",
+      "element": "Logo, search bar, and CTA text",
+      "motion": "fade",
+      "content": "You're Curious? / Get your Facial Analysis / Qoves / qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "refs/corpus/ref-08.mp4",
+    "tokens": {
+      "animation": 9949,
+      "content": 12454
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

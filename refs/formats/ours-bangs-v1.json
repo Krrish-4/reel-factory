@@ -1,0 +1,113 @@
+{
+  "label": "ours-bangs-v1",
+  "source": "out/refina-bangs-v1.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 64.3,
+  "pacing": {
+    "cuts": 6,
+    "cuts_per_min": 5.6,
+    "median_shot_s": 9.4,
+    "shortest_shot_s": 1.37,
+    "longest_shot_s": 15.6,
+    "frozen_pct": 84.3
+  },
+  "element_events": {
+    "count": 37,
+    "per_min": 34.6,
+    "median_gap_s": 0.13,
+    "frames": [
+      1,
+      26,
+      55,
+      137,
+      157,
+      160,
+      163,
+      166,
+      169,
+      172,
+      175,
+      445,
+      719,
+      919,
+      922,
+      1310,
+      1314,
+      1360,
+      1400,
+      1417,
+      1420,
+      1423,
+      1458,
+      1461,
+      1528,
+      1531,
+      1534,
+      1537,
+      1540,
+      1650,
+      1653,
+      1657,
+      1714,
+      1717,
+      1720,
+      1724,
+      1808
+    ]
+  },
+  "continuous_motion": {
+    "spans": 16,
+    "total_s": 6.29,
+    "pct_of_runtime": 9.8,
+    "median_span_s": 0.33,
+    "longest_span_s": 0.67,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 5,
+    "median_s": 0.37,
+    "spans_s": [
+      0.933,
+      0.367,
+      0.5,
+      0.333,
+      0.267
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      160,
+      179,
+      184
+    ],
+    "dominant_hex": "#A0B3B8",
+    "corner_flatness": 0.35,
+    "background_drift": 3.16,
+    "flat_background": true,
+    "headline_band_frames_pct": 91.4,
+    "caption_band_frames_pct": 99.7
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 54.1,
+    "approx_any_face_frames_pct": 82.5,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 31,
+    "speech_pct": 83.5,
+    "median_phrase_s": 1.12,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    420,
+    702,
+    912,
+    1313,
+    1416,
+    1457
+  ]
+}

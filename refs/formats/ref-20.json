@@ -1,0 +1,133 @@
+{
+  "label": "ref-20",
+  "source": "refs/corpus/ref-20.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 29.97
+  },
+  "duration_s": 54.221,
+  "pacing": {
+    "cuts": 18,
+    "cuts_per_min": 19.9,
+    "median_shot_s": 1.74,
+    "shortest_shot_s": 0.7,
+    "longest_shot_s": 16.68,
+    "frozen_pct": 63.5
+  },
+  "element_events": {
+    "count": 101,
+    "per_min": 111.8,
+    "median_gap_s": 0.1,
+    "frames": [
+      1,
+      4,
+      7,
+      28,
+      31,
+      34,
+      37,
+      40,
+      43,
+      46,
+      59,
+      62,
+      65,
+      68,
+      71,
+      74,
+      77,
+      92,
+      95,
+      98,
+      101,
+      104,
+      108,
+      111,
+      114,
+      117,
+      120,
+      123,
+      126,
+      129,
+      132,
+      135,
+      138,
+      148,
+      154,
+      166,
+      183,
+      186,
+      189,
+      192
+    ]
+  },
+  "continuous_motion": {
+    "spans": 13,
+    "total_s": 7.83,
+    "pct_of_runtime": 14.4,
+    "median_span_s": 0.5,
+    "longest_span_s": 1.27,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 10,
+    "median_s": 0.68,
+    "spans_s": [
+      0.434,
+      0.701,
+      0.767,
+      1.668,
+      0.767,
+      0.667,
+      0.534,
+      0.934,
+      0.267,
+      0.133
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      133,
+      133,
+      135
+    ],
+    "dominant_hex": "#858587",
+    "corner_flatness": 92.83,
+    "background_drift": 33.45,
+    "flat_background": false,
+    "headline_band_frames_pct": 91.6,
+    "caption_band_frames_pct": 84.5
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 84.5,
+    "approx_any_face_frames_pct": 98.9,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 3,
+    "speech_pct": 98.8,
+    "median_phrase_s": 18.89,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    32,
+    99,
+    151,
+    271,
+    771,
+    838,
+    1025,
+    1075,
+    1109,
+    1153,
+    1239,
+    1298,
+    1401,
+    1422,
+    1444,
+    1470,
+    1577,
+    1602
+  ]
+}

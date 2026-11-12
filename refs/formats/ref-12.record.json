@@ -1,0 +1,573 @@
+{
+  "label": "ref-12",
+  "archetype": "educational explainer",
+  "one_line": "This video explains how to enhance the eye area's attractiveness using eye drops for clarity and strategic eyebrow shaping to adjust perceived tilt, spacing, and symmetry.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 60.708,
+  "measured": {
+    "pacing": {
+      "cuts": 1,
+      "cuts_per_min": 1.0,
+      "median_shot_s": 30.35,
+      "shortest_shot_s": 1.46,
+      "longest_shot_s": 59.25,
+      "frozen_pct": 51.9
+    },
+    "transitions": {
+      "count": 19,
+      "median_s": 1.12,
+      "spans_s": [
+        0.875,
+        0.625,
+        1.042,
+        1.292,
+        2.417,
+        1.333,
+        1.167,
+        1.042,
+        0.875,
+        0.417,
+        1.292,
+        0.75,
+        1.25,
+        1.25,
+        1.583,
+        1.125,
+        0.625,
+        1.333,
+        0.875
+      ]
+    },
+    "element_events": {
+      "count": 152,
+      "per_min": 150.3,
+      "median_gap_s": 0.12,
+      "frames": [
+        55,
+        75,
+        95,
+        115,
+        133,
+        136,
+        139,
+        142,
+        145,
+        148,
+        191,
+        194,
+        197,
+        200,
+        216,
+        219,
+        222,
+        225,
+        228,
+        231,
+        234,
+        278,
+        281,
+        284,
+        287,
+        290,
+        293,
+        296,
+        299,
+        302,
+        333,
+        336,
+        339,
+        342,
+        345,
+        348,
+        351,
+        354,
+        362,
+        365
+      ]
+    },
+    "continuous_motion": {
+      "spans": 24,
+      "total_s": 14.36,
+      "pct_of_runtime": 23.7,
+      "median_span_s": 0.58,
+      "longest_span_s": 1.17,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        95,
+        105,
+        113
+      ],
+      "dominant_hex": "#5F6971",
+      "corner_flatness": 73.03,
+      "background_drift": 27.3,
+      "flat_background": false,
+      "headline_band_frames_pct": 51.1,
+      "caption_band_frames_pct": 80.8
+    },
+    "audio": {
+      "speech_segments": 8,
+      "speech_pct": 95.6,
+      "median_phrase_s": 3.86,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 5,
+    "hard_cuts": 1,
+    "cuts_per_described_change": 0.25,
+    "pct_scene_changes_that_are_cuts": 25.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 3,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 6.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with graphic overlays",
+      "description": "Rapid montage of celebrity faces with a bounding box highlighting their eye area.",
+      "devices": [
+        "bounding box overlay",
+        "text labels"
+      ]
+    },
+    {
+      "start_s": 6.0,
+      "start_frame": 144,
+      "end_s": 25.0,
+      "snapped_to_measured_cut": false,
+      "layout": "split screen and stacked image slices",
+      "description": "Explains Step 1 (clarity and contrast) using a contrast slider overlay, stacked eye images, and clips of people using eye drops.",
+      "devices": [
+        "interactive slider UI",
+        "text chips",
+        "stacked image slices"
+      ]
+    },
+    {
+      "start_s": 25.0,
+      "start_frame": 600,
+      "end_s": 52.0,
+      "snapped_to_measured_cut": false,
+      "layout": "full-bleed portrait with vector overlays",
+      "description": "Explains Step 2 (brow shaping) showing how brows affect canthal tilt, spacing, and asymmetry with dotted lines and arrows.",
+      "devices": [
+        "dotted alignment lines",
+        "directional arrows",
+        "text labels"
+      ]
+    },
+    {
+      "start_s": 52.0,
+      "start_frame": 1248,
+      "end_s": 57.0,
+      "snapped_to_measured_cut": false,
+      "layout": "analytical HUD overlay",
+      "description": "Shows a face with complex HUD-style analytical overlays representing facial metrics.",
+      "devices": [
+        "graphs",
+        "data readouts",
+        "bounding boxes"
+      ]
+    },
+    {
+      "start_s": 57.0,
+      "start_frame": 1368,
+      "end_s": 60.7,
+      "snapped_to_measured_cut": false,
+      "layout": "centered UI mockup",
+      "description": "Minimalist outro with a search bar pointing to the brand's website.",
+      "devices": [
+        "search bar graphic"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "text labels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "bounding box overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "interactive slider UI",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "text chips",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "stacked image slices",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "dotted alignment lines",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "directional arrows",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "graphs",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "data readouts",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "bounding boxes",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "search bar graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "EYE AREA Bounding Box",
+      "what_it_is": "A minimalist white corner-bracket frame.",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Contrast Slider",
+      "what_it_is": "An interactive-looking UI slider bar showing contrast values.",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Alignment Overlays",
+      "what_it_is": "Dotted lines, curves, and arrows overlaid on eyebrows and eyes.",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "HUD Analytics",
+      "what_it_is": "A complex overlay of charts, graphs, and digital readouts.",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Rapidly cycles through celebrity faces with an 'EYE AREA' bounding box overlay, stating that the eye area makes or breaks a face.",
+    "why_it_works": "Leverages familiar celebrity faces and a scientific-looking overlay to immediately capture attention and establish authority."
+  },
+  "narrative_arc": [
+    "Hook: Establish the critical importance of the eye area using celebrity examples.",
+    "Step 1: Introduce eye clarity and contrast, offering a simple solution (eye drops).",
+    "Step 2: Explain brow shaping techniques to correct tilt, spacing, and asymmetry.",
+    "Outro: Tease deeper scientific analysis and drive traffic to the website."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "The eye area can make or break a face"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "EYE AREA"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "ANNE HATHAWAY, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "label",
+      "text": "JUSTIN BIEBER, CANADIAN SINGER"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "ZENDAYA, AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "DAVID CORENSWET, AMERICAN ACTOR"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "label",
+      "text": "KENDALL JENNER, AMERICAN MODEL"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "label",
+      "text": "JACOB ELORDI, AUSTRALIAN ACTOR"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "2 STEPS"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "chip",
+      "text": "STEP 1"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "ui",
+      "text": "CONTRAST"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "CLARITY"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "CONTRAST"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "caption",
+      "text": "The eyes will look tired and less healthy"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "caption",
+      "text": "Simply using preservative free eye drops"
+    },
+    {
+      "approx_t": 26.0,
+      "track": "caption",
+      "text": "Framing your eyes correctly"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "label",
+      "text": "NEGATIVE CANTHAL TILT"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "label",
+      "text": "TILTED UPWARDS"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "caption",
+      "text": "Brows can also help fix spacing"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "label",
+      "text": "CLOSE-SET EYES"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "label",
+      "text": "WIDE-SET EYES"
+    },
+    {
+      "approx_t": 46.0,
+      "track": "caption",
+      "text": "You can use your brows to even out asymmetries"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "label",
+      "text": "ASYMMETRICAL EYES"
+    },
+    {
+      "approx_t": 51.0,
+      "track": "label",
+      "text": "VISUALLY LEVELS THEM"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chart",
+      "text": "CANTHAL TILT"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chart",
+      "text": "BROW AREA THICKNESS"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "chart",
+      "text": "LOWER ORBITAL HEIGHT TO EYE WIDTH RATIO"
+    },
+    {
+      "approx_t": 58.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "The eye area can make or break a face."
+    },
+    {
+      "approx_t": 2.5,
+      "text": "Here are two simple steps with the highest return to naturally improve it."
+    },
+    {
+      "approx_t": 6.0,
+      "text": "Step one is that most people only focus on the eye color,"
+    },
+    {
+      "approx_t": 8.5,
+      "text": "but there's something equally important that makes eyes look attractive: clarity and contrast."
+    },
+    {
+      "approx_t": 13.5,
+      "text": "It doesn't matter if your eyes are blue, green, or brown."
+    },
+    {
+      "approx_t": 16.0,
+      "text": "If your sclera looks yellow or red, the eyes will look tired and less healthy."
+    },
+    {
+      "approx_t": 20.0,
+      "text": "That's why one of the oldest tricks is simply using preservative-free eye drops to keep your eyes hydrated and clear."
+    },
+    {
+      "approx_t": 25.5,
+      "text": "The second step is to frame your eyes correctly."
+    },
+    {
+      "approx_t": 27.5,
+      "text": "Brow shape can heavily influence the perceived tilt of the eyes."
+    },
+    {
+      "approx_t": 30.5,
+      "text": "If your canthal tilt is neutral or negative, lifting the outer third of your brow visually extends the tilt upwards."
+    },
+    {
+      "approx_t": 36.0,
+      "text": "Brows can also help fix spacing."
+    },
+    {
+      "approx_t": 38.5,
+      "text": "If your eyes sit too close, trimming the inner ends widens the gap."
+    },
+    {
+      "approx_t": 41.0,
+      "text": "If they sit too far apart, growing the inner ends inwards tightens it."
+    },
+    {
+      "approx_t": 45.0,
+      "text": "And finally, you can use your brows to even out asymmetries."
+    },
+    {
+      "approx_t": 47.5,
+      "text": "For example, if one eye sits lower than the other, shaping that brow slightly higher visually levels them."
+    },
+    {
+      "approx_t": 52.5,
+      "text": "There are dozens of small signals like these that are shaping how your face is perceived."
+    },
+    {
+      "approx_t": 56.5,
+      "text": "We break down all of them over at Qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 57.0,
+    "what": "Visit Qoves.com to learn more about facial aesthetics."
+  },
+  "subjects": [
+    {
+      "name": "Anne Hathaway",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Justin Bieber",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Zendaya",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "David Corenswet",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Kendall Jenner",
+      "role": "Celebrity example"
+    },
+    {
+      "name": "Jacob Elordi",
+      "role": "Celebrity example"
+    }
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "High-quality, clean graphic design with a consistent muted blue-grey color palette.",
+    "Actionable, easy-to-understand tips backed by visual demonstrations rather than just theory.",
+    "Use of precise, scientific-looking UI overlays that elevate the brand's authority."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/5"
+  }
+}

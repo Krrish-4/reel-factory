@@ -1,0 +1,1200 @@
+{
+  "anne-before": {
+    "depicts": "photo:edited",
+    "file": "anne-before.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        160,
+        178,
+        183
+      ],
+      "face": {
+        "cx": 600.0,
+        "height": 652.0,
+        "top": 244.0,
+        "width": 488.0
+      },
+      "h": 1360,
+      "head_cx": 562.0,
+      "head_top": 44.0,
+      "head_w": 592.5,
+      "w": 1157
+    },
+    "role": "control",
+    "set": "bangs-20261029",
+    "sha1": "42a9baf533ef0134",
+    "subject": "anne"
+  },
+  "anne-fringe": {
+    "depicts": "photo:edited",
+    "file": "anne-fringe.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        160,
+        178,
+        183
+      ],
+      "face": {
+        "cx": 588.0,
+        "height": 594.0,
+        "top": 302.0,
+        "width": 514.0
+      },
+      "h": 1360,
+      "head_cx": 562.0,
+      "head_top": 39.0,
+      "head_w": 598.0,
+      "w": 1157
+    },
+    "pairs_with": "anne-before",
+    "role": "after",
+    "set": "bangs-20261029",
+    "sha1": "63279f84a7e8e63f",
+    "subject": "anne"
+  },
+  "asym1-before": {
+    "depicts": "none",
+    "file": "asym1-before.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        182,
+        196,
+        205
+      ],
+      "face": {
+        "cx": 724.5,
+        "height": 1122.0,
+        "top": 510.0,
+        "width": 785.0
+      },
+      "h": 1920,
+      "head_cx": 720.5,
+      "head_top": 251.0,
+      "head_w": 864.0,
+      "w": 1440
+    },
+    "role": "control",
+    "sha1": "d5b35664cd45d47f",
+    "subject": "asym1"
+  },
+  "asym1-flip": {
+    "depicts": "derived:flip",
+    "file": "asym1-flip.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        182,
+        196,
+        205
+      ],
+      "face": {
+        "cx": 714.5,
+        "height": 1122.0,
+        "top": 510.0,
+        "width": 785.0
+      },
+      "h": 1920,
+      "head_cx": 718.5,
+      "head_top": 251.0,
+      "head_w": 864.0,
+      "w": 1440
+    },
+    "pairs_with": "asym1-before",
+    "role": "derived",
+    "sha1": "e3d4603c125a26c6",
+    "subject": "asym1"
+  },
+  "asym1-left": {
+    "depicts": "derived:half-left",
+    "file": "asym1-left.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        182,
+        196,
+        205
+      ],
+      "face": {
+        "cx": 720.5,
+        "height": 1131.0,
+        "top": 512.0,
+        "width": 779.0
+      },
+      "h": 1920,
+      "head_cx": 720.5,
+      "head_top": 251.0,
+      "head_w": 871.0,
+      "w": 1440
+    },
+    "pairs_with": "asym1-before",
+    "role": "derived",
+    "sha1": "24450c6c7f936f24",
+    "subject": "asym1"
+  },
+  "asym1-map": {
+    "depicts": "derived:mirror-difference",
+    "file": "asym1-map.png",
+    "frame": "raw",
+    "framing_exempt": "difference map, not a photograph: it is the source's own pixel grid with a colour ramp applied (gen/asym.py), so the two are aligned by construction and cannot disagree. metrics() measures a wider head on it only because the ramp changes subject/backdrop contrast at the hairline -- the number is an artefact of measuring a false-colour image, not a framing error to fix",
+    "measured": {
+      "backdrop": [
+        54,
+        58,
+        61
+      ],
+      "face": {
+        "cx": 719.0,
+        "height": 1108.0,
+        "top": 510.0,
+        "width": 1056.0
+      },
+      "h": 1920,
+      "head_cx": 720.0,
+      "head_top": 255.0,
+      "head_w": 853.0,
+      "w": 1440
+    },
+    "pairs_with": "asym1-before",
+    "role": "derived",
+    "sha1": "31c06ba0c4f7fb33",
+    "subject": "asym1"
+  },
+  "asym1-right": {
+    "depicts": "derived:half-right",
+    "file": "asym1-right.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        182,
+        196,
+        205
+      ],
+      "face": {
+        "cx": 720.5,
+        "height": 1113.0,
+        "top": 507.0,
+        "width": 793.0
+      },
+      "h": 1920,
+      "head_cx": 720.5,
+      "head_top": 250.0,
+      "head_w": 857.0,
+      "w": 1440
+    },
+    "pairs_with": "asym1-before",
+    "role": "derived",
+    "sha1": "9e6d6cce6d80c010",
+    "subject": "asym1"
+  },
+  "bangs2-before": {
+    "depicts": "none",
+    "file": "bangs2-before.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        160,
+        177,
+        182
+      ],
+      "face": {
+        "cx": 607.0,
+        "height": 737.0,
+        "top": 178.0,
+        "width": 470.0
+      },
+      "h": 1360,
+      "head_cx": 570.0,
+      "head_top": 0.0,
+      "head_w": 594.0,
+      "w": 1157
+    },
+    "role": "control",
+    "set": "bangs-20261029",
+    "sha1": "90b68c4fafc19600",
+    "subject": "bangs2"
+  },
+  "bangs2-fringe": {
+    "depicts": "hair:fringe-generated",
+    "file": "bangs2-fringe.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        160,
+        176,
+        180
+      ],
+      "face": {
+        "cx": 595.5,
+        "height": 608.0,
+        "top": 307.0,
+        "width": 505.0
+      },
+      "h": 1360,
+      "head_cx": 570.0,
+      "head_top": 0.0,
+      "head_w": 596.0,
+      "w": 1157
+    },
+    "pairs_with": "bangs2-before",
+    "role": "after",
+    "set": "bangs-20261029",
+    "sha1": "d0938e578c687090",
+    "subject": "bangs2"
+  },
+  "bangs3-before": {
+    "depicts": "none",
+    "file": "bangs3-before.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        161,
+        178,
+        183
+      ],
+      "face": {
+        "cx": 584.5,
+        "height": 641.0,
+        "top": 329.0,
+        "width": 475.0
+      },
+      "h": 1360,
+      "head_cx": 580.0,
+      "head_top": 49.0,
+      "head_w": 640.6,
+      "w": 1157
+    },
+    "role": "control",
+    "set": "bangs-20261029",
+    "sha1": "736921f79ecc2ec4",
+    "subject": "bangs3"
+  },
+  "bangs3-fringe": {
+    "depicts": "hair:fringe-generated",
+    "file": "bangs3-fringe.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        161,
+        178,
+        182
+      ],
+      "face": {
+        "cx": 605.5,
+        "height": 556.0,
+        "top": 414.0,
+        "width": 535.0
+      },
+      "h": 1360,
+      "head_cx": 578.5,
+      "head_top": 51.0,
+      "head_w": 638.6,
+      "w": 1157
+    },
+    "pairs_with": "bangs3-before",
+    "role": "after",
+    "set": "bangs-20261029",
+    "sha1": "7d52e6004fc1fc7b",
+    "subject": "bangs3"
+  },
+  "bleph1-before": {
+    "depicts": "none",
+    "file": "bleph1-before.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        184,
+        202,
+        214
+      ],
+      "face": {
+        "cx": 720.0,
+        "height": 989.0,
+        "top": 508.0,
+        "width": 700.0
+      },
+      "h": 1920,
+      "head_cx": 720.0,
+      "head_top": 250.0,
+      "head_w": 863.0,
+      "w": 1440
+    },
+    "role": "control",
+    "set": "subjects-20260826-191551",
+    "sha1": "48a0bef84370506a",
+    "subject": "bleph1"
+  },
+  "bleph1-bleph": {
+    "depicts": "procedure:blepharoplasty",
+    "file": "bleph1-bleph.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        185,
+        201,
+        214
+      ],
+      "face": {
+        "cx": 720.0,
+        "height": 991.0,
+        "top": 507.0,
+        "width": 708.0
+      },
+      "h": 1920,
+      "head_cx": 720.0,
+      "head_top": 249.0,
+      "head_w": 863.0,
+      "w": 1440
+    },
+    "pairs_with": "bleph1-before",
+    "role": "after",
+    "set": "subjects-20260826-191551",
+    "sha1": "d0ec9245c7cf0615",
+    "subject": "bleph1"
+  },
+  "bleph1-flip": {
+    "depicts": "derived:flip",
+    "file": "bleph1-flip.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        184,
+        202,
+        214
+      ],
+      "face": {
+        "cx": 719.0,
+        "height": 989.0,
+        "top": 508.0,
+        "width": 700.0
+      },
+      "h": 1920,
+      "head_cx": 719.0,
+      "head_top": 250.0,
+      "head_w": 863.0,
+      "w": 1440
+    },
+    "pairs_with": "bleph1-before",
+    "role": "derived",
+    "sha1": "37bd27bd9dfb9e47",
+    "subject": "bleph1"
+  },
+  "bleph1-left": {
+    "depicts": "derived:half-left",
+    "file": "bleph1-left.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        184,
+        202,
+        214
+      ],
+      "face": {
+        "cx": 721.0,
+        "height": 988.0,
+        "top": 509.0,
+        "width": 702.0
+      },
+      "h": 1920,
+      "head_cx": 721.0,
+      "head_top": 250.0,
+      "head_w": 864.0,
+      "w": 1440
+    },
+    "pairs_with": "bleph1-before",
+    "role": "derived",
+    "sha1": "d1d4597184cb21b9",
+    "subject": "bleph1"
+  },
+  "bleph1-map": {
+    "depicts": "derived:mirror-difference",
+    "file": "bleph1-map.png",
+    "frame": "raw",
+    "framing_exempt": "difference map, not a photograph: it is the source's own pixel grid with a colour ramp applied (gen/asym.py), so the two are aligned by construction and cannot disagree. metrics() measures a wider head on it only because the ramp changes subject/backdrop contrast at the hairline -- the number is an artefact of measuring a false-colour image, not a framing error to fix",
+    "measured": {
+      "backdrop": [
+        55,
+        60,
+        64
+      ],
+      "face": {
+        "cx": 720.0,
+        "height": 1087.0,
+        "top": 506.0,
+        "width": 1112.0
+      },
+      "h": 1920,
+      "head_cx": 721.0,
+      "head_top": 237.0,
+      "head_w": 898.0,
+      "w": 1440
+    },
+    "pairs_with": "bleph1-before",
+    "role": "derived",
+    "sha1": "f39ec88f64be2ee8",
+    "subject": "bleph1"
+  },
+  "bleph1-right": {
+    "depicts": "derived:half-right",
+    "file": "bleph1-right.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        184,
+        202,
+        214
+      ],
+      "face": {
+        "cx": 721.0,
+        "height": 984.0,
+        "top": 514.0,
+        "width": 696.0
+      },
+      "h": 1920,
+      "head_cx": 721.0,
+      "head_top": 255.0,
+      "head_w": 866.0,
+      "w": 1440
+    },
+    "pairs_with": "bleph1-before",
+    "role": "derived",
+    "sha1": "35be7343effbf6ae",
+    "subject": "bleph1"
+  },
+  "demo1-before": {
+    "depicts": "condition:frontlit",
+    "file": "demo1-before.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        184,
+        197,
+        206
+      ],
+      "face": {
+        "cx": 723.0,
+        "height": 1085.0,
+        "top": 509.0,
+        "width": 858.0
+      },
+      "h": 1920,
+      "head_cx": 720.0,
+      "head_top": 250.0,
+      "head_w": 863.7,
+      "w": 1440
+    },
+    "role": "control",
+    "set": "conditions-20260826-231350",
+    "sha1": "2af812d161956979",
+    "subject": "demo1"
+  },
+  "demo1-chindown": {
+    "depicts": "condition:chin-down",
+    "file": "demo1-chindown.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        179,
+        191,
+        203
+      ],
+      "face": {
+        "cx": 741.0,
+        "height": 1120.0,
+        "top": 508.0,
+        "width": 784.0
+      },
+      "h": 1920,
+      "head_cx": 719.0,
+      "head_top": 250.0,
+      "head_w": 862.0,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "after",
+    "set": "conditions-condb",
+    "sha1": "222f5f62a658e2bc",
+    "subject": "demo1"
+  },
+  "demo1-closeup": {
+    "depicts": "condition:wide-close",
+    "file": "demo1-closeup.png",
+    "frame": "canonical",
+    "framing_exempt": "wide-angle perspective genuinely widens the apparent head; this pair's beat exists to show that, so head-width parity would erase the subject",
+    "measured": {
+      "backdrop": [
+        174,
+        186,
+        198
+      ],
+      "face": {
+        "cx": 732.5,
+        "height": 775.0,
+        "top": 529.0,
+        "width": 597.0
+      },
+      "h": 1920,
+      "head_cx": 716.0,
+      "head_top": 244.0,
+      "head_w": 950.0,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "after",
+    "set": "conditions-20260826-231350b",
+    "sha1": "fbeee2a057336828",
+    "subject": "demo1"
+  },
+  "demo1-facelift": {
+    "depicts": "procedure:facelift",
+    "file": "demo1-facelift.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        179,
+        191,
+        203
+      ],
+      "face": {
+        "cx": 721.5,
+        "height": 1101.0,
+        "top": 507.0,
+        "width": 839.0
+      },
+      "h": 1920,
+      "head_cx": 719.5,
+      "head_top": 249.0,
+      "head_w": 862.0,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "after",
+    "set": "hook-hookrun2",
+    "sha1": "7e80839b07efe55d",
+    "subject": "demo1"
+  },
+  "demo1-flip": {
+    "depicts": "derived:flip",
+    "file": "demo1-flip.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        184,
+        197,
+        206
+      ],
+      "face": {
+        "cx": 716.0,
+        "height": 1085.0,
+        "top": 509.0,
+        "width": 858.0
+      },
+      "h": 1920,
+      "head_cx": 719.0,
+      "head_top": 250.0,
+      "head_w": 863.7,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "derived",
+    "sha1": "1f89d6ecf042e9df",
+    "subject": "demo1"
+  },
+  "demo1-left": {
+    "depicts": "derived:half-left",
+    "file": "demo1-left.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        184,
+        197,
+        206
+      ],
+      "face": {
+        "cx": 723.0,
+        "height": 1083.0,
+        "top": 511.0,
+        "width": 858.0
+      },
+      "h": 1920,
+      "head_cx": 723.0,
+      "head_top": 250.0,
+      "head_w": 871.4,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "derived",
+    "sha1": "ef110afef3f683b4",
+    "subject": "demo1"
+  },
+  "demo1-lift": {
+    "depicts": "condition:slight-lift",
+    "file": "demo1-lift.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        182,
+        192,
+        204
+      ],
+      "face": {
+        "cx": 720.5,
+        "height": 1103.0,
+        "top": 509.0,
+        "width": 841.0
+      },
+      "h": 1920,
+      "head_cx": 719.5,
+      "head_top": 250.0,
+      "head_w": 864.0,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "after",
+    "set": "conditions-condb",
+    "sha1": "8b7559385ea50f41",
+    "subject": "demo1"
+  },
+  "demo1-map": {
+    "depicts": "derived:mirror-difference",
+    "file": "demo1-map.png",
+    "frame": "raw",
+    "framing_exempt": "difference map, not a photograph: it is the source's own pixel grid with a colour ramp applied (gen/asym.py), so the two are aligned by construction and cannot disagree. metrics() measures a wider head on it only because the ramp changes subject/backdrop contrast at the hairline -- the number is an artefact of measuring a false-colour image, not a framing error to fix",
+    "measured": {
+      "backdrop": [
+        55,
+        59,
+        61
+      ],
+      "face": {
+        "cx": 722.0,
+        "height": 1174.0,
+        "top": 521.0,
+        "width": 1120.0
+      },
+      "h": 1920,
+      "head_cx": 723.0,
+      "head_top": 250.0,
+      "head_w": 904.0,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "derived",
+    "sha1": "2720ddf56c401fd3",
+    "subject": "demo1"
+  },
+  "demo1-overhead": {
+    "depicts": "condition:overhead",
+    "file": "demo1-overhead.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        187,
+        197,
+        207
+      ],
+      "face": {
+        "cx": 723.5,
+        "height": 1005.0,
+        "top": 509.0,
+        "width": 857.0
+      },
+      "h": 1920,
+      "head_cx": 719.5,
+      "head_top": 250.0,
+      "head_w": 864.0,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "after",
+    "set": "conditions-20260826-231350",
+    "sha1": "9ef0f53e01160f7b",
+    "subject": "demo1"
+  },
+  "demo1-right": {
+    "depicts": "derived:half-right",
+    "file": "demo1-right.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        184,
+        197,
+        206
+      ],
+      "face": {
+        "cx": 723.0,
+        "height": 1086.0,
+        "top": 508.0,
+        "width": 858.0
+      },
+      "h": 1920,
+      "head_cx": 723.0,
+      "head_top": 251.0,
+      "head_w": 858.0,
+      "w": 1440
+    },
+    "pairs_with": "demo1-before",
+    "role": "derived",
+    "sha1": "cda522d728d30271",
+    "subject": "demo1"
+  },
+  "lips1-before": {
+    "depicts": "none",
+    "file": "lips1-before.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        184,
+        202,
+        209
+      ],
+      "face": {
+        "cx": 721.0,
+        "height": 1039.0,
+        "top": 508.0,
+        "width": 846.0
+      },
+      "h": 1920,
+      "head_cx": 719.0,
+      "head_top": 249.0,
+      "head_w": 864.0,
+      "w": 1440
+    },
+    "role": "control",
+    "sha1": "a418d8e57cc0072c",
+    "subject": "lips1"
+  },
+  "lips1-lipaug": {
+    "depicts": "procedure:lip-augmentation",
+    "file": "lips1-lipaug.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        185,
+        202,
+        210
+      ],
+      "face": {
+        "cx": 721.0,
+        "height": 1040.0,
+        "top": 506.0,
+        "width": 844.0
+      },
+      "h": 1920,
+      "head_cx": 718.5,
+      "head_top": 248.0,
+      "head_w": 863.0,
+      "w": 1440
+    },
+    "pairs_with": "lips1-before",
+    "role": "after",
+    "sha1": "3e627bb1c62aab41",
+    "subject": "lips1"
+  },
+  "lips1-map": {
+    "depicts": "derived:pair-difference",
+    "file": "lips1-map.png",
+    "frame": "raw",
+    "framing_exempt": "difference map, not a photograph: it is the pair's own shared pixel grid with a colour ramp applied (gen/diffmap.py), so it and its source are aligned by construction and cannot disagree. metrics() measures a different head on it only because the ramp and the facial-skin mask change subject/backdrop contrast at the hairline -- the number is an artefact of measuring a false-colour image, not a framing error to fix. Widening the tolerance instead would be the rule-P move.",
+    "measured": {
+      "backdrop": [
+        55,
+        60,
+        62
+      ],
+      "face": {
+        "cx": 717.5,
+        "height": 1105.0,
+        "top": 509.0,
+        "width": 1055.0
+      },
+      "h": 1920,
+      "head_cx": 718.5,
+      "head_top": 254.0,
+      "head_w": 851.0,
+      "w": 1440
+    },
+    "pairs_with": "lips1-before",
+    "role": "derived",
+    "sha1": "c85ac5b561e83f34",
+    "subject": "lips1"
+  },
+  "lips2-before": {
+    "depicts": "none",
+    "file": "lips2-before.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        189,
+        202,
+        212
+      ],
+      "face": {
+        "cx": 715.5,
+        "height": 986.0,
+        "top": 502.0,
+        "width": 723.0
+      },
+      "h": 1920,
+      "head_cx": 722.0,
+      "head_top": 249.0,
+      "head_w": 845.0,
+      "w": 1440
+    },
+    "role": "control",
+    "sha1": "4d521f086b0eca4e",
+    "subject": "lips2"
+  },
+  "lips2-lipaug": {
+    "depicts": "procedure:lip-augmentation",
+    "file": "lips2-lipaug.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        192,
+        202,
+        213
+      ],
+      "face": {
+        "cx": 715.5,
+        "height": 979.0,
+        "top": 500.0,
+        "width": 719.0
+      },
+      "h": 1920,
+      "head_cx": 721.8,
+      "head_top": 248.0,
+      "head_w": 841.0,
+      "w": 1440
+    },
+    "pairs_with": "lips2-before",
+    "role": "after",
+    "sha1": "de486f59f61bbdca",
+    "subject": "lips2"
+  },
+  "ratio1-before": {
+    "depicts": "none",
+    "file": "ratio1-before.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        177,
+        197,
+        208
+      ],
+      "face": {
+        "cx": 725.5,
+        "height": 1028.0,
+        "top": 514.0,
+        "width": 833.0
+      },
+      "h": 1920,
+      "head_cx": 720.0,
+      "head_top": 255.0,
+      "head_w": 864.0,
+      "w": 1440
+    },
+    "role": "control",
+    "set": "subjects-20260829-165030",
+    "sha1": "1bc1ea0b6a4cdc63",
+    "subject": "ratio1"
+  },
+  "ratio1-chin": {
+    "depicts": "procedure:chin-augmentation",
+    "file": "ratio1-chin.png",
+    "frame": "canonical",
+    "measured": {
+      "backdrop": [
+        180,
+        196,
+        209
+      ],
+      "face": {
+        "cx": 723.5,
+        "height": 1018.0,
+        "top": 513.0,
+        "width": 839.0
+      },
+      "h": 1920,
+      "head_cx": 720.0,
+      "head_top": 254.0,
+      "head_w": 865.0,
+      "w": 1440
+    },
+    "pairs_with": "ratio1-before",
+    "role": "after",
+    "set": "subjects-20260829-165030",
+    "sha1": "0dae99d14e85e2ac",
+    "subject": "ratio1"
+  },
+  "ratio1-map": {
+    "depicts": "derived:pair-difference",
+    "file": "ratio1-map.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        53,
+        59,
+        62
+      ],
+      "face": {
+        "cx": 719.5,
+        "height": 1112.0,
+        "top": 516.0,
+        "width": 1061.0
+      },
+      "h": 1920,
+      "head_cx": 720.5,
+      "head_top": 260.0,
+      "head_w": 856.0,
+      "w": 1440
+    },
+    "pairs_with": "ratio1-before",
+    "role": "derived",
+    "sha1": "f9f92609096d5ea9",
+    "subject": "ratio1"
+  },
+  "sage-ratio1-before": {
+    "depicts": "none",
+    "file": "sage-ratio1-before.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        163,
+        181,
+        186
+      ],
+      "face": {
+        "cx": 1123.0,
+        "height": 1019.0,
+        "top": 1870.0,
+        "width": 834.0
+      },
+      "h": 3958,
+      "head_cx": 1118.5,
+      "head_top": 1603.0,
+      "head_w": 890.0,
+      "w": 2234
+    },
+    "role": "control",
+    "sha1": "2ac0ac3c89b1745f",
+    "subject": "sage-ratio1"
+  },
+  "sage-ratio1-chin": {
+    "depicts": "procedure:chin-augmentation",
+    "file": "sage-ratio1-chin.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        163,
+        181,
+        186
+      ],
+      "face": {
+        "cx": 1121.0,
+        "height": 1004.0,
+        "top": 1873.0,
+        "width": 840.0
+      },
+      "h": 3958,
+      "head_cx": 1119.0,
+      "head_top": 1606.0,
+      "head_w": 891.9,
+      "w": 2234
+    },
+    "pairs_with": "sage-ratio1-before",
+    "role": "after",
+    "sha1": "263192dbec3313e8",
+    "subject": "sage-ratio1"
+  },
+  "sage-ratio1-map": {
+    "depicts": "derived:pair-difference",
+    "file": "sage-ratio1-map.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        53,
+        59,
+        62
+      ],
+      "face": {
+        "cx": 1116.5,
+        "height": 1112.0,
+        "top": 1863.0,
+        "width": 1061.0
+      },
+      "h": 3958,
+      "head_cx": 1117.5,
+      "head_top": 1607.0,
+      "head_w": 856.0,
+      "w": 2234
+    },
+    "pairs_with": "sage-ratio1-before",
+    "role": "derived",
+    "sha1": "93b973cd0124567e",
+    "subject": "sage-ratio1"
+  },
+  "size1-before": {
+    "depicts": "photo:unmodified",
+    "file": "size1-before.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        162,
+        181,
+        186
+      ],
+      "face": {
+        "cx": 622.0,
+        "height": 931.0,
+        "top": 335.0,
+        "width": 818.0
+      },
+      "h": 1601,
+      "head_cx": 616.5,
+      "head_top": 77.0,
+      "head_w": 860.0,
+      "w": 1218
+    },
+    "role": "before",
+    "sha1": "299c43d2873b0738",
+    "subject": "size1"
+  },
+  "size1-lipred": {
+    "depicts": "procedure:lip-reduction",
+    "file": "size1-lipred.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        163,
+        180,
+        186
+      ],
+      "face": {
+        "cx": 621.5,
+        "height": 941.0,
+        "top": 335.0,
+        "width": 827.0
+      },
+      "h": 1601,
+      "head_cx": 616.5,
+      "head_top": 75.0,
+      "head_w": 867.0,
+      "w": 1218
+    },
+    "pairs_with": "size1-before",
+    "role": "after",
+    "sha1": "47533e667605073f",
+    "subject": "size1"
+  },
+  "size1-profile": {
+    "depicts": "view:profile-generated",
+    "file": "size1-profile.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        162,
+        181,
+        186
+      ],
+      "face": {
+        "cx": 641.0,
+        "height": 743.0,
+        "top": 342.0,
+        "width": 872.0
+      },
+      "h": 1601,
+      "head_cx": 617.0,
+      "head_top": 76.0,
+      "head_w": 887.0,
+      "w": 1218
+    },
+    "sha1": "baeeed4719158c2d",
+    "subject": "size1"
+  },
+  "trio1-before": {
+    "depicts": "none",
+    "file": "trio1-before.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        217,
+        213,
+        206
+      ],
+      "face": {
+        "cx": 573.0,
+        "height": 941.0,
+        "top": 285.0,
+        "width": 728.0
+      },
+      "h": 1536,
+      "head_cx": 568.5,
+      "head_top": 50.0,
+      "head_w": 785.1,
+      "w": 1152
+    },
+    "role": "control",
+    "set": "trio1-20261023",
+    "sha1": "6d103a860db98d8d",
+    "subject": "trio1"
+  },
+  "trio1-facelift2": {
+    "depicts": "procedure:facelift",
+    "file": "trio1-facelift2.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        217,
+        213,
+        207
+      ],
+      "face": {
+        "cx": 576.5,
+        "height": 944.0,
+        "top": 284.0,
+        "width": 729.0
+      },
+      "h": 1536,
+      "head_cx": 571.0,
+      "head_top": 49.0,
+      "head_w": 784.0,
+      "w": 1152
+    },
+    "pairs_with": "trio1-before",
+    "role": "after",
+    "set": "trio1-20261023",
+    "sha1": "79b23c545b035f4a",
+    "subject": "trio1"
+  },
+  "trio1-refine": {
+    "depicts": "procedure:feature-refinement",
+    "file": "trio1-refine.png",
+    "frame": "raw",
+    "measured": {
+      "backdrop": [
+        217,
+        213,
+        206
+      ],
+      "face": {
+        "cx": 587.5,
+        "height": 962.0,
+        "top": 261.0,
+        "width": 683.0
+      },
+      "h": 1536,
+      "head_cx": 574.2,
+      "head_top": 10.0,
+      "head_w": 837.0,
+      "w": 1152
+    },
+    "pairs_with": "trio1-before",
+    "role": "after",
+    "set": "trio1-20261023",
+    "sha1": "76160bf3a11f2a97",
+    "subject": "trio1"
+  }
+}

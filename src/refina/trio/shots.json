@@ -1,0 +1,183 @@
+{
+  "_note": "The shot plan for RefinaTrio, \"One Face, Three Impressions\" - Rahul's QOVES-style brief of 2026-10-23. `lines` is how many script phrases the beat covers; beats.ts derives its bounds from here plus words-vo.ts.",
+  "reel": "trio",
+  "script": "docs/scripts/trio.txt",
+  "cues": "src/refina/trio/words-vo.ts",
+  "_argument": "One generated before and two i2i afters of DIFFERENT KINDS: trio1-facelift2 changes the lower-face contour only, trio1-refine changes the six features (brows, eyes, nose, lips, skin, hair) and leaves the jaw. Both are derived from the same before FILE (flow.mjs derive re-uploads it each round), so neither is derived from the other.",
+  "_palette": "The PDF's muted ivory / charcoal / soft grey: the stage IS the soft-grey backdrop (#D9D5CF) the portraits were repainted to, type is charcoal, tags are dark mono boxes.",
+  "_claims": "No version is called better. Every portrait carries the AI PREVIEW chip; the vote beat is framed by the script as subjective. The report pages shown are real app screens (public/refina-ui/screens_trim), not mockups.",
+  "min_moving_share": 0.35,
+  "beats": [
+    {
+      "name": "hook",
+      "lines": 3,
+      "composition": "tri-split",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "steps": [
+          "trio1-before",
+          "trio1-facelift2",
+          "trio1-refine"
+        ],
+        "compliance": true
+      }
+    },
+    {
+      "name": "setup",
+      "lines": 4,
+      "composition": "landmark-trace",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "under": "trio1-before",
+        "tags": [
+          "SAME FACE",
+          "STRUCTURE",
+          "PROPORTIONS",
+          "DETAILS"
+        ],
+        "compliance": true
+      }
+    },
+    {
+      "name": "structure",
+      "lines": 3,
+      "composition": "jaw-seam",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "trio1-before",
+        "over": "trio1-facelift2",
+        "tag": "02 / STRUCTURE",
+        "labels": [
+          "ORIGINAL",
+          "FACELIFT"
+        ],
+        "compliance": true
+      }
+    },
+    {
+      "name": "pivot",
+      "lines": 1,
+      "composition": "wipe-down",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "under": "trio1-before",
+        "over": "trio1-refine",
+        "tag": "03 / FEATURES",
+        "compliance": true
+      }
+    },
+    {
+      "name": "features",
+      "lines": 6,
+      "composition": "feature-split",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "left": "trio1-before",
+        "right": "trio1-refine",
+        "steps": [
+          "BROWS",
+          "EYES",
+          "NOSE",
+          "LIPS",
+          "SKIN",
+          "HAIR"
+        ],
+        "labels": [
+          "ORIGINAL",
+          "REFINED"
+        ]
+      }
+    },
+    {
+      "name": "together",
+      "lines": 2,
+      "composition": "feature-map",
+      "motion": "static",
+      "shot": "close",
+      "props": {
+        "under": "trio1-refine",
+        "steps": [
+          "BROWS",
+          "EYES",
+          "NOSE",
+          "LIPS",
+          "SKIN",
+          "HAIR"
+        ],
+        "compliance": true
+      }
+    },
+    {
+      "name": "reveal",
+      "lines": 6,
+      "composition": "triptych",
+      "motion": "moving",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "trio1-before",
+          "trio1-facelift2",
+          "trio1-refine"
+        ],
+        "labels": [
+          "01 — ORIGINAL",
+          "02 — STRUCTURAL CHANGE",
+          "03 — FEATURE REFINEMENT"
+        ],
+        "compliance": true
+      }
+    },
+    {
+      "name": "nuance",
+      "lines": 2,
+      "composition": "seam-shuttle",
+      "motion": "moving",
+      "shot": "close",
+      "props": {
+        "left": "trio1-facelift2",
+        "right": "trio1-refine",
+        "labels": [
+          "STRUCTURE",
+          "FEATURES"
+        ],
+        "compliance": true
+      }
+    },
+    {
+      "name": "question",
+      "lines": 3,
+      "composition": "vote-numbers",
+      "motion": "static",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "trio1-before",
+          "trio1-facelift2",
+          "trio1-refine"
+        ],
+        "caption": "WHICH ONE WOULD YOU CHOOSE?"
+      }
+    },
+    {
+      "name": "cta",
+      "lines": 5,
+      "composition": "report-phone",
+      "motion": "moving",
+      "shot": "wide",
+      "props": {
+        "steps": [
+          "dossier-1",
+          "dossier-13",
+          "dossier-11"
+        ],
+        "caption": "YOUR FACE. UNDERSTOOD IN DETAIL."
+      }
+    }
+  ],
+  "_framing": "REBUILT 2026-10-23 on Rahul's call to match out/refina-size-v5.mp4: one head-and-shoulders frame (hair top y340, chin y1235, picture cut at y1650) blended into a stage the colour of the repainted backdrop, a small centred serif headline in the air above the head, dark mono tags, italic captions on the stage. Wide comes only from compositions that are not one portrait (triptych, vote, phone), as in size-v5."
+}

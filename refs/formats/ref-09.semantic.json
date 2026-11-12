@@ -1,0 +1,904 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "An aesthetic breakdown explaining the facial features and psychological perception that distinguish 'cute' eyes from 'hot' eyes.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A scanning UI frames a model's eyes as text asks: 'Do you have Cute eyes or Hot eyes?'",
+    "why_it_works": "Drives immediate self-assessment and taps into popular social media beauty trends."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 2.8,
+      "description": "Intro posing the question with a scanning UI element over model portraits.",
+      "layout": "full-bleed portrait with centered overlay UI",
+      "devices": [
+        "scanning rectangle UI",
+        "centered headline text",
+        "bottom caption"
+      ]
+    },
+    {
+      "approx_start": 2.8,
+      "approx_end": 12.8,
+      "description": "Anatomical breakdown of 'cute eyes' using graphic overlays, diagrams, and callout labels.",
+      "layout": "portrait close-up with diagram UI header and pointer labels",
+      "devices": [
+        "vector eye shape diagram",
+        "brain illustration UI",
+        "line-pointer callout tags",
+        "highlight area overlays"
+      ]
+    },
+    {
+      "approx_start": 12.8,
+      "approx_end": 22.8,
+      "description": "Psychological perception of cute eyes, showing brain heart effect and user example photos.",
+      "layout": "centered photo card with top floating graphic and chat bubble social proof",
+      "devices": [
+        "heart particle emitters",
+        "cloud-shaped photo crop",
+        "chat bubble captions",
+        "social handle overlays"
+      ]
+    },
+    {
+      "approx_start": 22.8,
+      "approx_end": 32.8,
+      "description": "Anatomical breakdown of 'hot eyes' featuring Madison Beer, sharp eye diagrams, and a target crosshair.",
+      "layout": "portrait close-up with sharp vector eye diagram UI and target reticle",
+      "devices": [
+        "sharp vector diagram",
+        "crosshair target reticle",
+        "directional arrow pointers",
+        "celebrity identifier tag"
+      ]
+    },
+    {
+      "approx_start": 32.8,
+      "approx_end": 43.8,
+      "description": "Direct eye shape comparison and photo gallery showing intense model aesthetic.",
+      "layout": "stacked horizontal comparison panels transition to photo collage layout",
+      "devices": [
+        "comparison image stack",
+        "trait labels",
+        "facial vector arrows",
+        "photo collage card stack"
+      ]
+    },
+    {
+      "approx_start": 43.8,
+      "approx_end": 48.5,
+      "description": "Summary comparison panel showing 'HOT' vs 'CUTE' eye cutouts, looping back to the hook question.",
+      "layout": "dual stacked eye crop cards into full portrait frame",
+      "devices": [
+        "labeled side-by-side comparison cards",
+        "scanning rectangle UI"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Eye Scan UI Box",
+      "what_it_is": "A translucent box framing the eye area labeled 'EYES'.",
+      "used_for": "Focusing viewer attention on the eye region."
+    },
+    {
+      "name": "Anatomical Vector Diagrams",
+      "what_it_is": "UI card displaying simplified eye shapes labeled 'Round' or 'Sharp'.",
+      "used_for": "Visualizing technical eye geometry."
+    },
+    {
+      "name": "Line Pointer Callouts",
+      "what_it_is": "Text labels connected to specific facial features via pointer lines.",
+      "used_for": "Highlighting precise anatomical traits like scleral show or outer lid lift."
+    },
+    {
+      "name": "Target Crosshair Reticle",
+      "what_it_is": "A animated scope graphics focusing on the pupil.",
+      "used_for": "Demonstrating the direct, piercing gaze of hot eyes."
+    },
+    {
+      "name": "Social Chat Bubbles",
+      "what_it_is": "Mock message bubbles with reactions and captions.",
+      "used_for": "Providing social proof and real-world perception context."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Do you have Cute eyes or Hot eyes ?"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "ui",
+      "text": "EYES"
+    },
+    {
+      "approx_t": 0.1,
+      "track": "caption",
+      "text": "Do you have cute eyes"
+    },
+    {
+      "approx_t": 1.2,
+      "track": "caption",
+      "text": "or hot eyes?"
+    },
+    {
+      "approx_t": 2.2,
+      "track": "caption",
+      "text": "Here is how to tell!"
+    },
+    {
+      "approx_t": 2.9,
+      "track": "headline",
+      "text": "Cute eyes"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "caption",
+      "text": "Cute eyes are the ones"
+    },
+    {
+      "approx_t": 4.1,
+      "track": "ui",
+      "text": "YOUTH"
+    },
+    {
+      "approx_t": 4.3,
+      "track": "ui",
+      "text": "Round"
+    },
+    {
+      "approx_t": 4.4,
+      "track": "caption",
+      "text": "your brain reads as young."
+    },
+    {
+      "approx_t": 5.2,
+      "track": "ui",
+      "text": "YOUTHFUL"
+    },
+    {
+      "approx_t": 5.8,
+      "track": "caption",
+      "text": "They sit rounder and more open,"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "label",
+      "text": "Upper lid showing"
+    },
+    {
+      "approx_t": 7.2,
+      "track": "caption",
+      "text": "with more of the upper lid showing."
+    },
+    {
+      "approx_t": 8.0,
+      "track": "label",
+      "text": "The outer corner dips"
+    },
+    {
+      "approx_t": 8.1,
+      "track": "caption",
+      "text": "The outer corner"
+    },
+    {
+      "approx_t": 8.9,
+      "track": "caption",
+      "text": "stays level or dips down"
+    },
+    {
+      "approx_t": 10.1,
+      "track": "caption",
+      "text": "a touch, often"
+    },
+    {
+      "approx_t": 10.9,
+      "track": "label",
+      "text": "Scleral show"
+    },
+    {
+      "approx_t": 11.1,
+      "track": "caption",
+      "text": "with a little more white"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "caption",
+      "text": "under the iris."
+    },
+    {
+      "approx_t": 13.0,
+      "track": "caption",
+      "text": "Big and soft like a baby has,"
+    },
+    {
+      "approx_t": 14.1,
+      "track": "headline",
+      "text": "Gentle and Approachable"
+    },
+    {
+      "approx_t": 14.8,
+      "track": "caption",
+      "text": "the shape your brain is wired"
+    },
+    {
+      "approx_t": 16.2,
+      "track": "caption",
+      "text": "to read as gentle and approachable."
+    },
+    {
+      "approx_t": 17.5,
+      "track": "caption",
+      "text": "Think of the friend"
+    },
+    {
+      "approx_t": 18.2,
+      "track": "ui",
+      "text": "She's really cute"
+    },
+    {
+      "approx_t": 18.2,
+      "track": "ui",
+      "text": "It's her eyes"
+    },
+    {
+      "approx_t": 18.2,
+      "track": "citation",
+      "text": "@LUCIAAFERRATO"
+    },
+    {
+      "approx_t": 18.8,
+      "track": "caption",
+      "text": "everyone calls cute"
+    },
+    {
+      "approx_t": 19.3,
+      "track": "citation",
+      "text": "@RAECAMBRB"
+    },
+    {
+      "approx_t": 19.8,
+      "track": "caption",
+      "text": "but nobody can quite explain."
+    },
+    {
+      "approx_t": 20.3,
+      "track": "citation",
+      "text": "@ORHADID"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "caption",
+      "text": "Chances are her eyes"
+    },
+    {
+      "approx_t": 22.0,
+      "track": "caption",
+      "text": "look exactly like this."
+    },
+    {
+      "approx_t": 23.0,
+      "track": "citation",
+      "text": "MADISON BEER,"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "citation",
+      "text": "AMERICAN SINGER"
+    },
+    {
+      "approx_t": 23.1,
+      "track": "caption",
+      "text": "Hot eyes are the opposite signal."
+    },
+    {
+      "approx_t": 24.1,
+      "track": "ui",
+      "text": "PIERCING"
+    },
+    {
+      "approx_t": 24.1,
+      "track": "ui",
+      "text": "Sharp"
+    },
+    {
+      "approx_t": 24.9,
+      "track": "caption",
+      "text": "narrower and more horizontal,"
+    },
+    {
+      "approx_t": 26.2,
+      "track": "label",
+      "text": "Less upper lid showing"
+    },
+    {
+      "approx_t": 26.3,
+      "track": "caption",
+      "text": "with less upper lid showing,"
+    },
+    {
+      "approx_t": 27.9,
+      "track": "label",
+      "text": "The outer corner lifts"
+    },
+    {
+      "approx_t": 28.0,
+      "track": "caption",
+      "text": "and the outer corner"
+    },
+    {
+      "approx_t": 28.9,
+      "track": "caption",
+      "text": "lifts up instead of dropping."
+    },
+    {
+      "approx_t": 30.1,
+      "track": "caption",
+      "text": "The eye looks aimed at you"
+    },
+    {
+      "approx_t": 31.9,
+      "track": "caption",
+      "text": "instead of open to you."
+    },
+    {
+      "approx_t": 33.1,
+      "track": "caption",
+      "text": "Where cute eyes feel warm,"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "WARM"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "FRIENDLY"
+    },
+    {
+      "approx_t": 34.8,
+      "track": "chip",
+      "text": "FOCUSED"
+    },
+    {
+      "approx_t": 34.9,
+      "track": "caption",
+      "text": "hot eyes feel focused,"
+    },
+    {
+      "approx_t": 36.2,
+      "track": "caption",
+      "text": "and that pulls a face"
+    },
+    {
+      "approx_t": 37.1,
+      "track": "caption",
+      "text": "from approachable to the kind"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "headline",
+      "text": "You can't look away"
+    },
+    {
+      "approx_t": 38.8,
+      "track": "caption",
+      "text": "you cannot look away from."
+    },
+    {
+      "approx_t": 39.8,
+      "track": "caption",
+      "text": "Think of the friend"
+    },
+    {
+      "approx_t": 40.8,
+      "track": "headline",
+      "text": "Intense and serious"
+    },
+    {
+      "approx_t": 40.9,
+      "track": "caption",
+      "text": "whose photos always look intense"
+    },
+    {
+      "approx_t": 41.8,
+      "track": "headline",
+      "text": "Without"
+    },
+    {
+      "approx_t": 42.1,
+      "track": "headline",
+      "text": "Without trying"
+    },
+    {
+      "approx_t": 42.1,
+      "track": "citation",
+      "text": "@NOTTREBECA"
+    },
+    {
+      "approx_t": 42.2,
+      "track": "caption",
+      "text": "and serious, like a model,"
+    },
+    {
+      "approx_t": 43.1,
+      "track": "caption",
+      "text": "without trying."
+    },
+    {
+      "approx_t": 44.0,
+      "track": "chip",
+      "text": "HOT"
+    },
+    {
+      "approx_t": 44.0,
+      "track": "chip",
+      "text": "CUTE"
+    },
+    {
+      "approx_t": 44.1,
+      "track": "caption",
+      "text": "Whether cute or hot,"
+    },
+    {
+      "approx_t": 44.9,
+      "track": "headline",
+      "text": "They're just different"
+    },
+    {
+      "approx_t": 45.1,
+      "track": "caption",
+      "text": "neither is particularly better,"
+    },
+    {
+      "approx_t": 46.1,
+      "track": "caption",
+      "text": "they're just different."
+    },
+    {
+      "approx_t": 47.0,
+      "track": "caption",
+      "text": "So which one are you?"
+    },
+    {
+      "approx_t": 47.1,
+      "track": "headline",
+      "text": "Do you have Cute eyes or Hot eyes ?"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Do you have cute eyes or hot eyes?"
+    },
+    {
+      "approx_t": 2.1,
+      "text": "Here is how to tell!"
+    },
+    {
+      "approx_t": 2.9,
+      "text": "Cute eyes are the ones your brain reads as young."
+    },
+    {
+      "approx_t": 5.7,
+      "text": "They sit rounder and more open, with more of the upper lid showing."
+    },
+    {
+      "approx_t": 8.1,
+      "text": "The outer corner stays level or dips down a touch, often with a little more white under the iris."
+    },
+    {
+      "approx_t": 12.9,
+      "text": "Big and soft like a baby has, the shape your brain is wired to read as gentle and approachable."
+    },
+    {
+      "approx_t": 17.5,
+      "text": "Think of the friend everyone calls cute, but nobody can quite explain."
+    },
+    {
+      "approx_t": 21.0,
+      "text": "Chances are her eyes look exactly like this."
+    },
+    {
+      "approx_t": 23.0,
+      "text": "Hot eyes are the opposite signal."
+    },
+    {
+      "approx_t": 24.8,
+      "text": "They sit narrower and more horizontal, with less upper lid showing,"
+    },
+    {
+      "approx_t": 28.0,
+      "text": "and the outer corner lifts up instead of dropping."
+    },
+    {
+      "approx_t": 30.1,
+      "text": "The eye looks aimed at you instead of open to you."
+    },
+    {
+      "approx_t": 33.1,
+      "text": "Where cute eyes feel warm, hot eyes feel focused,"
+    },
+    {
+      "approx_t": 36.2,
+      "text": "and that pulls a face from approachable to the kind you cannot look away from."
+    },
+    {
+      "approx_t": 39.8,
+      "text": "Think of the friend whose photos always look intense and serious, like a model, without trying."
+    },
+    {
+      "approx_t": 44.0,
+      "text": "Whether cute or hot, neither is particularly better, they're just different."
+    },
+    {
+      "approx_t": 47.0,
+      "text": "So which one are you?"
+    }
+  ],
+  "narrative_arc": [
+    "Hook asking viewer to identify their eye category ('Cute' vs 'Hot').",
+    "Detailed feature-by-feature breakdown of 'Cute' eyes.",
+    "Psychological perception explanation of 'Cute' eyes (approachable, youthful).",
+    "Detailed feature-by-feature breakdown of 'Hot' eyes using Madison Beer.",
+    "Psychological perception explanation of 'Hot' eyes (focused, intense).",
+    "Reassurance that neither is superior and final CTA question."
+  ],
+  "cta": {
+    "approx_t": 47.0,
+    "what": "Prompting viewer engagement with 'So which one are you?'"
+  },
+  "subjects": [
+    "Madison Beer (American Singer used as exemplar of 'Hot' eyes)",
+    "@LUCIAAFERRATO (Model photo example)",
+    "@RAECAMBRB (Model photo example)",
+    "@ORHADID (Model photo example)",
+    "@NOTTREBECA (Model photo example)"
+  ],
+  "what_makes_it_work": [
+    "Uses highly polished HUD/UI overlays to make aesthetic beauty breakdown feel analytical.",
+    "Compares anatomical traits side-by-side with clear visual labels.",
+    "Leverages recognizable celebrity exemplars (Madison Beer) for immediate clarity.",
+    "Taps into viral self-categorization trends on TikTok/Reels."
+  ],
+  "animations": [
+    {
+      "name": "Eye Scan Bounding Box",
+      "approx_t": 0.0,
+      "what_moves": "Rectangular HUD frame with 'EYES' label",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "Subtle tracking on subject's eyes",
+      "purpose": "Establishes diagnostic AI-aesthetic overlay focusing viewer attention on eye shape.",
+      "reusable_as": "Highlighting specific facial features or product details in educational breakdown videos.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Eye Contour Highlight Lines",
+      "approx_t": 3.0,
+      "what_moves": "Curved vector arcs and circular highlight patches over eyelids",
+      "motion": "draw-on",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Fade in of glassmorphism UI card",
+      "purpose": "Traces round eye anatomy to visually explain 'Cute' classification.",
+      "reusable_as": "Annotating geometry, makeup application lines, or structural features on photos.",
+      "we_already_have": "TrimPath",
+      "would_need_building": null
+    },
+    {
+      "name": "Anatomy Leader Line Callouts",
+      "approx_t": 7.0,
+      "what_moves": "Leader lines with text pills ('Upper lid showing', 'Outer corner dips')",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": null,
+      "purpose": "Points out precise morphological traits supporting the central argument.",
+      "reusable_as": "Diagramming key features on physical products, fashion items, or UI elements.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Soft Cloud Scallop Mask Frame",
+      "approx_t": 13.0,
+      "what_moves": "Scalloped wavy image frame and animated brain icon with heart particles",
+      "motion": "mask-reveal",
+      "direction": "up",
+      "feel": "floaty",
+      "staggered": false,
+      "layered_with": "Floating heart particle graphics",
+      "purpose": "Shift tone from diagnostic UI to playful, warm emotional perception.",
+      "reusable_as": "Framing aesthetic moodboards, beauty portraits, or friendly user testimonials.",
+      "we_already_have": null,
+      "would_need_building": "Wavy scalloped mask reveal with animated particle emission background"
+    },
+    {
+      "name": "Social Proof Chat Bubble Stack",
+      "approx_t": 18.0,
+      "what_moves": "iOS style message bubbles ('She's really cute', 'It's her eyes', 😍)",
+      "motion": "scale",
+      "direction": "up",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "Image swap behind glass UI frame",
+      "purpose": "Simulates real-world social validation and conversational proof.",
+      "reusable_as": "Displaying customer quotes, social media reactions, or review threads.",
+      "we_already_have": "ChatThread",
+      "would_need_building": null
+    },
+    {
+      "name": "Piercing Target Reticle Overlay",
+      "approx_t": 31.0,
+      "what_moves": "Crosshairs targeting reticle over pupil",
+      "motion": "scale",
+      "direction": "inward",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "Background blur effect",
+      "purpose": "Visually conveys intensity and direct eye-contact focus of 'Hot' eyes.",
+      "reusable_as": "Focusing on precise focal points in tactical, athletic, or analytical showcases.",
+      "we_already_have": null,
+      "would_need_building": "Target reticle spring pop-in with background focal blur"
+    },
+    {
+      "name": "Comparison Stack Cards",
+      "approx_t": 34.0,
+      "what_moves": "Two stacked cropped eye photo cards with descriptors ('WARM', 'FOCUSED')",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Pill badge pop-ins",
+      "purpose": "Directly contrasts 'Cute' vs 'Hot' traits in a single side-by-side view.",
+      "reusable_as": "Before/after comparisons, product option stacks, or visual A/B tests.",
+      "we_already_have": "ConvergePanels",
+      "would_need_building": null
+    },
+    {
+      "name": "Sensation Vector Arrows",
+      "approx_t": 37.0,
+      "what_moves": "Dotted arrows pointing outward from face focal points",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Headline text fade",
+      "purpose": "Illustrates visual pull and tension vectors across the face.",
+      "reusable_as": "Showing flow, energy distribution, or force vectors in motion graphics.",
+      "we_already_have": "DottedDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Overlapping Photo Montage Cascade",
+      "approx_t": 41.0,
+      "what_moves": "Tilted lifestyle selfie photos overlaying each other",
+      "motion": "scale",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "Social handle tag pop",
+      "purpose": "Showcases diverse real-world examples of 'Hot' eye aesthetics.",
+      "reusable_as": "Displaying UGC collages, portfolio galleries, or lifestyle lookbooks.",
+      "we_already_have": "Montage",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Glassmorphism HUD card pop-ins with vector anatomical overlays",
+      "Drawn leader lines pointing to facial features",
+      "Staggered social chat bubble overlays",
+      "Side-by-side stacked photo comparisons"
+    ],
+    "how_things_enter": "Elements scale up with light spring overshoot or draw on via line strokes.",
+    "how_things_leave": "Elements fade out quickly or get covered by incoming full-frame photos.",
+    "how_scenes_change": "Direct hard cuts between portraits matched with sliding UI panels.",
+    "what_stays_still": "Central portrait framing and top/bottom text captions stay anchored.",
+    "rhythm": "Bursty arrivals syncing with narrative voiceover beats, followed by static hold moments."
+  },
+  "what_we_should_steal": [
+    "Drawn callout lines paired with glassmorphism property cards for feature breakdown videos",
+    "Stacked message thread popping over portrait photos for social proof",
+    "Target reticle focus animation with selective background blur for emphasis"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Initial screen layout with title and eye box",
+      "element": "Title text and UI box overlay",
+      "motion": "cut",
+      "content": "Do you have Cute eyes or Hot eyes ?"
+    },
+    {
+      "approx_t": 0.1,
+      "event": "Bottom caption appears",
+      "element": "Subtitle text",
+      "motion": "fade",
+      "content": "Do you have cute eyes"
+    },
+    {
+      "approx_t": 1.2,
+      "event": "Caption updates and face shifts",
+      "element": "Subtitle text and background image",
+      "motion": "fade",
+      "content": "or hot eyes?"
+    },
+    {
+      "approx_t": 2.2,
+      "event": "Caption updates",
+      "element": "Subtitle text",
+      "motion": "fade",
+      "content": "Here is how to tell!"
+    },
+    {
+      "approx_t": 2.9,
+      "event": "Transition to blonde model",
+      "element": "Background model image",
+      "motion": "cut",
+      "content": "Cute eyes"
+    },
+    {
+      "approx_t": 4.1,
+      "event": "Diagram box overlay pops up",
+      "element": "Eye shape diagram box",
+      "motion": "scale",
+      "content": "YOUTHFUL / Round"
+    },
+    {
+      "approx_t": 5.2,
+      "event": "Diagram updates label",
+      "element": "UI text inside diagram",
+      "motion": "fade",
+      "content": "YOUTHFUL"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Upper eyelid annotation appears",
+      "element": "UI callout pointer and text",
+      "motion": "draw-on",
+      "content": "Upper lid showing"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Outer corner annotation appears",
+      "element": "UI callout pointer and text",
+      "motion": "draw-on",
+      "content": "The outer corner dips"
+    },
+    {
+      "approx_t": 10.9,
+      "event": "Scleral show annotation appears",
+      "element": "UI callout box",
+      "motion": "fade",
+      "content": "Scleral show"
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Scalloped frame crop effect applied",
+      "element": "Eye cutout mask",
+      "motion": "mask-reveal",
+      "content": "Big and soft like a baby has"
+    },
+    {
+      "approx_t": 14.1,
+      "event": "Brain graphic and hearts float upward",
+      "element": "Brain icon and heart particles",
+      "motion": "translate",
+      "content": "Gentle and Approachable"
+    },
+    {
+      "approx_t": 18.2,
+      "event": "Social media video card slides up",
+      "element": "Video overlay and chat bubbles",
+      "motion": "translate",
+      "content": "@LUCIAAFERRATO"
+    },
+    {
+      "approx_t": 19.3,
+      "event": "Next social media card slides up",
+      "element": "Video overlay",
+      "motion": "translate",
+      "content": "@RAECAMBRB"
+    },
+    {
+      "approx_t": 20.3,
+      "event": "Third social media card slides up",
+      "element": "Video overlay",
+      "motion": "translate",
+      "content": "@ORHADID"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Transition to Madison Beer image",
+      "element": "Background model image",
+      "motion": "cut",
+      "content": "Hot eyes are the opposite signal."
+    },
+    {
+      "approx_t": 24.1,
+      "event": "Piercing eye diagram pops up",
+      "element": "Eye shape diagram box",
+      "motion": "scale",
+      "content": "PIERCING / Sharp"
+    },
+    {
+      "approx_t": 26.2,
+      "event": "Upper lid callout appears",
+      "element": "UI callout label",
+      "motion": "fade",
+      "content": "Less upper lid showing"
+    },
+    {
+      "approx_t": 27.9,
+      "event": "Outer corner lift arrows appear",
+      "element": "UI directional arrows",
+      "motion": "draw-on",
+      "content": "The outer corner lifts"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Target reticle zooms onto eye",
+      "element": "Target crosshair graphic",
+      "motion": "scale",
+      "content": "The eye looks aimed at you"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Eye comparison split panel appears",
+      "element": "Dual eye photos and labels",
+      "motion": "cut",
+      "content": "WARM / FRIENDLY / FOCUSED"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Tension arrows map onto face",
+      "element": "Dotted directional arrows",
+      "motion": "draw-on",
+      "content": "You can't look away"
+    },
+    {
+      "approx_t": 40.8,
+      "event": "Photo collage stacks on screen",
+      "element": "Photo cards cutout",
+      "motion": "scale",
+      "content": "Intense and serious / @NOTTREBECA"
+    },
+    {
+      "approx_t": 44.5,
+      "event": "Side-by-side Hot vs Cute comparison cards appear",
+      "element": "Comparison UI cards",
+      "motion": "translate",
+      "content": "HOT / CUTE / They're just different"
+    },
+    {
+      "approx_t": 47.5,
+      "event": "Return to opening full face view with UI box",
+      "element": "Full face model image and bounding UI",
+      "motion": "cut",
+      "content": "Do you have Cute eyes or Hot eyes ?"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.6-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": true,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-09.mp4",
+    "tokens": {
+      "animation": 8128,
+      "content": 10615
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "label": "ref-16",
+  "archetype": "evidence explainer",
+  "one_line": "This video uses scientific data and visual examples to show that the gap between our 'best' and 'average' photos is mostly in our heads.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 66.792,
+  "measured": {
+    "pacing": {
+      "cuts": 1,
+      "cuts_per_min": 0.9,
+      "median_shot_s": 33.4,
+      "shortest_shot_s": 0.92,
+      "longest_shot_s": 65.88,
+      "frozen_pct": 60.4
+    },
+    "transitions": {
+      "count": 17,
+      "median_s": 0.75,
+      "spans_s": [
+        0.292,
+        1.5,
+        0.458,
+        0.833,
+        2.125,
+        0.375,
+        0.75,
+        0.375,
+        0.75,
+        0.75,
+        0.75,
+        0.667,
+        0.5,
+        0.958,
+        0.792,
+        0.833,
+        0.667
+      ]
+    },
+    "element_events": {
+      "count": 105,
+      "per_min": 94.4,
+      "median_gap_s": 0.12,
+      "frames": [
+        1,
+        4,
+        20,
+        28,
+        31,
+        34,
+        39,
+        117,
+        120,
+        123,
+        126,
+        129,
+        132,
+        135,
+        138,
+        141,
+        144,
+        147,
+        268,
+        317,
+        320,
+        323,
+        326,
+        329,
+        332,
+        540,
+        543,
+        546,
+        549,
+        552,
+        555,
+        562,
+        565,
+        568,
+        571,
+        574,
+        577,
+        581,
+        610,
+        613
+      ]
+    },
+    "continuous_motion": {
+      "spans": 22,
+      "total_s": 18.67,
+      "pct_of_runtime": 28.0,
+      "median_span_s": 0.79,
+      "longest_span_s": 2.42,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        158,
+        182,
+        191
+      ],
+      "dominant_hex": "#9EB6BF",
+      "corner_flatness": 0.67,
+      "background_drift": 4.69,
+      "flat_background": true,
+      "headline_band_frames_pct": 42.7,
+      "caption_band_frames_pct": 15.0
+    },
+    "audio": {
+      "speech_segments": 18,
+      "speech_pct": 93.4,
+      "median_phrase_s": 2.65,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 4,
+    "hard_cuts": 1,
+    "cuts_per_described_change": 0.33,
+    "pct_scene_changes_that_are_cuts": 33.3,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 2,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 13.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with floating image cards",
+      "description": "Model portrait transitioning to a split-screen comparison of her best and average photos.",
+      "devices": [
+        "camera graphic overlay",
+        "image cards"
+      ]
+    },
+    {
+      "start_s": 13.0,
+      "start_frame": 312,
+      "end_s": 30.0,
+      "snapped_to_measured_cut": false,
+      "layout": "chart panel with floating photo inserts",
+      "description": "Animated bar chart illustrating the self-perception vs. others' perception data.",
+      "devices": [
+        "bar chart",
+        "citation text"
+      ]
+    },
+    {
+      "start_s": 30.0,
+      "start_frame": 720,
+      "end_s": 50.0,
+      "snapped_to_measured_cut": false,
+      "layout": "split-screen and slideshow of model photos",
+      "description": "Analysis of the model's casual photo compared to her professional portfolio.",
+      "devices": [
+        "labeled pointers",
+        "photo slideshow"
+      ]
+    },
+    {
+      "start_s": 50.0,
+      "start_frame": 1200,
+      "end_s": 66.8,
+      "snapped_to_measured_cut": false,
+      "layout": "phone mockup frame over solid background",
+      "description": "UGC TikTok clips showing reactions to 'bad' photos, ending with a search bar CTA.",
+      "devices": [
+        "phone mockup",
+        "search bar UI"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "camera graphic overlay",
+      "what_it_is": "A wireframe outline of a DSLR camera.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "bar chart",
+      "what_it_is": "A minimalist grey bar chart showing percentage differences.",
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "phone mockup",
+      "what_it_is": "A vertical smartphone frame displaying social media clips.",
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "search bar UI",
+      "what_it_is": "A clean search input field with a magnifying glass icon.",
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "image cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "citation text",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "labeled pointers",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "photo slideshow",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A model stares at the camera while a graphic overlay prompts the viewer to think of their best photo.",
+    "why_it_works": "Engages personal vanity and self-image immediately."
+  },
+  "narrative_arc": [
+    "Prompt the viewer to visualize their best photo.",
+    "Introduce the common belief that our best photos are vastly superior.",
+    "Debunk this belief using statistical data from the Aella study.",
+    "Apply the data to a real-world case study of a professional model.",
+    "Relate the findings back to the viewer's personal life using UGC examples.",
+    "Call to action to visit the brand's website for self-improvement."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Experiment: Think of your best photo"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "caption",
+      "text": "Let's do an experiment."
+    },
+    {
+      "approx_t": 2.0,
+      "track": "label",
+      "text": "BHAVITHA MANDAVA, INDIAN MODEL"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "chip",
+      "text": "YOUR BEST PHOTO"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "headline",
+      "text": "How much better is your best photo?"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "YOUR AVERAGE PHOTO"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "headline",
+      "text": "Most people think it's way better."
+    },
+    {
+      "approx_t": 13.0,
+      "track": "headline",
+      "text": "But most people are wrong."
+    },
+    {
+      "approx_t": 14.0,
+      "track": "citation",
+      "text": "Aella, (2025, January 21). People are delusional about how hot they are. Knowingless (Substack)"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "chart",
+      "text": "ATTRACTIVENESS"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chart",
+      "text": "SELF RATING/"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "chart",
+      "text": "+17%"
+    },
+    {
+      "approx_t": 20.0,
+      "track": "chart",
+      "text": "OTHERS RATING/"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chart",
+      "text": "+5%"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "headline",
+      "text": "1 in 3 have it backwards"
+    },
+    {
+      "approx_t": 25.0,
+      "track": "headline",
+      "text": "Others prefer your \"average\" to your favorite!"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "headline",
+      "text": "Take a look at this photo"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "headline",
+      "text": "She might think this is a \"bad photo\""
+    },
+    {
+      "approx_t": 36.0,
+      "track": "chip",
+      "text": "CASUAL PHOTO"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "label",
+      "text": "Glasses"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "label",
+      "text": "Earphones"
+    },
+    {
+      "approx_t": 39.0,
+      "track": "headline",
+      "text": "She probably thinks there's a big difference."
+    },
+    {
+      "approx_t": 45.0,
+      "track": "headline",
+      "text": "But we can see she always looks good."
+    },
+    {
+      "approx_t": 51.0,
+      "track": "headline",
+      "text": "The same is true about you"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "headline",
+      "text": "You think your photos are so different."
+    },
+    {
+      "approx_t": 53.0,
+      "track": "ui",
+      "text": "@kelseysoles"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "ui",
+      "text": "when someone shows me a bad picture they took of me and it ruins my whole day"
+    },
+    {
+      "approx_t": 56.0,
+      "track": "headline",
+      "text": "Other people would disagree."
+    },
+    {
+      "approx_t": 58.0,
+      "track": "ui",
+      "text": "When she says \"delete that photo I look so stupid\" but it's a picture I'd put in my helmet if I ever went to war"
+    },
+    {
+      "approx_t": 65.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Let's do an experiment. Think of the best picture of yourself that you've ever taken."
+    },
+    {
+      "approx_t": 3.0,
+      "text": "Your 'this is her' photo. How much better is that photo than the average photo of yourself?"
+    },
+    {
+      "approx_t": 9.0,
+      "text": "If you're like most people, you probably think it's notably better."
+    },
+    {
+      "approx_t": 13.0,
+      "text": "Aella's research indicates that on average, people think they look 17% better in their best photo than in their average photo."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "But to other people, it turns out, they only look 5% better."
+    },
+    {
+      "approx_t": 22.0,
+      "text": "And in fact, 1 in 3 people actually have it backwards."
+    },
+    {
+      "approx_t": 25.0,
+      "text": "That is, other people prefer their average photo to the photo that they think is their best photo."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "This might seem surprising, but look at this photo of Bhavitha Mandava."
+    },
+    {
+      "approx_t": 33.0,
+      "text": "She might think that this is a 'bad photo' of herself, as it's pretty casual and she has done tons of more glamorous shoots."
+    },
+    {
+      "approx_t": 41.0,
+      "text": "And it's her own face, so naturally she's more sensitive to contextual differences."
+    },
+    {
+      "approx_t": 44.0,
+      "text": "But as outsiders, we can see she's exceptionally beautiful in any photo."
+    },
+    {
+      "approx_t": 48.0,
+      "text": "This specific photo really doesn't make as much of a difference."
+    },
+    {
+      "approx_t": 51.0,
+      "text": "And the same is true about you. You would think, 'Oh, I look so different from photo to photo,' but you probably look pretty good regardless."
+    },
+    {
+      "approx_t": 56.0,
+      "text": "In fact, ask your boyfriend or girlfriend or friend to send you their favorite photo of you, and we can almost guarantee you'll be surprised at their choice."
+    },
+    {
+      "approx_t": 64.0,
+      "text": "If you want to glow up, click the link in bio at qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 104.0,
+    "what": "Visit Qoves.com via the link in bio to 'glow up'."
+  },
+  "subjects": [
+    "Bhavitha Mandava (Indian Model used as the primary visual example)",
+    "Kelsey Soles (UGC creator showing photo anxiety)",
+    "Unnamed male UGC creator (representing the partner's perspective)"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Leverages scientific data to validate a highly relatable social insecurity.",
+    "Uses a professional model to objectively prove that 'average' photos still look great to outsiders.",
+    "Maintains a clean, high-end aesthetic that aligns with clinical self-improvement branding."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/4"
+  }
+}

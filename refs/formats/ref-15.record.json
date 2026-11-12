@@ -1,0 +1,565 @@
+{
+  "label": "ref-15",
+  "archetype": "educational explainer",
+  "one_line": "This video analyzes Billie Eilish's features to explain the 'Light Summer' color palette, showcasing ideal neutrals, accents, and colors to avoid.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24.0
+  },
+  "duration_s": 46.792,
+  "measured": {
+    "pacing": {
+      "cuts": 0,
+      "cuts_per_min": 0.0,
+      "median_shot_s": 46.79,
+      "shortest_shot_s": 46.79,
+      "longest_shot_s": 46.79,
+      "frozen_pct": 44.5
+    },
+    "transitions": {
+      "count": 14,
+      "median_s": 0.73,
+      "spans_s": [
+        0.75,
+        0.792,
+        0.75,
+        0.208,
+        0.25,
+        0.875,
+        0.75,
+        0.167,
+        0.167,
+        0.958,
+        1.708,
+        0.25,
+        0.708,
+        0.583
+      ]
+    },
+    "element_events": {
+      "count": 59,
+      "per_min": 75.7,
+      "median_gap_s": 0.12,
+      "frames": [
+        34,
+        37,
+        40,
+        43,
+        125,
+        128,
+        131,
+        134,
+        215,
+        218,
+        221,
+        262,
+        282,
+        394,
+        397,
+        400,
+        403,
+        406,
+        409,
+        473,
+        476,
+        479,
+        482,
+        529,
+        671,
+        674,
+        677,
+        680,
+        683,
+        686,
+        725,
+        728,
+        731,
+        734,
+        737,
+        740,
+        743,
+        746,
+        749,
+        752
+      ]
+    },
+    "continuous_motion": {
+      "spans": 24,
+      "total_s": 13.5,
+      "pct_of_runtime": 28.9,
+      "median_span_s": 0.42,
+      "longest_span_s": 1.88,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        143,
+        138,
+        144
+      ],
+      "dominant_hex": "#8F8A90",
+      "corner_flatness": 56.09,
+      "background_drift": 36.7,
+      "flat_background": false,
+      "headline_band_frames_pct": 80.1,
+      "caption_band_frames_pct": 84.1
+    },
+    "audio": {
+      "speech_segments": 17,
+      "speech_pct": 88.9,
+      "median_phrase_s": 2.1,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 6,
+    "hard_cuts": 0,
+    "cuts_per_described_change": 0.0,
+    "pct_scene_changes_that_are_cuts": 0.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 5,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 9.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with graphic overlay",
+      "description": "Billie Eilish portrait with a horizontal color analysis slider overlay.",
+      "devices": [
+        "color analysis slider"
+      ]
+    },
+    {
+      "start_s": 9.0,
+      "start_frame": 216,
+      "end_s": 19.0,
+      "snapped_to_measured_cut": false,
+      "layout": "circular mask with rotating color wheel",
+      "description": "A segmented color wheel of complimentary neutrals rotates around Billie's face.",
+      "devices": [
+        "color wheel overlay"
+      ]
+    },
+    {
+      "start_s": 19.0,
+      "start_frame": 456,
+      "end_s": 30.0,
+      "snapped_to_measured_cut": false,
+      "layout": "circular mask with rotating color wheel",
+      "description": "A segmented color wheel of accent colors rotates around Billie's face.",
+      "devices": [
+        "color wheel overlay"
+      ]
+    },
+    {
+      "start_s": 30.0,
+      "start_frame": 720,
+      "end_s": 39.0,
+      "snapped_to_measured_cut": false,
+      "layout": "split screen with color swatches",
+      "description": "Examples of Billie wearing non-ideal colors with color swatches overlay.",
+      "devices": [
+        "color swatches"
+      ]
+    },
+    {
+      "start_s": 39.0,
+      "start_frame": 936,
+      "end_s": 42.0,
+      "snapped_to_measured_cut": false,
+      "layout": "graphic grid",
+      "description": "A comprehensive cheat sheet summarizing the color analysis.",
+      "devices": [
+        "cheat sheet graphic"
+      ]
+    },
+    {
+      "start_s": 42.0,
+      "start_frame": 1008,
+      "end_s": 46.79,
+      "snapped_to_measured_cut": false,
+      "layout": "centered graphic on solid background",
+      "description": "Call to action showing a search bar mockup for Qoves.com.",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "color wheel overlay",
+      "what_it_is": "A segmented circular graphic displaying recommended color palettes.",
+      "how_it_animates": null,
+      "shots": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "color analysis slider",
+      "what_it_is": "A horizontal bar showing color values for hair, eyes, and skin.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "color swatches",
+      "what_it_is": "Square color blocks representing unfavorable colors.",
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "cheat sheet graphic",
+      "what_it_is": "A structured grid summarizing the entire color palette analysis.",
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "search bar mockup",
+      "what_it_is": "A minimalist digital search bar graphic.",
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-6",
+    "what_happens": "Billie Eilish's face is shown with a color analysis overlay identifying her skin, eye, and hair tones.",
+    "why_it_works": "Uses a famous celebrity to immediately engage viewers interested in personal styling and color theory."
+  },
+  "narrative_arc": [
+    "Identify the target audience based on physical traits.",
+    "Present ideal neutral colors for the 'Light Summer' palette.",
+    "Present ideal accent colors that complement the skin tone.",
+    "Showcase colors to avoid and explain why they are unflattering.",
+    "Provide a summary cheat sheet for viewers to save.",
+    "Call to action to get a personalized color analysis."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Light Summer Color Analysis"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "BILLIE EILISH, AMERICAN MUSICIAN"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "caption",
+      "text": "If you have"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "caption",
+      "text": "fair skin, light eyes,"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "caption",
+      "text": "and low to medium"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "caption",
+      "text": "contrast coloring,"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "caption",
+      "text": "you may fall into the"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "caption",
+      "text": "light summer color season."
+    },
+    {
+      "approx_t": 7.0,
+      "track": "caption",
+      "text": "So listen closely"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "caption",
+      "text": "for your very best colors"
+    },
+    {
+      "approx_t": 9.0,
+      "track": "headline",
+      "text": "These are your complimentary neutrals"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "SOFT WHITE"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "DOVE GRAY"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "COOL BEIGE"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "chip",
+      "text": "DUSTY TAUPE"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "chip",
+      "text": "LIGHT MUSHROOM"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "chip",
+      "text": "MISTY NAVY"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chip",
+      "text": "PALE STONE"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "headline",
+      "text": "Supporting your undertones"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "caption",
+      "text": "These colors support the skin"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "caption",
+      "text": "instead of sitting on top of it."
+    },
+    {
+      "approx_t": 20.0,
+      "track": "headline",
+      "text": "These are your accent colors"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "POWDER BLUE"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "PERIWINKLE"
+    },
+    {
+      "approx_t": 22.0,
+      "track": "chip",
+      "text": "COOL PINK"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "SOFT RASPBERRY"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "LAVENDER"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "SEAFOAM"
+    },
+    {
+      "approx_t": 25.0,
+      "track": "chip",
+      "text": "ICY ROSE"
+    },
+    {
+      "approx_t": 26.0,
+      "track": "chip",
+      "text": "MUTED AQUA"
+    },
+    {
+      "approx_t": 28.0,
+      "track": "caption",
+      "text": "bring life into the face"
+    },
+    {
+      "approx_t": 29.0,
+      "track": "caption",
+      "text": "without overpowering the eyes."
+    },
+    {
+      "approx_t": 31.0,
+      "track": "headline",
+      "text": "Avoid these"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "JET BLACK"
+    },
+    {
+      "approx_t": 32.0,
+      "track": "chip",
+      "text": "BURNT ORANGE"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "chip",
+      "text": "MUSTARD"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "DEEP CAMEL"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "chip",
+      "text": "NEON BRIGHTS"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "label",
+      "text": "Not ideal"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "caption",
+      "text": "too much visual weight"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "caption",
+      "text": "and can make the skin"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "caption",
+      "text": "look flat and exhausted."
+    },
+    {
+      "approx_t": 40.0,
+      "track": "headline",
+      "text": "Screenshot this"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "EYES"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "HAIR"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "SKIN"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "label",
+      "text": "INCLUDE /"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "label",
+      "text": "AVOID /"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "label",
+      "text": "celebrity coloration"
+    },
+    {
+      "approx_t": 43.0,
+      "track": "caption",
+      "text": "And if you want us to analyze"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "If you have fair skin, light eyes, and low to medium contrast coloring, you may fall into the light summer color season."
+    },
+    {
+      "approx_t": 6.0,
+      "text": "So listen closely for your very best colors to wear."
+    },
+    {
+      "approx_t": 9.0,
+      "text": "Your best neutrals are soft white, dove gray, cool beige, dusty taupe, light mushroom, misty navy, and pale stone."
+    },
+    {
+      "approx_t": 17.0,
+      "text": "These colors support the skin instead of sitting on top of it."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "Your best accents are powder blue, periwinkle, cool pink, soft raspberry, lavender, seafoam, icy rose, and muted aqua."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "These shades bring life into the face without overpowering the eyes."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "Avoid jet blacks, burnt orange, mustard, deep camel, and neon brights as they create too much visual weight and can make the skin look flat and exhausted."
+    },
+    {
+      "approx_t": 39.0,
+      "text": "Pause here for the cheat sheet. Comment which celebrity coloration we should cover next."
+    },
+    {
+      "approx_t": 43.0,
+      "text": "And if you want us to analyze your face, click the link in bio at Qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 43.0,
+    "what": "Visit Qoves.com via the link in bio for a personalized face analysis."
+  },
+  "subjects": [
+    {
+      "name": "Billie Eilish",
+      "role": "Celebrity subject used for color analysis demonstration."
+    }
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "High-quality visual overlays make complex color theory easy to understand.",
+    "Using a recognizable celebrity increases viewer retention and shareability.",
+    "The 'Screenshot this' prompt encourages high engagement and saves."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "1/6"
+  }
+}

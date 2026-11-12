@@ -1,0 +1,791 @@
+{
+  "format_archetype": "educational explainer",
+  "one_line": "This video explains the visual and cultural differences between the Millennial 'duck face' and the Gen Z 'platypus pout' selfie trends.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A split-screen comparison of a Millennial duck face and a Gen Z platypus pout with high-tech face-tracking graphics.",
+    "why_it_works": "It taps into generational identity and popular social media trends using polished, analytical visuals."
+  },
+  "shots": [
+    {
+      "approx_start": 0,
+      "approx_end": 5.8,
+      "description": "Introduction comparing the two selfie poses with scrolling social media feeds and face-tracking UI.",
+      "layout": "split-screen portrait with UI overlays",
+      "devices": [
+        "face tracking box",
+        "social media feed mockup"
+      ]
+    },
+    {
+      "approx_start": 5.8,
+      "approx_end": 19,
+      "description": "Analysis of the Millennial duck face, highlighting facial features and associated cosmetic procedures.",
+      "layout": "centered portrait with anatomical callouts",
+      "devices": [
+        "anatomical pointer lines",
+        "mannequin head mockup"
+      ]
+    },
+    {
+      "approx_start": 19,
+      "approx_end": 30.5,
+      "description": "Analysis of the Gen Z platypus pout, detailing lip positioning and the 'Gen Z stare'.",
+      "layout": "centered portrait with interactive checklist UI",
+      "devices": [
+        "feature checklist overlay",
+        "directional arrows"
+      ]
+    },
+    {
+      "approx_start": 30.5,
+      "approx_end": 41,
+      "description": "Comparison of makeup trends from 2010-2020 vs 2020-2026, focusing on lip overlining.",
+      "layout": "side-by-side comparison with timeline slider",
+      "devices": [
+        "timeline slider",
+        "before/after comparison frames"
+      ]
+    },
+    {
+      "approx_start": 41,
+      "approx_end": 44.5,
+      "description": "Rapid succession of celebrity examples asking the viewer which pose they use.",
+      "layout": "full-bleed portrait with camera viewfinder overlay",
+      "devices": [
+        "camera recording UI"
+      ]
+    },
+    {
+      "approx_start": 44.5,
+      "approx_end": 48.343,
+      "description": "Call to action promoting Qoves facial analysis tool.",
+      "layout": "minimalist text and search bar mockup",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "face tracking box",
+      "what_it_is": "A digital bounding box around the lips with scanning lines.",
+      "used_for": "Simulating scientific facial analysis."
+    },
+    {
+      "name": "social media feed mockup",
+      "what_it_is": "A vertical scrolling column of Instagram-style posts.",
+      "used_for": "Showing real-world examples of the trends."
+    },
+    {
+      "name": "mannequin head mockup",
+      "what_it_is": "A 3D grey mannequin head with cosmetic procedure labels.",
+      "used_for": "Illustrating plastic surgery trends associated with the era."
+    },
+    {
+      "name": "feature checklist overlay",
+      "what_it_is": "A semi-transparent UI box with checkable trait boxes.",
+      "used_for": "Breaking down the components of the Gen Z look."
+    },
+    {
+      "name": "camera recording UI",
+      "what_it_is": "A viewfinder overlay with a red 'REC' indicator.",
+      "used_for": "Creating a selfie-taking atmosphere."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "headline",
+      "text": "Millennial Duck Face vs. Gen Z Platypus Pout"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "label",
+      "text": "MILLENNIAL DUCK FACE"
+    },
+    {
+      "approx_t": 1,
+      "track": "label",
+      "text": "ARIANA GREENBLATT\nAMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 6.5,
+      "track": "chip",
+      "text": "Energetic | Carefree | Posed"
+    },
+    {
+      "approx_t": 9.5,
+      "track": "label",
+      "text": "Puckered lips"
+    },
+    {
+      "approx_t": 10.5,
+      "track": "label",
+      "text": "Sucked-in cheeks"
+    },
+    {
+      "approx_t": 11.5,
+      "track": "label",
+      "text": "Confident \"smize\""
+    },
+    {
+      "approx_t": 16.5,
+      "track": "label",
+      "text": "King Kylie era"
+    },
+    {
+      "approx_t": 17,
+      "track": "label",
+      "text": "BROW LIFT"
+    },
+    {
+      "approx_t": 17.5,
+      "track": "label",
+      "text": "BUCCAL FAT REMOVAL"
+    },
+    {
+      "approx_t": 18,
+      "track": "label",
+      "text": "LIP FILLER"
+    },
+    {
+      "approx_t": 20,
+      "track": "chip",
+      "text": "Subdued | Unimpressed | Nonchalant"
+    },
+    {
+      "approx_t": 26.5,
+      "track": "label",
+      "text": "Pout + Heavy Eyes = Gen Z Look"
+    },
+    {
+      "approx_t": 27.5,
+      "track": "chip",
+      "text": "Aloof | Nonchalant | Indifferent"
+    },
+    {
+      "approx_t": 32,
+      "track": "chart",
+      "text": "2010-20 MILLENNIAL"
+    },
+    {
+      "approx_t": 33,
+      "track": "chart",
+      "text": "2020-26 GEN Z"
+    },
+    {
+      "approx_t": 41.5,
+      "track": "headline",
+      "text": "Which pose do you do?"
+    },
+    {
+      "approx_t": 45.5,
+      "track": "headline",
+      "text": "You're Curious? Get your Facial Analysis"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0,
+      "text": "What is the difference between the millennial duck face"
+    },
+    {
+      "approx_t": 2,
+      "text": "and its modern successor, the so-called Gen Z platypus pout."
+    },
+    {
+      "approx_t": 5.8,
+      "text": "The millennial duck face is energetic and carefree."
+    },
+    {
+      "approx_t": 8.5,
+      "text": "It's combining puckered lips, sucked-in cheeks, and a confident 'smize'"
+    },
+    {
+      "approx_t": 12.5,
+      "text": "to create a glamorous, attention-grabbing look."
+    },
+    {
+      "approx_t": 14.5,
+      "text": "This aesthetic was also reflected in many of the cosmetic treatments that were popular at the time."
+    },
+    {
+      "approx_t": 19,
+      "text": "On the flip side, the Gen Z pout is far more subdued."
+    },
+    {
+      "approx_t": 21.5,
+      "text": "The top lip is pushed upwards and outwards, while the corners of the mouth remain relaxed."
+    },
+    {
+      "approx_t": 25.5,
+      "text": "Combined with the heavy-lidded 'Gen Z stare', it projects an aloof, nonchalant indifference."
+    },
+    {
+      "approx_t": 30.5,
+      "text": "Interestingly, makeup styles have evolved alongside this trend."
+    },
+    {
+      "approx_t": 33.5,
+      "text": "While both eras favor fuller lips, Gen Z's often overline the top lip, softening the Cupid's bow,"
+    },
+    {
+      "approx_t": 38.5,
+      "text": "a feature that the modern pout directly highlights."
+    },
+    {
+      "approx_t": 41,
+      "text": "So which pose do you automatically do when the camera turns on?"
+    },
+    {
+      "approx_t": 44.5,
+      "text": "And if you want to analyze your face, click link in bio at qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the comparison between Millennial and Gen Z selfie poses.",
+    "Deconstruct the Millennial 'duck face' features and associated beauty standards.",
+    "Deconstruct the Gen Z 'platypus pout' features and its aloof attitude.",
+    "Explain how makeup trends evolved to support the Gen Z look.",
+    "Prompt the viewer to identify their own selfie style.",
+    "Direct viewers to the Qoves website for personalized facial analysis."
+  ],
+  "cta": {
+    "approx_t": 44.5,
+    "what": "Click link in bio at qoves.com for a facial analysis."
+  },
+  "subjects": [
+    "Ariana Greenblatt (American Actress)",
+    "Dua Lipa (English Singer)",
+    "Miley Cyrus (American Singer)",
+    "Bella Hadid (American Model)",
+    "Billie Eilish (American Singer)",
+    "Lily-Rose Depp (French-American Actress)",
+    "Huda Kattan (American Entrepreneur)",
+    "Rachel Sennott (American Actress)",
+    "Mei Monte (Content Creator)"
+  ],
+  "what_makes_it_work": [
+    "Uses highly polished, pseudo-scientific UI graphics to analyze pop culture trends.",
+    "Leverages recognizable celebrity examples to validate the comparison.",
+    "Directly engages the viewer with a relatable question before delivering the CTA."
+  ],
+  "animations": [
+    {
+      "name": "Instagram Post Slide-In",
+      "approx_t": 0.5,
+      "what_moves": "Social media post mockups",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "Camera drift",
+      "purpose": "Introduce celebrity examples of the millennial duck face.",
+      "reusable_as": "Displaying user-generated content or social proof.",
+      "we_already_have": "SlideIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Facial Feature Bounding Box",
+      "approx_t": 1.0,
+      "what_moves": "Targeting box around lips",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": false,
+      "layered_with": "Text update",
+      "purpose": "Focus viewer attention on the specific facial region being analyzed.",
+      "reusable_as": "Highlighting key areas in product demos or technical diagrams.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Trait Tag Stack",
+      "approx_t": 7.0,
+      "what_moves": "Descriptive keyword chips",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "Image pop-in",
+      "purpose": "List characteristics of the millennial duck face style.",
+      "reusable_as": "Displaying product features, tags, or categories.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    },
+    {
+      "name": "Anatomical Callouts",
+      "approx_t": 10.0,
+      "what_moves": "Leader lines and text labels",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "None",
+      "purpose": "Deconstruct the physical components of the facial expression.",
+      "reusable_as": "Labeling parts of an engine, apparel details, or UI elements.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Cosmetic Procedure Callouts",
+      "approx_t": 16.5,
+      "what_moves": "Labels on 3D mannequin head",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "None",
+      "purpose": "Identify cosmetic procedures associated with the aesthetic.",
+      "reusable_as": "Explaining medical, dental, or skincare treatment areas.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Gen Z Trait Checklist",
+      "approx_t": 27.5,
+      "what_moves": "Checklist rows and checkmarks",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "None",
+      "purpose": "Confirm the emotional projection of the Gen Z stare.",
+      "reusable_as": "Showing feature checklists, plan comparisons, or quiz results.",
+      "we_already_have": "AnimatedCheckList",
+      "would_need_building": null
+    },
+    {
+      "name": "Era Comparison Slider",
+      "approx_t": 32.0,
+      "what_moves": "Timeline indicator and side-by-side panels",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "None",
+      "purpose": "Transition from the millennial era to the Gen Z era.",
+      "reusable_as": "Showing before/after results or historical progression.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Lip Contour Trace",
+      "approx_t": 41.0,
+      "what_moves": "Dotted outline around lips",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "None",
+      "purpose": "Highlight the overlining makeup technique.",
+      "reusable_as": "Tracing product silhouettes or highlighting design lines.",
+      "we_already_have": "ContourDraw",
+      "would_need_building": null
+    },
+    {
+      "name": "Search Bar Typing Outro",
+      "approx_t": 46.5,
+      "what_moves": "Text characters inside search bar",
+      "motion": "draw-on",
+      "direction": "left-to-right",
+      "feel": "mechanical",
+      "staggered": true,
+      "layered_with": "None",
+      "purpose": "Direct viewers to search for the brand name.",
+      "reusable_as": "Call to action directing users to search a specific term.",
+      "we_already_have": null,
+      "would_need_building": "A text-typing animation component that simulates keyboard input inside an input field mockup."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "DrawnCallout for anatomical breakdown",
+      "TagStack for rapid trait listing",
+      "SlideIn for social media mockups"
+    ],
+    "how_things_enter": "Elements pop in with elastic scaling or slide in smoothly from the screen edges.",
+    "how_things_leave": "Elements typically fade out or are replaced by incoming panels.",
+    "how_scenes_change": "Hard cuts combined with sliding panel transitions to shift between eras.",
+    "what_stays_still": "The central portrait subject remains relatively static, acting as the anchor for annotations.",
+    "rhythm": "Highly structured and informative, with bursts of annotations matching the voiceover's analytical pace."
+  },
+  "what_we_should_steal": [
+    "DrawnCallout for precise, elegant technical labeling of visual subjects.",
+    "TagStack for clean, modern categorization of traits or features.",
+    "ContourDraw to highlight specific shapes or boundaries on top of real-world imagery."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Title text fades in at the top of the screen",
+      "element": "Title text: Millennial Duck Face vs. Gen Z Platypus Pout",
+      "motion": "fade",
+      "content": "Millennial Duck Face vs. Gen Z Platypus Pout"
+    },
+    {
+      "approx_t": 0.0,
+      "event": "First Instagram post slides up on the left side",
+      "element": "Instagram post of Dua Lipa",
+      "motion": "translate",
+      "content": "Instagram post of Dua Lipa"
+    },
+    {
+      "approx_t": 0.0,
+      "event": "Face scan box appears on the main subject's lips",
+      "element": "Face scan box",
+      "motion": "fade",
+      "content": "Face scan box"
+    },
+    {
+      "approx_t": 0.5,
+      "event": "Label text appears below the face scan box",
+      "element": "Label text: MILLENNIAL DUCK FACE",
+      "motion": "fade",
+      "content": "MILLENNIAL DUCK FACE"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Subject name and description text fades in",
+      "element": "Subject info text: ARIANA GREENBLATT AMERICAN ACTRESS",
+      "motion": "fade",
+      "content": "ARIANA GREENBLATT AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 1.5,
+      "event": "Second Instagram post slides up on the left side, pushing the first one up",
+      "element": "Instagram post of Miley Cyrus",
+      "motion": "translate",
+      "content": "Instagram post of Miley Cyrus"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Third Instagram post slides up on the left side",
+      "element": "Instagram post of Bella Hadid",
+      "motion": "translate",
+      "content": "Instagram post of Bella Hadid"
+    },
+    {
+      "approx_t": 2.5,
+      "event": "Fourth Instagram post slides up on the right side",
+      "element": "Instagram post of Billie Eilish",
+      "motion": "translate",
+      "content": "Instagram post of Billie Eilish"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Fifth Instagram post slides up on the right side",
+      "element": "Instagram post of Lily-Rose Depp",
+      "motion": "translate",
+      "content": "Instagram post of Lily-Rose Depp"
+    },
+    {
+      "approx_t": 3.5,
+      "event": "Sixth Instagram post slides up on the right side",
+      "element": "Instagram post of another girl",
+      "motion": "translate",
+      "content": "Instagram post of another girl"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Seventh Instagram post slides up on the right side",
+      "element": "Instagram post of another girl",
+      "motion": "translate",
+      "content": "Instagram post of another girl"
+    },
+    {
+      "approx_t": 4.5,
+      "event": "Eighth Instagram post slides up on the right side",
+      "element": "Instagram post of another girl",
+      "motion": "translate",
+      "content": "Instagram post of another girl"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Ninth Instagram post slides up on the right side",
+      "element": "Instagram post of another girl",
+      "motion": "translate",
+      "content": "Instagram post of another girl"
+    },
+    {
+      "approx_t": 5.5,
+      "event": "Transition to the next scene showing Dua Lipa",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 6.5,
+      "event": "Text box with descriptors fades in above Dua Lipa's head",
+      "element": "Text box: Energetic | Carefree | Posed",
+      "motion": "fade",
+      "content": "Energetic | Carefree | Posed"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Transition to the next scene showing Miley Cyrus",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 9.5,
+      "event": "Line and dot pointing to lips draw-on, and text fades in",
+      "element": "Label: Puckered lips",
+      "motion": "draw-on",
+      "content": "Puckered lips"
+    },
+    {
+      "approx_t": 10.5,
+      "event": "Line and dot pointing to cheeks draw-on, and text fades in",
+      "element": "Label: Sucked-in cheeks",
+      "motion": "draw-on",
+      "content": "Sucked-in cheeks"
+    },
+    {
+      "approx_t": 11.5,
+      "event": "Line and dot pointing to eyes draw-on, and text fades in",
+      "element": "Label: Confident 'smize'",
+      "motion": "draw-on",
+      "content": "Confident 'smize'"
+    },
+    {
+      "approx_t": 14.5,
+      "event": "Transition to the next scene showing Kylie Jenner and a mannequin",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 16.5,
+      "event": "Arrow pointing to mannequin draw-on, and text fades in",
+      "element": "Label: King Kylie era",
+      "motion": "draw-on",
+      "content": "King Kylie era"
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Line pointing to forehead draw-on, and text fades in",
+      "element": "Label: BROW LIFT",
+      "motion": "draw-on",
+      "content": "BROW LIFT"
+    },
+    {
+      "approx_t": 17.5,
+      "event": "Line pointing to cheek draw-on, and text fades in",
+      "element": "Label: BUCCAL FAT REMOVAL",
+      "motion": "draw-on",
+      "content": "BUCCAL FAT REMOVAL"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Line pointing to lips draw-on, and text fades in",
+      "element": "Label: LIP FILLER",
+      "motion": "draw-on",
+      "content": "LIP FILLER"
+    },
+    {
+      "approx_t": 19.5,
+      "event": "Transition to the next scene showing Billie Eilish",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 20.0,
+      "event": "Text box with descriptors fades in above Billie Eilish's head",
+      "element": "Text box: Subdued | Unimpressed | Nonchalant",
+      "motion": "fade",
+      "content": "Subdued | Unimpressed | Nonchalant"
+    },
+    {
+      "approx_t": 22.0,
+      "event": "Dotted line highlighting top lip draws on",
+      "element": "Dotted line on top lip",
+      "motion": "draw-on",
+      "content": "Dotted line on top lip"
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Arrows pointing outwards from mouth corners draw on",
+      "element": "Arrows at mouth corners",
+      "motion": "draw-on",
+      "content": "Arrows at mouth corners"
+    },
+    {
+      "approx_t": 24.0,
+      "event": "Dotted line highlighting bottom lip draws on",
+      "element": "Dotted line on bottom lip",
+      "motion": "draw-on",
+      "content": "Dotted line on bottom lip"
+    },
+    {
+      "approx_t": 25.5,
+      "event": "Camera zooms in on Billie Eilish's eyes",
+      "element": "Camera zoom",
+      "motion": "translate",
+      "content": "Camera zoom"
+    },
+    {
+      "approx_t": 26.5,
+      "event": "Text overlay fades in",
+      "element": "Text: Pout + Heavy Eyes = Gen Z Look",
+      "motion": "fade",
+      "content": "Pout + Heavy Eyes = Gen Z Look"
+    },
+    {
+      "approx_t": 27.5,
+      "event": "Checklist fades in",
+      "element": "Checklist: Aloof | Nonchalant | Indifferent",
+      "motion": "fade",
+      "content": "Aloof | Nonchalant | Indifferent"
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Checkmark appears next to 'Aloof'",
+      "element": "Checkmark",
+      "motion": "fade",
+      "content": "Checkmark"
+    },
+    {
+      "approx_t": 28.5,
+      "event": "Checkmark appears next to 'Nonchalant'",
+      "element": "Checkmark",
+      "motion": "fade",
+      "content": "Checkmark"
+    },
+    {
+      "approx_t": 30.5,
+      "event": "Transition to the next scene showing Huda Kattan",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 32.0,
+      "event": "Timeline marker fades in",
+      "element": "Timeline marker: 2010-20 MILLENNIAL",
+      "motion": "fade",
+      "content": "2010-20 MILLENNIAL"
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Arrow and next timeline marker fade in",
+      "element": "Timeline marker: 2020-26 GEN Z",
+      "motion": "fade",
+      "content": "2020-26 GEN Z"
+    },
+    {
+      "approx_t": 33.5,
+      "event": "Image of Rachel Sennott slides in on the right side",
+      "element": "Image of Rachel Sennott",
+      "motion": "translate",
+      "content": "Image of Rachel Sennott"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Box highlighting lips fades in on Huda Kattan",
+      "element": "Box: FULLER LIPS",
+      "motion": "fade",
+      "content": "FULLER LIPS"
+    },
+    {
+      "approx_t": 34.5,
+      "event": "Box highlighting lips fades in on Rachel Sennott",
+      "element": "Box: FULLER LIPS",
+      "motion": "fade",
+      "content": "FULLER LIPS"
+    },
+    {
+      "approx_t": 35.5,
+      "event": "Transition to the next scene showing Mei Monte",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Video playback of Mei Monte applying lip liner",
+      "element": "Video playback",
+      "motion": "translate",
+      "content": "Video playback"
+    },
+    {
+      "approx_t": 41.0,
+      "event": "Transition to the 'Which pose do you do?' screen",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 41.5,
+      "event": "Text fades in at the top of the screen",
+      "element": "Text: Which pose do you do?",
+      "motion": "fade",
+      "content": "Which pose do you do?"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Image of Bella Hadid with camera frame slides in",
+      "element": "Image of Bella Hadid",
+      "motion": "translate",
+      "content": "Image of Bella Hadid"
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Image of Lily-Rose Depp with camera frame slides in",
+      "element": "Image of Lily-Rose Depp",
+      "motion": "translate",
+      "content": "Image of Lily-Rose Depp"
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Image of Ariana Greenblatt with camera frame slides in",
+      "element": "Image of Ariana Greenblatt",
+      "motion": "translate",
+      "content": "Image of Ariana Greenblatt"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Transition to a white screen",
+      "element": "Scene transition",
+      "motion": "wipe",
+      "content": "Scene transition"
+    },
+    {
+      "approx_t": 45.5,
+      "event": "Call to action text fades in",
+      "element": "Text: You're Curious? Get your Facial Analysis",
+      "motion": "fade",
+      "content": "You're Curious? Get your Facial Analysis"
+    },
+    {
+      "approx_t": 46.5,
+      "event": "Search bar fades in at the bottom",
+      "element": "Search bar",
+      "motion": "fade",
+      "content": "Search bar"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Text is typed into the search bar",
+      "element": "Typed text: Qoves",
+      "motion": "fade",
+      "content": "Qoves"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "refs/corpus/ref-07.mp4",
+    "tokens": {
+      "animation": 8253,
+      "content": 8928
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

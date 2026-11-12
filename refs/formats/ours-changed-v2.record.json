@@ -1,0 +1,583 @@
+{
+  "label": "ours-changed-v2",
+  "archetype": "evidence explainer",
+  "one_line": "This video demonstrates how photographic variables like lighting, distance, tilt, and expression can mimic or exaggerate plastic surgery results.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 61.589,
+  "measured": {
+    "pacing": {
+      "cuts": 8,
+      "cuts_per_min": 7.8,
+      "median_shot_s": 6.13,
+      "shortest_shot_s": 0.2,
+      "longest_shot_s": 14.9,
+      "frozen_pct": 83.7
+    },
+    "transitions": {
+      "count": 0,
+      "median_s": null,
+      "spans_s": []
+    },
+    "element_events": {
+      "count": 4,
+      "per_min": 3.9,
+      "median_gap_s": 5.53,
+      "frames": [
+        126,
+        132,
+        1600,
+        1766
+      ]
+    },
+    "continuous_motion": {
+      "spans": 15,
+      "total_s": 8.99,
+      "pct_of_runtime": 14.6,
+      "median_span_s": 0.47,
+      "longest_span_s": 1.17,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        130,
+        140,
+        147
+      ],
+      "dominant_hex": "#828C93",
+      "corner_flatness": 2.31,
+      "background_drift": 40.26,
+      "flat_background": false,
+      "headline_band_frames_pct": 82.1,
+      "caption_band_frames_pct": 99.8
+    },
+    "audio": {
+      "speech_segments": 22,
+      "speech_pct": 12.3,
+      "median_phrase_s": 0.22,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 9,
+    "hard_cuts": 8,
+    "cuts_per_described_change": 1.0,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 4.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Before and after comparison of a woman's face with jawline highlights.",
+      "devices": [
+        "Before/After toggle",
+        "Jawline highlight box"
+      ]
+    },
+    {
+      "start_s": 4.067,
+      "start_frame": 122,
+      "end_s": 8.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with diagram overlay",
+      "description": "Overlay diagram showing four variables: light, distance, tilt, and expression.",
+      "devices": [
+        "Diagram overlay"
+      ]
+    },
+    {
+      "start_s": 8.733,
+      "start_frame": 262,
+      "end_s": 18.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with interactive light indicator",
+      "description": "Demonstration of how moving the key light overhead changes facial shadows.",
+      "devices": [
+        "Interactive light source indicator",
+        "Eye socket highlight box"
+      ]
+    },
+    {
+      "start_s": 18.067,
+      "start_frame": 542,
+      "end_s": 26.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen portrait with distance slider",
+      "description": "Demonstration of camera distance altering facial proportions.",
+      "devices": [
+        "Distance slider UI",
+        "Split-screen comparison"
+      ]
+    },
+    {
+      "start_s": 27.1,
+      "start_frame": 813,
+      "end_s": 32.0,
+      "snapped_to_measured_cut": true,
+      "layout": "split-screen portrait",
+      "description": "Demonstration of chin tilt hiding or revealing the jawline.",
+      "devices": [
+        "Split-screen comparison"
+      ]
+    },
+    {
+      "start_s": 32.333,
+      "start_frame": 970,
+      "end_s": 38.0,
+      "snapped_to_measured_cut": true,
+      "layout": "close-up portrait with highlight circle",
+      "description": "Demonstration of facial expression changes affecting the midface.",
+      "devices": [
+        "Highlight circle"
+      ]
+    },
+    {
+      "start_s": 38.467,
+      "start_frame": 1154,
+      "end_s": 46.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with grid overlay",
+      "description": "Facial mapping grid overlay showing all variables combined.",
+      "devices": [
+        "Facial mapping grid"
+      ]
+    },
+    {
+      "start_s": 46.633,
+      "start_frame": 1399,
+      "end_s": 53.0,
+      "snapped_to_measured_cut": true,
+      "layout": "text overlay on dark portrait",
+      "description": "Text instructions for a DIY experiment to test lighting effects.",
+      "devices": [
+        "Numbered list overlay"
+      ]
+    },
+    {
+      "start_s": 53.0,
+      "start_frame": 1590,
+      "end_s": 61.589,
+      "snapped_to_measured_cut": false,
+      "layout": "text and button overlay on portrait",
+      "description": "Call to action with interactive buttons and a search bar.",
+      "devices": [
+        "Interactive buttons",
+        "Search bar UI"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "Split-screen comparison",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "Before/After toggle",
+      "what_it_is": "A visual label switching between 'Before' and 'After'.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "Interactive light source indicator",
+      "what_it_is": "A yellow dot representing the key light position.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "Distance slider UI",
+      "what_it_is": "A horizontal slider showing distance in meters and centimeters.",
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "Facial mapping grid",
+      "what_it_is": "A spiderweb-like grid overlay on the face.",
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "Search bar UI",
+      "what_it_is": "A mock search bar typing out 'Refina AI'.",
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    },
+    {
+      "name": "Jawline highlight box",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "Diagram overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "Eye socket highlight box",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "Highlight circle",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "Numbered list overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "Interactive buttons",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        8
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": 0,
+    "what_happens": "A side-by-side comparison of a woman's face labeled 'Before' and 'After' asks 'What else changed?'",
+    "why_it_works": "It challenges the viewer's perception of standard cosmetic surgery results."
+  },
+  "narrative_arc": [
+    "Introduce the illusion of before/after plastic surgery photos.",
+    "Identify the four key photographic variables.",
+    "Demonstrate the impact of lighting changes.",
+    "Demonstrate the impact of camera distance.",
+    "Demonstrate the impact of head tilt.",
+    "Demonstrate the impact of facial expression.",
+    "Conclude that photos cannot be separated from the surgery itself.",
+    "Provide a call to action to try the experiment or search for Refina AI."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "BEFORE"
+    },
+    {
+      "approx_t": 0,
+      "track": "citation",
+      "text": "AI PREMIUM - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "One of these is before surgery. One is after. Watch what else changed."
+    },
+    {
+      "approx_t": 1,
+      "track": "headline",
+      "text": "What else changed?"
+    },
+    {
+      "approx_t": 2,
+      "track": "label",
+      "text": "AFTER"
+    },
+    {
+      "approx_t": 2,
+      "track": "chip",
+      "text": "JAWLINE"
+    },
+    {
+      "approx_t": 4,
+      "track": "headline",
+      "text": "Four things move"
+    },
+    {
+      "approx_t": 4,
+      "track": "caption",
+      "text": "In most before-and-afters, the surgery isn't the only thing that moved. Four other things"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "1. LIGHT"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "2. DISTANCE"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "3. TILT"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "4. EXPRESSION"
+    },
+    {
+      "approx_t": 8,
+      "track": "headline",
+      "text": "1. The light"
+    },
+    {
+      "approx_t": 8,
+      "track": "caption",
+      "text": "One. The light. Flat light from the front erases most of the shadow on a face. Move it overhead and the folds and hollows come straight back. Same face, nothing touched."
+    },
+    {
+      "approx_t": 9,
+      "track": "chip",
+      "text": "KEY LIGHT"
+    },
+    {
+      "approx_t": 9,
+      "track": "citation",
+      "text": "SAME FACE - NOTHING TOUCHED"
+    },
+    {
+      "approx_t": 14,
+      "track": "chip",
+      "text": "EYE SOCKETS"
+    },
+    {
+      "approx_t": 18,
+      "track": "headline",
+      "text": "2. The distance"
+    },
+    {
+      "approx_t": 18,
+      "track": "caption",
+      "text": "Two. The distance. A phone at arm's length pushes the nose forward and pulls the jaw in. Two steps back, and the whole face rebalances, with nothing done to it."
+    },
+    {
+      "approx_t": 20,
+      "track": "ui",
+      "text": "2 M"
+    },
+    {
+      "approx_t": 20,
+      "track": "ui",
+      "text": "50 CM"
+    },
+    {
+      "approx_t": 20,
+      "track": "chip",
+      "text": "NOSE FORWARD"
+    },
+    {
+      "approx_t": 20,
+      "track": "chip",
+      "text": "JAW BACK"
+    },
+    {
+      "approx_t": 27,
+      "track": "headline",
+      "text": "3. The tilt"
+    },
+    {
+      "approx_t": 27,
+      "track": "caption",
+      "text": "Three. The tilt. Chin down hides a jawline. Chin level gives you one. That's a few degrees."
+    },
+    {
+      "approx_t": 27,
+      "track": "citation",
+      "text": "A FEW DEGREES OF TILT"
+    },
+    {
+      "approx_t": 32,
+      "track": "chip",
+      "text": "NASOLABIAL FOLD"
+    },
+    {
+      "approx_t": 33,
+      "track": "headline",
+      "text": "4. The face you're making"
+    },
+    {
+      "approx_t": 33,
+      "track": "caption",
+      "text": "Four. The face you're making. A relaxed mouth and a slight lift move the midface before anyone has touched it."
+    },
+    {
+      "approx_t": 38,
+      "track": "headline",
+      "text": "Both are true"
+    },
+    {
+      "approx_t": 38,
+      "track": "caption",
+      "text": "None of this means the surgery did nothing. It means you can't separate the surgery from the photograph by looking at it. Both are true at"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "LIGHT"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "DISTANCE"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "TILT"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "EXPRESSION"
+    },
+    {
+      "approx_t": 47,
+      "track": "headline",
+      "text": "Try it tonight"
+    },
+    {
+      "approx_t": 47,
+      "track": "caption",
+      "text": "So test it yourself. Two photos, same room, a minute apart. Light in front, then light above. You'll meet two different people."
+    },
+    {
+      "approx_t": 47,
+      "track": "other",
+      "text": "1 Two photos, same room, a minute apart."
+    },
+    {
+      "approx_t": 48,
+      "track": "other",
+      "text": "2 One with the light in front of you."
+    },
+    {
+      "approx_t": 49,
+      "track": "other",
+      "text": "3 One with the light above you."
+    },
+    {
+      "approx_t": 49,
+      "track": "citation",
+      "text": "SAME FACE. TWO PEOPLE."
+    },
+    {
+      "approx_t": 53,
+      "track": "headline",
+      "text": "Same light.\nSame lens."
+    },
+    {
+      "approx_t": 53,
+      "track": "caption",
+      "text": "The only comparison worth anything is the same face, same light, same lens, same angle. Ask any gallery for that. Or see it on your own face first."
+    },
+    {
+      "approx_t": 54,
+      "track": "chip",
+      "text": "Same face"
+    },
+    {
+      "approx_t": 54,
+      "track": "chip",
+      "text": "Same light"
+    },
+    {
+      "approx_t": 55,
+      "track": "chip",
+      "text": "Same lens"
+    },
+    {
+      "approx_t": 55,
+      "track": "chip",
+      "text": "Same angle"
+    },
+    {
+      "approx_t": 59,
+      "track": "ui",
+      "text": "Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 9,
+      "text": "One. The light. Flat light from the front erases most of the shadow on a face. Move it overhead and the folds and hollows come straight back. Same face, nothing touched."
+    },
+    {
+      "approx_t": 18,
+      "text": "Two. The distance. A phone at arm's length pushes the nose forward and pulls the jaw in. Two steps back, and the whole face rebalances, with nothing done to it."
+    },
+    {
+      "approx_t": 27,
+      "text": "Three. The tilt. Chin down hides a jawline. Chin level gives you one. That's a few degrees."
+    },
+    {
+      "approx_t": 32,
+      "text": "Four. The face you're making. A relaxed mouth and a slight lift move the midface before anyone has touched it."
+    },
+    {
+      "approx_t": 38,
+      "text": "None of this means the surgery did nothing. It means you can't separate the surgery from the photograph by looking at it. Both are true at"
+    },
+    {
+      "approx_t": 47,
+      "text": "So test it yourself. Two photos, same room, a minute apart. Light in front, then light above. You'll meet two different people."
+    },
+    {
+      "approx_t": 53,
+      "text": "The only comparison worth anything is the same face, same light, same lens, same angle. Ask any gallery for that. Or see it on your own face first."
+    }
+  ],
+  "cta": {
+    "approx_t": 59,
+    "what": "Search for 'Refina AI' to analyze your own face."
+  },
+  "subjects": [
+    "Unnamed female model demonstrating facial changes."
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Highly visual, interactive demonstrations of complex photographic concepts.",
+    "Clear, step-by-step breakdown of variables.",
+    "Relatable DIY experiment encourages viewer engagement."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "8/9"
+  }
+}

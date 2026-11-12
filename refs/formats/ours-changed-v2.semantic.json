@@ -1,0 +1,766 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "This video demonstrates how photographic variables like lighting, distance, tilt, and expression can mimic or exaggerate plastic surgery results.",
+  "hook": {
+    "approx_seconds": 0,
+    "what_happens": "A side-by-side comparison of a woman's face labeled 'Before' and 'After' asks 'What else changed?'",
+    "why_it_works": "It challenges the viewer's perception of standard cosmetic surgery results."
+  },
+  "shots": [
+    {
+      "approx_start": 0,
+      "approx_end": 4,
+      "description": "Before and after comparison of a woman's face with jawline highlights.",
+      "layout": "full-bleed portrait",
+      "devices": [
+        "Before/After toggle",
+        "Jawline highlight box"
+      ]
+    },
+    {
+      "approx_start": 4,
+      "approx_end": 8,
+      "description": "Overlay diagram showing four variables: light, distance, tilt, and expression.",
+      "layout": "full-bleed portrait with diagram overlay",
+      "devices": [
+        "Diagram overlay"
+      ]
+    },
+    {
+      "approx_start": 8,
+      "approx_end": 18,
+      "description": "Demonstration of how moving the key light overhead changes facial shadows.",
+      "layout": "full-bleed portrait with interactive light indicator",
+      "devices": [
+        "Interactive light source indicator",
+        "Eye socket highlight box"
+      ]
+    },
+    {
+      "approx_start": 18,
+      "approx_end": 26,
+      "description": "Demonstration of camera distance altering facial proportions.",
+      "layout": "split-screen portrait with distance slider",
+      "devices": [
+        "Distance slider UI",
+        "Split-screen comparison"
+      ]
+    },
+    {
+      "approx_start": 26,
+      "approx_end": 32,
+      "description": "Demonstration of chin tilt hiding or revealing the jawline.",
+      "layout": "split-screen portrait",
+      "devices": [
+        "Split-screen comparison"
+      ]
+    },
+    {
+      "approx_start": 32,
+      "approx_end": 38,
+      "description": "Demonstration of facial expression changes affecting the midface.",
+      "layout": "close-up portrait with highlight circle",
+      "devices": [
+        "Highlight circle"
+      ]
+    },
+    {
+      "approx_start": 38,
+      "approx_end": 46,
+      "description": "Facial mapping grid overlay showing all variables combined.",
+      "layout": "full-bleed portrait with grid overlay",
+      "devices": [
+        "Facial mapping grid"
+      ]
+    },
+    {
+      "approx_start": 46,
+      "approx_end": 53,
+      "description": "Text instructions for a DIY experiment to test lighting effects.",
+      "layout": "text overlay on dark portrait",
+      "devices": [
+        "Numbered list overlay"
+      ]
+    },
+    {
+      "approx_start": 53,
+      "approx_end": 61.589,
+      "description": "Call to action with interactive buttons and a search bar.",
+      "layout": "text and button overlay on portrait",
+      "devices": [
+        "Interactive buttons",
+        "Search bar UI"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Before/After toggle",
+      "what_it_is": "A visual label switching between 'Before' and 'After'.",
+      "used_for": "Showing immediate visual differences."
+    },
+    {
+      "name": "Interactive light source indicator",
+      "what_it_is": "A yellow dot representing the key light position.",
+      "used_for": "Showing how light angle changes facial shadows."
+    },
+    {
+      "name": "Distance slider UI",
+      "what_it_is": "A horizontal slider showing distance in meters and centimeters.",
+      "used_for": "Demonstrating camera perspective distortion."
+    },
+    {
+      "name": "Facial mapping grid",
+      "what_it_is": "A spiderweb-like grid overlay on the face.",
+      "used_for": "Representing analytical facial measurement."
+    },
+    {
+      "name": "Search bar UI",
+      "what_it_is": "A mock search bar typing out 'Refina AI'.",
+      "used_for": "Directing users to the brand's platform."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0,
+      "track": "label",
+      "text": "BEFORE"
+    },
+    {
+      "approx_t": 0,
+      "track": "citation",
+      "text": "AI PREMIUM - NOT MEDICAL ADVICE"
+    },
+    {
+      "approx_t": 0,
+      "track": "caption",
+      "text": "One of these is before surgery. One is after. Watch what else changed."
+    },
+    {
+      "approx_t": 1,
+      "track": "headline",
+      "text": "What else changed?"
+    },
+    {
+      "approx_t": 2,
+      "track": "label",
+      "text": "AFTER"
+    },
+    {
+      "approx_t": 2,
+      "track": "chip",
+      "text": "JAWLINE"
+    },
+    {
+      "approx_t": 4,
+      "track": "headline",
+      "text": "Four things move"
+    },
+    {
+      "approx_t": 4,
+      "track": "caption",
+      "text": "In most before-and-afters, the surgery isn't the only thing that moved. Four other things"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "1. LIGHT"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "2. DISTANCE"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "3. TILT"
+    },
+    {
+      "approx_t": 5,
+      "track": "label",
+      "text": "4. EXPRESSION"
+    },
+    {
+      "approx_t": 8,
+      "track": "headline",
+      "text": "1. The light"
+    },
+    {
+      "approx_t": 8,
+      "track": "caption",
+      "text": "One. The light. Flat light from the front erases most of the shadow on a face. Move it overhead and the folds and hollows come straight back. Same face, nothing touched."
+    },
+    {
+      "approx_t": 9,
+      "track": "chip",
+      "text": "KEY LIGHT"
+    },
+    {
+      "approx_t": 9,
+      "track": "citation",
+      "text": "SAME FACE - NOTHING TOUCHED"
+    },
+    {
+      "approx_t": 14,
+      "track": "chip",
+      "text": "EYE SOCKETS"
+    },
+    {
+      "approx_t": 18,
+      "track": "headline",
+      "text": "2. The distance"
+    },
+    {
+      "approx_t": 18,
+      "track": "caption",
+      "text": "Two. The distance. A phone at arm's length pushes the nose forward and pulls the jaw in. Two steps back, and the whole face rebalances, with nothing done to it."
+    },
+    {
+      "approx_t": 20,
+      "track": "ui",
+      "text": "2 M"
+    },
+    {
+      "approx_t": 20,
+      "track": "ui",
+      "text": "50 CM"
+    },
+    {
+      "approx_t": 20,
+      "track": "chip",
+      "text": "NOSE FORWARD"
+    },
+    {
+      "approx_t": 20,
+      "track": "chip",
+      "text": "JAW BACK"
+    },
+    {
+      "approx_t": 27,
+      "track": "headline",
+      "text": "3. The tilt"
+    },
+    {
+      "approx_t": 27,
+      "track": "caption",
+      "text": "Three. The tilt. Chin down hides a jawline. Chin level gives you one. That's a few degrees."
+    },
+    {
+      "approx_t": 27,
+      "track": "citation",
+      "text": "A FEW DEGREES OF TILT"
+    },
+    {
+      "approx_t": 32,
+      "track": "chip",
+      "text": "NASOLABIAL FOLD"
+    },
+    {
+      "approx_t": 33,
+      "track": "headline",
+      "text": "4. The face you're making"
+    },
+    {
+      "approx_t": 33,
+      "track": "caption",
+      "text": "Four. The face you're making. A relaxed mouth and a slight lift move the midface before anyone has touched it."
+    },
+    {
+      "approx_t": 38,
+      "track": "headline",
+      "text": "Both are true"
+    },
+    {
+      "approx_t": 38,
+      "track": "caption",
+      "text": "None of this means the surgery did nothing. It means you can't separate the surgery from the photograph by looking at it. Both are true at"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "LIGHT"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "DISTANCE"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "TILT"
+    },
+    {
+      "approx_t": 40,
+      "track": "chip",
+      "text": "EXPRESSION"
+    },
+    {
+      "approx_t": 47,
+      "track": "headline",
+      "text": "Try it tonight"
+    },
+    {
+      "approx_t": 47,
+      "track": "caption",
+      "text": "So test it yourself. Two photos, same room, a minute apart. Light in front, then light above. You'll meet two different people."
+    },
+    {
+      "approx_t": 47,
+      "track": "other",
+      "text": "1 Two photos, same room, a minute apart."
+    },
+    {
+      "approx_t": 48,
+      "track": "other",
+      "text": "2 One with the light in front of you."
+    },
+    {
+      "approx_t": 49,
+      "track": "other",
+      "text": "3 One with the light above you."
+    },
+    {
+      "approx_t": 49,
+      "track": "citation",
+      "text": "SAME FACE. TWO PEOPLE."
+    },
+    {
+      "approx_t": 53,
+      "track": "headline",
+      "text": "Same light.\nSame lens."
+    },
+    {
+      "approx_t": 53,
+      "track": "caption",
+      "text": "The only comparison worth anything is the same face, same light, same lens, same angle. Ask any gallery for that. Or see it on your own face first."
+    },
+    {
+      "approx_t": 54,
+      "track": "chip",
+      "text": "Same face"
+    },
+    {
+      "approx_t": 54,
+      "track": "chip",
+      "text": "Same light"
+    },
+    {
+      "approx_t": 55,
+      "track": "chip",
+      "text": "Same lens"
+    },
+    {
+      "approx_t": 55,
+      "track": "chip",
+      "text": "Same angle"
+    },
+    {
+      "approx_t": 59,
+      "track": "ui",
+      "text": "Refina AI"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 9,
+      "text": "One. The light. Flat light from the front erases most of the shadow on a face. Move it overhead and the folds and hollows come straight back. Same face, nothing touched."
+    },
+    {
+      "approx_t": 18,
+      "text": "Two. The distance. A phone at arm's length pushes the nose forward and pulls the jaw in. Two steps back, and the whole face rebalances, with nothing done to it."
+    },
+    {
+      "approx_t": 27,
+      "text": "Three. The tilt. Chin down hides a jawline. Chin level gives you one. That's a few degrees."
+    },
+    {
+      "approx_t": 32,
+      "text": "Four. The face you're making. A relaxed mouth and a slight lift move the midface before anyone has touched it."
+    },
+    {
+      "approx_t": 38,
+      "text": "None of this means the surgery did nothing. It means you can't separate the surgery from the photograph by looking at it. Both are true at"
+    },
+    {
+      "approx_t": 47,
+      "text": "So test it yourself. Two photos, same room, a minute apart. Light in front, then light above. You'll meet two different people."
+    },
+    {
+      "approx_t": 53,
+      "text": "The only comparison worth anything is the same face, same light, same lens, same angle. Ask any gallery for that. Or see it on your own face first."
+    }
+  ],
+  "narrative_arc": [
+    "Introduce the illusion of before/after plastic surgery photos.",
+    "Identify the four key photographic variables.",
+    "Demonstrate the impact of lighting changes.",
+    "Demonstrate the impact of camera distance.",
+    "Demonstrate the impact of head tilt.",
+    "Demonstrate the impact of facial expression.",
+    "Conclude that photos cannot be separated from the surgery itself.",
+    "Provide a call to action to try the experiment or search for Refina AI."
+  ],
+  "cta": {
+    "approx_t": 59,
+    "what": "Search for 'Refina AI' to analyze your own face."
+  },
+  "subjects": [
+    "Unnamed female model demonstrating facial changes."
+  ],
+  "what_makes_it_work": [
+    "Highly visual, interactive demonstrations of complex photographic concepts.",
+    "Clear, step-by-step breakdown of variables.",
+    "Relatable DIY experiment encourages viewer engagement."
+  ],
+  "animations": [
+    {
+      "name": "Before/After Slider Reveal",
+      "approx_t": 0.0,
+      "what_moves": "A vertical divider sweeps across the face, revealing the 'After' jawline on the right and 'Before' on the left.",
+      "motion": "wipe",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "jawline bracket markers popping in",
+      "purpose": "To demonstrate the subtle difference in jawline definition before and after a procedure.",
+      "reusable_as": "Comparing any two states of a product, cosmetic result, or photo edit.",
+      "we_already_have": "SliderReveal",
+      "would_need_building": null
+    },
+    {
+      "name": "Drawn Callouts",
+      "approx_t": 4.0,
+      "what_moves": "Four numbered labels with leader lines pointing to specific facial features.",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "To break down the four photographic variables that change between before-and-after photos.",
+      "reusable_as": "Highlighting key features or ingredients of a product in a diagrammatic way.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Interactive Light Source",
+      "approx_t": 9.0,
+      "what_moves": "A yellow dot representing the key light moves from the side to overhead, while the facial shadows morph dynamically.",
+      "motion": "translate",
+      "direction": "upward",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "text labels",
+      "purpose": "To visually demonstrate how changing the light angle dramatically alters the appearance of facial shadows and wrinkles.",
+      "reusable_as": "Showing 3D lighting effects on products, packaging, or architectural renders.",
+      "we_already_have": null,
+      "would_need_building": "A synchronized light-source controller that maps a draggable or animated handle to a sequence of frames with varying light angles."
+    },
+    {
+      "name": "Distance Perspective Slider",
+      "approx_t": 18.0,
+      "what_moves": "A slider handle moves along a scale, and the face image transitions between wide-angle (close) and telephoto (far) perspectives.",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "split-screen wipe",
+      "purpose": "To show how camera distance distorts facial features (nose size vs. jaw width).",
+      "reusable_as": "Demonstrating focal length differences, zoom capabilities, or spatial depth in product photography.",
+      "we_already_have": null,
+      "would_need_building": "A perspective slider component that morphs or crossfades between different focal lengths based on slider position."
+    },
+    {
+      "name": "Highlight Circle",
+      "approx_t": 32.0,
+      "what_moves": "A hand-drawn style white circle outlines the nasolabial fold.",
+      "motion": "draw-on",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "To draw immediate focus to the specific facial fold being discussed in the voiceover.",
+      "reusable_as": "Highlighting a specific detail, flaw, or feature in a product demonstration.",
+      "we_already_have": "TrimPath",
+      "would_need_building": null
+    },
+    {
+      "name": "Facial Mesh Overlay",
+      "approx_t": 38.0,
+      "what_moves": "A 3D-like wireframe grid draws itself over the subject's forehead and face.",
+      "motion": "draw-on",
+      "direction": "outward",
+      "feel": "mechanical",
+      "staggered": false,
+      "layered_with": "null",
+      "purpose": "To represent scientific analysis, facial mapping, or AI tracking of facial features.",
+      "reusable_as": "Tech-focused ads, facial recognition concepts, or mapping product contours.",
+      "we_already_have": null,
+      "would_need_building": "A complex multi-path SVG wireframe that animates its stroke-dashoffset to simulate a 3D scan."
+    },
+    {
+      "name": "Step List",
+      "approx_t": 47.0,
+      "what_moves": "Numbered list items fade in sequentially.",
+      "motion": "fade",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "To present a clear, step-by-step instruction for the viewer to try at home.",
+      "reusable_as": "How-to guides, recipe steps, or feature lists.",
+      "we_already_have": "AnimatedCheckList",
+      "would_need_building": null
+    },
+    {
+      "name": "Button Grid Pop-In",
+      "approx_t": 53.0,
+      "what_moves": "Four rounded buttons pop into a 2x2 grid.",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "To present the key criteria for a fair comparison in a clean, interactive-looking layout.",
+      "reusable_as": "Displaying categories, tags, or feature highlights at the end of an ad.",
+      "we_already_have": "TagStack",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Interactive slider reveals showing before/after states",
+      "Dynamic lighting and perspective morphs controlled by UI elements",
+      "Clean, technical vector overlays (callouts, meshes) drawing on top of photography"
+    ],
+    "how_things_enter": "Elements generally scale up with a slight elastic bounce (PopIn) or draw on using stroke animations (TrimPath).",
+    "how_things_leave": "Elements typically fade out or are wiped away by the next transition.",
+    "how_scenes_change": "Hard cuts are used to transition between different analytical concepts, keeping the focus on the central face portrait.",
+    "what_stays_still": "The subject's face remains centered and aligned across almost all scenes to maintain a direct comparison.",
+    "rhythm": "Bursty and educational. Periods of static observation are punctuated by smooth, interactive-feeling demonstrations (sliding, lighting shifts) to prove the scientific points."
+  },
+  "what_we_should_steal": [
+    "The Interactive Light Source morphing effect to show dynamic lighting changes on a static subject.",
+    "The Distance Perspective Slider to demonstrate focal length and camera distance distortion.",
+    "The clean, technical 3D Facial Mesh Overlay for tech-focused or scientific branding."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Video starts with a portrait of a woman",
+      "element": "Portrait of a woman with 'BEFORE' label",
+      "motion": "cut",
+      "content": "BEFORE"
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Question text fades in at the top",
+      "element": "Text 'What else changed?'",
+      "motion": "fade",
+      "content": "What else changed?"
+    },
+    {
+      "approx_t": 2.0,
+      "event": "The jawline changes and new labels appear",
+      "element": "Jawline area morphs, 'AFTER' and 'JAWLINE' labels appear",
+      "motion": "morph",
+      "content": "AFTER, JAWLINE"
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Cut to a darker portrait with new title text",
+      "element": "Darker portrait with text 'Four things move'",
+      "motion": "cut",
+      "content": "Four things move"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Four numbered labels fade in pointing to different facial features",
+      "element": "Labels '1. LIGHT', '2. DISTANCE', '3. TILT', '4. EXPRESSION'",
+      "motion": "fade",
+      "content": "1. LIGHT, 2. DISTANCE, 3. TILT, 4. EXPRESSION"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Cut to the first section about light",
+      "element": "Portrait with text '1. The light'",
+      "motion": "cut",
+      "content": "1. The light"
+    },
+    {
+      "approx_t": 9.0,
+      "event": "A yellow dot representing key light fades in on the cheek",
+      "element": "Yellow dot with label 'KEY LIGHT'",
+      "motion": "fade",
+      "content": "KEY LIGHT"
+    },
+    {
+      "approx_t": 10.0,
+      "event": "The key light dot moves upwards, changing the face's lighting",
+      "element": "Yellow dot translates upwards, shadows on face shift",
+      "motion": "translate",
+      "content": "KEY LIGHT"
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Brackets highlighting the eye sockets fade in",
+      "element": "Brackets with label 'EYE SOCKETS'",
+      "motion": "fade",
+      "content": "EYE SOCKETS"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Cut to the second section about distance",
+      "element": "Portrait with text '2. The distance'",
+      "motion": "cut",
+      "content": "2. The distance"
+    },
+    {
+      "approx_t": 19.5,
+      "event": "A sliding comparison of different camera distances begins",
+      "element": "Split screen sliding horizontally to show focal length differences",
+      "motion": "translate",
+      "content": "2 M, 50 CM, NOSE FORWARD, JAW BACK"
+    },
+    {
+      "approx_t": 22.0,
+      "event": "Another sliding comparison of camera distances is shown",
+      "element": "Split screen sliding horizontally",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 27.0,
+      "event": "Cut to the third section about tilt",
+      "element": "Portrait with text '3. The tilt'",
+      "motion": "cut",
+      "content": "3. The tilt"
+    },
+    {
+      "approx_t": 28.0,
+      "event": "A vertical wipe reveals the effect of tilting the chin down",
+      "element": "Vertical wipe showing chin tilt comparison",
+      "motion": "wipe",
+      "content": "A FEW DEGREES OF TILT"
+    },
+    {
+      "approx_t": 32.0,
+      "event": "Cut to a close-up of the face focusing on the nasolabial fold",
+      "element": "Close-up portrait with label 'NASOLABIAL FOLD'",
+      "motion": "cut",
+      "content": "NASOLABIAL FOLD"
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Text for the fourth section fades in",
+      "element": "Text '4. The face you're making'",
+      "motion": "fade",
+      "content": "4. The face you're making"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "A white circle draws around the nasolabial fold as the expression changes",
+      "element": "White circle drawing on, face expression morphing slightly",
+      "motion": "draw-on",
+      "content": ""
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Cut to a portrait with a grid overlay",
+      "element": "Portrait with spiderweb-like grid and text 'Both are true'",
+      "motion": "cut",
+      "content": "Both are true"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Four buttons fade in at the bottom of the screen",
+      "element": "Buttons 'LIGHT', 'DISTANCE', 'TILT', 'EXPRESSION'",
+      "motion": "fade",
+      "content": "LIGHT, DISTANCE, TILT, EXPRESSION"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "Cut to a dark screen with instructions",
+      "element": "Text 'Try it tonight'",
+      "motion": "cut",
+      "content": "Try it tonight"
+    },
+    {
+      "approx_t": 47.5,
+      "event": "First instruction step fades in",
+      "element": "Text '1 Two photos, same room, a minute apart.'",
+      "motion": "fade",
+      "content": "1 Two photos, same room, a minute apart."
+    },
+    {
+      "approx_t": 48.5,
+      "event": "Second instruction step fades in",
+      "element": "Text '2 One with the light in front of you.'",
+      "motion": "fade",
+      "content": "2 One with the light in front of you."
+    },
+    {
+      "approx_t": 49.5,
+      "event": "Third instruction step fades in",
+      "element": "Text '3 One with the light above you.'",
+      "motion": "fade",
+      "content": "3 One with the light above you."
+    },
+    {
+      "approx_t": 53.0,
+      "event": "Cut to a screen emphasizing consistent comparison",
+      "element": "Text 'Same light. Same lens.'",
+      "motion": "cut",
+      "content": "Same light. Same lens."
+    },
+    {
+      "approx_t": 54.0,
+      "event": "First comparison button fades in",
+      "element": "Button 'Same face'",
+      "motion": "fade",
+      "content": "Same face"
+    },
+    {
+      "approx_t": 54.5,
+      "event": "Second comparison button fades in",
+      "element": "Button 'Same light'",
+      "motion": "fade",
+      "content": "Same light"
+    },
+    {
+      "approx_t": 55.0,
+      "event": "Third comparison button fades in",
+      "element": "Button 'Same lens'",
+      "motion": "fade",
+      "content": "Same lens"
+    },
+    {
+      "approx_t": 55.5,
+      "event": "Fourth comparison button fades in",
+      "element": "Button 'Same angle'",
+      "motion": "fade",
+      "content": "Same angle"
+    },
+    {
+      "approx_t": 59.0,
+      "event": "A search bar appears and text is typed inside",
+      "element": "Search bar with text 'Refina AI' typing out",
+      "motion": "draw-on",
+      "content": "Refina AI"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "key_index": 0,
+    "source": "out/refina-changed-v2.mp4",
+    "tokens": {
+      "animation": 10224,
+      "content": 11398
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "label": "ref-21",
+  "archetype": "evidence explainer listicle",
+  "one_line": "Educational skincare guide explaining how men should select sunscreen based on SPF, PA rating, and skin type.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 29.97
+  },
+  "duration_s": 66.233,
+  "measured": {
+    "pacing": {
+      "cuts": 30,
+      "cuts_per_min": 27.2,
+      "median_shot_s": 1.5,
+      "shortest_shot_s": 0.47,
+      "longest_shot_s": 7.51,
+      "frozen_pct": 51.2
+    },
+    "transitions": {
+      "count": 19,
+      "median_s": 0.2,
+      "spans_s": [
+        0.601,
+        0.3,
+        0.534,
+        0.267,
+        0.234,
+        1.301,
+        0.167,
+        0.167,
+        0.2,
+        0.434,
+        0.167,
+        0.167,
+        0.167,
+        0.167,
+        0.167,
+        0.167,
+        0.968,
+        0.4,
+        0.133
+      ]
+    },
+    "element_events": {
+      "count": 98,
+      "per_min": 88.8,
+      "median_gap_s": 0.1,
+      "frames": [
+        21,
+        129,
+        133,
+        137,
+        141,
+        196,
+        199,
+        263,
+        334,
+        337,
+        340,
+        343,
+        432,
+        435,
+        559,
+        562,
+        565,
+        568,
+        571,
+        574,
+        577,
+        580,
+        584,
+        587,
+        643,
+        647,
+        650,
+        653,
+        656,
+        661,
+        690,
+        693,
+        709,
+        712,
+        715,
+        719,
+        732,
+        735,
+        785,
+        843
+      ]
+    },
+    "continuous_motion": {
+      "spans": 18,
+      "total_s": 12.51,
+      "pct_of_runtime": 18.9,
+      "median_span_s": 0.8,
+      "longest_span_s": 1.07,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        231,
+        231,
+        231
+      ],
+      "dominant_hex": "#E7E7E7",
+      "corner_flatness": 4.84,
+      "background_drift": 45.7,
+      "flat_background": false,
+      "headline_band_frames_pct": 82.4,
+      "caption_band_frames_pct": 75.1
+    },
+    "audio": {
+      "speech_segments": 2,
+      "speech_pct": 99.8,
+      "median_phrase_s": 33.04,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 8,
+    "hard_cuts": 30,
+    "cuts_per_described_change": 4.29,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": true,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 4.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait split screen",
+      "description": "Talking head split screen comparing normal face vs aged face with SunAgeing text title.",
+      "devices": [
+        "split-screen slider",
+        "title text"
+      ]
+    },
+    {
+      "start_s": 4.137,
+      "start_frame": 124,
+      "end_s": 10.0,
+      "snapped_to_measured_cut": true,
+      "layout": "diagram panel",
+      "description": "Fitzpatrick scale graphic showing skin types I to VI and UV sensitivity indicator.",
+      "devices": [
+        "vertical scale diagram",
+        "highlight box"
+      ]
+    },
+    {
+      "start_s": 10.944,
+      "start_frame": 328,
+      "end_s": 18.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait with overlays",
+      "description": "Man's face with burn-to-pigment slider bar and zooming callout overlays for age and pigment spots.",
+      "devices": [
+        "slider scale",
+        "callout zooms"
+      ]
+    },
+    {
+      "start_s": 18.452,
+      "start_frame": 553,
+      "end_s": 20.0,
+      "snapped_to_measured_cut": true,
+      "layout": "card selector view",
+      "description": "Three numbered selection cards showing SPF, PA Rating, and Skin Type.",
+      "devices": [
+        "numbered cards"
+      ]
+    },
+    {
+      "start_s": 21.421,
+      "start_frame": 642,
+      "end_s": 35.0,
+      "snapped_to_measured_cut": true,
+      "layout": "mixed frame montage and diagram",
+      "description": "Product showcase montage, skin cross-section graphic for UVB/sunburn, and SPF range slider.",
+      "devices": [
+        "3D skin cross-section",
+        "product cards",
+        "range slider"
+      ]
+    },
+    {
+      "start_s": 35.469,
+      "start_frame": 1063,
+      "end_s": 51.0,
+      "snapped_to_measured_cut": true,
+      "layout": "diagram and product overlay",
+      "description": "Deep dive on PA Rating showing UVA skin penetration diagram, plus rating indicator visual.",
+      "devices": [
+        "animated ray diagram",
+        "text highlight box",
+        "multi-level bar chart"
+      ]
+    },
+    {
+      "start_s": 52.019,
+      "start_frame": 1559,
+      "end_s": 64.0,
+      "snapped_to_measured_cut": true,
+      "layout": "3-column skin texture comparison with product overlays",
+      "description": "Skin texture comparison (Oily, Dry, Sweaty) followed by targeted product recommendations.",
+      "devices": [
+        "texture panels",
+        "product floating cards"
+      ]
+    },
+    {
+      "start_s": 64.498,
+      "start_frame": 1933,
+      "end_s": 66.2,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Male grooming routine montage ending on call to action.",
+      "devices": [
+        "caption overlay"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "split-screen slider",
+      "what_it_is": "A vertical dividing line comparing two states of a face.",
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "callout zooms",
+      "what_it_is": "Square magnified cutouts showing skin details.",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "3D skin cross-section",
+      "what_it_is": "Anatomy diagram of skin layers under light rays.",
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "numbered cards",
+      "what_it_is": "3D styled menu cards labeled 01, 02, 03.",
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "title text",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0
+      ]
+    },
+    {
+      "name": "vertical scale diagram",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "highlight box",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        1
+      ]
+    },
+    {
+      "name": "slider scale",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "product cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "range slider",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "animated ray diagram",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "text highlight box",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "multi-level bar chart",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "texture panels",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "product floating cards",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        6
+      ]
+    },
+    {
+      "name": "caption overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        7
+      ]
+    },
+    {
+      "name": "Fitzpatrick scale diagram",
+      "what_it_is": "A visual classification chart of skin types I to VI.",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "A split-screen comparison shows a man's face aging rapidly due to sun exposure.",
+    "why_it_works": "Visually demonstrates the dramatic impact of sun damage to trigger immediate curiosity."
+  },
+  "narrative_arc": [
+    "Problem highlight: Sun causes 80% of male skin aging.",
+    "Scientific context: Fitzpatrick scale explains Indian skin characteristics.",
+    "Criterion 1 (SPF): Why 30-50 SPF is sufficient for non-burning skin.",
+    "Criterion 2 (PA Rating): Why PA++++ is critical against deep UVA aging.",
+    "Criterion 3 (Skin Type): Product recommendations for oily, dry, and sweaty skin.",
+    "Call to Action: Follow for more male grooming advice."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "SunAgeing"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "caption",
+      "text": "Men, 80% of your visible facial aging can actually come from the sun."
+    },
+    {
+      "approx_t": 4.0,
+      "track": "chart",
+      "text": "Fitzpatrick scale"
+    },
+    {
+      "approx_t": 4.2,
+      "track": "label",
+      "text": "SKIN TYPE"
+    },
+    {
+      "approx_t": 4.5,
+      "track": "chip",
+      "text": "TYPE I"
+    },
+    {
+      "approx_t": 4.8,
+      "track": "chip",
+      "text": "TYPE II"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "chip",
+      "text": "TYPE III"
+    },
+    {
+      "approx_t": 5.2,
+      "track": "chip",
+      "text": "TYPE IV"
+    },
+    {
+      "approx_t": 5.5,
+      "track": "chip",
+      "text": "TYPE V"
+    },
+    {
+      "approx_t": 5.8,
+      "track": "chip",
+      "text": "TYPE VI"
+    },
+    {
+      "approx_t": 6.5,
+      "track": "label",
+      "text": "UV SENSITIVE :"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chart",
+      "text": "BURN"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chart",
+      "text": "PIGMENT"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "label",
+      "text": "AGE"
+    },
+    {
+      "approx_t": 13.5,
+      "track": "label",
+      "text": "PIGMENT"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "ui",
+      "text": "01 SPF"
+    },
+    {
+      "approx_t": 18.5,
+      "track": "ui",
+      "text": "02 PA RATING"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "ui",
+      "text": "03 SKIN TYPE"
+    },
+    {
+      "approx_t": 27.0,
+      "track": "label",
+      "text": "UVB"
+    },
+    {
+      "approx_t": 28.0,
+      "track": "label",
+      "text": "SUNBURN"
+    },
+    {
+      "approx_t": 36.5,
+      "track": "ui",
+      "text": "02 PA RATING"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "chip",
+      "text": "PA++++"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "UVA"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "label",
+      "text": "PENETRATES DEEPER"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "label",
+      "text": "PREMATURE AGEING"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "chart",
+      "text": "PA+"
+    },
+    {
+      "approx_t": 47.5,
+      "track": "chart",
+      "text": "PA++"
+    },
+    {
+      "approx_t": 48.0,
+      "track": "chart",
+      "text": "PA+++"
+    },
+    {
+      "approx_t": 48.5,
+      "track": "chart",
+      "text": "PA++++"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "ui",
+      "text": "03 SKIN TYPE"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "headline",
+      "text": "Skin Types"
+    },
+    {
+      "approx_t": 54.2,
+      "track": "label",
+      "text": "OILY"
+    },
+    {
+      "approx_t": 54.5,
+      "track": "label",
+      "text": "DRY"
+    },
+    {
+      "approx_t": 54.8,
+      "track": "label",
+      "text": "SWEATY"
+    },
+    {
+      "approx_t": 64.0,
+      "track": "caption",
+      "text": "Follow for more rituals for men"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Men, 80% of your visible facial aging can actually come from the sun."
+    },
+    {
+      "approx_t": 4.0,
+      "text": "This is the Fitzpatrick scale. It shows how easily a skin type burns and tans, and most Indians are type 4 and 5."
+    },
+    {
+      "approx_t": 11.0,
+      "text": "So you tend to burn less, but age and pigment more easily, which means a sunscreen can be the most effective anti-ageing product you can own."
+    },
+    {
+      "approx_t": 18.0,
+      "text": "And here's how you should pick one. First, SPF."
+    },
+    {
+      "approx_t": 21.0,
+      "text": "Most of us buy sunscreen by looking at SPF, but it's not really the most important thing. It protects you from UVB, which is responsible for sunburn. But Indians don't really sunburn easily, so a range of 30 to 50 SPF is honestly enough."
+    },
+    {
+      "approx_t": 35.5,
+      "text": "Second, PA rating."
+    },
+    {
+      "approx_t": 37.0,
+      "text": "PA on the other hand is actually more important. It protects you from UVA rays, which penetrates deeper into the skin and is responsible for premature ageing. The more plus signs next to PA, the stronger the protection. So look for PA++++."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "And finally, your skin type."
+    },
+    {
+      "approx_t": 54.0,
+      "text": "If you have oily skin, go for a lightweight gel, fluid or matte sunscreen. If you have dry skin, go for a moisturising option. And if you sweat heavily, look for water resistance."
+    },
+    {
+      "approx_t": 64.0,
+      "text": "Follow for more rituals for men."
+    }
+  ],
+  "cta": {
+    "approx_t": 64.0,
+    "what": "Follow for more rituals for men"
+  },
+  "subjects": [
+    "Male model with curly hair demonstrating aging effects and skin care routines"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Combines visual scientific diagrams with simple actionable advice.",
+    "Addresses specific skin needs of the target demographic using recognized medical scales.",
+    "Clear 3-step structured breakdown keeps information easy to follow."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.6-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "8/8"
+  }
+}

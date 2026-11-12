@@ -1,0 +1,551 @@
+{
+  "label": "ref-03",
+  "archetype": "evidence explainer",
+  "one_line": "Reviews three evidence-backed methods for increasing eyebrow density using clinical study citations and visual overlays.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 57.0,
+  "measured": {
+    "pacing": {
+      "cuts": 9,
+      "cuts_per_min": 9.5,
+      "median_shot_s": 3.0,
+      "shortest_shot_s": 0.2,
+      "longest_shot_s": 18.87,
+      "frozen_pct": 47.7
+    },
+    "transitions": {
+      "count": 12,
+      "median_s": 1.03,
+      "spans_s": [
+        0.3,
+        0.367,
+        1.233,
+        0.633,
+        1.133,
+        1.0,
+        2.2,
+        1.1,
+        0.667,
+        1.2,
+        1.067,
+        0.8
+      ]
+    },
+    "element_events": {
+      "count": 145,
+      "per_min": 152.7,
+      "median_gap_s": 0.1,
+      "frames": [
+        1,
+        4,
+        33,
+        36,
+        169,
+        172,
+        175,
+        178,
+        181,
+        184,
+        187,
+        190,
+        193,
+        196,
+        199,
+        298,
+        301,
+        304,
+        491,
+        494,
+        497,
+        500,
+        503,
+        506,
+        509,
+        512,
+        515,
+        518,
+        536,
+        573,
+        608,
+        623,
+        645,
+        666,
+        669,
+        672,
+        678,
+        681,
+        684,
+        687
+      ]
+    },
+    "continuous_motion": {
+      "spans": 22,
+      "total_s": 12.04,
+      "pct_of_runtime": 21.1,
+      "median_span_s": 0.5,
+      "longest_span_s": 0.97,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        159,
+        181,
+        190
+      ],
+      "dominant_hex": "#9FB5BE",
+      "corner_flatness": 0.66,
+      "background_drift": 29.31,
+      "flat_background": false,
+      "headline_band_frames_pct": 88.9,
+      "caption_band_frames_pct": 76.3
+    },
+    "audio": {
+      "speech_segments": 11,
+      "speech_pct": 96.9,
+      "median_phrase_s": 3.73,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 6,
+    "hard_cuts": 9,
+    "cuts_per_described_change": 1.8,
+    "pct_scene_changes_that_are_cuts": 100.0,
+    "description_undercounted_scenes": true,
+    "carried_by_transition": 0,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 3.8,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed vertical portrait",
+      "description": "Portrait of Lamine Yamal with frame brackets around eyebrows.",
+      "devices": [
+        "celebrity highlight",
+        "bounding box graphic"
+      ]
+    },
+    {
+      "start_s": 3.6,
+      "start_frame": 108,
+      "end_s": 5.8,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed vertical portrait",
+      "description": "Portrait of Elle Fanning with eyebrow frame brackets.",
+      "devices": [
+        "celebrity highlight",
+        "bounding box graphic"
+      ]
+    },
+    {
+      "start_s": 5.8,
+      "start_frame": 174,
+      "end_s": 20.2,
+      "snapped_to_measured_cut": false,
+      "layout": "floating modal cards over pastel background",
+      "description": "Explains Bimatoprost treatment using study citations, author photo, timeline slider UI, and application video.",
+      "devices": [
+        "paper citation card",
+        "researcher portrait card",
+        "progress slider UI",
+        "dropper animation graphic",
+        "UGC video insert"
+      ]
+    },
+    {
+      "start_s": 20.2,
+      "start_frame": 606,
+      "end_s": 32.0,
+      "snapped_to_measured_cut": false,
+      "layout": "centered portrait cards with overlay tags",
+      "description": "Presents Minoxidil split-face study using model graphics labeled TREATED vs PLACEBO.",
+      "devices": [
+        "paper citation card",
+        "split-face comparison overlay",
+        " eyebrow mask outline"
+      ]
+    },
+    {
+      "start_s": 32.033,
+      "start_frame": 961,
+      "end_s": 51.8,
+      "snapped_to_measured_cut": true,
+      "layout": "split view with density scale metric and video player",
+      "description": "Analyzes microblading suitability using a density scale slider and procedure close-ups.",
+      "devices": [
+        "density scale slider UI",
+        "procedure close-up clip",
+        "before/after comparison card"
+      ]
+    },
+    {
+      "start_s": 51.8,
+      "start_frame": 1554,
+      "end_s": 57.0,
+      "snapped_to_measured_cut": false,
+      "layout": "full-bleed portrait to search UI overlay",
+      "description": "Shows male face scan animation and transitions to search bar CTA.",
+      "devices": [
+        "facial mesh scan graphic",
+        "brow analysis HUD widget",
+        "search bar overlay"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "celebrity highlight",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "bounding box graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "paper citation card",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Progress Slider UI",
+      "what_it_is": "Interactive-style timeline widget marking 0, 3, and 7 months",
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "researcher portrait card",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "dropper animation graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "UGC video insert",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        2
+      ]
+    },
+    {
+      "name": "split-face comparison overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": " eyebrow mask outline",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    },
+    {
+      "name": "density scale slider UI",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "procedure close-up clip",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "before/after comparison card",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        4
+      ]
+    },
+    {
+      "name": "facial mesh scan graphic",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "brow analysis HUD widget",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "search bar overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        5
+      ]
+    },
+    {
+      "name": "Scientific Citation Card",
+      "what_it_is": "Overlay displaying paper title, authors, journal title, and DOI",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Split-Face Comparison",
+      "what_it_is": "Vector outlines showing 'TREATED' and 'PLACEBO' brows on model photos",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Brow Density Scale UI",
+      "what_it_is": "Metric slider rating sparse, balanced, and fuller brows across face vector icons",
+      "how_it_animates": null,
+      "shots": []
+    },
+    {
+      "name": "Facial Analysis HUD",
+      "what_it_is": "Tech-style dotted mesh and brow arch measurement overlay on a male face",
+      "how_it_animates": null,
+      "shots": []
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Displays high-profile celebrity portraits with eyebrow highlighting graphics.",
+    "why_it_works": "Connects brow density to facial attractiveness through recognizable figures."
+  },
+  "narrative_arc": [
+    "Highlight brow density as a key aesthetic factor.",
+    "Introduce Bimatoprost study results for sparse brows.",
+    "Present Minoxidil study results as an alternative medical solution.",
+    "Explain Microblading as a cosmetic solution suitable for moderately thin brows.",
+    "Direct viewer to Qoves.com for personal face and brow analysis."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Dense Brows"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "headline",
+      "text": "Dense Brows = Sexy"
+    },
+    {
+      "approx_t": 0.5,
+      "track": "label",
+      "text": "LAMINE YAMAL SPANISH FOOTBALLER"
+    },
+    {
+      "approx_t": 3.8,
+      "track": "headline",
+      "text": "But how do you get dense brows?"
+    },
+    {
+      "approx_t": 4.5,
+      "track": "label",
+      "text": "ELLE FANNING AMERICAN ACTRESS"
+    },
+    {
+      "approx_t": 5.8,
+      "track": "chip",
+      "text": "METHOD 1/3 BIMATOPROST"
+    },
+    {
+      "approx_t": 6.0,
+      "track": "citation",
+      "text": "Bimatoprost 0.03% Carruthers, J., Beer, K., Carruthers, A., Coleman, W. P., Draelos, Z. D., Jones, D., Goldman, M. P., Pucci, M. L., VanDenburgh, A., Weng, E., & Whitcup, S. M. (2016). Bimatoprost 0.03% for the treatment of eyebrow hypotrichosis. Dermatologic Surgery, 42(5), 608–617."
+    },
+    {
+      "approx_t": 7.0,
+      "track": "label",
+      "text": "DR. JEAN CARRUTHERS, MD PROF. BRITISH COLUMBIA"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "ui",
+      "text": "Apply twice daily"
+    },
+    {
+      "approx_t": 10.5,
+      "track": "ui",
+      "text": "7 MONTH PROGRESSION"
+    },
+    {
+      "approx_t": 19.5,
+      "track": "other",
+      "text": "@AAMNAADEL"
+    },
+    {
+      "approx_t": 20.2,
+      "track": "chip",
+      "text": "METHOD 2/3 MINOXIDIL"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "citation",
+      "text": "Minoxidil 2% Lee, S., Tanglertsampan, C., Tanchotikul, M., & Worapunpong, N. (2014). Minoxidil 2% lotion for eyebrow enhancement: A randomized, double-blind, placebo-controlled, split-face comparative study. The Journal of Dermatology, 41(2), 141-144."
+    },
+    {
+      "approx_t": 25.0,
+      "track": "label",
+      "text": "TREATED"
+    },
+    {
+      "approx_t": 25.0,
+      "track": "label",
+      "text": "PLACEBO"
+    },
+    {
+      "approx_t": 32.0,
+      "track": "chip",
+      "text": "METHOD 3/3 MICROBLADING"
+    },
+    {
+      "approx_t": 32.5,
+      "track": "ui",
+      "text": "Brow density scale"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "ui",
+      "text": "Sparse Balanced Fuller"
+    },
+    {
+      "approx_t": 44.0,
+      "track": "other",
+      "text": "@BEAUTY_STUDIO"
+    },
+    {
+      "approx_t": 54.0,
+      "track": "ui",
+      "text": "Brow Analysis Low Arch"
+    },
+    {
+      "approx_t": 56.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Everyone knows that denser eyebrows typically look more attractive."
+    },
+    {
+      "approx_t": 3.5,
+      "text": "But how do you actually increase your eyebrow density?"
+    },
+    {
+      "approx_t": 5.8,
+      "text": "Carruthers and colleagues ran a large trial on people with sparse eyebrows,"
+    },
+    {
+      "approx_t": 10.0,
+      "text": "and applied once or twice daily bimatoprost,"
+    },
+    {
+      "approx_t": 13.5,
+      "text": "which significantly improved eyebrow fullness by month seven compared to placebo."
+    },
+    {
+      "approx_t": 17.0,
+      "text": "So it may be worth consulting a dermatologist about this particular option."
+    },
+    {
+      "approx_t": 20.5,
+      "text": "You could also ask them about minoxidil."
+    },
+    {
+      "approx_t": 22.5,
+      "text": "Lee and colleagues put minoxidil on one brow and placebo on the other in forty people."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "After just sixteen weeks, the treated side came out ahead on brow count, diameter, and overall appearance."
+    },
+    {
+      "approx_t": 32.0,
+      "text": "Now, this last option only works if you already have a decent amount of brow density."
+    },
+    {
+      "approx_t": 36.5,
+      "text": "It can look too obvious if your brows are truly sparse, but if your brows are only somewhat thin,"
+    },
+    {
+      "approx_t": 41.0,
+      "text": "and you really want that extra-bold look, microblading is the most effective option."
+    },
+    {
+      "approx_t": 45.0,
+      "text": "You can see from this example that the semi-permanent tattoo of fine hairs underneath gives the actual brow hairs themselves bold support."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "And if you want us to analyze your face, including your brow density, click the link in bio at Qoves.com."
+    }
+  ],
+  "cta": {
+    "approx_t": 52.0,
+    "what": "Promotes personalized facial aesthetic analysis on Qoves.com."
+  },
+  "subjects": [
+    "Lamine Yamal, Spanish Footballer",
+    "Elle Fanning, American Actress",
+    "Dr. Jean Carruthers, MD, Dermatologic Surgery Researcher",
+    "Aamna Adel, Dermatologist and Content Creator",
+    "Unnamed Male and Female Models"
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Combines medical study citations with graphical UI elements to simplify research data.",
+    "Segments solutions by suitability, clearly stating when microblading is or isn't appropriate.",
+    "Maintains a clean aesthetic brand language throughout high-density visual transitions."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.6-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "3/6"
+  }
+}

@@ -1,0 +1,6 @@
+# Python 3.11+ (tomllib). Tooling under gen/, refs/, docs/preview-review/.
+numpy
+pillow
+opencv-python
+# optional: local transcription fallback in a few review scripts
+faster-whisper

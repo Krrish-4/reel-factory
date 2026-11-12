@@ -1,0 +1,77 @@
+# "Load-Bearing" — educational explainer, RefinaLips.
+#
+# THIS FILE IS THE SOURCE OF TRUTH. Edit a line, re-run gen-voiceover.py, and
+# the audio, every cue, every word frame and every beat bound move together.
+# Nothing downstream types a frame number.
+#
+# THE ARGUMENT: the lips are not a feature sitting on a face, they are the floor
+# the lower third is measured against. The philtrum above them and the chin
+# below them are both read RELATIVE to the lips, so changing the lips alone
+# changes how long the gap under the nose looks and how strong the chin looks —
+# without the nose or the chin moving at all.
+#
+# HOW THIS DIFFERS FROM "Same Nose". Ratio's argument is MISATTRIBUTION: the
+# change was nowhere near the feature the viewer named (nose 9.7 against jaw
+# 44.0). This one is the inverse and needs the opposite measurement — the change
+# must be provably CONFINED to the lips while the rest of the face re-reads. Two
+# reels, one instrument, pointed opposite ways. If the pair does not score that
+# way, this script is what changes, not the number.
+#
+# WHAT IT NEVER DOES: claim an outcome, cite a study, or print a number about a
+# face. The only figures are per-region pixel change between two files we
+# generated and can account for, labelled as such. Rule E.
+#
+# TWO FACES, AND THE SECOND ONE IS ANNOUNCED. Beat 5 says "another face" out
+# loud AND carries a SECOND SUBJECT tag. RefinaChanged silently changed who its
+# subject was and that was its worst defect.
+#
+# LENGTH IS A REQUIREMENT, NOT A HOPE. flip-v6 was rejected at 88.1s against a
+# corpus median of 55.5s, "long and thin". This script is written to land near
+# 60s and every line is short enough to arrive whole.
+#
+# Beat grouping lives in src/refina/lips/shots.json, by LINE COUNT — a line
+# added here must be added there, and beats.ts throws at module load if the two
+# disagree.
+
+# -- 1. hook ---------------------------------------------------------------
+This is one photograph, twice.                                 | 0.30
+Look how much of her changed.                                  | 0.35
+Her mouth is the only edit.                                    | 0.55
+
+# -- 2. claim --------------------------------------------------------------
+Lips are not just a feature.                                   | 0.30
+They are what the lower third is measured from.                | 0.50
+
+# -- 3. proof --------------------------------------------------------------
+Here is every pixel that moved.                                | 0.30
+Almost all of it is the mouth.                                 | 0.35
+The nose and the jaw barely register.                          | 0.50
+
+# -- 4. one: the gap under the nose ----------------------------------------
+One. The gap under her nose.                                   | 0.30
+Thin lips make it long. Full lips, short.                      | 0.35
+Same nose.                                                     | 0.50
+
+# -- 5. two: another face --------------------------------------------------
+Two. Another face, same edit.                                  | 0.30
+Same result.                                                   | 0.50
+
+# -- 6. three: the chin ----------------------------------------------------
+Three. Her chin looks stronger.                                | 0.30
+It is the same chin.                                           | 0.30
+You are reading it against a new mouth.                        | 0.50
+
+# -- 7. nuance -------------------------------------------------------------
+None of this means fuller is better.                           | 0.30
+It means lips are load-bearing.                                | 0.50
+
+# -- 8. self-test ----------------------------------------------------------
+Test it yourself.                                              | 0.30
+Roll your lips inward and hold.                                | 0.30
+Watch your chin arrive.                                        | 0.50
+
+# -- 9. the standard, then the CTA -----------------------------------------
+If you are about to change something there,                    | 0.30
+see it on your own face first.                                 | 0.35
+A preview, not a promise.                                      | 0.45
+Search Refina AI.                                              | 0.80

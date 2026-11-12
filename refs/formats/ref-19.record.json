@@ -1,0 +1,398 @@
+{
+  "label": "ref-19",
+  "archetype": "listicle",
+  "one_line": "A grooming guide matching beard styles to round, square, and oval face shapes using Indian celebrities as visual examples.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 29.97
+  },
+  "duration_s": 41.742,
+  "measured": {
+    "pacing": {
+      "cuts": 2,
+      "cuts_per_min": 2.9,
+      "median_shot_s": 12.45,
+      "shortest_shot_s": 1.63,
+      "longest_shot_s": 27.66,
+      "frozen_pct": 83.1
+    },
+    "transitions": {
+      "count": 4,
+      "median_s": 0.13,
+      "spans_s": [
+        0.367,
+        0.133,
+        0.133,
+        0.133
+      ]
+    },
+    "element_events": {
+      "count": 16,
+      "per_min": 23.0,
+      "median_gap_s": 1.37,
+      "frames": [
+        1,
+        4,
+        7,
+        184,
+        249,
+        290,
+        418,
+        590,
+        1001,
+        1124,
+        1224,
+        1227,
+        1230,
+        1233,
+        1237,
+        1240
+      ]
+    },
+    "continuous_motion": {
+      "spans": 3,
+      "total_s": 1.53,
+      "pct_of_runtime": 3.7,
+      "median_span_s": 0.47,
+      "longest_span_s": 0.73,
+      "_note": "movement confined to part of the frame, sustained over time — scrolls and drifts, which element_events cannot see"
+    },
+    "treatment": {
+      "dominant_rgb": [
+        116,
+        118,
+        125
+      ],
+      "dominant_hex": "#74767D",
+      "corner_flatness": 101.02,
+      "background_drift": 7.65,
+      "flat_background": false,
+      "headline_band_frames_pct": 99.6,
+      "caption_band_frames_pct": 15.4
+    },
+    "audio": {
+      "speech_segments": 2,
+      "speech_pct": 99.6,
+      "median_phrase_s": 20.8,
+      "has_music_bed": false
+    }
+  },
+  "scene_change_style": {
+    "described_scenes": 4,
+    "hard_cuts": 2,
+    "cuts_per_described_change": 0.67,
+    "pct_scene_changes_that_are_cuts": 66.7,
+    "description_undercounted_scenes": false,
+    "carried_by_transition": 1,
+    "note": "cuts vs described scene changes; if description_undercounted_scenes is true the model listed fewer scenes than there are measured cuts, so the percentage is a floor"
+  },
+  "scenes": [
+    {
+      "start_s": 0.0,
+      "start_frame": 0,
+      "end_s": 13.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Kapil Sharma demonstrates round face beard styles with dynamic overlays showing recommended and avoided cuts.",
+      "devices": [
+        "face shape outline",
+        "beard shading overlay",
+        "status chips"
+      ]
+    },
+    {
+      "start_s": 13.0,
+      "start_frame": 390,
+      "end_s": 27.0,
+      "snapped_to_measured_cut": false,
+      "layout": "full-bleed portrait",
+      "description": "Yash demonstrates square face beard styles, showing how to soften a wide jawline.",
+      "devices": [
+        "face shape outline",
+        "beard shading overlay",
+        "status chips"
+      ]
+    },
+    {
+      "start_s": 27.661,
+      "start_frame": 829,
+      "end_s": 39.0,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "Ranbir Kapoor demonstrates oval face beard styles, highlighting versatility and balance.",
+      "devices": [
+        "face shape outline",
+        "beard shading overlay",
+        "status chips"
+      ]
+    },
+    {
+      "start_s": 40.107,
+      "start_frame": 1202,
+      "end_s": 41.742,
+      "snapped_to_measured_cut": true,
+      "layout": "full-bleed portrait",
+      "description": "B-roll of Yash with a full beard and sunglasses, transitioning to the final call to action.",
+      "devices": [
+        "caption overlay"
+      ]
+    }
+  ],
+  "device_inventory": [
+    {
+      "name": "Face Shape Outline",
+      "what_it_is": "Dotted white lines tracing the jaw and forehead.",
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Beard Shading Overlay",
+      "what_it_is": "Semi-transparent textured overlay on the jawline.",
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Status Chips",
+      "what_it_is": "Pill-shaped labels with green checkmarks or red cross marks.",
+      "how_it_animates": null,
+      "shots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "caption overlay",
+      "what_it_is": null,
+      "how_it_animates": null,
+      "shots": [
+        3
+      ]
+    }
+  ],
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Kapil Sharma's face is shown with a 'Round face' label and a dotted outline, explaining how to make it look longer.",
+    "why_it_works": "Uses a highly recognizable celebrity and immediate visual categorization to hook the viewer."
+  },
+  "narrative_arc": [
+    "Identify round face shape and recommend styles to elongate it.",
+    "Identify square face shape and recommend styles to soften the jaw.",
+    "Identify oval face shape and highlight its versatility.",
+    "Call to action to follow for more tips."
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Round face"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "KAPIL SHARMA, INDIAN COMEDIAN"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "chip",
+      "text": "LONGER"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "chip",
+      "text": "SHORTER SIDES"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "chip",
+      "text": "TAPERED BEARD"
+    },
+    {
+      "approx_t": 7.0,
+      "track": "chip",
+      "text": "DUCKTAIL"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "chip",
+      "text": "THICK BOXED BEARD"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "FULL BEARD"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "HAIR AROUND CHEEKS"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "headline",
+      "text": "Square face"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "label",
+      "text": "YASH, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chip",
+      "text": "WIDE"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "chip",
+      "text": "SOFTEN"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "chip",
+      "text": "BEARDSTACHE"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "SHORT TAPERED BEARD"
+    },
+    {
+      "approx_t": 22.0,
+      "track": "chip",
+      "text": "BALBO"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "LONG BOXED BEARD"
+    },
+    {
+      "approx_t": 25.0,
+      "track": "chip",
+      "text": "THICK FULL BEARD"
+    },
+    {
+      "approx_t": 27.0,
+      "track": "headline",
+      "text": "Oval face"
+    },
+    {
+      "approx_t": 27.0,
+      "track": "label",
+      "text": "RANBIR KAPOOR, INDIAN ACTOR"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "BALANCED"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "chip",
+      "text": "STUBBLE"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "BEARDSTACHE"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "chip",
+      "text": "FULL BEARD"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "chip",
+      "text": "VAN DYKE"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "chip",
+      "text": "EXTREME VERSIONS"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "caption",
+      "text": "for more grooming tips."
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "If you have a round shaped face, your beard should make your face look longer by being shorter on the sides."
+    },
+    {
+      "approx_t": 5.0,
+      "text": "So go for a tapered beard, a ducktail, or a thick boxed beard."
+    },
+    {
+      "approx_t": 9.0,
+      "text": "But skip a big full beard or a lot of hair around your cheeks."
+    },
+    {
+      "approx_t": 13.0,
+      "text": "If you have a square shaped face, your jaw is already wide, so your beard needs to soften your jaw."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "So go for a beardstache, a short tapered beard, a balbo, or a long boxed beard."
+    },
+    {
+      "approx_t": 25.0,
+      "text": "But avoid a very thick full beard."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "And if you have an oval shaped face, you have the most freedom because your face is already balanced."
+    },
+    {
+      "approx_t": 32.0,
+      "text": "So go for a stubble, beardstache, full beard, Van Dyke, but mainly skip extreme versions."
+    },
+    {
+      "approx_t": 40.0,
+      "text": "Follow for more grooming tips."
+    }
+  ],
+  "cta": {
+    "approx_t": 40.0,
+    "what": "Follow for more grooming tips."
+  },
+  "subjects": [
+    {
+      "name": "Kapil Sharma",
+      "role": "Round face model"
+    },
+    {
+      "name": "Yash",
+      "role": "Square face model"
+    },
+    {
+      "name": "Ranbir Kapoor",
+      "role": "Oval face model"
+    }
+  ],
+  "notable_techniques": null,
+  "what_makes_it_work": [
+    "Uses famous Indian celebrities to make the advice highly relatable.",
+    "Dynamic visual overlays show beard styles changing instantly on the same face.",
+    "Clear, binary categorization (do's and don'ts) simplifies decision-making."
+  ],
+  "_provenance": {
+    "time_authority": "measure-format.py (every frame)",
+    "meaning_authority": "describe.py via gemini-3.5-flash",
+    "snap_tolerance_s": 1.6,
+    "scenes_snapped_to_a_measured_cut": "3/4"
+  }
+}

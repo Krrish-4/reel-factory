@@ -1,0 +1,123 @@
+{
+  "label": "ours-mirror2-v3",
+  "source": "out/refina-mirror2-v3.mp4",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0
+  },
+  "duration_s": 82.517,
+  "pacing": {
+    "cuts": 2,
+    "cuts_per_min": 1.5,
+    "median_shot_s": 21.13,
+    "shortest_shot_s": 2.33,
+    "longest_shot_s": 59.0,
+    "frozen_pct": 85.4
+  },
+  "element_events": {
+    "count": 46,
+    "per_min": 33.5,
+    "median_gap_s": 0.33,
+    "frames": [
+      6,
+      153,
+      307,
+      311,
+      314,
+      324,
+      327,
+      330,
+      536,
+      545,
+      548,
+      551,
+      720,
+      900,
+      1010,
+      1013,
+      1016,
+      1398,
+      1408,
+      1411,
+      1414,
+      1423,
+      1426,
+      1453,
+      1456,
+      1483,
+      1486,
+      1513,
+      1516,
+      1543,
+      1546,
+      1573,
+      1576,
+      1603,
+      1685,
+      1688,
+      1705,
+      1715,
+      1739,
+      1749
+    ]
+  },
+  "continuous_motion": {
+    "spans": 17,
+    "total_s": 7.0,
+    "pct_of_runtime": 8.5,
+    "median_span_s": 0.33,
+    "longest_span_s": 0.8,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 16,
+    "median_s": 0.23,
+    "spans_s": [
+      0.233,
+      0.333,
+      0.333,
+      0.3,
+      0.333,
+      0.267,
+      0.233,
+      0.233,
+      0.233,
+      0.233,
+      0.233,
+      0.2,
+      0.133,
+      0.233,
+      0.133,
+      0.267
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      161,
+      180,
+      185
+    ],
+    "dominant_hex": "#A1B4B9",
+    "corner_flatness": 0.0,
+    "background_drift": 0.0,
+    "flat_background": true,
+    "headline_band_frames_pct": 46.4,
+    "caption_band_frames_pct": 72.7
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 19.9,
+    "approx_any_face_frames_pct": 70.0,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 28,
+    "speech_pct": 9.9,
+    "median_phrase_s": 0.23,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    634,
+    704
+  ]
+}

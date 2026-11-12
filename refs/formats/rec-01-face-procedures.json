@@ -1,0 +1,72 @@
+{
+  "label": "rec-01-face-procedures",
+  "source": "C:/Users/rahul/Downloads/reelsvideo.io_1790600099579.mp4",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30.0
+  },
+  "duration_s": 19.061,
+  "pacing": {
+    "cuts": 4,
+    "cuts_per_min": 12.6,
+    "median_shot_s": 3.8,
+    "shortest_shot_s": 3.5,
+    "longest_shot_s": 4.07,
+    "frozen_pct": 22.9
+  },
+  "element_events": {
+    "count": 0,
+    "per_min": 0.0,
+    "median_gap_s": null,
+    "frames": []
+  },
+  "continuous_motion": {
+    "spans": 0,
+    "total_s": 0,
+    "pct_of_runtime": 0.0,
+    "median_span_s": null,
+    "longest_span_s": null,
+    "_note": "movement confined to part of the frame, sustained over time \u2014 scrolls and drifts, which element_events cannot see"
+  },
+  "transitions": {
+    "count": 4,
+    "median_s": 0.13,
+    "spans_s": [
+      0.133,
+      0.133,
+      0.133,
+      0.133
+    ]
+  },
+  "treatment": {
+    "dominant_rgb": [
+      165,
+      162,
+      163
+    ],
+    "dominant_hex": "#A5A2A3",
+    "corner_flatness": 49.1,
+    "background_drift": 7.96,
+    "flat_background": false,
+    "headline_band_frames_pct": 100.0,
+    "caption_band_frames_pct": 100.0
+  },
+  "subject": {
+    "approx_big_face_frames_pct": 100.0,
+    "approx_any_face_frames_pct": 100.0,
+    "_method": "skin-tone heuristic, not a face detector"
+  },
+  "audio": {
+    "speech_segments": 1,
+    "speech_pct": 100.0,
+    "median_phrase_s": 19.06,
+    "has_music_bed": false
+  },
+  "cut_frames": [
+    105,
+    227,
+    341,
+    455
+  ]
+}

@@ -1,0 +1,150 @@
+"""Adopt a SUPPLIED voiceover for RefinaBangs and re-time the reel to it.
+
+    python docs/preview-review/adopt-vo-bangs.py "<path to the mp3>"
+
+Rahul generated the read himself in ElevenLabs (2026-10-29: the synthesised
+vesta read was "very bad"). This is `adopt-vo-afm3.py`'s mode, pointed at a
+Refina reel: the audio exists and we did not make it, so nothing is
+synthesised -- the file is conditioned, transcribed with word timestamps, and
+the transcript is aligned onto the SCRIPT (docs/scripts/bangs.txt) with the
+same character-level `align()` the synthesise path uses. The script's wording
+stays authoritative; a near-miss transcription cannot rewrite a line.
+
+It writes `src/refina/bangs/words-vo.ts` in exactly the format
+`gen-voiceover.py` writes, so beats.ts, the captions and every cue in the
+composition follow the new read with no other edit.
+
+ORDER MATTERS: condition FIRST, then transcribe. Conditioning trims the head
+and adds the lead, both of which move every timestamp, so timings are measured
+on the FINISHED file.
+
+THE LEAD. The reel opens on a camera shutter and a flash (Rahul, 2026-10-29),
+and the shutter should land BEFORE the first word, not on top of it. So LEAD
+seconds of silence are put in front of the read after the head is trimmed, and
+the first cue lands at LEAD*FPS rather than 0.
+"""
+
+from __future__ import annotations
+
+import importlib.util
+import pathlib
+import subprocess
+import sys
+
+HERE = pathlib.Path(__file__).parent
+sys.path.insert(0, str(HERE))
+from tts_deepgram import align, api_key, transcribe  # noqa: E402
+
+FPS = 30
+LEAD = 0.4
+SCRIPT_FILE = pathlib.Path("docs/scripts/bangs.txt")
+OUT = pathlib.Path("public/voiceover-bangs.mp3")
+RAW = pathlib.Path("public/voiceover-bangs-raw.mp3")
+TS = pathlib.Path("src/refina/bangs/words-vo.ts")
+
+
+def _load(fname: str, modname: str):
+    spec = importlib.util.spec_from_file_location(modname, HERE / fname)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def run(*args):
+    subprocess.run(args, check=True, capture_output=True)
+
+
+def condition(src: pathlib.Path) -> None:
+    """Trim the head, add the lead, then the narration chain afm3 uses.
+
+    A narration stem at -16 LUFS, not a master: the reel is mastered after the
+    render. `alimiter` needs level=disabled or it auto-levels back up.
+    """
+    ms = int(LEAD * 1000)
+    run(
+        "ffmpeg", "-v", "error", "-y", "-i", str(src),
+        "-af",
+        "silenceremove=start_periods=1:start_silence=0.05:start_threshold=-45dB,"
+        "highpass=f=80,"
+        "equalizer=f=250:width_type=o:width=1:g=-2,"
+        "equalizer=f=3200:width_type=o:width=1.4:g=3,"
+        "acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=2,"
+        "loudnorm=I=-16:TP=-1.5:LRA=7,"
+        "alimiter=limit=0.92:level=disabled,"
+        f"adelay={ms}:all=1",
+        "-ar", "48000", "-ac", "1",
+        "-c:a", "libmp3lame", "-q:a", "2", str(OUT),
+    )
+
+
+def main() -> None:
+    if len(sys.argv) < 2:
+        raise SystemExit(__doc__)
+    src = pathlib.Path(sys.argv[1])
+    if not src.is_file():
+        raise SystemExit(f"not a file: {src}")
+
+    script = _load("gen-voiceover.py", "gen_voiceover").parse_script(SCRIPT_FILE)
+
+    run("ffmpeg", "-v", "error", "-y", "-i", str(src), "-c:a", "copy", str(RAW))
+    condition(src)
+    print(f"conditioned -> {OUT}  (lead {LEAD}s)")
+
+    wav = HERE / "_bangs-adopt.wav"
+    run("ffmpeg", "-v", "error", "-y", "-i", str(OUT),
+        "-ar", "24000", "-ac", "1", "-c:a", "pcm_s16le", str(wav))
+    stt = transcribe(wav.read_bytes(), api_key())
+    wav.unlink(missing_ok=True)
+    print(f"transcribed  {len(stt)} words")
+
+    words, owner = [], []
+    for i, (text, _pause) in enumerate(script):
+        for w in text.split(" "):
+            words.append(w)
+            owner.append(i)
+    starts, missed = align(words, stt)
+    if starts is None:
+        raise SystemExit("alignment failed -- no transcript overlap with the script")
+    print(f"aligned      {len(words)} script words, {missed} interpolated")
+
+    dur = float(subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(OUT)],
+        check=True, capture_output=True, text=True,
+    ).stdout.strip())
+
+    rows = []
+    for i, (text, _pause) in enumerate(script):
+        idx = [k for k, o in enumerate(owner) if o == i]
+        wf = [max(0, round(starts[k] * FPS)) for k in idx]
+        nxt = [k for k, o in enumerate(owner) if o == i + 1]
+        # the last phrase ends where the SPEECH ends, not the file
+        t = round(starts[nxt[0]] * FPS) if nxt else round(stt[-1][2] * FPS)
+        rows.append((wf[0], t, text, wf))
+
+    print(f"\nread: {dur:.2f}s, {round(dur * FPS)} frames")
+    for f, t, text, _w in rows:
+        print(f"  {f:4d}-{t:4d}  {(t - f) / FPS:5.2f}s  {text}")
+
+    out = [
+        "/* GENERATED by docs/preview-review/adopt-vo-bangs.py - do not hand-edit.",
+        " *",
+        f" * Source script: {SCRIPT_FILE.as_posix()}",
+        f" * Voiceover:     {OUT.as_posix()}  (SUPPLIED - ElevenLabs, Rahul)",
+        " *",
+        " * MEASURED from a supplied read: conditioned, given a "
+        f"{LEAD}s lead for the opening shutter,",
+        " * transcribed with word timestamps and aligned onto the script's own words.",
+        f" * {len(rows)} phrases, {missed} word(s) interpolated. Re-run; never edit.",
+        " */",
+        "export type WordCue = { f: number; t: number; s: string; w: number[] };",
+        "export const WORD_CUES: WordCue[] = [",
+    ]
+    for f, t, text, wf in rows:
+        out.append(f'  {{ f: {f}, t: {t}, s: "{text}", w: [{", ".join(map(str, wf))}] }},')
+    out.append("];")
+    TS.write_text("\n".join(out) + "\n", encoding="utf-8")
+    print(f"\nwrote {TS}")
+
+
+if __name__ == "__main__":
+    main()

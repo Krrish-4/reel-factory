@@ -1,0 +1,91 @@
+# "It Wasn't the Nose" — educational explainer, RefinaNose.
+#
+# THIS FILE IS THE SOURCE OF TRUTH. Edit a line, re-run gen-voiceover.py, and
+# the audio, every cue, every word frame and every beat bound move together.
+# Nothing downstream types a frame number.
+#
+# THE ARGUMENT: the eye does not size a feature, it compares one to the ones
+# around it. So a nose that reads as too large can be a lower third that reads
+# as too small, and the pair in the hook proves it — the change is measurably
+# nowhere near the nose (nose 9.7, jaw 44.0, concentration 2.36, drift 4.7).
+#
+# HOW THIS DIFFERS FROM "Same Nose", which makes the same argument. Ratio runs
+# 92.3s and spends six of its nine beats on three numbered relationships
+# (nose/chin, lid/eye, thirds), which is why it is 37 seconds over the corpus
+# median. This is the single-argument cut: one relationship, developed, at
+# 55-60s. flip-v6 was rejected at 88.1s as "long and thin" and length is
+# therefore a requirement here, not a hope.
+#
+# THREE LINES OF RAHUL'S DRAFT WERE CHANGED, EACH BY A MEASUREMENT OR A RULE:
+#
+#   "Most women who want a nose job don't need one."
+#       A population statistic with no source. Refina's content rules forbid
+#       inventing facts and the corpus explainers open on a QUESTION about the
+#       viewer's own face ("Do you have cute eyes or hot eyes?"). Replaced with
+#       the question, which makes no claim and does the same job.
+#
+#   "not one pixel of it changed"
+#       False, and checkably so. The nose region measures 9.7 against a 4.7
+#       whole-face re-render floor — the LEAST of the four regions, but not
+#       zero. This is exactly the rewrite ratio.txt had to make ("The nose was
+#       never touched" -> "The nose isn't what changed"). Rule E.
+#
+#   "Four millimetres forward."
+#       Two faults. A millimetre figure about a face is the one thing the
+#       script reference names as off-limits, and there is no scale on an AI
+#       render to derive it from. And it is not what the picture shows: measured
+#       on this pair, face height went 1070 -> 1059 px and nose-base-to-chin
+#       held at 375 px, while lower-face WIDTH went 572 -> 628. The chin got
+#       fuller and wider frontally, not longer or provably forward. Claiming
+#       projection over a frontal photograph is invariant HH's trap — a stated
+#       difference the picture cannot show.
+#
+# WHAT IT NEVER DOES: claim an outcome, cite a study, or print a number about a
+# face. The only figures are per-region pixel change between two files we
+# generated and can account for, labelled as the operation they are.
+#
+# ONE SUBJECT, DELIBERATELY. The two-subject rule exists because RefinaChanged
+# silently switched who its subject was; it does not require a second face. The
+# script says "the same woman" and keeping that literally true for 57 seconds
+# is worth more here than a second casting.
+#
+# Beat grouping lives in src/refina/nose/shots.json, by LINE COUNT — a line
+# added here must be added there, and beats.ts throws at module load if the two
+# disagree.
+
+# -- 1. hook ---------------------------------------------------------------
+Think your nose is too big?                                    | 0.22
+Same woman, twice.                                             | 0.20
+Same nose, both photographs.                                   | 0.40
+
+# -- 2. claim --------------------------------------------------------------
+But it looks smaller in the second.                            | 0.22
+Her chin is what moved.                                        | 0.38
+
+# -- 3. proof --------------------------------------------------------------
+Here is every pixel that changed.                              | 0.22
+Almost none of it is on her nose.                              | 0.40
+
+# -- 4. mechanism ----------------------------------------------------------
+Your eye doesn't measure features.                             | 0.20
+It compares them.                                              | 0.24
+When the chin sits back, the nose stands out.                  | 0.40
+
+# -- 5. resolve ------------------------------------------------------------
+Your brain calls it a big nose.                                | 0.22
+Bring it forward and the nose has something to sit against.    | 0.22
+It didn't shrink. The face caught up.                          | 0.44
+
+# -- 6. self-test ----------------------------------------------------------
+Try it right now.                                              | 0.20
+Push your lower jaw forward.                                   | 0.24
+Your nose just got smaller. You didn't touch it.               | 0.44
+
+# -- 7. nuance -------------------------------------------------------------
+The question was never which feature to fix.                   | 0.22
+It's what the whole face does when one thing moves.            | 0.40
+
+# -- 8. the standard, then the CTA -----------------------------------------
+See it on your own face first.                                 | 0.22
+A preview, not a promise.                                      | 0.34
+Search Refina AI.                                              | 0.70

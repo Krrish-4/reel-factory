@@ -1,0 +1,791 @@
+{
+  "format_archetype": "educational explainer",
+  "one_line": "This video analyzes Billie Eilish's features to explain the 'Light Summer' color palette, showcasing ideal neutrals, accents, and colors to avoid.",
+  "hook": {
+    "approx_seconds": "0-6",
+    "what_happens": "Billie Eilish's face is shown with a color analysis overlay identifying her skin, eye, and hair tones.",
+    "why_it_works": "Uses a famous celebrity to immediately engage viewers interested in personal styling and color theory."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 9.0,
+      "description": "Billie Eilish portrait with a horizontal color analysis slider overlay.",
+      "layout": "full-bleed portrait with graphic overlay",
+      "devices": [
+        "color analysis slider"
+      ]
+    },
+    {
+      "approx_start": 9.0,
+      "approx_end": 19.0,
+      "description": "A segmented color wheel of complimentary neutrals rotates around Billie's face.",
+      "layout": "circular mask with rotating color wheel",
+      "devices": [
+        "color wheel overlay"
+      ]
+    },
+    {
+      "approx_start": 19.0,
+      "approx_end": 30.0,
+      "description": "A segmented color wheel of accent colors rotates around Billie's face.",
+      "layout": "circular mask with rotating color wheel",
+      "devices": [
+        "color wheel overlay"
+      ]
+    },
+    {
+      "approx_start": 30.0,
+      "approx_end": 39.0,
+      "description": "Examples of Billie wearing non-ideal colors with color swatches overlay.",
+      "layout": "split screen with color swatches",
+      "devices": [
+        "color swatches"
+      ]
+    },
+    {
+      "approx_start": 39.0,
+      "approx_end": 42.0,
+      "description": "A comprehensive cheat sheet summarizing the color analysis.",
+      "layout": "graphic grid",
+      "devices": [
+        "cheat sheet graphic"
+      ]
+    },
+    {
+      "approx_start": 42.0,
+      "approx_end": 46.79,
+      "description": "Call to action showing a search bar mockup for Qoves.com.",
+      "layout": "centered graphic on solid background",
+      "devices": [
+        "search bar mockup"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "color analysis slider",
+      "what_it_is": "A horizontal bar showing color values for hair, eyes, and skin.",
+      "used_for": "Categorizing the subject's physical features."
+    },
+    {
+      "name": "color wheel overlay",
+      "what_it_is": "A segmented circular graphic displaying recommended color palettes.",
+      "used_for": "Visualizing harmonious colors against the subject's face."
+    },
+    {
+      "name": "color swatches",
+      "what_it_is": "Square color blocks representing unfavorable colors.",
+      "used_for": "Highlighting colors to avoid."
+    },
+    {
+      "name": "cheat sheet graphic",
+      "what_it_is": "A structured grid summarizing the entire color palette analysis.",
+      "used_for": "Encouraging screenshots and saves."
+    },
+    {
+      "name": "search bar mockup",
+      "what_it_is": "A minimalist digital search bar graphic.",
+      "used_for": "Directing traffic to the brand's website."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Light Summer Color Analysis"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "label",
+      "text": "BILLIE EILISH, AMERICAN MUSICIAN"
+    },
+    {
+      "approx_t": 0.0,
+      "track": "caption",
+      "text": "If you have"
+    },
+    {
+      "approx_t": 1.0,
+      "track": "caption",
+      "text": "fair skin, light eyes,"
+    },
+    {
+      "approx_t": 2.0,
+      "track": "caption",
+      "text": "and low to medium"
+    },
+    {
+      "approx_t": 3.0,
+      "track": "caption",
+      "text": "contrast coloring,"
+    },
+    {
+      "approx_t": 4.0,
+      "track": "caption",
+      "text": "you may fall into the"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "caption",
+      "text": "light summer color season."
+    },
+    {
+      "approx_t": 7.0,
+      "track": "caption",
+      "text": "So listen closely"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "caption",
+      "text": "for your very best colors"
+    },
+    {
+      "approx_t": 9.0,
+      "track": "headline",
+      "text": "These are your complimentary neutrals"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "SOFT WHITE"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "DOVE GRAY"
+    },
+    {
+      "approx_t": 12.0,
+      "track": "chip",
+      "text": "COOL BEIGE"
+    },
+    {
+      "approx_t": 13.0,
+      "track": "chip",
+      "text": "DUSTY TAUPE"
+    },
+    {
+      "approx_t": 14.0,
+      "track": "chip",
+      "text": "LIGHT MUSHROOM"
+    },
+    {
+      "approx_t": 15.0,
+      "track": "chip",
+      "text": "MISTY NAVY"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "chip",
+      "text": "PALE STONE"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "headline",
+      "text": "Supporting your undertones"
+    },
+    {
+      "approx_t": 17.0,
+      "track": "caption",
+      "text": "These colors support the skin"
+    },
+    {
+      "approx_t": 18.0,
+      "track": "caption",
+      "text": "instead of sitting on top of it."
+    },
+    {
+      "approx_t": 20.0,
+      "track": "headline",
+      "text": "These are your accent colors"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "POWDER BLUE"
+    },
+    {
+      "approx_t": 21.0,
+      "track": "chip",
+      "text": "PERIWINKLE"
+    },
+    {
+      "approx_t": 22.0,
+      "track": "chip",
+      "text": "COOL PINK"
+    },
+    {
+      "approx_t": 23.0,
+      "track": "chip",
+      "text": "SOFT RASPBERRY"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "LAVENDER"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "chip",
+      "text": "SEAFOAM"
+    },
+    {
+      "approx_t": 25.0,
+      "track": "chip",
+      "text": "ICY ROSE"
+    },
+    {
+      "approx_t": 26.0,
+      "track": "chip",
+      "text": "MUTED AQUA"
+    },
+    {
+      "approx_t": 28.0,
+      "track": "caption",
+      "text": "bring life into the face"
+    },
+    {
+      "approx_t": 29.0,
+      "track": "caption",
+      "text": "without overpowering the eyes."
+    },
+    {
+      "approx_t": 31.0,
+      "track": "headline",
+      "text": "Avoid these"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "chip",
+      "text": "JET BLACK"
+    },
+    {
+      "approx_t": 32.0,
+      "track": "chip",
+      "text": "BURNT ORANGE"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "chip",
+      "text": "MUSTARD"
+    },
+    {
+      "approx_t": 34.0,
+      "track": "chip",
+      "text": "DEEP CAMEL"
+    },
+    {
+      "approx_t": 35.0,
+      "track": "chip",
+      "text": "NEON BRIGHTS"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "label",
+      "text": "Not ideal"
+    },
+    {
+      "approx_t": 36.0,
+      "track": "caption",
+      "text": "too much visual weight"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "caption",
+      "text": "and can make the skin"
+    },
+    {
+      "approx_t": 38.0,
+      "track": "caption",
+      "text": "look flat and exhausted."
+    },
+    {
+      "approx_t": 40.0,
+      "track": "headline",
+      "text": "Screenshot this"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "EYES"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "HAIR"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "SKIN"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "label",
+      "text": "INCLUDE /"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "label",
+      "text": "AVOID /"
+    },
+    {
+      "approx_t": 42.0,
+      "track": "label",
+      "text": "celebrity coloration"
+    },
+    {
+      "approx_t": 43.0,
+      "track": "caption",
+      "text": "And if you want us to analyze"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "ui",
+      "text": "Qoves.com"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "If you have fair skin, light eyes, and low to medium contrast coloring, you may fall into the light summer color season."
+    },
+    {
+      "approx_t": 6.0,
+      "text": "So listen closely for your very best colors to wear."
+    },
+    {
+      "approx_t": 9.0,
+      "text": "Your best neutrals are soft white, dove gray, cool beige, dusty taupe, light mushroom, misty navy, and pale stone."
+    },
+    {
+      "approx_t": 17.0,
+      "text": "These colors support the skin instead of sitting on top of it."
+    },
+    {
+      "approx_t": 19.0,
+      "text": "Your best accents are powder blue, periwinkle, cool pink, soft raspberry, lavender, seafoam, icy rose, and muted aqua."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "These shades bring life into the face without overpowering the eyes."
+    },
+    {
+      "approx_t": 30.0,
+      "text": "Avoid jet blacks, burnt orange, mustard, deep camel, and neon brights as they create too much visual weight and can make the skin look flat and exhausted."
+    },
+    {
+      "approx_t": 39.0,
+      "text": "Pause here for the cheat sheet. Comment which celebrity coloration we should cover next."
+    },
+    {
+      "approx_t": 43.0,
+      "text": "And if you want us to analyze your face, click the link in bio at Qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Identify the target audience based on physical traits.",
+    "Present ideal neutral colors for the 'Light Summer' palette.",
+    "Present ideal accent colors that complement the skin tone.",
+    "Showcase colors to avoid and explain why they are unflattering.",
+    "Provide a summary cheat sheet for viewers to save.",
+    "Call to action to get a personalized color analysis."
+  ],
+  "cta": {
+    "approx_t": 43.0,
+    "what": "Visit Qoves.com via the link in bio for a personalized face analysis."
+  },
+  "subjects": [
+    {
+      "name": "Billie Eilish",
+      "role": "Celebrity subject used for color analysis demonstration."
+    }
+  ],
+  "what_makes_it_work": [
+    "High-quality visual overlays make complex color theory easy to understand.",
+    "Using a recognizable celebrity increases viewer retention and shareability.",
+    "The 'Screenshot this' prompt encourages high engagement and saves."
+  ],
+  "animations": [
+    {
+      "name": "Profile Color Bar Reveal",
+      "approx_t": 1.0,
+      "what_moves": "Horizontal color bar with text labels and pointers",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Displays subject's color characteristics (eyes, skin, hair).",
+      "reusable_as": "Profile breakdown bar for visual analysis.",
+      "we_already_have": null,
+      "would_need_building": "Multi-pointer slider bar with staggered label pop-ins"
+    },
+    {
+      "name": "Radial Palette Pop-In",
+      "approx_t": 9.0,
+      "what_moves": "Color wedges around a central circular portrait",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Visually surrounds the face with complementary neutral colors.",
+      "reusable_as": "Radial category display or feature breakdown.",
+      "we_already_have": null,
+      "would_need_building": "Radial segment pop-in around a central mask"
+    },
+    {
+      "name": "Clothing Color Swap",
+      "approx_t": 17.0,
+      "what_moves": "Color of the subject's turtleneck",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Demonstrates color impact against skin tone.",
+      "reusable_as": "Product color swapper for apparel or cosmetics.",
+      "we_already_have": null,
+      "would_need_building": "Masked color/texture swap transition"
+    },
+    {
+      "name": "Avoidance Color Grid",
+      "approx_t": 31.0,
+      "what_moves": "Labeled color swatches",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "none",
+      "purpose": "Lists colors to avoid.",
+      "reusable_as": "Grid-based feature list or bad/good examples.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Cheat Sheet Reveal",
+      "approx_t": 40.0,
+      "what_moves": "Full-screen infographic card",
+      "motion": "fade",
+      "direction": "none",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "none",
+      "purpose": "Provides a shareable summary card.",
+      "reusable_as": "Summary card or infographic reveal.",
+      "we_already_have": "Reveal",
+      "would_need_building": null
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Radial palette pop-in",
+      "Dynamic clothing color swapping"
+    ],
+    "how_things_enter": "Elements scale up with elastic overshoot or slide in smoothly.",
+    "how_things_leave": "Fading out or being covered by the next full-screen card.",
+    "how_scenes_change": "Abrupt cuts or full-screen card wipes.",
+    "what_stays_still": "The central portrait of the subject.",
+    "rhythm": "Bursty, with rapid radial pops followed by static demonstration periods."
+  },
+  "what_we_should_steal": [
+    "Radial Palette Pop-In for interactive color/feature wheels",
+    "Clothing Color Swap for dynamic product customization previews"
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Title and subtitle fade in",
+      "element": "Title text and subtitle",
+      "motion": "fade",
+      "content": "\"Light Summer Color Analysis\", \"BILLIE EILISH, AMERICAN MUSICIAN\", \"If you have\""
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Color analysis bar and labels slide in",
+      "element": "Color bar, pointers, and labels",
+      "motion": "translate",
+      "content": "\"Eyes\", \"Skin\", \"Hair\""
+    },
+    {
+      "approx_t": 1.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"fair skin, light eyes,\""
+    },
+    {
+      "approx_t": 2.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"and low to medium\""
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"contrast coloring,\""
+    },
+    {
+      "approx_t": 4.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"you may fall into the\""
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Season title and subtitle update",
+      "element": "Season title and subtitle",
+      "motion": "fade",
+      "content": "\"Light summer\", \"light summer color season.\""
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"So listen closely\""
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"for your very best colors\""
+    },
+    {
+      "approx_t": 9.0,
+      "event": "Transition to circular mask with header text",
+      "element": "Circular mask and header text",
+      "motion": "wipe",
+      "content": "\"These are your complimentary neutrals\""
+    },
+    {
+      "approx_t": 10.0,
+      "event": "First neutral color wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"SOFT WHITE\""
+    },
+    {
+      "approx_t": 11.0,
+      "event": "Second neutral color wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"DOVE GRAY\""
+    },
+    {
+      "approx_t": 12.0,
+      "event": "Third neutral color wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"COOL BEIGE\""
+    },
+    {
+      "approx_t": 13.0,
+      "event": "Fourth neutral color wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"DUSTY TAUPE\""
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Fifth neutral color wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"LIGHT MUSHROOM\""
+    },
+    {
+      "approx_t": 15.0,
+      "event": "Sixth neutral color wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"MISTY NAVY\""
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Seventh neutral color wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"PALE STONE\""
+    },
+    {
+      "approx_t": 17.0,
+      "event": "Transition to full face with brown turtleneck",
+      "element": "Background and clothing color",
+      "motion": "fade",
+      "content": "\"Supporting your undertones\""
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"instead of sitting on top of it.\""
+    },
+    {
+      "approx_t": 20.0,
+      "event": "Transition to circular mask with accent header",
+      "element": "Circular mask and header text",
+      "motion": "wipe",
+      "content": "\"These are your accent colors\""
+    },
+    {
+      "approx_t": 21.0,
+      "event": "First and second accent wedges slide in",
+      "element": "Color wedges and labels",
+      "motion": "translate",
+      "content": "\"POWDER BLUE\", \"PERIWINKLE\""
+    },
+    {
+      "approx_t": 22.0,
+      "event": "Third accent wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"COOL PINK\""
+    },
+    {
+      "approx_t": 23.0,
+      "event": "Fourth accent wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"SOFT RASPBERRY\""
+    },
+    {
+      "approx_t": 24.0,
+      "event": "Fifth and sixth accent wedges slide in",
+      "element": "Color wedges and labels",
+      "motion": "translate",
+      "content": "\"LAVENDER\", \"SEAFOAM\""
+    },
+    {
+      "approx_t": 25.0,
+      "event": "Seventh accent wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"ICY ROSE\""
+    },
+    {
+      "approx_t": 26.0,
+      "event": "Eighth accent wedge slides in",
+      "element": "Color wedge and label",
+      "motion": "translate",
+      "content": "\"MUTED AQUA\""
+    },
+    {
+      "approx_t": 28.0,
+      "event": "Transition to full face with purple turtleneck",
+      "element": "Background and clothing color",
+      "motion": "fade",
+      "content": "\"bring life into the face\""
+    },
+    {
+      "approx_t": 29.0,
+      "event": "Subtitle text updates",
+      "element": "Subtitle",
+      "motion": "fade",
+      "content": "\"without overpowering the eyes.\""
+    },
+    {
+      "approx_t": 31.0,
+      "event": "Transition to interview clip with avoid header",
+      "element": "Video clip and header text",
+      "motion": "cut",
+      "content": "\"Avoid these\""
+    },
+    {
+      "approx_t": 31.0,
+      "event": "First avoid color swatch slides in",
+      "element": "Color swatch and label",
+      "motion": "translate",
+      "content": "\"JET BLACK\""
+    },
+    {
+      "approx_t": 32.0,
+      "event": "Second avoid color swatch slides in",
+      "element": "Color swatch and label",
+      "motion": "translate",
+      "content": "\"BURNT ORANGE\""
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Third avoid color swatch slides in",
+      "element": "Color swatch and label",
+      "motion": "translate",
+      "content": "\"MUSTARD\""
+    },
+    {
+      "approx_t": 34.0,
+      "event": "Fourth avoid color swatch slides in",
+      "element": "Color swatch and label",
+      "motion": "translate",
+      "content": "\"DEEP CAMEL\""
+    },
+    {
+      "approx_t": 35.0,
+      "event": "Fifth avoid color swatch slides in",
+      "element": "Color swatch and label",
+      "motion": "translate",
+      "content": "\"NEON BRIGHTS\""
+    },
+    {
+      "approx_t": 36.0,
+      "event": "Not ideal stamp fades in",
+      "element": "Stamp graphic and text",
+      "motion": "fade",
+      "content": "\"Not ideal\""
+    },
+    {
+      "approx_t": 40.0,
+      "event": "Transition to cheat sheet grid",
+      "element": "Grid layout and headers",
+      "motion": "fade",
+      "content": "\"Screenshot this\", \"EYES\", \"HAIR\", \"SKIN\""
+    },
+    {
+      "approx_t": 41.0,
+      "event": "Cheat sheet color lists fade in",
+      "element": "Color lists and section headers",
+      "motion": "fade",
+      "content": "\"INCLUDE /\", \"AVOID /\""
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Transition to call-to-action screen",
+      "element": "Man's portrait and background",
+      "motion": "cut",
+      "content": "\"And if you want us to analyze\""
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Search bar slides in",
+      "element": "Search bar graphic",
+      "motion": "translate",
+      "content": ""
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Website URL types out in search bar",
+      "element": "Text inside search bar",
+      "motion": "draw-on",
+      "content": "\"Qoves.com\""
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-15.mp4",
+    "tokens": {
+      "animation": 7747,
+      "content": 8864
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}

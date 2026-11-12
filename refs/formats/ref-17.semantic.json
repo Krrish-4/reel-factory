@@ -1,0 +1,788 @@
+{
+  "format_archetype": "evidence explainer",
+  "one_line": "This ad explains how multiple subtle, scientifically-backed facial adjustments accumulate to create a dramatic 'glow-up' effect, promoting Qoves' custom aesthetic reports.",
+  "hook": {
+    "approx_seconds": "0-3",
+    "what_happens": "Two highly similar female faces are shown side-by-side with the text 'Can you see the differences?'",
+    "why_it_works": "It immediately engages the viewer's visual curiosity and challenges them to spot subtle details."
+  },
+  "shots": [
+    {
+      "approx_start": 0.0,
+      "approx_end": 7.0,
+      "description": "Side-by-side comparison of the original and subtly edited female face on a solid light-blue background.",
+      "layout": "split-screen portrait",
+      "devices": [
+        "side-by-side comparison",
+        "text overlays"
+      ]
+    },
+    {
+      "approx_start": 7.0,
+      "approx_end": 21.0,
+      "description": "Close-up of the edited face with interactive hotspots popping up to label 11 minor adjustments, complete with scientific citations.",
+      "layout": "centered portrait with interactive hotspots",
+      "devices": [
+        "hotspot labels",
+        "academic citations",
+        "zoom-in transitions"
+      ]
+    },
+    {
+      "approx_start": 21.0,
+      "approx_end": 45.0,
+      "description": "Analysis of the original face, highlighting minor flaws (redness, acne, dry hair) in isolated zoom boxes, demonstrating how fixing one does little, but fixing all creates an 'exceptional' look.",
+      "layout": "portrait with floating detail cards",
+      "devices": [
+        "detail zoom boxes",
+        "before/after toggle labels",
+        "text bubbles"
+      ]
+    },
+    {
+      "approx_start": 45.0,
+      "approx_end": 59.0,
+      "description": "An animated line graph comparing the perceived attractiveness over time of 'one big fix' versus 'small changes adding up'.",
+      "layout": "animated line chart",
+      "devices": [
+        "line graph",
+        "floating avatar icons"
+      ]
+    },
+    {
+      "approx_start": 59.0,
+      "approx_end": 72.7,
+      "description": "A rapid scroll of non-surgical techniques leading into a multi-page mockup of a custom 'Qoves' aesthetic report, ending with a search bar CTA.",
+      "layout": "scrolling document mockup",
+      "devices": [
+        "scrolling list",
+        "report mockup",
+        "animated search bar"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Hotspot Labels",
+      "what_it_is": "Interactive text boxes pointing to specific facial features.",
+      "used_for": "Identifying the 11 subtle edits made to the face."
+    },
+    {
+      "name": "Detail Zoom Boxes",
+      "what_it_is": "Cropped, high-contrast close-ups of specific skin/hair areas.",
+      "used_for": "Highlighting minor imperfections like mild acne or slight eye redness."
+    },
+    {
+      "name": "Attractiveness Graph",
+      "what_it_is": "A simplified 2D line graph plotting Attractiveness against Time.",
+      "used_for": "Visually demonstrating the compounding effect of minor aesthetic changes."
+    },
+    {
+      "name": "Report Mockup",
+      "what_it_is": "A multi-page digital PDF document showing personalized facial analysis.",
+      "used_for": "Showcasing the final product the customer receives."
+    }
+  ],
+  "onscreen_text": [
+    {
+      "approx_t": 0.0,
+      "track": "headline",
+      "text": "Can you see the differences?"
+    },
+    {
+      "approx_t": 1.5,
+      "track": "caption",
+      "text": "Take a look at these two faces."
+    },
+    {
+      "approx_t": 3.0,
+      "track": "label",
+      "text": "You probably prefer this one"
+    },
+    {
+      "approx_t": 5.0,
+      "track": "headline",
+      "text": "But can you spot the changes?"
+    },
+    {
+      "approx_t": 8.0,
+      "track": "headline",
+      "text": "Eleven small edits"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "chip",
+      "text": "Bolder brows"
+    },
+    {
+      "approx_t": 10.0,
+      "track": "citation",
+      "text": "Wegner, J. D., & Mileva, V. R. (2018). The relative contribution of eyebrows and cheekbones..."
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Thicker hair"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Higher hair shine"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Clearer sclera"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Reduced undereye circles"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "More red lip pigment"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Reduced acne"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "More even complexion"
+    },
+    {
+      "approx_t": 11.0,
+      "track": "chip",
+      "text": "Reduced wrinkles"
+    },
+    {
+      "approx_t": 16.0,
+      "track": "headline",
+      "text": "Bimatoprost can thicken the brows and lashes"
+    },
+    {
+      "approx_t": 19.0,
+      "track": "headline",
+      "text": "Brimonidine drops can improve eye brightness"
+    },
+    {
+      "approx_t": 24.0,
+      "track": "ui",
+      "text": "There's not much for you to improve..."
+    },
+    {
+      "approx_t": 28.0,
+      "track": "label",
+      "text": "SLIGHTLY RED"
+    },
+    {
+      "approx_t": 30.0,
+      "track": "label",
+      "text": "MILD ACNE"
+    },
+    {
+      "approx_t": 31.0,
+      "track": "label",
+      "text": "SOMEWHAT DRY"
+    },
+    {
+      "approx_t": 33.0,
+      "track": "headline",
+      "text": "Fixing one = Doesn't change much"
+    },
+    {
+      "approx_t": 37.0,
+      "track": "headline",
+      "text": "Fixing several = Changes your life"
+    },
+    {
+      "approx_t": 40.0,
+      "track": "label",
+      "text": "NORMAL"
+    },
+    {
+      "approx_t": 41.0,
+      "track": "label",
+      "text": "EXCEPTIONAL"
+    },
+    {
+      "approx_t": 45.0,
+      "track": "headline",
+      "text": "This is where people mess up"
+    },
+    {
+      "approx_t": 47.0,
+      "track": "chart",
+      "text": "People want one big fix"
+    },
+    {
+      "approx_t": 53.0,
+      "track": "chart",
+      "text": "Usually, the small changes add up to more"
+    },
+    {
+      "approx_t": 59.0,
+      "track": "headline",
+      "text": "1000+ Non-surgical techniques"
+    },
+    {
+      "approx_t": 62.0,
+      "track": "headline",
+      "text": "Get your custom glow-up plan"
+    },
+    {
+      "approx_t": 65.0,
+      "track": "ui",
+      "text": "Alexa's Protocol"
+    }
+  ],
+  "transcript": [
+    {
+      "approx_t": 0.0,
+      "text": "Take a look at these two faces. Almost everyone would agree that the version on the right is much more attractive."
+    },
+    {
+      "approx_t": 5.0,
+      "text": "But can you spot the changes? It wasn't just one thing, or two or three. It was actually eleven tiny adjustments, each supported by the facial aesthetics literature."
+    },
+    {
+      "approx_t": 14.0,
+      "text": "And this is a very realistic glow-up. All of the changes we made here can be achieved with scientifically proven, non-surgical methods."
+    },
+    {
+      "approx_t": 21.0,
+      "text": "Now, if you met a woman who looked like this, you'd probably say she's pretty and that there's not much she can change. She has no big flaws."
+    },
+    {
+      "approx_t": 27.0,
+      "text": "Her eyes just have a tiny bit of redness, she has very mild acne, her hair is just a little dry. It's a bunch of small stuff where fixing one wouldn't change much at all."
+    },
+    {
+      "approx_t": 37.0,
+      "text": "But if you fix several small things, that can be the difference between looking like a run-of-the-mill good-looking person, and someone who could star in a film."
+    },
+    {
+      "approx_t": 45.0,
+      "text": "This is what people get wrong about glow-ups. They want the big fix, like a nose job or a new hair color, that they imagine will radically transform their look."
+    },
+    {
+      "approx_t": 52.0,
+      "text": "But while it might not be as exciting, it's just the truth that usually it's a list of tiny adjustments between you and your best self."
+    },
+    {
+      "approx_t": 59.0,
+      "text": "The Qoves database now has over 1000 beautification techniques. So if you want us to write you that list, in the form of a bespoke glow-up plan, and show you a preview of what you would look like at your best self, click the link in bio at Qoves.com."
+    }
+  ],
+  "narrative_arc": [
+    "Present a visual puzzle comparing two highly similar faces.",
+    "Reveal that the preferred face has 11 minor, scientifically-backed edits.",
+    "Explain that minor flaws seem negligible individually, but compounding them creates a massive aesthetic leap.",
+    "Debunk the myth of the 'one big fix' (like plastic surgery) using a comparative graph.",
+    "Introduce Qoves' database of non-surgical techniques and offer a personalized report as the solution."
+  ],
+  "cta": {
+    "approx_t": 69.0,
+    "what": "Click the link in bio at Qoves.com to get a custom glow-up plan."
+  },
+  "subjects": [
+    "Unidentified female model (used for the before/after facial comparison)."
+  ],
+  "what_makes_it_work": [
+    "Uses academic citations to establish high scientific authority.",
+    "The interactive hotspot design makes the aesthetic analysis feel objective and clinical rather than subjective.",
+    "The line graph clearly conceptualizes the value proposition of 'compounding small changes' over drastic surgeries."
+  ],
+  "animations": [
+    {
+      "name": "Panel Shift",
+      "approx_t": 2.0,
+      "what_moves": "Two portrait panels and text callout",
+      "motion": "translate",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": true,
+      "layered_with": "text fade-in",
+      "purpose": "Demonstrates preference by overlapping the preferred face over the other.",
+      "reusable_as": "Comparing two options where one is highlighted as superior.",
+      "we_already_have": null,
+      "would_need_building": "A dual-panel layout where one panel slides to partially overlap the other on command."
+    },
+    {
+      "name": "Staggered Feature Callouts",
+      "approx_t": 7.5,
+      "what_moves": "Eleven text callout boxes with icons",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "elastic",
+      "staggered": true,
+      "layered_with": "camera zoom",
+      "purpose": "Highlights multiple subtle facial edits simultaneously without cluttering.",
+      "reusable_as": "Showing product features or specifications on an image.",
+      "we_already_have": "DrawnCallout",
+      "would_need_building": null
+    },
+    {
+      "name": "Detail Crop Pop-ins",
+      "approx_t": 27.5,
+      "what_moves": "Three square image crops with text labels",
+      "motion": "scale",
+      "direction": "outward",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "null",
+      "purpose": "Isolates specific facial flaws for closer inspection.",
+      "reusable_as": "Highlighting specific details or defects of a product.",
+      "we_already_have": "PopIn",
+      "would_need_building": null
+    },
+    {
+      "name": "Feature Toggle Stack",
+      "approx_t": 39.5,
+      "what_moves": "A vertical list of text labels and state badges",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "snappy",
+      "staggered": true,
+      "layered_with": "face transition",
+      "purpose": "Shows a sequence of improvements toggling from normal to exceptional.",
+      "reusable_as": "Step-by-step checklist or feature comparison list.",
+      "we_already_have": null,
+      "would_need_building": "A vertical list component that animates state changes (e.g., text/color swap) sequentially."
+    },
+    {
+      "name": "Graph Path Follower",
+      "approx_t": 47.0,
+      "what_moves": "Graph line and a circular face icon",
+      "motion": "draw-on",
+      "direction": "left-to-right",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "text reveal",
+      "purpose": "Visualizes the concept of gradual improvement versus a single big fix.",
+      "reusable_as": "Showing progress, growth, or journey mapping over time.",
+      "we_already_have": null,
+      "would_need_building": "An animated line chart where a custom marker/image follows the path as it draws."
+    },
+    {
+      "name": "Report Scroll & Radar Chart",
+      "approx_t": 61.0,
+      "what_moves": "Multi-page document and a radar chart outline",
+      "motion": "translate",
+      "direction": "up",
+      "feel": "smooth",
+      "staggered": false,
+      "layered_with": "radar chart draw-on",
+      "purpose": "Showcases the comprehensive custom glow-up plan report.",
+      "reusable_as": "Previewing digital products, PDFs, or multi-page documents.",
+      "we_already_have": "ScrollReveal",
+      "would_need_building": "Integration of an animated radar chart drawing on inside the scrolling container."
+    }
+  ],
+  "animation_language_summary": {
+    "signature_moves": [
+      "Staggered callout pop-ins",
+      "Smooth panel transitions",
+      "Graph path-following animation"
+    ],
+    "how_things_enter": "Elements scale up with a slight spring bounce or slide in smoothly from the sides.",
+    "how_things_leave": "Elements fade out or are covered by transitioning panels.",
+    "how_scenes_change": "Hard cuts combined with smooth camera zooms and panel slides.",
+    "what_stays_still": "The background color and main portrait alignments remain consistent.",
+    "rhythm": "Highly dynamic, alternating between static explanations and rapid, staggered information reveals."
+  },
+  "what_we_should_steal": [
+    "Staggered Feature Callouts for interactive image detailing.",
+    "Graph Path Follower to make abstract data concepts engaging.",
+    "Feature Toggle Stack for clean before/after comparisons."
+  ],
+  "timeline": [
+    {
+      "approx_t": 0.0,
+      "event": "Text fades in at the top and bottom of the screen",
+      "element": "Text 'Can you see the differences?' and 'Take a look at these two faces.'",
+      "motion": "fade",
+      "content": "Can you see the differences? / Take a look at these two faces."
+    },
+    {
+      "approx_t": 3.0,
+      "event": "The left face image slides to the left, and the right face image slides to the center",
+      "element": "Two face images",
+      "motion": "translate",
+      "content": "Two female faces"
+    },
+    {
+      "approx_t": 3.0,
+      "event": "Text and an arrow pointing to the right face fade in",
+      "element": "Text 'You probably prefer this one' and arrow",
+      "motion": "fade",
+      "content": "You probably prefer this one"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "The left face image slides back to its original position",
+      "element": "Left face image",
+      "motion": "translate",
+      "content": "Left female face"
+    },
+    {
+      "approx_t": 5.0,
+      "event": "Text and arrows pointing to both faces fade in",
+      "element": "Text 'But can you spot the changes?' and arrows",
+      "motion": "fade",
+      "content": "But can you spot the changes?"
+    },
+    {
+      "approx_t": 7.0,
+      "event": "Cut to a close-up of the right face",
+      "element": "Right face image",
+      "motion": "cut",
+      "content": "Close-up of female face"
+    },
+    {
+      "approx_t": 8.0,
+      "event": "Text fades in at the top of the screen",
+      "element": "Text 'Eleven small edits'",
+      "motion": "fade",
+      "content": "Eleven small edits"
+    },
+    {
+      "approx_t": 10.0,
+      "event": "A label and citation box fade in near the eyebrow",
+      "element": "Label 'Bolder brows' and citation text",
+      "motion": "fade",
+      "content": "Bolder brows / Wegner, J. D., & Mileva, V. R. (2018)..."
+    },
+    {
+      "approx_t": 11.0,
+      "event": "A label and citation box fade in near the hair",
+      "element": "Label 'Thicker hair' and citation text",
+      "motion": "fade",
+      "content": "Thicker hair / ... "
+    },
+    {
+      "approx_t": 11.1,
+      "event": "A label and citation box fade in near the top of the hair",
+      "element": "Label 'Higher hair shine' and citation text",
+      "motion": "fade",
+      "content": "Higher hair shine / ... "
+    },
+    {
+      "approx_t": 11.2,
+      "event": "A label and citation box fade in near the eye",
+      "element": "Label 'Clearer sclera' and citation text",
+      "motion": "fade",
+      "content": "Clearer sclera / ... "
+    },
+    {
+      "approx_t": 11.3,
+      "event": "A label and citation box fade in under the eye",
+      "element": "Label 'Reduced undereye circles' and citation text",
+      "motion": "fade",
+      "content": "Reduced undereye circles / ... "
+    },
+    {
+      "approx_t": 11.4,
+      "event": "A label and citation box fade in near the lips",
+      "element": "Label 'More red lip pigment' and citation text",
+      "motion": "fade",
+      "content": "More red lip pigment / ... "
+    },
+    {
+      "approx_t": 11.5,
+      "event": "A label and citation box fade in near the cheek",
+      "element": "Label 'Reduced acne' and citation text",
+      "motion": "fade",
+      "content": "Reduced acne / ... "
+    },
+    {
+      "approx_t": 11.6,
+      "event": "A label and citation box fade in near the chin",
+      "element": "Label 'More even complexion' and citation text",
+      "motion": "fade",
+      "content": "More even complexion / ... "
+    },
+    {
+      "approx_t": 11.7,
+      "event": "A label and citation box fade in near the jawline",
+      "element": "Label 'Reduced wrinkles' and citation text",
+      "motion": "fade",
+      "content": "Reduced wrinkles / ... "
+    },
+    {
+      "approx_t": 11.8,
+      "event": "A label and citation box fade in near the eyelashes",
+      "element": "Label 'Thicker lashes' and citation text",
+      "motion": "fade",
+      "content": "Thicker lashes / ... "
+    },
+    {
+      "approx_t": 11.9,
+      "event": "A label and citation box fade in near the neck",
+      "element": "Label 'Healthier undertones' and citation text",
+      "motion": "fade",
+      "content": "Healthier undertones / ... "
+    },
+    {
+      "approx_t": 14.0,
+      "event": "Zoom in transition to focus closely on the eyes",
+      "element": "Face image",
+      "motion": "scale",
+      "content": "Close-up of eyes"
+    },
+    {
+      "approx_t": 16.0,
+      "event": "Text and citation boxes fade in near the eyelashes",
+      "element": "Text 'Bimatoprost can thicken the brows and lashes' and citation boxes",
+      "motion": "fade",
+      "content": "Bimatoprost can thicken the brows and lashes"
+    },
+    {
+      "approx_t": 18.0,
+      "event": "Text and citation boxes fade in near the eye",
+      "element": "Text 'Brimonidine drops can improve eye brightness' and citation boxes",
+      "motion": "fade",
+      "content": "Brimonidine drops can improve eye brightness"
+    },
+    {
+      "approx_t": 21.0,
+      "event": "Cut back to the original left face image",
+      "element": "Left face image",
+      "motion": "cut",
+      "content": "Original female face"
+    },
+    {
+      "approx_t": 24.0,
+      "event": "A speech bubble fades in above the face",
+      "element": "Speech bubble 'There's not much for you to improve...'",
+      "motion": "fade",
+      "content": "There's not much for you to improve..."
+    },
+    {
+      "approx_t": 28.0,
+      "event": "An inset box showing a close-up of the eye scales up",
+      "element": "Inset box 'SLIGHTLY RED'",
+      "motion": "scale",
+      "content": "SLIGHTLY RED"
+    },
+    {
+      "approx_t": 30.0,
+      "event": "An inset box showing a close-up of the cheek scales up",
+      "element": "Inset box 'MILD ACNE'",
+      "motion": "scale",
+      "content": "MILD ACNE"
+    },
+    {
+      "approx_t": 31.0,
+      "event": "An inset box showing a close-up of the hair scales up",
+      "element": "Inset box 'SOMEWHAT DRY'",
+      "motion": "scale",
+      "content": "SOMEWHAT DRY"
+    },
+    {
+      "approx_t": 33.0,
+      "event": "The three inset boxes translate to the left side of the screen",
+      "element": "Three inset boxes",
+      "motion": "translate",
+      "content": "SLIGHTLY RED / MILD ACNE / SOMEWHAT DRY"
+    },
+    {
+      "approx_t": 33.0,
+      "event": "Text fades in on the right side of the screen",
+      "element": "Text 'Fixing one = Doesn't change much'",
+      "motion": "fade",
+      "content": "Fixing one = Doesn't change much"
+    },
+    {
+      "approx_t": 34.0,
+      "event": "The 'SLIGHTLY RED' inset box content changes to show a clearer eye",
+      "element": "Inset box 'FIXED' (eye)",
+      "motion": "fade",
+      "content": "FIXED"
+    },
+    {
+      "approx_t": 35.0,
+      "event": "The 'MILD ACNE' inset box content changes to show clearer skin",
+      "element": "Inset box 'FIXED' (skin)",
+      "motion": "fade",
+      "content": "FIXED"
+    },
+    {
+      "approx_t": 36.0,
+      "event": "The 'SOMEWHAT DRY' inset box content changes to show shinier hair",
+      "element": "Inset box 'FIXED' (hair)",
+      "motion": "fade",
+      "content": "FIXED"
+    },
+    {
+      "approx_t": 37.0,
+      "event": "Cut to the right face image with new text",
+      "element": "Right face image and text 'Fixing several = Changes your life'",
+      "motion": "cut",
+      "content": "Fixing several = Changes your life"
+    },
+    {
+      "approx_t": 38.0,
+      "event": "Highlight boxes fade in on different areas of the face",
+      "element": "Highlight boxes",
+      "motion": "fade",
+      "content": "Face highlights"
+    },
+    {
+      "approx_t": 40.0,
+      "event": "A comparison slider animation starts, transitioning between 'NORMAL' and 'EXCEPTIONAL'",
+      "element": "Face comparison slider",
+      "motion": "translate",
+      "content": "NORMAL / EXCEPTIONAL"
+    },
+    {
+      "approx_t": 40.5,
+      "event": "Label 'Thicker lashes' fades in",
+      "element": "Label 'Thicker lashes'",
+      "motion": "fade",
+      "content": "Thicker lashes"
+    },
+    {
+      "approx_t": 41.0,
+      "event": "Label 'Reduced wrinkles' fades in",
+      "element": "Label 'Reduced wrinkles'",
+      "motion": "fade",
+      "content": "Reduced wrinkles"
+    },
+    {
+      "approx_t": 42.0,
+      "event": "Label 'More undereye support' fades in",
+      "element": "Label 'More undereye support'",
+      "motion": "fade",
+      "content": "More undereye support"
+    },
+    {
+      "approx_t": 43.0,
+      "event": "Label 'More hydrated hair' fades in",
+      "element": "Label 'More hydrated hair'",
+      "motion": "fade",
+      "content": "More hydrated hair"
+    },
+    {
+      "approx_t": 44.0,
+      "event": "Label 'Reduced acne' fades in",
+      "element": "Label 'Reduced acne'",
+      "motion": "fade",
+      "content": "Reduced acne"
+    },
+    {
+      "approx_t": 44.5,
+      "event": "Label 'More red lip pigment' fades in",
+      "element": "Label 'More red lip pigment'",
+      "motion": "fade",
+      "content": "More red lip pigment"
+    },
+    {
+      "approx_t": 45.0,
+      "event": "Cut to text on a solid background",
+      "element": "Text 'This is where people mess up'",
+      "motion": "cut",
+      "content": "This is where people mess up"
+    },
+    {
+      "approx_t": 47.0,
+      "event": "A graph with axes and title fades in",
+      "element": "Graph 'People want one big fix'",
+      "motion": "fade",
+      "content": "People want one big fix / ATTRACTIVENESS / TIME"
+    },
+    {
+      "approx_t": 48.0,
+      "event": "A curve representing a sudden jump is drawn on the graph",
+      "element": "Graph curve",
+      "motion": "draw-on",
+      "content": "S-curve"
+    },
+    {
+      "approx_t": 52.0,
+      "event": "A small face icon translates along the drawn curve",
+      "element": "Face icon",
+      "motion": "translate",
+      "content": "Female face icon"
+    },
+    {
+      "approx_t": 53.0,
+      "event": "The graph title changes",
+      "element": "Graph title 'Usually, the small changes add up to more'",
+      "motion": "fade",
+      "content": "Usually, the small changes add up to more"
+    },
+    {
+      "approx_t": 54.0,
+      "event": "A second curve representing gradual steps is drawn on the graph",
+      "element": "Second graph curve",
+      "motion": "draw-on",
+      "content": "Gradual step curve"
+    },
+    {
+      "approx_t": 55.0,
+      "event": "The face icon translates along the second curve",
+      "element": "Face icon",
+      "motion": "translate",
+      "content": "Female face icon"
+    },
+    {
+      "approx_t": 59.0,
+      "event": "Cut to text on a solid background",
+      "element": "Text '1000+ Non-surgical techniques'",
+      "motion": "cut",
+      "content": "1000+ Non-surgical techniques"
+    },
+    {
+      "approx_t": 60.0,
+      "event": "A list of techniques scrolls vertically on the screen",
+      "element": "Scrolling list of techniques",
+      "motion": "translate",
+      "content": "Hyaluronic acid for skin plumpness / Ear tape... / Capsaicin-containing lip gloss..."
+    },
+    {
+      "approx_t": 62.0,
+      "event": "Cut to a document interface titled 'Get your custom glow-up plan'",
+      "element": "Document interface 'Alexa's Protocol'",
+      "motion": "cut",
+      "content": "Get your custom glow-up plan / Alexa's Protocol"
+    },
+    {
+      "approx_t": 63.0,
+      "event": "The document pages scroll vertically to show different recommendations",
+      "element": "Scrolling document pages",
+      "motion": "translate",
+      "content": "Eyebrow and Eye Recommendations / Cheek Recommendations / Neck Recommendations"
+    },
+    {
+      "approx_t": 69.0,
+      "event": "Cut to a search bar on a solid background",
+      "element": "Search bar",
+      "motion": "cut",
+      "content": "Search bar"
+    },
+    {
+      "approx_t": 70.0,
+      "event": "The website address is typed into the search bar",
+      "element": "Text 'Qoves.com'",
+      "motion": "draw-on",
+      "content": "Qoves.com"
+    }
+  ],
+  "_meta": {
+    "model": "gemini-3.5-flash",
+    "wanted_model": "gemini-3.5-flash",
+    "degraded": false,
+    "temperature": 0.0,
+    "source": "refs/corpus/ref-17.mp4",
+    "tokens": {
+      "animation": 10577,
+      "content": 11329
+    },
+    "caveat": "timings approximate; measure-format.py is the authority on time"
+  }
+}
