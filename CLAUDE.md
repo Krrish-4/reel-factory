@@ -1,5 +1,17 @@
 # reel-factory
 
+> **WHAT THIS REPO PRODUCES: Glow Up pack reels.** Any request to make a reel
+> from a pack script (S1-S10), a celebrity face read, a feature quiz, or
+> "convert this reel to the pack" goes to the **`refina-glowup`** skill
+> (`.claude/skills/refina-glowup/SKILL.md`, format in `FORMAT.md`, pack in
+> `docs/glowup/production-pack.pdf`). The four delivered reels are
+> `GlowupS2`, `GlowupS5`, `GlowupSize`, `GlowupLawrence` in
+> `src/refina/glowup/`, registered in `src/refina/glowup/root.tsx` with their
+> own entry (`entry.ts`) and asset root (`public-glowup/`). Render them with
+> `node gen/glowup/render.mjs <Comp> <out>`, never the repo-wide bundle.
+> The `refina-reel` skill and everything below remain the ENGINE: the house
+> look, the checks, and the history of what broke.
+>
 > **Template repo.** This is the Refina reel pipeline (QOVES-style educational
 > reels in Remotion) packaged so it can be forked. Start with `README.md` for
 > setup. Everything below is the contract the original repo was built under.
@@ -29,7 +41,10 @@ registered in `src/Root.tsx`. **Never mix their design systems.**
 | `RefinaSize` | `src/refina/size/` | educational explainer, anatomical | **`out/refina-size-v5.mp4`** — "It Isn't the Size", 57.8s, **hero is a real photograph** |
 | `RefinaRec01` | `src/refina/rec01/` | native IG captions + a card drawn as a **screenshot of the app's Your Result screen**, laid out inside the IG safe area (y250-1480, x<940; `SAFE` in the source) - 2026-10-13; three variants `RefinaRec01` / `RefinaRec01B` (iPhone on espresso) / `RefinaRec01C` (full-screen app), each with Card/Blank PNG comps and its window in `WINDOWS`; D-G = an app-derived card (not a screen) set in Rahul's four display faces (Casko Luxury / Agraham / Orange Avenue / Transcity, PERSONAL-USE DEMOS from befonts.com in `public*/fonts/card/` - buy commercial licences before a paid post; demos lack digits, so Orange Avenue sets every label with a number); **H = the same card in the app's own UI type (Playfair Display + Inter) - Rahul's pick**, captions under it in the QOVES caption treatment: Instrument Serif italic, no box, matched to Rahul's reference against Newsreader / Libre Caslon / Source Serif 4 / Playfair; **I = the editorial layout of H (one hero image 900x720 at x90 y318, procedure as the headline under it, disclaimer as two chips on the image's top corners) - current, `RefinaRec01I`** | **`out/refina-rec01-v4.mp4`** (procedure-matched turntables: facelift / bleph / necklift.mp4, checked against the hero photo) — "Her husband just left her", Rahul's script (Facelift / Upper + Lower Bleph / Neck Lift), turntables normalised to one head size, 19.1s, shot-for-shot recreation of a clinic reel from 5 Flow clips; plan `docs/recreate/rec-01-flow-plan.md`; render with `--public-dir=public-rec01`; **no audio yet** |
 | `RefinaUgc01` | `src/refina/ugc01/` | UGC reaction: her clip + **real-app screen recording** (screens cropped from the Figma board into `public-ugc01/ui/`) + rec01 variant-I card | **`out/ugc01/ugc01-v4.mp4`** — 15.0s, Rhinoplasty, render with `--public-dir=public-ugc01 --concurrency=1` then two-pass loudnorm -14; reaction and turntable are two different women (open) |
-| `GlowupS2` | `src/refina/glowup/s2/` (+ `glowup/kit.tsx`) | **Glow Up pack format** (blush `#D8C7C2`, painted celebrity cutout, shutter morphs) - own design, imports nothing from the sage reels; skill `refina-glowup` | **`out/glowup/s2-v3.mp4`** (v3 = reference mechanic: centred hook, ease-out glide right, card page-peel, cursor drags a nose chip, pixel-resolve drop; v1 blush design REJECTED - Rahul wants the HOUSE SAGE treatment laid out like QOVES reel DeaOcQMq3YH: hero right, italic label + nose card + mono left, cursor, comment grid, Bangs phone, typing-bar end) - "What Nose Shape Do You Actually Have?", pack script S2 verbatim, ElevenLabs Sarah, 69.2s; **own entry `src/refina/glowup/entry.ts`** - render with `node gen/glowup/render.mjs GlowupS2 <out>` (npx hangs here; the repo-wide bundle stalls at 50%) |
+| `GlowupS2` | `src/refina/glowup/s2/` (+ `glowup/kit.tsx`) | **Glow Up pack, house sage treatment** laid out like QOVES reel DeaOcQMq3YH (the pack's own blush palette was REJECTED) | v3 - "What Nose Shape Do You Actually Have?" (S2 verbatim, Madison Beer), ElevenLabs Sarah, 69.6s: centred hook, ease-out glide right, card page-peel, cursor drags a nose chip, pixel-resolve drop |
+| `GlowupS5` | `src/refina/glowup/s5/` (+ `glowup/house.tsx`) | Glow Up pack, house sage | v2 - "Why Sadie Sink's Face Works" (S5 verbatim), 64.3s: loupe, scanner edits, crowd grid, sticker, face map, tilt phone, strike-and-retype |
+| `GlowupSize` | `src/refina/glowup/size/` | Glow Up pack (S4 self-tests) on licensed photos of Sydney Sweeney | v2 - "Would filler suit Sydney Sweeney's face?", 58.1s: card hook (v1 full-bleed split REJECTED as too large), finger-ruler E-line, mirror brackets, 3D flip to the thin-lip edit, poll, macro, sideways phone. Replaces `RefinaSize` |
+| `GlowupLawrence` | `src/refina/glowup/lawrence/` | Glow Up pack (S1 read, self-stated facts only) on licensed photos of Jennifer Lawrence | v1 - "Why won't Jennifer Lawrence get the one procedure she actually wants?", 52.4s: grid + redaction, stamps, blinds, list, quote, cheek mechanism, toggle, her-vs-you, rising phone. Replaces `RefinaLawrence` |
 
 ## public/ is copied on every render — keep it small
 

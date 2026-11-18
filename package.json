@@ -44,7 +44,10 @@
     "check": "python gen/check.py src/refina/changed",
     "verify": "python gen/check.py src/refina/changed out/refina-changed.mp4",
     "corpus": "python refs/corpus-stats.py && python refs/shot-bands.py",
-    "render:sample": "remotion render RefinaChanged out/refina-changed.mp4 --codec h264 --concurrency=1"
+    "render:sample": "remotion render RefinaChanged out/refina-changed.mp4 --codec h264 --concurrency=1",
+    "glowup:tsc": "tsc --noEmit -p tsconfig.glowup.json",
+    "glowup:stills": "node gen/glowup/stills.mjs",
+    "glowup:render": "node gen/glowup/render.mjs"
   },
   "sideEffects": [
     "*.css"

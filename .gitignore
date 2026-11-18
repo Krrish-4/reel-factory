@@ -26,3 +26,9 @@ __pycache__/
 *.pyc
 .gflow/
 .claude/settings.local.json
+
+# Glow Up reel assets: celebrity likenesses, licensed photos, ElevenLabs reads.
+# Per-production material - never commit. Only the shared SFX and the README ship.
+/public-glowup/*
+!/public-glowup/sfx/
+!/public-glowup/README.md

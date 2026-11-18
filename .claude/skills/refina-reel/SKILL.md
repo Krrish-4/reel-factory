@@ -5,6 +5,12 @@ description: Router for making a Refina reel. Use for any work under src/refina/
 
 # Making a Refina reel
 
+> **Producing a reel? Use `refina-glowup` first.** reel-factory's production
+> format is the Glow Up pack (`.claude/skills/refina-glowup/SKILL.md`). This
+> skill is the engine it is built on - the house look, voiceover, sound,
+> render and review rules - and the procedure for the older QOVES-style
+> explainers.
+
 `CLAUDE.md` is the contract and `docs/reel-invariants.md` is the list of failure
 modes this repo has actually shipped. Read both. This skill routes to the
 workflow for the stage you are at.
